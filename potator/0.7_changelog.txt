@@ -1,0 +1,4 @@
+Potator 0.70
+------------
+
+* Can now specify a rom to load from command line (space1)
