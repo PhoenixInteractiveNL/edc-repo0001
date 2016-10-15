@@ -1,10 +1,3 @@
-Type = 7z
-Physical Size = 143254
-Headers Size = 387
-Method = LZMA:19
-Solid = +
-Blocks = 1
-
    Date      Time    Attr         Size   Compressed  Name
 ------------------- ----- ------------ ------------  ------------------------
 2002-12-28 16:55:14 ....A         2104       142867  Z26WIN.BMP

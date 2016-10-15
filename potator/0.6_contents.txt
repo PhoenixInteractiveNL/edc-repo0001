@@ -1,10 +1,3 @@
-Type = 7z
-Physical Size = 176556
-Headers Size = 266
-Method = LZMA:192k
-Solid = +
-Blocks = 1
-
    Date      Time    Attr         Size   Compressed  Name
 ------------------- ----- ------------ ------------  ------------------------
 2004-05-08 14:33:40 ....A          281       176290  readme.txt
