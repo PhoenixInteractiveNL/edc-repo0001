@@ -1,0 +1,32 @@
+v1.30
+       All ports
+       ---------
+       - Bubsy 2 working again [zsKnight]
+       - Batman: the return of the joker working now [_Demo_]
+       - Sound Novel T-Cool and Derby Stallion 96 memory mapper added [_Demo_]
+       - Fixed BRR block header bug (fixes Raiden Densetsu, Chrono Trigger,
+         Gundam Wing: Endless Duel, and a few other games) [_Demo_]
+       - Updated documentation [Matt Kendora]
+       - New whatsnew.txt format [pagefault]
+
+       Win v1.01
+       ---------
+       - Updated icon [enigMa]
+       - Added 1280x960 DR, DR FULL modes to Windows port [pagefault]
+       - Fixed random crash when loading roms in Windows port [pagefault]
+       - Rewrote resolution switching code [pagefault]
+       - Window now moves much smoother and faster [pagefault]
+       - Readded large sound buffer option [pagefault]
+       - Fixed CPU usage when window was minimized [pagefault]
+       - Fixed multiple instances when window was minimized [pagefault]
+
+       Linux v0.29
+       -----------
+       - OpenGL support [hpsolo]
+       - Bilinear option (w/ filtered GUI) [hpsolo]
+       - Fixed video mode descriptions (zsnesl.cfg) [hpsolo]
+       - Resizable windows [amit]
+       - Filter options (scanlines, 2xSaI, etc) for OpenGL modes [zinx]
+       - Many more video modes for OpenGL, including full screen [hpsolo]
+       - Joystick POV hat support [hpsolo]
+       - Added support for 5th Joystick [hpsolo]

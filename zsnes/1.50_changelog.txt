@@ -1,0 +1,385 @@
+............................................................
+v1.50 - December 22, 2006
+............................................................
+
+All Ports:
+----------
+For this release, we spent much time rewriting, porting, and improving many
+internal subsystems. ZSNES is a program with over 200,000 lines of source code,
+and in this release, over 25% of that has been modified; also, around 15% of the
+assembly has been ported to C. The upcoming list, while large, can't fully
+describe the amount of work done and the amount of improvements made. Be sure to
+see the readme to find out how to use all the new features.
+
+  Subsystem Additions/Updates/Rewrites/Fixes/Improvements
+  ----------
+  - Ryan C. Gordon's ManyMouse support added. [Nach, pagefault]
+    This allows the systems compatible with ManyMouse (Windows XP, Linux via
+    evdev if read permission set, Mac OS X) to handle each mouse plugged into
+    the system separately. So now games with two mouse-using devices can be
+    played with 2 players (or 1 player controlling both) on a single PC.
+    Left Handed Mouse Support. [Nach, Deathlike, Jonas Quinn]
+    So lefties can have the buttons for a particular mouse swapped if they so
+    desire.
+  - Rewrote directory handling system. [Nach, Jonas Quinn, grinvader, Deathlike]
+    The old system, dubbed "ZFile", only kept track of files in a limited manner
+    allowing for many many bugs. The new system, dubbed "ZPath", now tracks
+    files and paths in a clean systematic manner to eliminate all file/path
+    related bugs that have made previous versions annoying. All file handling
+    code is now done in C and has many functions to make it easier for anyone
+    else to jump right into this bit of development. This also allows for many
+    new features to be written, and we wrote quite a few. A debug system has
+    also been added, making it easy to track file issues regardless of the
+    operation system in question.
+  - ZMV Rewritten - Movie Support. [Nach, grinvader, ipher]
+    Added support for subtitles while playing a ZMV. [Nach]
+    Can now load movies via command line parameter. [Nach]
+    Added parameter to close ZSNES when movie is closed. [Nach]
+    Our movie subsystem - ZMV has been completely rewritten from the ground up.
+    Now features such as rerecording (via states and rewind), appending, mouse
+    recording, Super Scope recording (buggy), chapters, start types, frame
+    count, input compression, among other things are now all supported. Note
+    ZSNES can still load old ZMVs; however, it should be noted that ZMVs are
+    somewhat version reliant and may desync on a version it was not recorded
+    with. Also, most of the new features will not work when using an old ZMV.
+  - Can now dump ZMVs to AVI and WAV. [Nach, Bisqwit]
+    For years, users have requested being able to convert a ZMV to something
+    else; it is now possible.
+  - Added IPS multipatch support. Goes from IPS, IP0, IP1, IP2, ..., IP9. [Nach]
+    So you can have IPS autopatching apply more than one to a game loaded.
+    IPS files now loaded from save directory then ROM directory. [Nach]
+    Making it easier for a user to auto patch.
+    Fixed silly mistake with size adjustment of IPS patches. [Nach]
+    So now the very rare broken IPS should work.
+  - Rewind and ZST code fully merged; rewind should now work where save states
+    do (Fixes rewinding in Super Bomberman games). [grinvader, Nach]
+    Can now use 100 save states instead of 10. [Deathlike, Nach, Jonas Quinn]
+    SRAM is now stored in save states and can be optionally loaded from them.
+    [grinvader, Nach]
+    Can now select how many rewind states you want. [grinvader, Nach, ipher]
+    Can now select how much time is in between rewinds. [grinvader, Nach, ipher]
+    Our state saving subsystem has been completely rewritten (although another
+    rewrite is planned) to fix many bugs that used to be present. With the ZST
+    and rewind code merged, it also means no more issues where one works but not
+    the other. This is also now all done in C, making it easier to deal with, as
+    well as allowing many new features as listed above.
+  - Parsegen invented (thanks grinvader, gladius). [Nach]
+    Binary and text config files merged into one and heavily updated. [Nach,
+    grinvader, Deathlike]
+    We invented a new programming language (PSR), and a compiler for it
+    (parsegen), which allows one to keep track of variables in a simple manner
+    for both developers and end users. Developers can just declare a particular
+    variable to be tracked and forget about it, letting the system manage
+    everything else, making it easy to add as many configuration options as one
+    likes. For the end user, the config file is all in text, making it easy to
+    modify any feature they like or features for advanced users not changeable
+    from within the GUI. It also provides a level of future compatibility so
+    users should normally not have to delete config files between versions. It
+    also allows partial config files, so users can delete certain settings and
+    have them restored to their defaults. All this is possible while maintaining
+    a high level of flexibility.
+  - Netplay, Modem, IPX code removed. [grinvader, Nach. ipher]
+    As much as we hated to do this, we had to remove all computer-to-computer
+    playing options in order to fix up the other subsystems since the code was
+    spread throughout ZSNES. We hope to reimplement it in future versions and
+    also provide new features.
+  - Created new macros and greatly eased GUI development and cut down on size of
+    GUI code. [ipher]
+    Cleaned up GUI and reorganized it. [ipher, Nach, grinvader, Deathlike,
+    Jonas Quinn]
+    Added tab support to the GUI and made good use of it. [grinvader]
+    Rewrote the load game menu, it can now handle thousands upon thousands of
+    ROMs at a time. [Nach, grinvader]
+    Added a custom font system. [ipher, Deathlike]
+    Nach input boxes (video, path) now have a normal blink rate. [Nach]
+    Now using our custom GUI should be easier and more straight forward. Almost
+    everywhere you look, you should see a cleaner design, new features, and
+    fewer bugs. See below for more specifics.
+  - New unified ZSNES loader which is also less buggy. [Nach, grinvader,
+    Deathlike, Jonas Quinn]
+    Now command line options are handled in a more efficient manner, as well as
+    making it much easier for us to add more.
+  - Committed the ZSNES development toolkit. [Nach, grinvader]
+    Code is now always in executable sections, fixes NX and many other issues.
+    [Nach]
+    Added utility to auto detect best -march option to compile with; SDL port
+    uses it automatically. [Nach, grinvader]
+    For various developers, we now added many utilities to make working on ZSNES
+    much easier. Some of these utilities should be built into the assembler but
+    aren't. These new utilities have also allowed us to easily track down
+    several critical bugs and fix them effortlessly. We also have a utility now
+    to aid the person compiling to get the best optimization out of their build,
+    perhaps now allowing them to use HQ4x or other filters that weren't possible
+    before.
+  - Updated build setups. [grinvader, Nach]
+    Added file dependency utility. [Nach]
+    All the build setups have been updated to make it easier and more flexible
+    for one to compile ZSNES and encounter fewer bugs along the way. File
+    dependencies can now also be calculated automatically (most notably for
+    SDL), so one updating ZSNES doesn't run into weird issues with only half of
+    a fix being compiled.
+  - Ported much assembly to C.
+    [grinvader, Deathlike, Nach, Jonas Quinn, theoddone33, pagefault, byuu]
+    Removed dead code. [grinvader, Nach, pagefault, Jonas Quinn, Deathlike]
+    Lastly on our big rewrite, a lot of old junk went, and many complex and
+    annoying features are now in C, meaning that if you know C, now is a good
+    time to start helping out ZSNES development.
+
+  Special Chips
+  ----------
+  - Fixed all remaining bugs with the SPC7110. SPL4 and MDH are working
+    correctly, now. Special thanks to John Weidman and Dark Force for working on
+    reverse engineering. [Jonas Quinn]
+  - Super FX updates (Starfox 2 now 99% working). [pagefault]
+  - OBC-1 code ported to C and integrated properly. Metal Combat doesn't have
+    graphical problems anymore (thanks Nach). [Jonas Quinn]
+  - DSP-1 finished. [The Dumper, Andreas Naive, Nach]
+  - SA-1 detection updated (Fixed loading of SD F-1 Grand Prix (Sample)). [Nach]
+  - Partial Seta 11 emulation (thanks anonymous and Jonas Quinn). [Nach]
+  - DSP-3 support (opcodes RE'd by Overload and Feather). Thanks Jonas Quinn for
+    finding a bug in my glue code. [Nach]
+  - DSP-4 Support (Top Gear 3000). [Nach, pagefault]
+  - C4 emulation should be virtually perfect now. [Nach, Jonas Quinn]
+  - Now got mapping done correctly for dual Sufami Turbo (thanks byuu); now have
+    two sets of SRAM. [Nach, Jonas Quinn]
+
+  As for everything else, much was done, including a multitude of emulation
+  updates; it is even hard to count how many emulation bugs are no longer
+  present. Several new features were also added.
+  ----------
+  - Many Mode 7 fixes, also implemented anomie's Matrix formula (Fixed Energy
+    Breakers world map, IOG intro, Battlemanicas Battlecoptor intro).
+    [Jonas Quinn]
+  - Added some preliminary NMI and IRQ timing. Proper behavior of H-IRQ when
+    V-IRQ is active. Flickering fix in H-IRQ timing. [pagefault]
+  - Fixes for DMA, HDMA, so we can have the recent improvements without breaking
+    tons of other games. (SSF2, SFA2, FFMQ, TOP, CT, YI, probably others).
+    [pagefault]
+  - Init DMA values to FF (thanks Overload). [pagefault]
+  - Fixed windowing issues in Dragon Quest, Star Ocean, Final Fantasy V,
+    Gradius III, and probably other games. [Jonas Quinn, pagefault]
+  - Fixed transparency issues in several games, including U.N. Squadron, Final
+    Fantasy 3u/6j, and Star Ocean. [Jonas Quinn, pagefault]
+  - Fixed SRAM Mapping. Ys III, Dezaemon, Tokimeki Memorial, Dragon Knight 4,
+    Fire Emblem - Thracia 776, *should* all work nicely now. [Jonas Quinn, Nach]
+  - Fixed a special chip SRAM bug. [Nach]
+  - Fast ROM is now actually set. [Nach]
+  - Straightened out the 48Mb/64Mb ROM map. [Jonas Quinn, Nach]
+  - Fixed Uchuu no Kishi Tekkaman Blade. [Jonas Quinn]
+  - Fixed ENVxbehavior. [pagefault]
+  - Some fixes regarding WRAM. Some Open Bus. Thanks _Demo_ & byuu. [Nach,
+    pagefault]
+  - Fixed the source of the Super Turrican crash. It also fixes my current
+    Robotrek game. I pray this doesn't break anything else... [Deathlike]
+  - Behold true ROM mirroring. If your translation breaks now, fix it. [Nach,
+    grinvader]
+  - Evened out ROM scoring quite a bit. A bunch of beta ROMs which didn't load
+    before now should. Special thanks to Cowering for the Reset Vector Popular
+    Opcode Check code. [Nach]
+  - Say goodbye to speedhacks. [pagefault]
+  - Changed cycles for scanline 0. [pagefault]
+  - Removed special timing for EHi roms. [Jonas Quinn]
+  - Fixed game title in SPC files for EHi Roms. [Jonas Quinn]
+  - Workaround to fix crashing of certain games (Sim City PAL and Super Tetris 2
+    + Bombliss) on resolution change. [Jonas Quinn]
+  - Silly DSP code removed; should fix a lot of games (including EWJ2).
+    [pagefault]
+  - Fixed program counter in RET macro. Dirt Racer now plays with some blinking,
+    making progress :) [pagefault]
+  - Implemented some RTO (fixes some FF3 issues). [pagefault]
+  - Many hacks removed (we now have less than a dozen, and we have the least of
+    all the emulators that use hacks). [pagefault, grinvader, Nach, Jonas Quinn]
+  - Fixed small screen extra line issues (fixes Super Metroid annoying
+    line issue, so now that guy who keeps on coming into the channel
+    annoying us about it can rest in peace). [pagefault, Nach]
+  - Fixed bug in hi-res mode (for example, Lufia 2 ending). [MaxSt]
+  - Fix some randomness in the SPC core for now. [pagefault]
+  - Fixed loading of small ROMs. [Nach]
+  - Fixed a bug when the background was cleared to a strange color. [pagefault]
+  - Updated the bg scroll registers; fixes a couple of games (thanks anomie,
+    byuu). [pagefault, grinvader, Jonas Quinn]
+  - Memory mapping code is now somewhat sane and can be followed.
+    [grinvader, Nach]
+  - Updated timing. [pagefault]
+  - Readded corrected noise frequencies. [TRAC]
+  - SPC RAM cleared properly on soft reset. [pagefault, Nach]
+  - Fixed some init glitches. [Nach]
+  - Pass some more tests on the test cart. [pagefault, Jonas Quinn]
+  - SPC700 init to ffc0. [byuu]
+  - Proper logic when drawing sprites while subscreen is present; fixes
+    SMRPG characters disappearing when entering buildings. [pagefault]
+  - Removed the Sound Buffering option because it isn't doing anything.
+    [Jonas Quinn]
+  - GUI/Exiting SRAM saving only saves if SRAM Check+Save is off or it's on and
+    SRAM has been modified recently without save. [Nach]
+  - Super Scope buttons are now configurable. [Deathlike]
+  - srand() is performed once! and always once per z execution. Water effect B
+    now also has a lot more effecting. [Nach]
+  - Cleaned up GZip reader. GZip reader now also supports transparent reading,
+    namely a regular file with a .gz extension for no apparent reason. [Nach]
+  - Added "Show Clock Box" and "Show Rom Info On Load" to the Options menu.
+    [Deathlike]
+  - Fixed some bugs that were discovered with Valgrind. [Nach]
+  - Changed the default keys for Player 2 to saner defaults. [Deathlike]
+  - Fixed some memory leaks. [Nach]
+  - Remove B CPU core. [pagefault]
+  - No more TURB! [Nach]
+  - FPS now displayed correctly for large numbers. [grinvader]
+  - Fixed crash after SuperFX savestates are loaded. [Jonas Quinn]
+  - No more alpha for PNGs. [Nach, grinvader]
+  - Removing unused and probably out of date SPCDUMP. [Nach]
+  - Prevented 'auto state save/load' & 'auto increment state slot' from
+    interacting. Former takes precedence. [grinvader]
+  - ZSNES will no longer jump back into the GUI randomly if you press F2 / F4 or
+    some other buttons repeatedly. Special thanks to Dan for the clues on how to
+    recreate it. [Jonas Quinn]
+  - Added 12 hour clock toggle. [pagefault]
+  - GUI special case horizon fixed (thanks Motley, Dan). [Nach]
+  - Crammed a "Documentation" button right below the "WWW.ZSNES.COM" button.
+    [ipher, Nach]
+  - Fixed crash after enabling Sound Interpolation mid-game. Fixed Gaussian
+    always selected bug when MMX Support is disabled. Some options that are only
+    available with MMX enabled are now hidden if MMX is disabled. [Jonas Quinn]
+  - Fixed Clear2xSaIBuffer to clear the first line, too. [Jonas Quinn]
+  - Removed off by 1 line fix. [Jonas Quinn]
+  - Fixed burning effect in executables compiled with GCC. [Jonas Quinn]
+  - Removed some DOS only code from other ports and vice versa. [Jonas Quinn]
+  - Added "+ Gamma" and "- Gamma" hotkeys to the Misc Keys menu. [pagefault,
+    ipher]
+  - Hacks can now be disabled via command line (-dh). [Jonas Quinn]
+  - Get_Date returns correct year now. [Jonas Quinn]
+  - SPC filenames are no longer truncated if there is a dot in the filename.
+    [Jonas Quinn]
+  - Made gui option save config override dontsave option. Fixed bug #13. [Nach]
+  - Fixed crash when MMX is disabled and 25% scanlines with interpolation is
+    enabled (bug #142). [Jonas Quinn]
+  - Fixed corrupted graphics when alt-tabbing. [pagefault]
+  - Can now display battery power status on laptops. [Nach, pagefault, ipher,
+    David Lee Lambert, drizztbsd]
+  - Stupid (and old) mistake successfully corrected after manual tracking;
+    fixed bug #52, and probably lots of other sound issues upon state load...
+    [grinvader, Jonas Quinn]
+  - Added new video modes. [Aerdan]
+  - Fixed vars in bss section that had no space reserved. Fixed bug #18 on
+    bug tracker. [Jonas Quinn]
+  - ZSNES now decodes shift-jis headers correctly... but the font is still
+    limited to 5x5. [grinvader]
+  - GCC 4.0 support. [Nach]
+  - Fixed a jump to not disable ENV when it shouldn't. [Jonas Quinn]
+  - Optimization to frame draw code, only draw frames that change. [pagefault,
+    Nach]
+  - Added error message if hard patching fails. [Nach]
+  - Fixed the exit procedure. [Nach, Jonas Quinn]
+  - Updated license. [Nach]
+  - Option to allow Up+Down/Left+Right for speedruns' sake. [grinvader]
+  - New variable slow down/speed up options. [grinvader. ipher]
+  - Lower memory usage. [Nach, Jonas Quinn, Deathlike]
+  - Panic key now resets offset mode and windowing state. [pagefault]
+  - Primary Buffer option shouldn't be reversed anymore. [Jonas Quinn]
+  - Added pause and frame increment options (buggy). [Nach, grinvader, ipher]
+  - Key combos for player 5. [ipher]
+  - Mode 4 offset change overflow fix in rendering code. [pagefault]
+  - Fixed crashes related to wrong MMX detection. [Jonas Quinn, Deathlike,
+    hector]
+  - Major framerate improvement when using new graphics engine. [pagefault]
+  - JMA: Fixed some bugs in decompression. Improved performance. Lower
+    memory requirements. Support for JMA v1 files. [Nach]
+  - Changed video change accept key to spacebar. [Nach]
+  - Added info on load if ROM is patched. [Nach]
+  - Fixed 100% CPU usage when no game is running. [pagefault]
+  - ZSNESW can now be compiled in MinGW without any fancy NASM patches.
+    [TRAC, Nach]
+  - Fixed bugs with SRAM Check+Save option. [grinvader, Nach, Jonas Quinn]
+  - Initialized many vars which were not. [Nach]
+  - Added comments so people have more of a clue. [pagefault, grinvader,
+    Nach, ipher]
+  - Fixed warnings. [Nach, theoddone33, grinvader, Jonas Quinn]
+  - Configure script fix for Gentoo users, and debug builds now use -O0,
+    because we can. [grinvader]
+  - Partial scons support [theoddone33, Aerdan, Snarius]
+  - Added CPU parameter for specific CPU optimizations when compiling for
+    an MS platform. [Nach]
+  - Added debug build support for MS ports. [Nach]
+  - Can now compile without JMA support. [Nach]
+  - Greatly updated, overhauled, and unified documentation. [AspiringSquire,
+    Deathlike, Jipcy, Nach, Noxious Ninja, Richard C., xamenus, and others]
+
+DOS Port:
+----------
+  - Fixed sample rate to not be able to select 32000 Hz or bigger rates when
+    they are not available under certain circumstances. [Jonas Quinn]
+  - 8 bit modes now save images as BMP. [Nach]
+  - Can now compile without a debugger. [Nach, Jonas Quinn]
+  - Can choose old or new debugger. [SamB]
+  - Fixed ROM loading from the command line for DOS when a VESA2 mode
+    is selected. [Jonas Quinn]
+  - Now runs proper clean up code on exiting. [Nach]
+  - Updates to input code, now supports more parallel pads. [Deathlike]
+  - Can now set via command line player 1 and 2 to any input.
+  - Rewind can now be used. [Nach]
+  - Quick load menu now shows full internal names, or if LFN, as much
+    as the other ports show. [Nach]
+
+Win Port:
+----------
+  - Fixed a really strange crash problem on Windows 2003 systems. [pagefault]
+  - You can now use gamepad in the background without ZSNES having focus.
+    [pagefault]
+  - Fixed bugs so ZSNES can be run in VMWare. [pagefault]
+  - Can pause emulation in the background. [pagefault]
+  - Fixed black screen after the computer was locked. [Jonas Quinn]
+  - Fixed inline assembler in winlink.cpp when compiled with optimizations.
+    [Jonas Quinn]
+  - Added custom video modes. [Deathlike2, Nach]
+  - Debugger now works in this port. [SamB, pagefault]
+  - Added KitchenSyncPal and fixed a lot for KitchenSync issues [Deathlike,
+    Poobah]
+  - Added ForceRefreshRate as a replacement for Force60Hz. I'm sure someone
+    will fail reading the cfg file for help. [Deathlike]
+  - Added Keep 4:3 ratio as requested a while back by gltamarin. This is
+    useful for laptops/LCDs that use non 4:3 resolutions. [Deathlike]
+  - Can now set joystick sensitivity. [Deathlike]
+  - Can now view ROMs by SNES internal name. [Nach, Deathlike]
+  - Changed default option the Windows port uses due to sanity reasons. Also, a
+    check was added to prevent the black screen (and maybe double vision) issue.
+    A message box will now pop up to tell you what options you have. [Deathlike]
+  - Disable Screensaver Option now disables all annoying power management stuff.
+    [Deathlike]
+  - Changed "High Priority Mode" to "Use A Higher Priority" and Above Normal
+    Priority is used on NT. [Deathlike]
+  - Nach input boxes (video, path) now allow pasting via ctrl+v. [Nach]
+  - Added NTSC filter. [Blargg, pagefault, ipher]
+  - Fixed strange sprite priority bugs after switch to window/fullscreen.
+    [Jonas Quinn]
+
+SDL Port:
+----------
+  - Fixed bilinear filter in GUI [grinvader]
+  - Fixed video change freeze problems in port. [Nach]
+  - Make sound processing use less CPU cycles. [Nach]
+  - Fixed input responsiveness for controllers 3+. [bssteph]
+  - Added freedesktop.org file [pagefault]
+  - Fixed screen refresh for SDL software modes when toggling hq2x. [grinvader]
+  - Fixed a key repeating bug when changing resolutions. [grinvader]
+  - Fixed bug where mouse buttons were conflicting, right mouse click by itself
+    on 3+ button mouse. [Nach]
+  - Updated wheel handling. [Nach]
+  - Added a Variable OGL mode to center ZSNES output with proper ratio.
+    [NBondoux]
+  - Added custom video modes. [Deathlike2, Nach]
+  - New scancode handling system, should fix problems with non US keyboard
+    and Mac OS X. Thanks hector.
+  - Debugger now works in this port. [SamB]
+  - Can now set joystick sensitivity. [Nach]
+  - Added Keep 4:3 ratio as requested a while back by gltamarin. This is
+    useful for laptops/LCDs that use non 4:3 resolutions. [Deathlike]
+  - Can now view ROMs by SNES internal name. [Nach, Deathlike]
+  - Hopefully fixed numlock keypad quick select in the F3 menu. [Deathlike]
+  - Fixed bug when trackballs are present; also cleaned up joystick code a bit.
+    [spoon0042]
+  - Make stack non executable for ELF. Thanks drizztbsd. [Nach]
+  - Mac OS X support. [Nach, hector, BRPXQZME]
+  - Removed dangerous checking of environment variable for user's home path.
+    [Nach]
+  - Fix compilation on OpenBSD. [pagefault, Nach]
+  - Added NTSC filter. [Blargg, pagefault, ipher]

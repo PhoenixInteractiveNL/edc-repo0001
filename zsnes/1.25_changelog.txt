@@ -1,0 +1,47 @@
+v1.25, Win v0.93
+      - Fixed cheat menu text when game was not loaded [pagefault]
+      - Fixed unlabed checkbox in DOS port [pagefault]
+      - DSP1 - Fixed plane controls in Pilotwings [_Demo_]
+      - dosintrf.asm - Fixed header detection in the dos port [zsKnight]
+      - gui.asm - Video mode checking done at initialization [zsKnight]
+      - Enabled mouse wrap in the Windows and Linux ports [pagefault]
+      - Fixed full screen mode switch when the user starts ZSNESw before
+        selecting any full screen modes [zsKnight]
+      - Made default video mode 512x448 windowed in Windows port [pagefault]
+      - Prevented enter key from affecting gameplay on returning from
+        F1 and F3 menus [zsKnight]
+      - Added minimize button to the Windows port [pagefault]
+      - Added always on top option in GUI options menu [pagefault]
+      - Menu fix for 8bit graphics modes [zsKnight]
+      - ZSNESW now remembers the window position on your desktop (can be
+        disabled in GUI options) [pagefault]
+      - Fixed crashing problem with some IPS's in ZIP's [Teuf, zsKnight]
+      - Ported to DirectX 8.0 which fixed some problems and improved performance
+        (DirectX 8.0 is now required to run ZSNESW) [pagefault]
+      - DSP1 - Fixed map offset problem in Pilotwings [zsKnight]
+      - DSP1 - Fixed rings being mysteriously passed problem in Pilotwings [zsKnight]
+      - Fixed DirectSound crash when a normal priority buffer could not be
+        acquired [pagefault]
+      - Fixed DirectInput compatibility on some computers [pagefault]
+      - Optimized DSP1 code for better performance [teuf]
+      - Added proper full main/sub-screen window clipping in the new gfx 16bit
+        engine (fixed Illusion of Gaia/DKC2 selection screens, etc) [zsKnight]
+      - Added checksum/header name/chip type header display upon game load [zsKnight]
+      - Added PNG snapshot support which is selectable in the F1 menu [Matt Kendora]
+      - Stunt Race FX old graphics engine force fixed [zsKnight]
+      - Fixed MegamanX copy protection schemes [zsKnight, Matthew Kendora]
+      - Fixed TopGear 2 PAL version from detecting a PAL system [zsKnight]
+      - Implemented OBC1 chip (for Metal Combat) [zsKnight]
+      - Fixed Mode 7 bug in Super Ghouls and Ghosts [zsKnight]
+      - Added turbo keys for L & R keys [zsKnight]
+      - OBC1 emulation support.  Metal Combat works! [zsKnight]
+      - You can now customizable the colors to the title bar and
+        window colors. [zsKnight]
+      - Optimised global code to provide up to a 50% speed increase on it on most
+        processors [pagefault]
+      - Added black and white mode to Windows and Linux ports [pagefault]
+      - ZSNESW is now packed with the newest version of UPX [pagefault]
+      - Cleaned up the cfg files for windows/linux ports [pagefault]
+      - Fixed command-line crash in the Windows port (Thanks Matt Kendora) [pagefault]
+      - Save/Load state now displays which state is being loaded [hpsolo]
+      - Added double buffering support to Linux port [teuf]

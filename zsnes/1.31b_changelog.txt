@@ -1,0 +1,15 @@
+v1.31b
+       All ports
+       ---------
+       - Fixed Super Punchout, now working [zsKnight, _Demo_]
+       - Fixed SD Gundam GNext again [_Demo_]
+       - Final Fantasy Mystic Quest now works again [zsKnight]
+
+       Win v1.04
+       ---------
+       - Fixed grayscale toggle [pagefault]
+       - Updated icon again for black backgrounds [enigMa]
+
+       Linux v0.31
+       -----------
+       - Now compiles and runs on QNX6 systems [TheAlien]

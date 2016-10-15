@@ -1,0 +1,192 @@
+............................................................
+v1.40 - December 25, 2004
+............................................................
+
+All Ports:
+----------
+  - Added multiple timing tweaks, fixed various emulation bugs, and many other
+    technical updates, including (but not limited to): SPC core updates (with
+    improved sound decoding), safer memory allocation in certain areas, HIRQ and
+    VIRQ fixes, color add/sub and color bleeding fixes, HDMA improvements,
+    sprite priority and flickering fixes, and a slew of SRAM fixes. Many more
+    games work :D. [pagefault, _Demo_, Nach, TRAC, Overload, theoddone33]
+  - Overhauled a lot of code, such as checksum calculation and mirroring code.
+    Overhauled and added much better EHi/Hi/Lo ROM code, improved reset vector,
+    and changed much hard coding to variables. Fixed more SRAM bugs than we can
+    count. Made optimizations to complex loading functions, syntax, memory init
+    (Thanks kode54), execution, and initialization code. Also greatly improved
+    PAL/NTSC detection. Also now has much better chip detection and gives more
+    informative chip names. More games which never loaded before now load
+    properly, such as Dai Kaiju Monogatari 2; it now loads and plays great
+    without the Dejap patch. [Nach]
+  - Cleaned up, overhauled, removed, and ported a lot of code (asm to C).
+    [pagefault, MKendora, Nach]
+  - Overhauled IO latch behavior, added proper latching behavior and other latch
+    fixes (such as proper latching of bit 7 on $4201), and added proper behavior
+    of RDIO regs. [pagefault]
+  - Removed many, many hacks. [Nach, pagefault]
+  - There have been some modifications and reorganizations of the GUI, including
+    new path setup and chip configuration windows and a reorganization of the
+    Game Key window. [pagefault, Nach]
+  - Updates to the video code, with enhancements of triple buffering, better
+    input support in the video dialog, and other general video code updates and
+    bug fixes, such as a fix for the 60hz mode. [pagefault, MaxSt]
+  - New extra options are now available in various locations, like the "GUI
+    burning effect", new commandline options, a new quick key to control players
+    1/2 with 3/4, and smaller message text. Some obsolete ones have been
+    removed. [pagefault]
+  - Some changes in the Input configuaration: Hitting "Set Keys" is now
+    prevented if controller is set to "None". Also, if no controller is
+    selected, the settings of the individual keys are now locked. [Nach]
+  - Updated default configuration, in general. For example, stereo sound is now
+    enabled by default at 32khz, with gaussian interpolation. [pagefault]
+  - Signed saturation fix for gaussian interpolation (Thanks kode54).
+    [pagefault]
+  - Fixed several Netplay issues. [_Demo_, pagefault, Nach]
+  - Fixed some of our .zmv movie recording problems. [Nach]
+  - Fixed a small bug in SPC saving. [pagefault]
+  - Fixed issues with config file saving. [pagefault, Nach]
+  - Fixed PNG snapshot filenames and PNG height. [StatMat, Nach]
+  - Fixed DIP switch 2 on Super System. [pagefault]
+  - Fixed an auto frameskip issue (Thanks MKendora). [pagefault]
+  - Fixed rewind when using commandline filename. [StatMat]
+  - Fixed some issues when loading ROMs via command line. [Nach]
+  - Removed ROM info that appears when loading via command line. [Nach]
+  - Added a command-line savestate fix. [StatMat]
+  - Fixed an annoying savestate bug. [pagefault]
+  - Super Bases Loaded 2 works better, due to a fix in DSP-1 mapping. [_Demo_]
+  - Horai Gakuen works better, due to a special fix. [_Demo_]
+  - Lufia 2 problems are now fixed. [pagefault]
+  - Emerald Dragon now works - again. [pagefault]
+  - Many updates on the SPC7110, such as normal timing, special ratio removal,
+    and better pack loading code. [_Demo_, pagefault, Nach]
+  - Removed SPC7110 logger and S-DD1 test. [grinvader]
+  - Removed support for interleaved SuperFX ROMs. [Nach]
+  - Added several improvements and memory map adjustments for more accurate BS
+    emulation. [Nach, pagefault]
+  - Added call init code for DSP-2,3, and 4. [pagefault]
+  - Added better support for split ROMs with headers and detecting interleaved
+    ROMs. [Nach]
+  - Added support for many more ROM extensions. [Nach]
+  - ROM info now dumped to rominfo.txt on game load. [Nach]
+  - Added more information lines on ROM load, such as CRC32, video, and bank
+    information. [pagefault, Nach]
+  - Added support for some NSRT features, such as NSRT header support and
+    support for ROMs using NSRT's JMA compression format. [Nach]
+  - Zipped ROMs no longer need a temporary directory. [Nach]
+  - Added better handling of bad files. [_Demo_, Nach]
+  - Implemented soft IPS patching functionality, with in-zip file support,
+    buffering, and RLE support. [Nach]
+  - Added a compatibility update to PPU. Passes one more electronics test
+    (Thanks MKendora!). [pagefault]
+  - Fixed variable types in many locations; ZSNES can now play games without
+    hacking the binary to make code segments writable. [Nach]
+  - Made ZSNES more HTPC friendly. [pagefault]
+  - Fixed many compiler warnings, added compiler optimizations, and more
+    compiler fixes and code cleanups. [Nach, MKendora, theoddone33, pagefault,
+    ipher, SamB]
+  - Unicode support partially supported. Will complete later. [pagefault]
+  - ZSNES now displays the day it was compiled in the about box. [Nach]
+  - Updated authors.txt, support.txt, thanks.txt, and todo.txt. [pagefault]
+
+DOS Port:
+----------
+  - Fixed cubic spline interpolation. It should actually save the option now!
+    [pagefault]
+  - Fixed other various DOS sound bugs. [Nach, pagefault]
+  - Fixed a frameskipping bug. [pagefault]
+
+Win Port:
+----------
+  - Updated icon with Windows XP compliancy. [cdbsi]
+  - Added new disable screensaver code. [pagefault]
+  - Added a CPU utilization fix. [kode54, pagefault]
+  - Added 48khz sound support, updated sound code, and fixed sound bugs.
+    [pagefault, Nach, ipher, StatMat]
+  - Fixed a couple of input bugs, such as one concerning the 5th joystick and
+    another that made the mouse get stuck in an endless loop. [pagefault]
+  - Removed alternate timer. [pagefault]
+  - Fixed Netplay freezing bug. [pagefault]
+  - Many new video features, including (but not limited to): HQ2X, HQ3X, and
+    HQ4X graphic filters, support for hi-res and D modes in 32bpp windowed mode
+    (now default), new aspect ratio code for scaling, and the KitchenSync
+    (usable only via the commandline). [MaxSt, pagefault, Darkfalz]
+  - Fixes for video code errors, such as those that occured when alt-tabbing in
+    fullscreen, MMX interpolation fixes, and blitter fixes. [pagefault,
+    zsKnight]
+  - Snapshots are now numbered and use the full ROM file name. [Nach]
+  - Renamed Windows version to Win32. [pagefault]
+  - Win32 port can now also be compiled with MinGW (but we won't support it till
+    the next release). [Nach, Jonas Quinn]
+
+SDL Port:
+----------
+  - Updated icon. [cdbsi]
+  - Updated Linux video code to Windows version. [pagefault]
+  - Fixed problems with nVidia cards. [Diablo-D3]
+  - Fixed audio problems with broken drivers. [Diablo-D3]
+  - Added 48khz sound support. [pagefault]
+  - Updated joystick input support. [theoddone33, Sander]
+  - Fixed savestate incrementor; this caused some crashes. [pagefault]
+  - Cleaned up the Linux Autoconfigure [Diablo-D3]
+  - Added a couple of things for the start of BeOS compatibility. [theoddone33]
+  - Fixed 16->32bpp LUT related bug. [kode54]
+  - Added hardcoded alt-enter fullscreen toggle. [theoddone33]
+  - Added dialog for why the video mode couldn't be set. [theoddone33]
+  - Added circle buffer patch (savestate fix). [zinx]
+  - Fixed problem with man page when installing (when man1 directory doesn't
+    exist). [hpsolo]
+  - Fixed cmd line sound quality. [pagefault]
+  - Fixed zlib and libpng issues. [theoddone33, pagefault]
+  - Updated libpng version checking [theoddone33]
+  - Added -lm to acinclude.m4 so AC_TRY_RUN doesn't return negative on some
+    systems looking for libpng. [theoddone33]
+  - Overhauled makefile. [theoddone33]
+  - Fixed install target; -D should not be used. [theoddone33]
+  - Added the name of the start address to the error message that occurs when
+    mprotect fails. [theoddone33]
+  - Update config.sub. This allows configuration on 64-bit targets, and requires
+    autogen.sh to be rerun. [theoddone33]
+  - Added HQ2X filter! [MaxSt, pagefault, zinx]
+  - Snapshots are now numbered and use the full ROM file name. [Nach]
+  - Renamed Linux version to SDL. [pagefault]
+
+We have also greatly improved support for special hardware in ZSNES v1.40.
+These require special mention:
+
+  * SuperFX core updates:
+      - pagefault
+  * SA-1 core updates:
+      - pagefault
+  * C4 core updates:
+      - Research: anomie
+      - Main Code: Nach
+      - Special thanks to The Dumper and TRAC!
+  * DSP-1 core updates:
+      - Data Retrieval: pagefault, Overload, The Dumper
+      - Main Code: pagefault, Overload, The Dumper, neviksti, Andreas Naive,
+                   _Demo_
+      - Integration: MKendora, Nach
+      - Processing Code: pagefault, Nach
+  * DSP-2 emulation:
+      - Data Retrieval: Overload
+      - Research: Overload, neviksti, MKendora, The Dumper, CaitSith2
+      - Main Code: kentaro-k.21
+      - Processing Code: pagefault, kentaro-k.21
+      - Special thanks to Lord Nightmare!
+  * S-DD1 emulation:
+      - Data Retrieval: The Dumper, Dark Force, zsKnight, Gary Henderson
+      - Research: Andreas Naive
+      - Main Code: anomie
+      - Processing Code: _Demo_, Nach
+      - Special thanks to all the other developers and users who worked on this
+          hard project!
+  * ST010 emulation:
+      - Data Retrieval: The Dumper, MKendora
+      - Main Code: The Dumper, Overload, Feather, Nach
+      - Processing Code: The Dumper
+      - Code Fixes: pagefault
+  * Sufami Turbo support (preliminary):
+      - Nach
+  * SD Gundam G-Next and Same Game expansion pack support:
+      - Nach

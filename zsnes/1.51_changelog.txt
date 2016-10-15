@@ -1,0 +1,108 @@
+............................................................
+v1.51 - January 25, 2007
+............................................................
+
+All Ports:
+----------
+  - Rejoice for finally having 224 lines and them being shown properly in all
+    cases. [pagefault]
+  - IRQ and timing fixes (fixes Chrono Trigger issues, Super Mario World, and
+    others). [pagefault]
+  - Fixed bug with certain commandline parameters permanently overwriting
+    config file settings. [Nach]
+  - Fixed bug with loading new ZMVs of a different version. [Nach]
+  - Loading ZMV with ROM mismatch prints a message. [Nach]
+  - Movie menu now has tabs and only shows proper options when available.
+    [Deathlike, Nach, grinvader]
+  - Slight improvement to the Custom Res functionality. [Deathlike, Nach]
+  - Keep4_3Ratio option now only shows when necessary. [Deathlike]
+  - PNG files now use extended height in extended height mode. [Nach]
+  - Pausing, rewinding, and fast fowarding are disabled during movie dumping.
+    [Nach, SamB]
+  - You can now force a movie dump length shorter or longer than the actual ZMV
+    length. [Nach, Deathlike]
+  - Fixes for MEncoder check; added LAME check. [Nach]
+  - Custom dumping with multiple passes implemented. [Nach]
+  - Fixed some bad memory reads in command-line parser. Thanks grinvader. [Nach]
+  - Now there's an option to switch to replay mode while recording movies when
+    loading a state and vice versa. [Nach, Deathlike]
+  - Fixed a bunch of bugs with certain save selection techniques not working
+    right. [Deathlike]
+  - Fixed gui font overwrite problem after fixing a cheat. The dots should be
+    gone now. [Jonas Quinn]
+  - You can now select the level of HQ filtering where applicable. [Deathlike]
+  - Many tweaks made to reduce GUI mem usage on all ports. [Deathlike]
+  - ZSNES now properly adheres to the command-line when Auto State Save/Load is
+    used. [Deathlike]
+  - Quick exit key now adheres to Auto State Save/Load. [Deathlike]
+  - Inc/Dec Gamma toggles actually DO something. Gamma level is now definable in
+    the config file. [Deathlike]
+  - Fixed bugs with playing back ZMVs of 2+ players at once. [Nach]
+  - Fix crash if you rewind farther than the game start in Kirby Super Star,
+    Secret of Mana and some other games. [Jonas Quinn]
+  - Fix crashing if using rewind in a movie before rewind slot is filled. Thanks
+    BoltR. [Nach]
+  - Readded the smoke effect. [Jonas Quinn]
+  - Fixed the Winter Gold crash (but not the freeze). [Jonas Quinn]
+  - Fixed crash in Super Demo World and possibly certain other large games.
+    [Jonas Quinn]
+  - Fixed loading many old ZSTs. [Jonas Quinn]
+  - Fixed some bugs with movies which load from power on with SRAM. [Nach]
+  - Fixed some issues with DSP-4 movies. [Nach]
+  - Added ability to have game-specific input. Main input is now stored in
+    zinput.cfg. [Nach, Deathlike]
+  - Added option in Config->Options for Screenshot format. [Deathlike]
+  - Fix crash on creation of ZMV if save path does not exist. Thanks Maximus.
+    [Nach]
+  - Logo support for AVI dumping. Set the logo file in zmovie.cfg; it can be
+    gzip'd if you want. [Nach]
+  - Pick state menu (default - F3) now has wraparound. Praise Pac-Man!
+    [Deathlike]
+  - Config file cleanup for more understandability. [Deathlike]
+  - New Don't Save SRAM option. [Deathlike]
+  - More GUI cleanup and tweaking, also reorganization. [Deathlike]
+  - Removed the horrible-sounding Mono Surround Sound code. [Deathlike]
+  - Source cleanup. [Deathlike, Phil^, Nach, grinvader]
+  - Parsegen now allows one to define inside a PSR file to have it reject arrays
+    from older config files. [Nach]
+  - Our assembly syntax shortener now is case-insensitive with new
+    case-insensitive string class. [Nach]
+  - Archopt has updated flags, added GCC 4.2's -march=native support. [Nach]
+  - Parsegen now has atoui() which should fix reading very large values. [Nach]
+  - Ported more assembly to C. [Jonas Quinn]
+  - Misc. bug fixes. [Deathlike, Jonas Quinn, SamB, Nach, grinvader]
+
+DOS Port:
+----------
+  - Fixed snapshots key from attempting to take a PNG when it cannot.
+    [Deathlike]
+  - Removed old DOS debugger at last. [SamB]
+  - Clock box option now does something in 8-bit modes. [Deathlike]
+
+Win Port:
+----------
+  - Updated and improved NTSC filter. [Blargg, pagefault, Deathlike]
+  - Added 1600x1200 S Full to Windows port for consistency. Fixed details of
+    1600x1200 S Win. [Deathlike]
+  - Fixed crash with HQ4x in windowed mode with Hi-Res Mode 7 on. [Deathlike]
+
+SDL Port:
+----------
+  - Fixed broken option on Mac OS X; load menu shouldn't crash anymore. Thanks
+    phf. [Nach]
+  - Made WIP launch message berate users for not using --enable-release if it
+    was an official release. [Nach]
+  - Added option to define configuration directory. [Aerdan]
+  - Mac OS X config directory now defaults to Library/Application Support/ZSNES.
+    [Nach]
+  - Symlink support for matching ROM name to files. [Nach]
+  - Updated and improved NTSC filter. [Blargg, pagefault, Deathlike]
+  - More accurate NTSC ratio. [pagefault]
+  - You can now use libao for sound, compile with --enable-libao, also see
+    zsnes --help for a list of drivers to use. [Nach, Bisqwit, grinvader]
+  - Unit testing done; off by one errors in audio sample output fixed. Thanks
+    hakonrk and grinvader. [Nach]
+  - Now supports ~ (home directory) in various places, most notably ROM loading.
+    [Nach]
+  - Fixed some filtering and video refreshing issues. [Deathlike]
+  - Fixed Bilinear Filtering on startup. [Deathlike]

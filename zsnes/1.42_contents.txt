@@ -1,0 +1,31 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2005-01-18 00:38:26 ....A        11704       612862  docs\images\cheat.png
+2005-01-18 00:38:26 ....A        20755               docs\images\config.png
+2005-01-18 00:38:26 ....A          626               docs\images\corner.png
+2005-01-18 00:44:20 ....A         8443               docs\images\f1_menu.png
+2005-01-18 00:38:26 ....A        16494               docs\images\game.png
+2005-01-18 00:38:26 ....A         1872               docs\images\get.png
+2005-01-18 00:38:26 ....A         8094               docs\images\gui.png
+2005-01-18 00:38:28 ....A        15669               docs\images\misc.png
+2005-01-18 00:38:28 ....A         9440               docs\images\netplay.png
+2005-01-18 00:38:28 ....A        15191               docs\images\quick.png
+2005-01-18 00:38:28 ....A         1900               docs\images\safer.png
+2004-12-25 16:59:36 ....A         1832               docs\images\valid-xhtml11.png
+2004-12-25 16:59:36 ....A         1120               docs\images\vcss.png
+2005-01-18 00:38:28 ....A         2396               docs\images\windowslogo.png
+2005-01-18 00:38:28 ....A         7338               docs\images\zsneslogo.png
+2005-01-20 01:20:06 ....A         4345               docs\about.htm
+2005-01-20 01:20:06 ....A         6660               docs\bugs.htm
+2005-01-20 01:20:06 ....A         5248               docs\credits.htm
+2005-01-20 01:20:06 ....A        31991               docs\faq.htm
+2005-01-20 01:20:06 ....A        34332               docs\gui.htm
+2005-01-20 01:20:06 ....A        11881               docs\netplay.htm
+2005-01-20 01:55:44 ....A        38522               docs\readme.htm
+2005-01-18 00:38:26 ....A         2460               docs\style.css
+2004-12-25 16:59:36 ....A        15140               docs\license.txt
+2005-01-19 18:35:44 ....A       513024               zsnesw.exe
+2009-07-19 22:32:45 D....            0            0  docs\images
+2009-07-19 22:32:45 D....            0            0  docs
+------------------- ----- ------------ ------------  ------------------------
+2009-07-19 22:32:45             786477       612862  25 files, 2 folders

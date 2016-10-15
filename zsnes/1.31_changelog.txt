@@ -1,0 +1,50 @@
+v1.31
+       All ports
+       ---------
+       - Fixed Mode 4 offset bug (Fixes Bust-A-Move, Puzzle Bobble
+         possibly others) [zsKnight]
+       - Emerald Dragon is now working [_Demo_]
+       - Fixed Last Bible 3 DMA problem (Thanks to SNES9x for the info)
+         [_Demo_]
+       - Fixed Super Robot Was Ex (Thanks again to SNES9x for the help
+         on this) [_Demo_]
+       - Moved disable SPC emulation option to sound menu where it should
+         be [pagefault]
+       - Fixed Wizardry 4 and Honkakuha Igo Gosei, interleaved
+         funny [_Demo_]
+       - SD Gundam GNext no longer crashes ZSNES, and actually is
+         playable now. [_Demo_]
+       - Spindizzy worlds should work again [_Demo_, zsKnight]
+       - Dezaemon sprites working now, had to clear OAM address when first
+         address byte is written to [zsKnight]
+       - Power Rangers the Movie working, was reading from register
+         2144 [_Demo_]
+       - King of Rally now working [_Demo_]
+       - Emerald Dragon working, added a hack to disable ENVx for
+         that game [_Demo_, zsKnight]
+       - Full Throttle Racing working, fixed a bug with the wai
+         65816 instruction [_Demo_, zsKnight]
+       - Renamed black and white mode to grayscale mode [pagefault]
+       - Got Traverse Starlight and Prairie to go further, but it
+         still freezes after several scenes [zsKnight]
+       - Mario RPG minecart Mode 2 scene working better now [zsKnight]
+
+       Win v1.03
+       ---------
+       - Added disable screensaver feature to disable screen saver while
+         ZSNES is active [pagefault]
+       - Fixed yet another DirectInput slowdown [pagefault]
+       - Added joystick POV hat support (Thanks to kode54 for testing and
+         fixing my code) [pagefault, kode54]
+       - Added error messages and directions if DirectX 8.0 is not installed
+         [kode54]
+       - Fixed another Windows 2000 freeze on exit bug [pagefault]
+       - Fixed BSOD when loading roms on some systems [pagefault]
+       - Hopefully fixed a crash when multiple roms where in a single zip
+         file (only one rom can be loaded per zip file) [pagefault]
+       - Fixed a possible crash when loading/continuing a game (Thanks to
+         Metus for pointing this out) [pagefault]
+
+       Linux v0.29
+       -----------
+       - No changes

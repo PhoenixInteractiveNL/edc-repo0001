@@ -1,0 +1,14 @@
+v1.26, Win v0.97
+      - OBC1 support broke in a recent CVS update.  Fixed now. [zsKnight]
+      - Added full scanlines to the Win/Linux port [zsKnight]
+      - Added Mouse Wheel switch [zsKnight,pagefault]
+      - Fixed problem with interpolation/2xSaI/scanlines being saved
+        in the windows port [zsKnight]
+      - Improved 512 byte header support.  This should improve compatibility
+        with some games [zsKnight]
+      - Added 768x672 and 1024x896 DR, R windowed video modes to Windows
+        port [pagefault]
+      - Windows port now uses the primary DirectSound buffer [pagefault]
+      - Modified 65816<->SPC700 timing.  I hope this doesn't break
+        anything [zsKnight]
+      - Fixed a vram read behavior problem (fixed Equinox dungeons) [zsKnight]
