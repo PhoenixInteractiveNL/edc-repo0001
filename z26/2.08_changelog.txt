@@ -1,0 +1,20 @@
+What's New in this version?
+---------------------------
+
+Added support for USB and other Direct-X controllers. Support is
+automatic and you may use up to two controllers. They must be the first
+in your controller list that comes up under your Windows game controller
+setup.
+
+A new PAL palette based on a PAL screen capture provided by Oliver
+Achten.
+
+Screen capture to .bmp files supported so that you can capture screens
+of games that are running with the phosphorescent effect. Use the -B
+command line switch to enable .bmp captures.
+
+FE bankswitching is implemented as flat model again.
+
+Added Midnight Magic to the list of phosphorescent games.
+
+Thanks to Eckhard Stolberg for help with this version!

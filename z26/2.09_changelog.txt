@@ -1,0 +1,10 @@
+What's New in this version?
+---------------------------
+
+Added support for some newly found UA prototypes.
+
+The 32K Tigervision bankswitch scheme (-g11) should now support ROMs
+up to 512K.
+
+Thanks to Andrew Davie for providing a 512K ROM for testing!
+Thanks to Eckhard Stolberg for help with this version!

@@ -1,0 +1,32 @@
+What's new in version 2.13?
+    *    Converted MASM assembly code to NASM syntax, preparatory to the...
+
+    *    ...Linux port! z26 can now be compiled for Windows, Linux, or just
+         about any other x86 environment that supports a UNIX-like build
+         environment with GCC. The Linux support is solid; preliminary
+         testing has been done on FreeBSD and BeOS. There are a few
+         Linux-specific command-line options, see below. A Linux static
+         binary is available for those who don't wish to compile z26 from
+         source.
+
+    *    Improved documentation. We now have a PDF manual and a man page for
+         Linux.
+
+    *    Added ability to selectively disable graphical objects. This
+         feature is mostly intended for developers.
+
+    *    We now lock the audio device before filling the sound queue. This
+         should prevent the long startup times that were plaguing some
+         Windows users. It also should allow z26 to run correctly on
+         multi-processor machines.
+
+    *    Also we made the INTIM timer random at the emulator start again.
+         Berzerk should start with a different screen each time you play it
+         now.
+
+    *    Other than the audio device locking and the random INTIM timer,
+         version 2.13 for Windows should behave identically to version 2.12.
+         If this isn't the case, please let us know.
+
+    *    Thanks to Brian Watson, Eckhard Stolberg, and James Wilkinson for
+         help with this version!

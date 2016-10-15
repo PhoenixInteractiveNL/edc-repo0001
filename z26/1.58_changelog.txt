@@ -1,0 +1,6 @@
+What's New in this version?
+---------------------------
+
+Added support for some newly found UA prototypes.
+
+Thanks to Eckhard Stolberg for help with this version!

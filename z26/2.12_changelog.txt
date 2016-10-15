@@ -1,0 +1,31 @@
+What's New in this version?
+---------------------------
+
+Completely rewrote the controller handling code in C to allow easier
+addition of new features.
+
+Added -) and -( command line switches to select controller for left
+and right port. See below for details.
+
+Command line switches -i, -j, -k, -l, -w, and -y changed or lost
+their meaning, because they were superseded by -) and -(. See below
+for details.
+
+Upgraded the SDL DLL to version 1.2.7.
+
+Added support for "EF" type bankswitching, which will be used by
+Paul Slocum's upcomming Homestar Runner RPG game.
+
+Added support for the Stelladaptor, which lets you connect Atari
+joysticks, driving controllers and paddles to your PC's USB port.
+
+Added support for the three types of Atari Trak-Ball controllers,
+so that the Missile Command hacks can now be played.
+
+Added paddle emulation through the PC joystick, and made the keyboard
+emulate all four paddles at once with fixed keys.
+
+Added the -P command line switch to set the PC-joystick sensitivity
+and shift it's range in the paddle emulation.
+
+Thanks to Eckhard Stolberg for help with this version!

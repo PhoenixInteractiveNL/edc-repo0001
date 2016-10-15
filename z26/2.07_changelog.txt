@@ -1,0 +1,11 @@
+What's New in this version?
+---------------------------
+
+Made mouse capture in windowed modes optional. It is controlled with the
+-MN command line switch. N=0 is off, N=1 is on. It is on by default.
+
+We now make a distinction between upper case and lower case letters in
+command line switches.  There are now many more possibilities.
+
+Many more games automatically run with phosphorescence turned on when
+running in a window.

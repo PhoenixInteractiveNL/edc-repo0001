@@ -1,0 +1,12 @@
+What's New in this version?
+---------------------------
+
+A fix to the sound to allow Andy Mucho's pitsound.bin to play.
+
+TIA sound polynomials adapted to better match Adam Wozniak's descriptions.
+
+Added -R command line switch to synchronize game to sound card.  This helps
+games that use digital sound like quadrun and some recent demos.  You also get
+closer to an exact 60 fps when playing NTSC games this way.
+
+Thanks to Eckhard Stolberg for help with this version!

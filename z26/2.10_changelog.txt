@@ -1,0 +1,17 @@
+What's New in this version?
+---------------------------
+
+Changed the Extended Tigervision (-g11) bankswitch scheme to keep the 
+last bank fixed.  All rom images that are bigger than 64K and not a 
+multiple of 8448 now default to this scheme.
+
+The original Tigervision (-g4) bankswitch scheme now also supports up to
+512K games but with $1800-$1FFF as the fixed bank.  This allows compatibility
+with the Cuttle Cart for games up to 64K in size.
+
+Rom images that *are* a multiple of 8448, i.e. Supercharger games, are
+now supported in sizes up to 61 loads.
+
+
+Thanks to Andrew Davie for providing a 512K ROM for testing!
+Thanks to Eckhard Stolberg for help with this version!

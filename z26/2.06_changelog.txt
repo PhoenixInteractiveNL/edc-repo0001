@@ -1,0 +1,29 @@
+What's New in this version?
+---------------------------
+
+Games running in windowed modes now grab the mouse and make the cursor
+disappear. So now games are as easy to control with the mouse in a
+window as they are when running full screen.
+
+Performance in windowed video modes has been improved and the size
+of the windows has been shrunk to fit the game, particularly in the
+narrow aspect ratios.
+
+A new aspect ratio has been added (-e2) which is closer to an authentic
+aspect ratio in the larger windowed modes (-v13 through -v18).
+
+Added a new phosphorescent effect that allows 30Hz blinking effects to
+appear without blinking. This allows games with 30Hz effects like Yars
+Revenge or Stellar Track to run in a window without the visual artifacts
+that normally occur when the display is not synchronized with the game.
+This effect is specified with the -fN command line switch. The parameter
+is the frame mixing coefficient (0 through 100) which specifies how much
+the bright pixel is favored over the dim pixel when mixing the value of
+two frames. The default is 77. If you specify a value greater than 100
+or less than zero, the effect is disabled for games that are
+automatically recognized as needing this effect, like Yars Revenge.
+
+Some additional full screen modes have been added (-v20 through -v28)
+which have the same number of bits per pixel as the current desktop.
+This was done to allow the phosphorescent effect to run in full screen
+video modes.

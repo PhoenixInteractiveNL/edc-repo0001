@@ -1,0 +1,12 @@
+What's New in this version?
+---------------------------
+
+This is the first public release of the Windows version of z26.
+
+The assembly language emulator core is now pure 32-bit code.
+
+There are new windowed video modes.
+
+The GUI is gone for now.  It will probably come back later.
+
+Many smaller changes are discussed in this document (readme.txt).
