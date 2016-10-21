@@ -1,0 +1,4 @@
+What's New in this version?
+---------------------------
+
+Initial 32bit Release

@@ -1,0 +1,6 @@
+TronDS 1.0.0.2
+---------------------------
+Added support for 3DS files
+Added support for VFPU
+Added support for Breakpoints
+Fixed some bug in ARMv6 opcodes

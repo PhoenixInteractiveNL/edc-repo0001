@@ -1,0 +1,8 @@
+TronDS 1.0.0.4
+---------------------------
+Fixed a bug launching CLR on Windows Vista and above.
+Fixed bugs on VFPU emulation.
+Fixed bugs in vertex shaders emulation.
+Fixed bugs in textures management.
+Add support for GSP Service.
+and other small changes and fixes.

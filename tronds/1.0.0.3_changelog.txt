@@ -1,0 +1,10 @@
+TronDS 1.0.0.3
+---------------------------
+Added support for 3d rendering.
+Added support fo FS service.
+Added support for GPU service.
+Added support for kernel syncro objects like mutexes,semaphores et etc.
+Fixed a bug in linear memory allocation.
+Fixed a bug in rescheduling threads.
+and other small changes and fixes.
+
