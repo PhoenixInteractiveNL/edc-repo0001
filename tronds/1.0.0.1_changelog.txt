@@ -1,0 +1,8 @@
+TronDS 1.0.0.1
+---------------------------
+First version of TronDS a Nintendo 3DS Emulator, It's very simple and is only capable of running homebrews. It currently supports:
+
+ARM9/ARM11 interpreter for the 3DS appcore – the processor core dedicated to running user applications
+OS HLE to support userland interaction with the various 3DS OS services
+Framebuffer rendering
+Debugger with ARM11 disassembler, register view (written in C#)

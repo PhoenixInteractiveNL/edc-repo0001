@@ -1,0 +1,8 @@
+TronDS 1.0.0.5
+---------------------------
+Added Circle Pad emulation
+Added support for Soc:U and Cfg:U services
+Added support for ARM Media instructions
+Fixed bugs in VFPU emulation
+Fixed bugs in GSP:GPU emulation
+and other small changes and fixes
