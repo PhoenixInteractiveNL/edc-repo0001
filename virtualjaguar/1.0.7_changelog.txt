@@ -1,0 +1,39 @@
+Virtual Jaguar v1.0.7 GCC/SDL
+-----------------------------
+
+* Various fixes to make for smoother compilation on MacOS. [Adam Green]
+* Fixes to filetype parsing. VJ now properly recognizes .abs, .jag, .rom,
+  and .j64 files--be sure to check the README for the gory details! [Shamus]
+* Added a kludge to allow homebrew demos to run without a Stubulator ROM and
+  without crashing the emulator. [Shamus]
+* Fixed a blitter intensity addition problem. This fixes the title in Hover
+  Strike and the road/shadows in Checkered Flag. [Shamus]
+* Partially fixed a problem with the SUBC opcode in the RISC processors. This
+  allows Hover Strike, Phase Zero and Fight For Life to boot into their title
+  screens and makes them somewhat playable. [Shamus]
+* Fixed a horizontal scaling problem in the OP and the off-by-one bug that it
+  reintroduced. This fixes the road in Atari Karts and probably a few others.
+  [Shamus]
+* Fixed a long standing blitter bug that kept certain doors in AvP from
+  rendering correctly. [Shamus]
+* Fixed some vertical positioning bugs in the OP. Now Checkered Flag, Alien
+  vs Predator and probably others now work as they should (graphically ;-)
+  [Caz]
+* Better GUI support. Most options in the GUI work now, and more are expected
+  to be functional in the near future. [Shamus]
+* Fixed a few more lingering blitter bugs (there are more to be found). This
+  fixes most of the glitches in Cybermorph and Alien vs Predator. [Shamus]
+* Fixed an Object Processor scaled bitmap bug that caused incorrect
+  positioning of scaled bitmaps that started outside the line buffer, and
+  also fixed a problem that caused the OP to hang in certain situations. This
+  fixes Bubsy, International Sensible Soccer, and probably a few others.
+  [Shamus]
+* Cleaned up various bits of video rendering related code. [nwagenaar]
+* Added support for OpenGL textures with a depth of 16bpp, 24bpp or 32bpp.
+  [nwagenaar]
+* Rewrote several OpenGL related rendering code concerning the new OpenGL
+  texture depths and texture sizes. [nwagenaar]
+* Rewrote several OpenGL rendering functions concerning speed related items.
+  [nwagenaar]
+* Several bugs resolved due to OpenGL and normal rendering code. [nwagenaar]
+* Default resolution for OpenGL is now 640x480. [nwagenaar]
