@@ -1,0 +1,25 @@
+What's New in this version?
+---------------------------
+
+4DO 1.3.2.4 changes:
+1) Fixed freezes through updates in core Clio
+Fixed known freezes in:
+3DO Interactive Sampler CD, The
+3DO Interactive Sampler CD 2, The
+3DO Interactive Sampler CD 3, The
+3DO Interactive Sampler CD 4, The
+Panasonic REAL 3DO Interactive Multiplayer Sampler
+Twisted – The Game Show (fixed long boot time)
+Killing Time 2.2 Alpha
+Fixes may affect other games too?
+
+2) Graphical fixes: 
+Microcosm – Fixed start screens; game now 100% playable
+Alone In The Dark – Fixed fonts, all are readable now (the text written on books, etc, all are readable now
+Dinopark Tycoon – Minor graphical fixes, but not yet 100%
+
+3) New option added – “Scale Mode” 
+Enlarges the image, as in NTSC consoles
+
+4) Anvil support
+Added support for anvil-bios. Anvil chip emulated, needed to run some games of the European region.
