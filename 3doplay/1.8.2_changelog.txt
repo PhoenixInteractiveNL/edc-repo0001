@@ -1,0 +1,8 @@
+What's New in this version?
+---------------------------
+
+Changelog for 1.8.2 :
+- Fixed bugs in games that worked in previous versions is slower than usual, and now everything is fine.
+- Fixed font in a wicked 18.
+- Games run faster.
+- Fixed bugs and other flaws.
