@@ -1,0 +1,109 @@
+Snes9x 1.51
+- Added DSP1 and SuperFX savestate support.                 (nitsuja)
+- Added screen state GFX to save states. (optional)         (nitsuja)
+- Fixed desync when loading inconsistent state in playback. (nitsuja)
+- When playback reaches a movie's end, recording continues
+  instead of the movie suddenly closing. (after recording)  (nitsuja)
+- can now record resets and mouse/superscope/justifier(s)   (nitsuja)
+- Added same-line-comment support for config files.         (nitsuja)
+- input display for all controllers (including peripherals) (nitsuja)
+- Win32: Now uses .cfg file instead of Windows registry.    (nitsuja)
+- Win32: open ROM dialog bugfixes and speedup and facelift  (nitsuja)
+- Win32: option to use standard file open dialog for ROMs   (nitsuja)
+- Win32: maintain aspect ratio and bilinear filter stretch  (nitsuja)
+- Win32: optional removal of the dreaded "black bar"        (nitsuja)
+- Win32: Added EPX,EPX2,EPX3,HQ2X,HQ3X,TV3X,DM3X filters.   (nitsuja)
+- Win32: Added hires support for Interlace and TV Mode.     (nitsuja)
+- Win32: text removed from .avi output (optional)           (nitsuja)
+- Win32: better directory management, customizeable         (nitsuja)
+- Win32: Screenshot support is back.                        (nitsuja)
+- Win32: Netplay is back (but still not very good).         (nitsuja)
+- Win32: Made OpenGL Bi-linear an advanced .cfg option.     (nitsuja)
+- Win32: cheat search improvements (address, watch, SuperFX)(nitsuja)
+- Win32: Added non-modal ("active") cheat search option.    (nitsuja)
+- Win32: new hotkey-config dialog and configurable hotkeys  (nitsuja)
+- Win32: Fixed joystick config in input dialog.             (nitsuja)
+- Win32: Fixed hires and extended height .avi output.       (nitsuja)
+- Win32: various small GUI improvements                     (nitsuja)
+- Win32: Netplay fixes.                                     (nitsuja)
+- "Fake Mute" desync workaround option for movies, until
+  all ports have deterministic sound.                       (Bisqwit, nitsuja)
+- Fix for save state blocks > 999999 bytes.                 (Bisqwit)
+- C4 games now save C4 data in save states.                 (DeHackEd)
+- Unix: Framework for high-speed seeking. Specify a frame
+  number in a movie, and the emulator will run at
+  maximum speed to that frame. Untested.                    (DeHackEd)
+- X11: Support for window exposure. When a window is
+  damaged due to overlay, being iconified, etc. it will
+  be repainted correctly.                                   (DeHackEd)
+- Unix: parameter: -autodemo <filename> loads a movie for
+  playback on startup. Only the x11 code handles this
+  right now.                                                (DeHackEd)
+- Unix: parameter: -oldturbo,  the turbo button renders all
+  frames when fast-forwarding.                              (DeHackEd)
+- Unix: parameter: -upanddown, override U+D and
+  L+R protection.                                           (DeHackEd)
+- Unix: parameter: -mute, currently linux only, blocks out
+  audio output from your speakers while still emulating
+  sound. Not fully tested.                                  (DeHackEd)
+- Unix: parameter: -maxframes <target> during movie
+  playback, snes9x will exit when the target is hit.        (DeHackEd)
+- Unix: parameter: -keypress shows to stderr and on-screen
+  the currently pressed buttons on joypad 1.                (DeHackEd)
+- Unix: Stream dumping (NOT COMPLETE). With -dumpstreams,
+  raw video and raw audio are dumped to videostream%d.dat
+  and audiostream%d.dat, where %d increments on each CPU
+  reset, starting at zero.                                  (DeHackEd)
+- Unix: Non-blocking sound on Linux. It makes seeking nicer.(DeHackEd)
+- Unix: Configurable sound device.                          (pierredavidbelanger)
+- configure.in now requires a sufficiently new version of
+  autoconf.                                                 (anomie)
+- Fixed slow versions of branch opcodes.                    (anomie)
+- Fixed the mosaic offset bug.                              (anomie)
+- No sorting by priority in C4 command 00 00. MegaMan X2
+  can go behind the legs of the intro stage boss.           (anomie)
+- New RTO discovery, fixes Super Conflict: The Mideast
+  title screen.                                             (anomie, byuu)
+- A 1->0 transition on $2100.7 causes OAM Address Reset.    (anomie, byuu)
+- The final HDMA Indirect Address load is only weird
+  on the last channel of the scanline.
+  Touge Densetsu Saisoku Battle problem solved.             (anomie, byuu)
+- Fixed BGnVOFS bug. Only HOFS needs ~&7 update.            (byuu)
+- Fixed superfluous VIRQ triggers.                          (zones)
+- Fixed missing IRQ trigger just after the previous one.    (zones)
+- Fixed missing IRQ while writing to $4200.                 (zones)
+- Fixed IRQ timing after WRAM refresh.                      (zones)
+- Fixed NMA timing after DMA transfer.                      (zones)
+- Fixed superfluous auto-joypad-reading.                    (zones)
+- Fixed missing WRAM refresh during DMA transfer.           (zones)
+- Fixed DMA so that HDMA and any HC triggered events can
+  run during DMA transfer.                                  (zones)
+- Roughly fixed the case that HDMA and DMA use the same
+  channel at the same time. HDMA kills DMA. Thanks byuu.    (zones)
+- Changed initial DMA registers values.                     (zones)
+- Slightly modified APU execute timings.                    (zones)
+- Fixed APU I/O registers to get/set the proper value.      (zones)
+- Blocked invalid VRAM writings, though you can turn off
+  this option due to Snes9x's inaccurate timings.           (zones)
+- Omitted SPCTOOL, no one uses it.                          (zones)
+- Added Sufami Turbo support.                               (zones)
+- Added Same Game add-on cart support.                      (zones)
+- Fixed HiROM SRAM and DSP1-4 memory maps a little.         (zones)
+- Improved mirroring.                                       (Nach, grinvader, byuu)
+- CRC32 on BS dumps now follows uCONSRT standard.           (Nach)
+- BS dumps now always run in NTSC mode.                     (Nach)
+- Unknown regions (generally betas) default to NTSC.        (Nach)
+- Now support NSRT headers for setting up controllers.      (Nach, nitsuja)
+- Unix: Fixed command line help output.                     (Nach)
+- Unix: Sound now defaults to 32KHz, Stereo, Interpolation
+  so Snes9x finally sounds like a real SNES by default.     (Nach)
+- Win32: Saner defaults for movie record.                   (Nach)
+- Unix: Fixed crashing with mouse or super scope.           (Nach)
+- Removed some weird code which was crashing Korean
+  League and its varients.                                  (Nach)
+- Win32: Can now compile with MinGW.                        (Jonas Quinn, Nach)
+- Win32: Can now cross compile Snes9xw.                     (Nach)
+- Unix: SSnes9x compiles again.                             (Nach)
+- Win32: ZSNES C4 and SuperFX compiles once again.          (Jonas Quinn)
+- Unix: Netplay Fixes.                                      (Nach)
+- Unix: Netplay Improvements.                               (Fabianx)

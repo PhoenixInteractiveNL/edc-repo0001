@@ -1,0 +1,58 @@
+Snes9x 1.52
+- IMPORTANT NOTICE: The structure of savestates (also known
+  as snapshots / freeze files) is incompatible with older
+  versions! Snes9x 1.52 cannot read the savestates created
+  by 1.51 or older.                                         (zones)
+- Highly acculate SPC700 and S-DSP emulation.               (Blargg)
+- Replaced APU emulation cores (SPC700 and S-DSP) with
+  ones provided by Blargg's SNES_SPC library. This renders
+  savestates incompatible with older versions.              (BearOso, zones)
+- SPC7110 emulation.                                        (byuu, neviksti)
+- Merged bsnes' SPC7110 emulation code. Note that the .rtc
+  file of Far East of Eden Zero is incompatible with older
+  versions.                                                 (zones)
+- Removed graphics pack support. It's no more necessary.    (zones)
+- Replaced S-RTC emulation code with bsnes' one to keep the
+  good compatibility of .rtc files between the two
+  emulators. As a result, Daikaijuu Monogatari 2 now
+  outputs the .rtc file, and its .srm file is incompatible
+  with older versions.                                      (zones)
+- Added savestate supports for DSP-2, DSP-4, ST-010 and
+  OBC1.                                                     (zones)
+- Added UPS support.                                        (byuu)
+- Fixed DSP-4 AI problem.                                   (Jonas Quinn)
+- Fixed invalid memory accesses in C4 and OBC1 codes.       (zones)
+- Fixed invalid memory accesses in BSX codes. My mistake.   (zones)
+- Fixed the read value of $213e, $4210 and $4211.           (zones)
+- Fixed the writing of word values at the memory boundary.  (zones)
+- Fixed the bug that the unnecessary SA-1 emulation
+  continues once any SA-1 games are launched.               (zones)
+- Removed old color blending codes.                         (zones)
+- Removed too-old Snes96 and ZSNES snapshot support.        (zones)
+- Updated command-line options.                             (zones)
+- Code cleaning.                                            (zones)
+- GTK+ : Added a port of Snes9x to the GTK+ toolkit.        (BearOso)
+- Unix : Reconstructed and simplified all the contents.
+  Some features have been removed to be simple, and many
+  options have changed. GTK+ port is recommended for most
+  of Linux users.                                           (zones)
+- Win32: Now uses snes9x.conf to prevent problems with
+  modified meaning of settings.                             (OV2)
+- Win32: Removed broken OpenGL mode.                        (OV2)
+- Win32: Removed support for 8bit output.                   (OV2)
+- Win32: Reworked settings dialogues to accomodate the
+  new APU core and display settings.                        (OV2)
+- Win32: Updated defaults to use D3D and XA2 (better
+  Vista and Win7 support).                                  (OV2)
+- Win32: Direct3D and XAudio2 support.                      (OV2)
+- Win32: Added Blargg's ntsc filter (three presets).        (OV2)
+- Mac  : Fixed corrupted screenshot on Intel Mac.           (zones)
+- Mac  : Fixed sudden abort in QuickTime movie export on
+  Intel Mac.                                                (zones)
+- Mac  : Changed sound settings for the new APU core.       (zones)
+- Mac  : Changed the default folder which Snes9x looks for
+  to 'Application Support' folder.                          (zones)
+- Mac  : Changed folder names: 'IPSs' -> 'Patches',
+  'BIOSs' -> 'BIOSes'.                                      (zones)
+- Mac  : Added Blargg's ntsc filter.                        (zones)
+- Mac  : Internal changes for Leopard and Snow Leopard.     (zones)

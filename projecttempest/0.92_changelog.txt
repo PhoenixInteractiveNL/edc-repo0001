@@ -1,0 +1,3 @@
+Added support for CDI format version 4.0.
+I'm also investigating the cause for the Direct3D error on some computers.
+I made some changes to this version, so give it a shot if you get the error.

@@ -1,0 +1,5 @@
+What's new:
+
+- Readded the GUI by popular request :)
+- Preliminary CD emulation support (only CD images supported)
+- Fixed a few object processor bugs

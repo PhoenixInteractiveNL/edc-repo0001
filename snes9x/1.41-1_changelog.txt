@@ -1,0 +1,4 @@
+Snes9x 1.41-1
+
+- Oops, in the asm CPU core i was stomping on %eax too
+  early, so register $4210 wasn't getting set properly.     (anomie)

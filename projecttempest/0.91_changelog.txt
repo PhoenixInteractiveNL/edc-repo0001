@@ -1,0 +1,1 @@
+This release fixes the crashing bug when a joypad is attached.
