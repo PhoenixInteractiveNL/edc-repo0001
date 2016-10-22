@@ -1,0 +1,8 @@
+version 0.35 (05/10/05) :
+Fixed reading of R15 in some instructions - Nebulus now works
+Sound improved a bit
+Fixed RSC instruction (don't think it affects anything though)
+Altered ARM timing
+Beginnings of new-style Arc emulation (HD floppies + IDE hard discs in theory, not 
+  working yet though)
+Palette splits slightly more stable (Lotus 2)

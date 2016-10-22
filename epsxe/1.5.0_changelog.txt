@@ -1,0 +1,56 @@
+ePSXe v1.5.0, released on xx.01.2002
+
+- Fixed a bug in MDECs, which caused Metal Gear Solid and Rayman 1 to 
+  crash. Furthermore, the MDEC options aren't read from the windows 
+  registry any more, so you can only disable them with command lines 
+  from now on.
+
+- Rewritten the code what loaded the ps-exe files when starting a game, for 
+  a better detection of the games name and the region.
+
+- Added native support for ppf files. Now you don't need to patch the games 
+  any more, simply copy your ppf file into the directory "/patches", with 
+  the same name than the main PS-exe file in the cdrom (SLES*,SCES*,
+  SLUS* ...), in uppercase. ePSXe will load it on startup then and patch 
+  the game in memory on the fly !
+
+- MCI code is now disabled in WinNT/2k/XP, expect when you are using an 
+  external CD-ROM plugin which has its own CDDA functions (e.g. Pete's). 
+  Furthermore, the external CD-ROM plugins can now play some games like 
+  Tomb Raider I and II PAL, what was not possible before due to a bug 
+  in 1.4.0.
+
+- Fixed a bug in the internal CD-ROM plugins, which caused some games to 
+  hang when they played CDDA sound and later accessed a data 
+  sector (Rayman 1)
+
+- Fixed some bugs in savestates. New savestate are not compatibles with old 
+  epsxe versions, but the savestates from a savestate from an old version 
+  can still be loaded. The command line -ssv0 has been added, which 
+  will let ePSXe save the savestates into the old (but buggy) format. 
+  (Fixed savestates in square mdecs, and in threads of fate)
+
+- Some games which ran only with a certain bios version, should now run 
+  with any (only checked with Legend of Dragon PAL)
+
+- Fixed some GTE bugs. (Looney Tunes: Perro y Lobo, Nhl 99)
+
+- Included a file with help, what can be accessed from help->contents.
+  (Thanks to Bobbi)
+
+- Last hour changes in internal spu, what fixes Metal gear solid and
+  Valkyrie profile sound, but we have not had too time for test it ;)
+
+- Added a new workaround in order to run Parasite Eve 2 (thanks to 
+  Psychojak!). You need to use the command "-pe2". Some PE2 versions are 
+  automaticly detected and don't need it though. We didn't play through 
+  the complete game though, we can't tell if it's playable until the end.
+
+- Fixes to the CD-Rom decoder and the core, which make some more games 
+  playable like for example Valkyrie profile, Syphon filter series speech, 
+  Rayman 1, Micromachines V3, Croc 2, Duke Nukem: Land of Babes, Vrally 2 
+  and Nfs 5 menus, Time Crisis 2 music, Casper Around the World ...
+
+- Multiples games can be played using additional commands like: 
+  Rebelt Assault 2 (-noignorecmd), Micromaniacs (-cdtiming), 
+  Front Mission 3 (-nocdinc) ...

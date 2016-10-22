@@ -1,0 +1,18 @@
+Version 0.8.14 - 8/2/2016
+
+Changes in this build
+
+All Platforms
+RISC OS Select 4i2 to 6i1 (6.06 to 6.20) now boot 'out of the box' due to clearing the *unplug bits in the distributed cmos.ram file. If applying the upgrade to an existing install you must use the provided cmos.ram file and then apply your changes to cmos settings afterwards.
+
+If you have used the 'installer' version on windows Vista, 7, 8, 10 then you will probably need to delete the copy of cmos.ram that is in this directory
+
+C:\Users\<USERNAME>\AppData\Local\VirtualStore\Program Files (x86)\RPCEmu
+
+Add support for 8MB VRAM (via patching) on RISC OS 3.50/3.60/3.70/3.71/ 4.04/4.29/4.33/4.37/4.39/6.02. This is in addition to the support for RISC OS 4.02 (via patching) and RISC OS 5.2x and 6.10 to 6.20 via OS autodetection.
+
+RISC OS 5.2x now work with 0MB VRAM as we now allow video data to be stored in any part of Simm 0 Bank 0 of RAM.
+
+RISC OS Select 4i2 to 6i1 (6.06 to 6.20) now work with 0MB VRAM as we no longer create TLB entries for VRAM when none is configured.
+
+Translate characters in HostFS paths that would be invalid on Windows, using the same translations for ? < and > as used by LanMan. Contributed by Alan Buckley.

@@ -1,0 +1,35 @@
+ePSXe v1.0.1, released on xx.xx.2000
+
+- A completly re-written MDEC engine, which should give you better quality
+  and some more FPS during video playback.
+- More accurate timing, what means that videos should pause less. (MDEC
+  timing should always be turned ON now)
+- Included two new internal CD-Rom plugins : One for WinNT/Win2k users,
+  which uses WinNT/Win2k's native functions, and an ASPI CD-Rom plugin
+  for Win9x and Win2k users, which is usually faster than the older plugins.
+- Fixes to XA sound playback in the internal SPU plugin.
+- Included NTSC/PAL auto detection for a more accurate timing, mainly
+  in Square videos.
+- The ISOs are loaded directly now, without showing the BIOS logo. 
+- Added support for PSX mouse emulation. (Selectable in Config -> Controller)(*)
+- Added support for PSX analog pad emulation using Analog Pads or mouse.
+  (selectable in Config- > Controller)(*)
+- It's now possible to disable the pads; this is necessary for some games which
+  are only playable for 1 player. (qbert)
+- Included a new memory card selector, which comes with support for the most
+  important memory card formats (.MCR, .MEM, .MCD, .GME)
+- Memory cards are saved now when you go to the main window and when you exit
+  the emu incorrectly. It's still highly recommended though to close down the
+  emu using the File -> Exit option ;-)
+- Added an experimental "Change discs" option. To switch a disc, you need to
+  go to File -> Change disc. (this isn't working with some games yet though)
+- ePSXe should work better with Lewpy's plugins now, so no more crashes when
+  you exit the emu. The reset/continue functions should also work now on several
+  videoboards.
+- Fixes to the CD-Rom decoder and the core, which make some more games playable
+  like for example Final Fantasy 9, Grandia, Fear Effect, Tenchu 2 and so on ;-)
+- Added a snapshot maker in key F8. (you need the "snap" directory).
+- Since we haven't been able to fix the Chrono Cross bug yet, we added a workaround,
+  which can be activated using the F3 key while the game freezes at that point 
+  (though this doesn't fix the status screen problem yet, you must still use the
+  cheat code for this)

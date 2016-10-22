@@ -1,0 +1,34 @@
+ePSXe v1.5.2, released on xx.05.2002
+
+- Fixed a bug which got into 1.5.2 regarding several gte flags 
+  (Porsche Challenge, Tomb Raider).
+
+- Partially rewrote the CD-Rom decoder, now it doesn't need custom flags 
+  in order to run various games any more.
+
+- Moved the subchannel read options to it's own window in the CD-Rom 
+  configuration. Also added a new subchannel reading mode, which works 
+  with various LG 852x cdrom drives.
+
+- Fixed a bug in the internal SPU plugin, which has been there since v1.5.0! 
+  It caused sound effects to repeat and several games to freeze 
+  (BOF series, Soul Blade).
+
+- Added support for the Nero ISO format (.nrg).
+
+- Massive changes to the SIO emulation. It should have better timing now and 
+  the F4 trick shouldn't be necessary that often any more. "SIO irq always on" 
+  has been removed from the GUI, but you can still turn it on using the F4 
+  key. (affects Silent Hill esp, Track & Field, Metalslugx, NFS5 PAL, Rapshody ...)
+
+- Fixed a bug in the internal ISO reading routines, which prevented some of the 
+  last sectors to be accessed.
+
+- As the Chrono Cross trick isn't necessary any more, we have assigned a new 
+  trick to the F7 key, for the Xenogears dreams sequence: Press this key at 
+  the beginning of the scene, and once again after the end ;)
+
+- Fixes to the CD-Rom decoder and the core, which made some more games 
+  playable like, for example, Theards of Fate, NBA Basketball 2000, 
+  Legend of Mana, Rebelt Assault 2, Tekken 2, MegamanX series, 
+  Jackie Chan US, Michelin Rally Masters, Transformers Beast of Wars ...

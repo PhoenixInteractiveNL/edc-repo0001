@@ -1,0 +1,6 @@
+Version 0.2 (04/01/06)
+- Ignored all unimplemented memory accesses, including Econet - RiscOS 3.7 now works 
+- 70% speed increase 
+- CMOS now actually saves 
+- Cursor now correct colours 
+- Less restrictive ROM loading

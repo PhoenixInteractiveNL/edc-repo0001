@@ -1,0 +1,24 @@
+Version 0.8.9 - 1/1/2012
+
+Changes in this build
+
+All Platforms
+Add support for emulation of 256 MB of RAM - the maximum possible in the Risc PC and A7000 architecture.
+A new option to reduce CPU usage. By enabling this menu option, RPCEmu will attempt to reduce its CPU usage by utilising the 'Idle' feature of RISC OS. Once enabled, the CPU usage should reduce roughly 30 seconds after booting RISC OS provided that activity is low enough. No 'Portable' module is required to use this feature. This is partly based on code by Jeffrey Lee.
+A two-button mouse mode, for use on laptops and similar: this menu option swaps the right and middle mouse buttons, allowing the more common RISC OS use of Select and Menu on two-button mouse systems such as laptops.
+Several fixes to the "Follow host mouse" feature, which should make it more reliable: Correctly interprets OS_Byte 106 and handles pointer/cursor linking.
+SWIs are now intercepted even when called using CallASWI, based on a patch by Alan Buckley. This further improves the reliability of the "Follow host mouse" feature.
+The mouse type will be automatically configured based on the type of emulated machine. Previously it was necessary to use '*configure mousetype' when changing between Risc PC and A7000 emulation.
+Resolved ARM bug where rotate could set C flag incorrectly.
+A possible crash in the Dynamic Recompiler has been prevented by a fix from Tom Walker.
+RISC OS 4.02 with no VRAM configured now boots in Risc PC emulation.
+Accuracy improvements to emulation of IOMD.
+Workaround ADC issue on 64bit recompiler which prevented RISC OS 5.17 from booting.
+Refactoring of code, particularly relating to RAM and IOMD.
+Windows
+The window size is now taller by one pixel. Previously it was too short, and the very bottom row of the display was missing.
+Some improvements to the GUI, including enabling Windows "Visual Styles" so that windows adopt the native look of the OS, and improving the layout of the "Configure" window.
+A potential freeze when choosing "File->Exit" has been fixed.
+An improved icon, which includes high-resolution variants for Windows Vista and later.
+Linux
+Some improvements to the GUI, including improving the layout of the "Configure" window.

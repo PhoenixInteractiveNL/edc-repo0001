@@ -1,0 +1,17 @@
+Version 0.8 (23/10/06) :
+- Improved timing. Each model now performs much closer to the original machines (this means
+   slower than previous versions).
+- Can now emulate MEMC page sizes other than 32k, so all memory configurations from 512k to
+   16 megs are now possible.
+- Preliminary FDI support in 82c711 FDC.
+- Better FDI support in WD1772 FDC, including FDI v2.1 support.
+- Fast disc emulation in 82c711 FDC.
+- Bugfixes to video code. Man United Europe now looks better. Less flicker in Populous, Zarch
+  etc.
+- Keyboard/mouse fix, now doesn't freeze in Lemmings 2 and some other games.
+- Fixed broken sound in Sensible Soccer and Xenon 2.
+- Sound now in stereo.
+- Some minor optimisations.
+- Seperate ROM + CMOS files for Arthur, RISC OS 2, RISC OS 3 (old FDC) and RISC OS 3 (new FDC).
+- Added support for two MAME romsets that run on Archimedes hardware.
+- Tracked WD1772 hanging bug down to an incorrectly set CMOS bit! Now fixed.

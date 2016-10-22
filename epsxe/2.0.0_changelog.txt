@@ -1,0 +1,140 @@
+ePSXe v2.0, released on 02.17.2016
+
+- First of all, ePSXe 2.0 now requires Windows Vista or superior. While 
+  it could work on Windows XP SP3, it has not been tested.
+
+- Multi-language support. This is the first ePSXe release officially supporting
+  multiple languages. Currently there is support for English, Spanish, Japanese
+  (thanks to Nekokabu) and Italian (thanks to Domus). If you want to help us
+  translate the emulator to other language let us know at epsxepc@gmail.com.
+
+- Added a gamelist window. Now you can open a gamelist window by selecting
+  File->Open Gamelist or clicking on the letters "PSX" from the ePSXe logo.
+  From this window you can select the folders to scan and click on refresh to
+  create a gamelist with the games found in the those folders. Additionally you
+  can get the mini-icon covers for the games in the gamelist. There is also
+  support for multi-PBP files and ECM files.
+
+- Improved CPU accuracy. Dynarec and the interpreter accuracy has been improved
+  fixing some possible corner cases. The main goal of the dynarec is performance,
+  so it is less accurate than the interpreter mode.
+
+- Adjusted overall timing. The FPS and Mhz have been adjusted to match the real
+  PSX on NTSC and PAL. It helps synchronization in some games such as Bust a
+  Groove 1 & 2 during songs (those games requires low sound latency).
+
+- Improved GTE support. The GTE accuracy has been improved to match the
+  Android version. In addition this version support 2 hacks for the GTE.
+  Widescreen support which is used to stretch the screen to 16:9 without
+  modifying the aspect of 3D objects. Given it is a hack it will fail in some
+  games, especially those combining 2D and 3D.
+  Subpixel precision (gte accuracy hack thanks to Edbla) which allows more
+  precision to be kept through computations but requires a gpu renderer
+  supporting this feature.
+
+- Ported the Soft GPU from the Android version. The new GPU Core requires
+  a videocard supporting OpenGL2 + GLSL shader. It is a very accurate soft GPU,
+  supporting features such as:
+    - Increased internal resolution at x2 and x4. (very fast CPU required for x4)
+    - Brightness profiles, to increase the brightness in dark games.
+    - Stretching modes: 4:3, stretching or widescreen
+    - 2D filters: 2xSai, xBRZ (thanks to Zenju)
+    - Shaders: FXAA/CRT-Lottes (thanks to Lottes), CRT-Hyllian/xBR-LV2-3D (thanks
+      to Hyllian)
+    - Simple custom Shaders (a pack with examples is available on epsxe.com/files)
+    - Scanlines suport
+    - Removing of top/bottom black bands in some games.
+    - Sub-pixel precision (or gte accuracy hack).
+  (Special thanks to Pete Bernert :)
+
+- Included the Pete Opengl2 GPU core. It is the Pete OGL2 gpu core included in
+  the ePSXe Core. This version is the actual Pete OGL2 plugin supporting a 
+  sub-pixel precision (or gte accuracy hack), memory detection and fix the game
+  Guardian Recall. Millions of thanks to Pete Bernert, Tapcio and Edbla. 
+
+- Teamviewer incompatibility is resolved with the internal GPU plugins. The GPU
+  Core and Pete Opengl2 GPU core are not affected by the incompatibility with
+  the TeamViewer software.
+
+- Added a configuration window to select options for the internal SPU Plugin.
+  Currently it is possible to select the sound latency (normal or very low -
+  required on Bust a Groove 1 & 2) and enable/disable some sound effects
+  (filters and reverb).
+
+- Fixed support for CDDA music in external SPU plugins.
+
+- Improved the internal input plugin. Improved multitap to support a lot of games
+  that did not work in the previous versions. Added support to autofire. Now you
+  can select up to 4 buttons for player-1 and player-2 as autofire, and
+  configure the repeat frequency by button.
+
+- Added support for Konami Justifier gun using the mouse for games such as Die
+  hard Trilogy, Area 51, Lethal Enforcers, Crypt Killer, Project - Horned Owl,
+  Lethal enforces I & II.
+
+- External Input plugins support. This version supports external input plugins
+  such as Pokopom. You can select a plugin for the Port 1 and Port 2, but it is
+  recommended that if you want use both an external plugin and the internal
+  plugin you select the external plugin in the first port. Thanks to Shalma.
+
+- Added game profile by game. In this version it is possible during the gameplay
+  to save your preferences for the current game. The next time that you run the
+  same game it will use those preferences. All internal settings in every
+  plugin included with the emulator are supported (spucore, gpucore and Pete
+  Opengl2 GPU Core).
+
+- Improved auto-PPF support. Now the PPFv3 version is supported, and it is
+  possible to auto-load up to 8 PPFs per game. The filenames used must be
+  "(PS-EXE-ID)-00", "(PS-EXE-ID)-01". Ex: SLPS_013.00-00, SLPS_013.00-01.
+
+- Improved cheat support. Fixed cheatcodes gameshark conditional, added
+  increment/decrement types (0x10-11, 0x20-21) and copy type (0xc2).
+
+- Improved HLE bios emulation. Starting with version 1.9.25, the HLE bios has
+  been improved to support more games: Wild Arms, Jet Moto, Toca World Touring,
+  Simcity 2000. Memcards support was improved for a lot of games such as
+  Dinocrisis 2, Metal Gear Solid, V-Rally2, Diablo, Ridge Racer Type 4, Driver,
+  Echo Night and Azure Dreamns.
+
+- Fixes to the CD-ROM decoder and the core which made around to 40 more games
+  playable or better working.
+     - AGILE WARRIOR F-111X 
+     - ARCADE'S GREATEST HITS - THE ATARI COLLECTION 2
+     - BLASTO (PAL)
+     - C-12 - FINAL RESISTANCE
+     - CAPTAIN COMMANDO
+     - CINEMA EIKAIWA - AI NO HATE NI
+     - CINEMA EIKAIWA - ARASHIGAOKA
+     - CINEMA EIKAIWA - INTERCEPTOR
+     - CINEMA EIKAIWA - TENGOKU NI IKENAI PAPA
+     - CINEMA EIKAIWA - THIS BOYS LIFE
+     - CINEMA EIKAIWA - ZOMBIE
+     - DUKE NUKEM - LAND OF BABES (PAL)
+     - FANTASTIC NIGHT DREAMS - COTTON ORIGINAL
+     - FORMULA ONE 2000
+     - GLOCAL HEXCITE
+     - JUMPING FLASH 2
+     - LEGEND OF LEGAIA (Use Dualshock mode)
+     - LONDON RACER 2
+     - MARY-KATE AND ASHLEY - CRUSH COURSE (PAL)
+     - MARY KATE & ASHLEY - MAGICAL MYSTERY MALL (PAL)
+     - MEDIEVIL
+     - MEDIEVIL 2
+     - METAL SLUG - SUPER VEHICLE 001
+     - MABOROSHI TSUKIYO
+     - MILLENNIUM SOLDIER EXPENDABLE
+     - NIGHTMARE CREATURES II
+     - NISHIJIN PACHINKO TENGOKU VOL.2
+     - PERFECT WEAPON
+     - PSYBADEK
+     - ROCK'N ROLL RACING 2 - RED ASPHALT (PAL)
+     - RUGRATS STUDIO TOUR (PAL)
+     - SD GUNDAM G GENERATION ZERO
+     - SIDEWINDER II
+     - SLOTS
+     - SOUL BLADE
+     - STAR WARS - REBEL ASSAULT II - THE HIDDEN EMPIRE
+     - SUPER PANG COLLECTION
+     - THE HIVE
+     - USA RACER - A2 RACER GOES USA
+     - VIRTUA PACHI-SLOT OLYMPIA SPECIAL  

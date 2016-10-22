@@ -1,0 +1,10 @@
+Version 0.4 (27/03/06)
+- Fixed stupid bug with flyback bit in IOMD control register - RiscOS 3.x now
+  starts up correctly every single time (why did XXXX X work?).
+- Rewritten video emulation - now supports 16-bit & 32-bit colour, has correctly 
+  coloured cursor, some video acceleration, etc.
+- HostFS - allows access of the Windows filesystem from RISC OS
+- Now supports 2 hard discs
+- Now supports >16 megs RAM, and VRAM
+- Now licensed under GPL
+- Preliminary Linux port

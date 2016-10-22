@@ -1,0 +1,9 @@
+Version 0.7 (09/05/06) :
+Improved video code :
+- Display centered always
+- Multisync mode support (eg 640x480, 640x512 and 800x600)
+- Borders always drawn correctly (eg Zelanites)
+- Multisync modes are a useful workaround the desktop hanging bug!
+Fixed bug with LDMxx!, !NewLook now works, Arthur desktop now works
+Fixed bug in WD1772 FDC, disc writing now works again
+Some improvements to ArculFS

@@ -1,0 +1,26 @@
+ePSXe v1.9.0, released on 26.07.2013
+
+- Added support for more types of Gameshark cheat codes. (D0-D3, E0-E3).
+
+- Added support for multi-bin iso format (redump format), and preliminary
+  support for ECM iso format.
+
+- The internal SPU plugin has been updated to the 1.9.0 version. It includes
+  fixes on interpolation (Square games) and other minnor fixes (Kururin Pa!).
+
+- Added support for joysticks with Circle analog Range. Choose "Full Circle"
+  on the kind of analog on configure gamepad screen. (Logitech and Xbox
+  gamepads).
+
+- Fixed analog full range to -128,127. (Ape Escape)
+
+- Fixes to the CD-ROM decoder and the core which made almost 30 more games
+  playable or working better like. For example this fixed TempestX3,
+  Duke Nukem Land of Babes, Rayman, Kiganjo,
+  Kids Station - Motto! Oja Maho Doremi Dokkan! Maho Dou Eigo Festival,
+  Firo & Klawd, Stahlfeder ...
+
+- Note: for information about compatibility and games's configuration,
+  it is recommended that you visit the "Playstation Datacenter" at
+  http://psxdatacenter.com/. We want to thank Gladiator who has
+  been a very important help in betatesting the new version.

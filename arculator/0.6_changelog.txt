@@ -1,0 +1,6 @@
+version 0.6 (28/04/06) :
+Improved FDI support - many more games work
+Improved video routines - new hardware scaling option, faster! Also more video
+  modes implemented
+ArculFS - read files from the Windows file system (read-only at the moment)
+Can emulate ARM250

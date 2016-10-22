@@ -1,0 +1,28 @@
+ePSXe v1.2.0, released on 07.03.2001
+
+- Added better analogic pad emulation and force feedback.
+  It is now possible to configure the analogic axis and
+  the effect of the force feedback motors. (Many thanks
+  to Alex7 and to www.burutter.com, for donating a very nice
+  psx to usb pad converter and giving help on adding support
+  for it).
+
+- Now ePSXe includes savestates support. F1 = save state,
+  F2 = increase slot (max = 5), F3 = load state. The
+  savestates are compressed and saved to the sstates directory,
+  with an average size of 1.5Mb.
+  (WARNING!!! In release date it is supported only in the
+  following plugins: Lewpy Gpu, Pete Gpu, Pete Spu and ePSXe Spu,
+  support will be included in more plugins soon
+  by the plugins authors)
+
+- Partially re-writen the internal spu, it should be
+  faster, have less sound glitches and better sound quality.
+
+- Optimizations added in gte, mdec and core which makes
+  some games work some fps faster than before.
+
+- Fixes to the CD-Rom decoder and the core, which make some more games
+  playable like for example Gran Turismo, Resident Evil, Ape Escape,
+  Kingley Adventure, Legend of Legaia (use the "-legaia" command line),
+  Final Fantasy IX PAL and so on ;-)

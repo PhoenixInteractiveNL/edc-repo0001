@@ -1,0 +1,8 @@
+Version 0.3 (11/01/06)
+- Fixed up various 32-bit problems in the ARM core, XXXX XX X now works 
+- IDE hard disc emulation 
+- Fixed bugs in floppy emulation 
+- Added emulation of ARM610 and ARM710 
+- Low video resolutions (eg 320x480) now supported better 
+- Faked sound interrupts (not enough for !Replay, but enough to fool Dune II)
+

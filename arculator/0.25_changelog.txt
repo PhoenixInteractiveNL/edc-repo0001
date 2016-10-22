@@ -1,0 +1,8 @@
+version 0.25 (22/07/05) :
+Disc emulation improved - can now access 720k DOS disc images, write to discs, and up to 4
+  drives now supported
+Arculator will now try to load a 2 meg file called 'rom.rom' before trying ic24-ic27.rom. 
+  This allows use of one-file ROM dumps, and Arthur, RiscOS 2 and ARM Linux ROM dumps (none
+  of which really work, but never mind)
+Slight changes to video emulation, Zelanites demo now looks okay
+Slight ARM optimisations

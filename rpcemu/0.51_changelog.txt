@@ -1,0 +1,2 @@
+Version 0.51 (17/07/06)
+- Bugfix in VIDC20 - no more corrupt colours
