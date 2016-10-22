@@ -1,0 +1,89 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2016-10-03 16:48:38 ....A        13820     15699338  scalers\std.as
+2014-12-14 13:25:26 ....A     23544786               icudt52.dll
+2014-12-14 13:25:26 ....A      3347428               icuin52.dll
+2014-12-14 13:25:26 ....A      1992280               icuuc52.dll
+2014-12-14 13:25:26 ....A       117262               libgcc_s_dw2-1.dll
+2014-12-14 13:25:26 ....A       970766               libstdc++-6.dll
+2014-12-14 13:25:26 ....A        48640               libwinpthread-1.dll
+2014-12-14 13:25:26 ....A       110592               OpenAL32.dll
+2014-12-14 13:25:28 ....A        51200               imageformats\qdds.dll
+2014-12-14 13:25:28 ....A        31232               imageformats\qgif.dll
+2014-12-14 13:25:28 ....A        42496               imageformats\qicns.dll
+2014-12-14 13:25:28 ....A        31744               imageformats\qico.dll
+2014-12-14 13:25:28 ....A       509440               imageformats\qjp2.dll
+2014-12-14 13:25:28 ....A       242176               imageformats\qjpeg.dll
+2014-12-14 13:25:28 ....A        30208               platforms\qminimal.dll
+2014-12-14 13:25:28 ....A       363008               imageformats\qmng.dll
+2014-12-14 13:25:28 ....A       556032               platforms\qoffscreen.dll
+2014-12-14 13:25:28 ....A        27136               imageformats\qsvg.dll
+2014-12-14 13:25:28 ....A        39424               iconengines\qsvgicon.dll
+2014-12-14 13:25:26 ....A      4785152               Qt5Core.dll
+2014-12-14 13:25:26 ....A      4589056               Qt5Gui.dll
+2014-12-14 13:25:26 ....A       323584               Qt5OpenGL.dll
+2014-12-14 13:25:26 ....A       299520               Qt5Svg.dll
+2014-12-14 13:25:28 ....A      5884928               Qt5Widgets.dll
+2014-12-14 13:25:28 ....A        27136               imageformats\qtga.dll
+2014-12-14 13:25:28 ....A       423936               imageformats\qtiff.dll
+2014-12-14 13:25:28 ....A        26112               imageformats\qwbmp.dll
+2014-12-14 13:25:28 ....A       341504               imageformats\qwebp.dll
+2014-12-14 13:25:28 ....A      1276416               platforms\qwindows.dll
+2014-12-14 13:25:28 ....A       413696               wrap_oal.dll
+2016-10-11 11:59:53 ....A      7594496               PhoenixEmuProject.exe
+2016-03-31 23:23:32 ....A         3074               shaders\std.frag
+2016-02-18 00:13:22 ....A           95               skin\style.ini
+2016-02-18 00:13:22 ....A          147               skin\rc\branch_closed-on.png
+2016-02-18 00:13:22 ....A          160               skin\rc\branch_closed.png
+2016-02-18 00:13:22 ....A          150               skin\rc\branch_open-on.png
+2016-02-18 00:13:22 ....A          166               skin\rc\branch_open.png
+2016-02-18 00:13:22 ....A          492               skin\rc\checkbox_checked.png
+2016-02-18 00:13:22 ....A          491               skin\rc\checkbox_checked_disabled.png
+2016-02-18 00:13:22 ....A          512               skin\rc\checkbox_checked_focus.png
+2016-02-18 00:13:22 ....A          493               skin\rc\checkbox_indeterminate.png
+2016-02-18 00:13:22 ....A          492               skin\rc\checkbox_indeterminate_disabled.png
+2016-02-18 00:13:22 ....A          514               skin\rc\checkbox_indeterminate_focus.png
+2016-02-18 00:13:22 ....A          464               skin\rc\checkbox_unchecked.png
+2016-02-18 00:13:22 ....A          464               skin\rc\checkbox_unchecked_disabled.png
+2016-02-18 00:13:22 ....A          483               skin\rc\checkbox_unchecked_focus.png
+2016-02-18 00:13:22 ....A          598               skin\rc\close-hover.png
+2016-02-18 00:13:22 ....A          598               skin\rc\close-pressed.png
+2016-02-18 00:13:22 ....A          586               skin\rc\close.png
+2016-02-18 00:13:22 ....A          165               skin\rc\down_arrow.png
+2016-02-18 00:13:22 ....A          166               skin\rc\down_arrow_disabled.png
+2016-02-18 00:13:22 ....A          220               skin\rc\Hmovetoolbar.png
+2016-02-18 00:13:22 ....A          172               skin\rc\Hsepartoolbar.png
+2016-02-18 00:13:22 ....A          166               skin\rc\left_arrow.png
+2016-02-18 00:13:22 ....A          166               skin\rc\left_arrow_disabled.png
+2014-12-20 08:54:56 ....A        29094               logo.png
+2016-02-18 00:13:22 ....A          940               skin\rc\radio_checked.png
+2016-02-18 00:13:22 ....A          972               skin\rc\radio_checked_disabled.png
+2016-02-18 00:13:22 ....A          933               skin\rc\radio_checked_focus.png
+2016-02-18 00:13:22 ....A          728               skin\rc\radio_unchecked.png
+2016-02-18 00:13:22 ....A          760               skin\rc\radio_unchecked_disabled.png
+2016-02-18 00:13:22 ....A          724               skin\rc\radio_unchecked_focus.png
+2016-02-18 00:13:22 ....A          160               skin\rc\right_arrow.png
+2016-02-18 00:13:22 ....A          160               skin\rc\right_arrow_disabled.png
+2016-02-18 00:13:22 ....A          129               skin\rc\sizegrip.png
+2016-02-18 00:13:22 ....A          224               skin\rc\stylesheet-branch-end.png
+2016-02-18 00:13:22 ....A          182               skin\rc\stylesheet-branch-more.png
+2016-02-18 00:13:22 ....A          239               skin\rc\stylesheet-vline.png
+2016-02-18 00:13:22 ....A          195               skin\rc\transparent.png
+2016-02-18 00:13:22 ....A          578               skin\rc\undock.png
+2016-02-18 00:13:22 ....A          158               skin\rc\up_arrow.png
+2016-02-18 00:13:22 ....A          159               skin\rc\up_arrow_disabled.png
+2016-02-18 00:13:22 ....A          228               skin\rc\Vmovetoolbar.png
+2016-02-18 00:13:22 ....A          187               skin\rc\Vsepartoolbar.png
+2016-02-18 00:13:22 ....A        26002               skin\style.qss
+2016-10-11 11:04:14 ....A        17009               info.txt
+2016-03-31 23:20:25 ....A         6882               licenses.txt
+2016-10-11 12:09:54 ....A        48495               translation.xml
+2016-10-11 12:09:54 D....            0            0  iconengines
+2016-10-11 12:09:54 D....            0            0  skin\rc
+2016-10-11 12:09:54 D....            0            0  skin
+2016-10-11 12:09:54 D....            0            0  imageformats
+2016-10-11 12:09:54 D....            0            0  shaders
+2016-10-11 12:09:54 D....            0            0  platforms
+2016-10-11 12:09:54 D....            0            0  scalers
+------------------- ----- ------------ ------------  ------------------------
+2016-10-11 12:09:54           58201378     15699338  78 files, 7 folders

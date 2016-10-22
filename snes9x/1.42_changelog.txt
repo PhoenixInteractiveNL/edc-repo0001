@@ -1,0 +1,76 @@
+Snes9x 1.42
+- Added 8-bit rendering filters                             (funkyass)
+- Added Sanity Checks for the Display Dialog                (funkyass)
+- New Layout for the Joypad Dialog,                         (funkyass)
+- Fixed that anoying Joypad dialog bug. Now check to see
+  if the axis exists before asking for the info form it     (funkyass)
+- Added full POV support.                                   (funkyass)
+- Fixed sram sizes for SuperFx games                        (Nach, MKendora)
+- Stopped saving sram for games with no battery             (Nach, Mkendora)
+- Killed the gray line and slightly optimized Win32 GL      (MKendora)
+- stack wrapping fix in C core                              (MKendora)
+- removed some dead hacks (Oda Nobunaga and Dezaemon)       (MKendora)
+- fixed some DMA and HDMA modes                             (anomie, MKendora)
+- improved HDMA timing                                      (anomie)
+- cleaned up load and deinterleave code                     (MKendora)
+- removed old UI DLL                                        (MKendora)
+- new cheat dialogs                                         (MKendora)
+- started Unicode preparation in Win32 UI                   (MKendora)
+- Implement odd sprite sizes, sprite priority rotation.     (anomie)
+- RTO code that hopefully works. MK's #define is
+  "MK_DEBUG_RTO" to try to debug the RTO code.              (anomie)
+- SDD1 decompression support for Linux. Also added a new
+  command line option -sdd1-pack.                           (anomie)
+- Added correct VRAM read logic. #define CORRECT_VRAM_READS
+  if you want it.                                           (anomie)
+- removed the non-VAR_CYCLES path                           (MKendora)
+- changed access timing map to be address-based.            (MKendora, anomie)
+- DSP-1 updates                                             (Overload, Andreas Naive)
+- S-DD1 decompression support                               (Andreas Naive)
+- optimized S-DD1 code                                      (anomie)
+- S-DD1 can use packs or decompression                      (MKendora)
+- More work on Exhaust Heat 2                               (MKendora, Overload, The Dumper)
+- separated ROM detection from file reading                 (lantus)
+- fixed a mirroring bug in LoROMs                           (MKendora)
+- cleaned up some mapping issues                            (MKendora)
+- ST018 games now boot before locking up                    (Mkendora, Overload)
+- SA-1 state was not completely reset, crashed Marvelous    (zones)
+- Removed sample caching. It caused problems, and was not
+  noticably faster.                                         (MKendora)
+- Fixed interlace without breaking the displays for MK      (anomie)
+- Fixed a PPU OpenBus hack                                  (anomie)
+- Moved SPC7110 and S-DD1 regs to speed up the general case
+  of reading the $4xxx registers                            (MKendora)
+- altered Hi/Lo ROM detection to fix a few misdetects.      (MKendora)
+- Implemented RTO flags. With MK's implementation of $213F's
+  interlace bit, we now pass the SNES Test Cart's
+  Electronics Test                                          (anomie)
+- Fix sprite windowing bug                                  (anomie)
+- Way back in 1.40 MK changed the Windows port to default
+  to a plain old joypad instead of the MP5. And then we
+  removed the hacks for games that dislike the MP5. So
+  we need to change the defaults elsewhere too...           (anomie)
+- cleaned up the hacks section somewhat                     (MKendora)
+- removed some interleave hacks                             (MKendora)
+- fixed a bug in KartContents                               (MKendora)
+- transparency fix for Jurassic Park                        (lantus)
+- A hidden Win32 feature                                    (MKendora)
+- Kludged Mark Davis until I get stable APU timing          (MKendora)
+- Win32 renders overscan always, fixes some jumpy games     (MKendora, lantus)
+- Fixed an FMOD bug                                         (MKendora)
+- cosmetic tweaks                                           (Everyone)
+- Fixed 2 special chip bugs in the C core                   (zones)
+- Added some sanity fixes to the C core, fixes MLBPA
+  Baseball for C core users                                 (zones)
+- updated zlib source (includes 1.1.4-1 patch)              (MKendora)
+- compiler warning fixes                                    (PBortas)
+- Updated the SuperFx asm core                              (pagefault)
+- Kludged Unix compilation to produce working SuperFx       (PBortas)
+  with the asm core.
+- Kludged VC to deal with optimization weirdness            (MKendora)
+- Hacked Robocop vs. Terminator using Daffy Duck hack. Stops
+  flashing.                                                 (MKendora)
+- Added some defines to the asm core                        (MKendora)
+- Added possibility to take screenshots on Unix             (PBortas)
+- Initialize the C SuperFx core better                      (PBortas)
+- Kludge a Japanese golf game until the APU timing is fixed (MKendora)

@@ -1,0 +1,5 @@
+Virtual Jaguar v2.1.2 GCC/Qt
+----------------------------
+
+* Bugfix for catastrophic failure in Controller config dialog. Thanks to ggn for
+  reporting this! [Shamus]

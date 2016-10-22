@@ -1,0 +1,43 @@
+Snes9x 1.41
+
+- Win32 controllers now stay the same between games         (MKendora)
+- Win 32 Open ROM dialog fixes                              (MKendora)
+- Win32 Display dialog fixes                                (funkyass)
+- Win32 OpenGL ratio tweaking. (Reduces the gray line)      (kode54)
+- Fixed Win32 superscope for those having issues            (MKendora)
+- Generic accuracy fix in main SUperscope emulation         (MKendora)
+- sprite bug fixed (gah! How'd we miss that)                (anomie)
+- SPC saving compatibility fix                              (Caz and zones)
+- Window clipping update                                    (anomie)
+- Mode 7 clipping fix                                       (TRAC)
+- latching fix                                              (anomie)
+- BS BIOS checksum and mapping fix                          (MKendora)
+- Working Uniracers hack (dma.cpp)                          (anomie)
+- HDMA Indirect Address fix for Romancing Saga 2            (anomie)
+- Better savestate hack, does it break anything?            (anomie)
+- C4 C core fixes. Mostly Trapezoid (thanks Nach),
+  some s/short/int16/, some indentation.                    (anomie)
+- Damn, but the indentation in ppu.cpp was screwed up.
+  Killed some dead code too (twas commented forevermore).   (anomie)
+- fixed a potential crash in S-DD1 logging                  (MKendora)
+- Improved accuracy of Hi/LoROM detection (~500 ROM test)   (MKendora)
+- Hack for Moryou Senki Madara 2, don't call
+  SelectTileRenderer from DrawOBJS if BGMode is 5 or 6. A
+  real fix requires at least rewriting SelectTileRenderer,
+  or inlining a special version in DrawOBJS.                (anomie)
+- DMA traces: add additional address info to reads too.     (anomie)
+- Killed the old Borland Joypad dialog                      (funkyass)
+- Fixed issues with Dezaemon and CT, maybe others           (anomie, MKendora)
+- Changed the internal snapshot key from \ to VK_F12        (funkyass)
+  Fixes issues with non-US keyboard layouts.
+- Fixed OAM reset to not occur during forced blank.         (anomie)
+- Killed some dead OAM reset code that doesn't need saving. (anomie)
+- Unix/X11: Fixed screen jumping. CT enables overscan mid-
+  frame for only one frame, and we now update the rendered
+  screen height accordingly. Other ports are still broken.  (anomie)
+- Unix/X11: Fixed possible TV mode crash.                   (anomie)
+- Fixed OAM reset timing (beginning of V-Blank rather than
+  end) for R-TYPE 3 (J).                                    (anomie)
+- Unix/X11: Fixed OpenGL target                             (PBortas)
+- Unix/OSS: Fixed big endian sound                          (PBortas/ernstp)
+- Tweaked the About Dialog so its read-only and no scroll   (funkyass)
