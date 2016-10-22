@@ -1,0 +1,24 @@
+16 Mar 2002 (version 0.6)
+	Consolidated rendering code for similar ANTIC modes.
+	Implemented new collision code, using a "collision buffer".
+		- collision now accurate, many games run much better.
+		- speed decrease of about 33% 
+	Fixed some age-old bugs in 6502 core - Wizard of Wor now works,
+	and Megamania runs better.
+	Changed controller code, added TRIG0 latch
+		- now more accurate.
+		- top side buttons now work (Dig Dug, Beamrider)
+	Implemented PM/PF PRIORity table.
+		- Mountain King torch now fixed.
+	Fixed KABOOM! missing PM gfx (bug in non-DMA gfx code)
+	Implemented ANTIC mode 3 (at last). Fixed ANTIC mode 2 a bit.
+	Added crc32.c to calculate crc32 of images for identification
+	Added very basic load/save state (saved as "state").
+	F9 to save
+	F10 to load
+	Fixed missile crap left on screen (Dreadnaught, Frogger)
+	Corrected horizontal offsets with HSCROLL
+		- Frogger, HERO, Soccer, Jr. Pacman
+	Added "PAUSE". (key P)
+	Modified to run in 640x480 window (stretched).
+	Simulated scanlines (TV mode). (key S)

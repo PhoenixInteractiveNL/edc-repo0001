@@ -1,0 +1,64 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2010-05-30 21:31:42 ....A       339941       416822  fceux.chm
+2009-12-31 18:08:46 ....A         9560               luaScripts\UsingLuaBot-Documentation.txt
+2010-04-21 19:31:38 ....A        10365               luaScripts\UsingLuaScripting-Documentation.txt
+2009-12-31 18:08:46 ....A        13275               luaScripts\UsingLuaScripting-ListofFunctions.txt
+2009-12-31 18:08:46 ....A         1706               auxlib.lua
+2011-01-04 22:35:00 ....A         5754               luaScripts\AVI-HeadsUpDisplay.lua
+2009-12-31 18:08:46 ....A         5535               luaScripts\BugsBunnyBirthdayBlowout.lua
+2009-12-31 18:08:46 ....A         2348               luaScripts\Excitingbike-speedometeronly.lua
+2009-12-31 18:08:46 ....A         6099               luaScripts\Excitingbike.lua
+2010-05-04 13:42:00 ....A        20772               luaScripts\FRKfunctions.lua
+2009-12-31 18:08:46 ....A         5795               luaScripts\Galaxian.lua
+2009-12-31 18:08:46 ....A        11491               luaScripts\Gradius-BulletHell.lua
+2009-12-31 18:08:46 ....A          744               luaScripts\GUI-iup_button.lua
+2009-12-31 18:08:46 ....A         8299               luaScripts\GUI-iup_example.lua
+2009-12-31 18:08:46 ....A        13779               luaScripts\Luabot.lua
+2009-12-31 18:08:46 ....A        22517               luaScripts\luabot_framework.lua
+2009-12-31 18:08:46 ....A         7250               luaScripts\Machrider.lua
+2009-12-31 18:08:46 ....A        18880               luaScripts\MegamanII-LaserEyes.lua
+2009-12-31 18:08:46 ....A         1479               luaScripts\MemoryWatch.lua
+2009-12-31 18:08:46 ....A        27590               luaScripts\Multitrack.lua
+2010-05-04 13:42:00 ....A        44743               luaScripts\Multitrack2.lua
+2009-12-31 18:08:46 ....A         5670               luaScripts\m_utils.lua
+2010-04-02 08:57:26 ....A         1453               luaScripts\NightmareElmStreet-4Player.lua
+2009-12-31 18:08:46 ....A        10402               luaScripts\PunchOutChallenge.lua
+2009-12-31 18:08:46 ....A         2262               luaScripts\PunchOutStats.lua
+2009-12-31 18:08:46 ....A         4332               luaScripts\PunchOutTraining.lua
+2011-02-27 12:17:54 ....A         2579               luaScripts\RamSearch.lua
+2009-12-31 18:08:46 ....A         5626               luaScripts\Registerfind(CheatSearch).lua
+2009-12-31 18:08:46 ....A         2482               luaScripts\Rewinder.lua
+2009-12-31 18:08:46 ....A         1176               luaScripts\shapedefs.lua
+2010-05-15 12:57:36 ....A         1875               luaScripts\ShowPalette.lua
+2009-12-31 18:08:46 ....A         2561               luaScripts\SMB-AreaScrambler.lua
+2010-04-21 19:31:38 ....A         3932               luaScripts\SMB-CompetitionRecorder.lua
+2009-12-31 18:08:46 ....A         8892               luaScripts\SMB-HitBoxes.lua
+2009-12-31 18:08:46 ....A        10618               luaScripts\SMB-Jetpack.lua
+2009-12-31 18:08:46 ....A         2245               luaScripts\SMB-Lives&HPDisplay.lua
+2009-12-31 18:08:46 ....A        17416               luaScripts\SMB-Mouse.lua
+2009-12-31 18:08:46 ....A         6825               luaScripts\SMB-Snow.lua
+2009-12-31 18:08:46 ....A         6222               luaScripts\SMB2U.lua
+2009-12-31 18:08:46 ....A        15147               luaScripts\SMB3-RainbowRiding.lua
+2010-06-09 09:00:50 ....A        12580               luaScripts\Subtitler.lua
+2009-12-31 18:08:46 ....A         1618               luaScripts\TeenageMutantNinjaTurtles.lua
+2009-12-31 18:08:46 ....A         5355               luaScripts\tetris.lua
+2009-12-31 18:08:46 ....A        17034               luaScripts\vnb.lua
+2009-12-31 18:08:46 ....A         6154               luaScripts\x_functions.lua
+2009-12-31 18:08:46 ....A         3852               luaScripts\x_interface.lua
+2009-12-31 18:08:46 ....A         2428               luaScripts\x_smb1enemylist.lua
+2010-03-28 00:34:40 ....A          858               luaScripts\ZapperDisplay.lua
+2010-03-28 00:35:56 ....A         1863               luaScripts\ZapperFun.lua
+2009-12-31 18:08:46 ....A          192               palettes\ASQ_realityA.pal
+2009-12-31 18:08:46 ....A          192               palettes\ASQ_realityB.pal
+2009-12-31 18:08:46 ....A          192               palettes\BMF_final2.pal
+2009-12-31 18:08:46 ....A          192               palettes\BMF_final3.pal
+2009-12-31 18:08:46 ....A          192               palettes\FCEU-13-default_nitsuja.pal
+2009-12-31 18:08:46 ....A          192               palettes\FCEU-15-nitsuja_new.pal
+2009-12-31 18:08:46 ....A          192               palettes\FCEUX.pal
+2011-06-04 11:47:30 ....A      1014272      1235179  fceux.exe
+2009-12-31 18:08:46 ....A       242176               7z.dll
+2016-10-22 22:03:14 D....            0            0  palettes
+2016-10-22 22:03:14 D....            0            0  luaScripts
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 22:03:14            1999171      1652001  58 files, 2 folders

@@ -1,0 +1,15 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2008-08-14 10:57:50 ....A       270121       889844  fceux.chm
+2008-08-14 20:18:50 ....A       406528               fceux.exe
+2008-07-09 10:35:32 ....A       242176               7z.dll
+2008-06-30 10:27:06 ....A          192               palettes\ASQ_realityA.pal
+2008-06-30 10:27:06 ....A          192               palettes\ASQ_realityB.pal
+2008-06-30 10:27:06 ....A          192               palettes\BMF_final2.pal
+2008-06-30 10:27:06 ....A          192               palettes\BMF_final3.pal
+2008-06-30 10:27:06 ....A          192               palettes\default_nitsuja.pal
+2008-06-30 10:27:06 ....A          192               palettes\nitsuja_new.pal
+2008-06-30 10:27:06 ....A          192               palettes\old_FCEU.pal
+2009-07-18 22:47:10 D....            0            0  palettes
+------------------- ----- ------------ ------------  ------------------------
+2009-07-18 22:47:10             920169       889844  10 files, 1 folders

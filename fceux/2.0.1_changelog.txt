@@ -1,0 +1,10 @@
+What's New? 2.0.1 (changelog)
+Released August 04, 2008
+
+This was a maintenance release that fixes a few oversights in the 2.0.0 release.
+
+* reorganize display toggle options in the menu
+* autofire fix (wasn't initializing to any autofire pattern from a fresh .cfg)
+* homebrew mmc5 games now have 64KB of exwram instead of only 8KB
+* fix crash related to player2 in lua scripts
+* fixed player2 in lua scripts

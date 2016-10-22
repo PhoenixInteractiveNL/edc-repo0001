@@ -1,0 +1,6 @@
+25 February 2010
+   Update to V1.1
+   - Key remapping added
+   - 3x and 4x scaling added
+   - Rom file selector reverted to cross-platform versiom.
+   - Fixes to exiting by clicking Window's [X] button.

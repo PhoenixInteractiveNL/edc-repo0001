@@ -1,0 +1,7 @@
+v1.1
+-----
+
+- Load / save the new format HTP
+- Load own ROM and BIN files
+- Load your own character set
+- RAM paging, good memory

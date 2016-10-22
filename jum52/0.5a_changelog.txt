@@ -1,0 +1,15 @@
+3 October 2000 (release 0.5a):
+Fixed up collision detection a bit, collision registers can be
+viewed in the debug mode by pressing '1'. 
+
+September 2000:
+Implemented a real speed throttler.
+Updated compatibility list, which isn't looking too bad anymore :)
+
+Fixed graphics and controllers in "Star Raiders" by tweaking
+display timing. Many other games happier now.
+
+Re-wired renderer from mode-line based to a true scanline
+renderer. Broke vertical and horizontal hardware scrolling. Fixed
+horizontal scrolling. Tweaked priority. Made collision detection
+worse.

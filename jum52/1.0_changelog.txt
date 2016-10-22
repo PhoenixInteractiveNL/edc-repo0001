@@ -1,0 +1,7 @@
+6 April 2004
+   Update to V1.0
+   - "voice" emulation implemented
+   - Uses config file "jum52.cfg" if it's there
+   - User can add 16k rom mappings to "jum52.cfg"
+   - Added option to load alternate 5200 palette
+   - Added paddle emulation using the mouse

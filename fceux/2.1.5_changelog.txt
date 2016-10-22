@@ -1,0 +1,102 @@
+What's New? 2.1.5 (changelog)
+Released 04 June 2011
+
+
+
+
+
+
+
+The 2.1.5 release fixes a lot of bugs and brings various improvements to the prior 2.1.4a release. In addition, the SDL port has improved signficantly; completely overhauling the GTK2 GUI, fixing many sound issues, and fixing a variety of bugs.
+
+
+
+
+Common 
+
+Fixed compatibility issue with Young Indiana Jones Chronicles 
+Fixed bug in new PPU that made some intensify bits not get applied to output (fixed flashing siren screen in Werefolf) 
+Fix many segmentation faults related to file handling 
+
+
+
+Movies
+
+
+
+
+Slight performance increase when loading movies 
+Fixed read-only loadstate error messages and logic 
+
+
+
+Lua
+
+Lua socket added to built-in lua library 
+Fixed speed.mode() function so that normal turns off turbo 
+
+
+
+New Lua functions
+
+gui.savescreenshotas() 
+sound.get() 
+
+
+
+Win32
+
+Fixed bug where PPU toggling toggled the Game Genie as well 
+Fixed some minor GUI issues 
+Added avi capture commandline argument and related parameters 
+Fix input selection for Famicom Expansion port 
+
+
+
+Debugger
+
+
+
+
+Fixed Ram Search to only display valid RAM addresses (0000-07FF and 6000-7FFF) 
+Fixed crash when re-opening debugging window 
+
+
+
+Hex Editor
+
+
+
+
+Added a confirmation prompt before removing all bookmarks 
+
+
+
+Ram Watch / Ram Search
+
+
+
+
+Fixed the multiple selection of watches 
+Added support for Multiple selection of addresses in RamWatch Fixed issue with restoration of the selection range in RamWatch 
+
+
+
+TasEdit
+
+
+
+
+General cleanup 
+Fixed crash when truncating while turbo was enabled 
+Invalidate greenzone when re-recording earlier portions of a movie 
+
+
+
+GUI
+
+
+
+
+Added "SaveStateAs" menu item 
+Display movie name at the top of the main window 

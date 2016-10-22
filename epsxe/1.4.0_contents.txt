@@ -1,0 +1,32 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2001-06-25 20:32:38 ....A        27098        17341  docs\epsxe_en.txt
+2001-06-25 20:33:20 ....A        30429               docs\epsxe_sp.txt
+2001-03-07 21:06:04 ....A           56               cheats\breath_of_fire_4_usa.cht
+2000-08-29 18:21:36 ....A           52               cheats\chrono_cross_ntsc.cht
+2000-11-05 12:14:32 ....A           27               cheats\nba_basketball_2000.cht
+2000-08-06 18:05:22 ....A           35               cheats\need_for_speed_3_pal.cht
+2000-10-28 16:08:18 ....A           18               cheats\rally_cross_2.cht
+2000-10-27 21:29:36 ....A           38               cheats\resident_evil_1_pal.cht
+2000-08-25 12:00:44 ....A           30               cheats\silent_hill_pal.cht
+2000-12-02 00:41:08 ....A           24               cheats\soul_reaver_pal.cht
+2000-10-02 20:39:22 ....A           22               cheats\tarzan_pal.cht
+2000-08-25 12:02:56 ....A           30               cheats\theme_hospital_pal.cht
+2000-08-25 12:02:04 ....A           43               cheats\theme_park_world_pal.cht
+2000-08-25 12:03:50 ....A           26               cheats\timeshock_pal.cht
+2000-08-24 02:39:40 ....A           16               memcards\delete.me
+2000-10-05 16:23:58 ....A           25               bios\erase.me
+2000-12-09 18:37:08 ....A           27               snap\kill.me
+2001-03-07 21:03:48 ....A           17               sstates\punch.me
+2000-08-10 18:32:42 ....A           34               plugins\remove.me
+2001-06-25 20:31:02 ....A       153088       154037  epsxe.exe
+2001-02-08 20:11:06 ....A        28672               burutter.dll
+2016-10-22 21:23:53 D....            0            0  sstates
+2016-10-22 21:23:53 D....            0            0  snap
+2016-10-22 21:23:53 D....            0            0  plugins
+2016-10-22 21:23:53 D....            0            0  memcards
+2016-10-22 21:23:53 D....            0            0  docs
+2016-10-22 21:23:53 D....            0            0  cheats
+2016-10-22 21:23:53 D....            0            0  bios
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 21:23:53             239807       171378  21 files, 7 folders

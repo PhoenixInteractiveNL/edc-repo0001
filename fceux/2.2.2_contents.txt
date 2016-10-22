@@ -1,0 +1,84 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2013-09-24 01:32:12 ....A       352497      1379027  fceux.chm
+2013-09-23 23:29:28 ....A       924947               taseditor.chm
+2013-08-18 02:20:54 ....A         1330               tools\taseditor_patterns.txt
+2013-08-18 02:21:00 ....A         9560               luaScripts\UsingLuaBot-Documentation.txt
+2013-08-18 02:21:00 ....A        10365               luaScripts\UsingLuaScripting-Documentation.txt
+2013-08-18 02:21:00 ....A        13275               luaScripts\UsingLuaScripting-ListofFunctions.txt
+2013-08-18 02:20:48 ....A         1724               auxlib.lua
+2013-08-18 02:21:00 ....A         3583               luaScripts\AVI-HeadsUpDisplay.lua
+2013-08-18 02:21:02 ....A        25468               luaScripts\BoulderDash_AmoebaAI.lua
+2013-08-18 02:21:00 ....A         5535               luaScripts\BugsBunnyBirthdayBlowout.lua
+2013-08-18 02:21:00 ....A         4028               luaScripts\ButtonCount.lua
+2013-08-18 02:21:02 ....A         2017               luaScripts\CustomLagIndicator_RvT.lua
+2013-08-18 02:21:00 ....A         2348               luaScripts\Excitingbike-speedometeronly.lua
+2013-08-18 02:21:00 ....A         6099               luaScripts\Excitingbike.lua
+2013-08-18 02:21:00 ....A        20772               luaScripts\FRKfunctions.lua
+2013-08-18 02:21:02 ....A         5795               luaScripts\Galaxian.lua
+2013-08-18 02:21:00 ....A        11491               luaScripts\Gradius-BulletHell.lua
+2013-08-18 02:21:02 ....A          744               luaScripts\GUI-iup_button.lua
+2013-08-18 02:21:00 ....A         8299               luaScripts\GUI-iup_example.lua
+2013-08-18 02:20:58 ....A         2511               luaScripts\taseditor\InputDisplay_for_Selection.lua
+2013-08-18 02:20:58 ....A         1832               luaScripts\taseditor\InvertSelection.lua
+2013-08-18 02:21:02 ....A         1202               luaScripts\JumpingFCEUXWindow.lua
+2013-08-18 02:21:02 ....A        13777               luaScripts\Luabot.lua
+2013-08-18 02:21:02 ....A        22517               luaScripts\luabot_framework.lua
+2013-08-18 02:21:02 ....A         7250               luaScripts\Machrider.lua
+2013-08-18 02:21:02 ....A        18880               luaScripts\MegamanII-LaserEyes.lua
+2013-08-18 02:21:00 ....A         1479               luaScripts\MemoryWatch.lua
+2013-08-18 02:21:00 ....A        27590               luaScripts\Multitrack.lua
+2013-08-18 02:21:00 ....A        44743               luaScripts\Multitrack2.lua
+2013-08-18 02:21:02 ....A         5670               luaScripts\m_utils.lua
+2013-08-18 02:21:00 ....A         1453               luaScripts\NightmareElmStreet-4Player.lua
+2013-08-18 02:21:02 ....A        10402               luaScripts\PunchOutChallenge.lua
+2013-08-18 02:21:02 ....A         2262               luaScripts\PunchOutStats.lua
+2013-08-18 02:21:00 ....A         4332               luaScripts\PunchOutTraining.lua
+2013-08-18 02:21:02 ....A         4983               luaScripts\RBIBaseball.lua
+2013-08-18 02:20:58 ....A         4179               luaScripts\taseditor\RecordBackwards.lua
+2013-08-18 02:21:00 ....A         5626               luaScripts\Registerfind(CheatSearch).lua
+2013-08-18 02:21:00 ....A         2482               luaScripts\Rewinder.lua
+2013-08-18 02:21:00 ....A         1176               luaScripts\shapedefs.lua
+2013-08-18 02:20:58 ....A         2511               luaScripts\taseditor\ShowNotes.lua
+2013-08-18 02:21:00 ....A         1875               luaScripts\ShowPalette.lua
+2013-08-18 02:21:02 ....A         2561               luaScripts\SMB-AreaScrambler.lua
+2013-08-18 02:21:00 ....A         3932               luaScripts\SMB-CompetitionRecorder.lua
+2013-08-18 02:21:02 ....A         8892               luaScripts\SMB-HitBoxes.lua
+2013-08-18 02:21:00 ....A        10618               luaScripts\SMB-Jetpack.lua
+2013-08-18 02:21:02 ....A         2245               luaScripts\SMB-Lives&HPDisplay.lua
+2013-08-18 02:21:02 ....A        17416               luaScripts\SMB-Mouse.lua
+2013-08-18 02:21:02 ....A         6825               luaScripts\SMB-Snow.lua
+2013-08-18 02:21:00 ....A         6222               luaScripts\SMB2U.lua
+2013-08-18 02:21:00 ....A        15147               luaScripts\SMB3-RainbowRiding.lua
+2013-08-18 02:21:02 ....A        10941               luaScripts\SoundDisplay.lua
+2013-08-18 02:21:00 ....A        13518               luaScripts\SoundDisplay2.lua
+2013-08-18 02:21:00 ....A        12580               luaScripts\Subtitler.lua
+2013-08-18 02:20:58 ....A         1502               luaScripts\taseditor\Swap1P2P.lua
+2013-08-18 02:21:02 ....A         1618               luaScripts\TeenageMutantNinjaTurtles.lua
+2013-08-18 02:21:00 ....A         5355               luaScripts\tetris.lua
+2013-08-18 02:20:58 ....A         3264               luaScripts\taseditor\TrackNoise.lua
+2013-08-18 02:21:00 ....A        17034               luaScripts\vnb.lua
+2013-08-18 02:21:00 ....A         6154               luaScripts\x_functions.lua
+2013-08-18 02:21:02 ....A         3852               luaScripts\x_interface.lua
+2013-08-18 02:21:00 ....A         2428               luaScripts\x_smb1enemylist.lua
+2013-08-18 02:21:02 ....A          858               luaScripts\ZapperDisplay.lua
+2013-08-18 02:21:02 ....A         1863               luaScripts\ZapperFun.lua
+2013-08-18 02:20:54 ....A          192               palettes\ASQ_realityA.pal
+2013-08-18 02:20:54 ....A          192               palettes\ASQ_realityB.pal
+2013-08-18 02:20:54 ....A          192               palettes\BMF_final2.pal
+2013-08-18 02:20:54 ....A          192               palettes\BMF_final3.pal
+2013-08-18 02:20:54 ....A          192               palettes\FCEU-13-default_nitsuja.pal
+2013-08-18 02:20:54 ....A          192               palettes\FCEU-15-nitsuja_new.pal
+2013-08-18 02:20:54 ....A          192               palettes\FCEUX.pal
+2013-08-18 02:20:54 ....A          192               palettes\nestopia_rgb.pal
+2013-08-18 02:20:54 ....A          192               palettes\nestopia_yuv.pal
+2013-09-24 02:06:12 ....A      1105408      1491213  fceux.exe
+2013-08-18 02:20:44 ....A       941568               7z.dll
+2013-08-18 02:21:02 ....A       167936               lua5.1.dll
+2013-08-18 02:21:02 ....A        11264               lua51.dll
+2016-10-22 21:52:32 D....            0            0  tools
+2016-10-22 21:52:32 D....            0            0  palettes
+2016-10-22 21:52:32 D....            0            0  luaScripts\taseditor
+2016-10-22 21:52:32 D....            0            0  luaScripts
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 21:52:32            3981338      2870240  76 files, 4 folders

@@ -1,0 +1,10 @@
+18 May 2003
+   Update to V0.8a:
+   - ANTIC mode 4/5 "alt colour bit"
+   - Fixed ANTIC mode 2 colour
+   - Implemented 9-colour GTIA mode
+   - Fixed collision detection (KABOOM! and H.E.R.O.)	
+   - Improved WSYNC handling (fixes Moon Patrol gfx glitch & HERO)
+   - Improved cycle counting (ANTIC DMA stolen cycles)
+	Use 136 cycles per line for both NTSC and PAL (6502.c)
+   - Improved top-side button emu (for c1 and c2)
