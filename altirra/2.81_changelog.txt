@@ -1,0 +1,8 @@
+What's New in this version?
+---------------------------
+
+Version 2.81 [October 16, 2016]:
+[bug fixes] 
+Cartridge: Fixed saving SIDE 1 cartridge images.
+Cartridge: Fixed crash with XEGS cartridge types.
+HLE: Fixed crash when viewing PBI region in debugger with PBI acceleration disk ROM enabled.

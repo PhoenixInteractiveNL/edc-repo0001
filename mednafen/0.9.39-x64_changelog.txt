@@ -1,0 +1,6 @@
+What's New in this version?
+---------------------------
+
+Version 0.9.39:
+August 4, 2016:
+	Put "official" -mtune and -march build flags for Windows targets into configure.ac.

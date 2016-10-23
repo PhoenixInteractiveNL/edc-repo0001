@@ -1,0 +1,36 @@
+What's New in this version?
+---------------------------
+
+21 Mar 2016 - no$sns v1.6
+* snes-cd: emulates snes-cd (requires SFX-100.BIN bios rom-image in BIOS folder)
+  (supports .iso 920h bytes/sector or single track .cue/.bin 800h bytes/sector)
+  (supports .iso with xa-adpcm and cd-da, .iso is without toc/track info though)
+* snes-cd: magic floor snes-cd version - first ever snes-cd game released ever
+* snes-cd: logs mechacon commands in debug message window
+* help: added complete sfx-100 snes-cd specs (io, memory, bios, discs, etc.)
+* help: added nintendo power flashcart details (many thanks to skaman and sanni)
+* snapshots: added snapshot (savestate) feature, should work with most mappers
+* nss/help: added workaround for DSP1 issues (thanks DogP) and CIC notes
+* nss/help: added several details and CN4/CN5 pinouts (thanks DogP)
+* help: added note on 3D glasses for Jim Power (pulfrich; dark/clear glasses)
+* help: added more X-Band details (sega-source-based io map, bios functions)
+* st018/speedup: switches ARM to pseudo-halt-state when arm-mainloop has no data
+* st018/cartloader: allocates ST018 memory and loads 160K ST018.BIN (128K+32K)
+* st018/emu: emulates st018 memory/io, imported ARM cpu engine (from no$gba)
+* st018/help: added ARM cpu specs, and more details on ST018 memory/io/cmd's
+* st018/disass: added ARM disassembler, getpc/setpc, 32bit valatcur, etc.
+* sound: fixed max_mixer_buf_siz for PAL games (needs bigger buffer than NTSC)
+* debug: updates data window during run (eventually allows to view RAM changes)
+* debug: added Alt+A animate to all no$xxx emus (repeated trace; as gmb/gba/psx)
+* debug: tracelog (for main cpu and apu cpu) (enabled in debug message window)
+* debug: tty window scrollbar thumb tweaked to support more than 32767 lines
+* debug: tty window optional buffer limit (1/10/100MB, with/without wrapping)
+* msu1: added msu1 emulation, and removed it after getting accused of nitpicking
+* sa1: implemented pixel-buffer-reading (used by Super Mario RPG upon level-up)
+* sa1: bugfixed 2bpp-bitmap-to-bitplane-conversion and 4bpp-pixel-buffer-write
+* help: added nss cartridge pinouts (thanx to martfrizb and hyarion and dogp)
+* help: DSPn/ST010/S-DD1 clock sources (thanx markfrizb/overload/byuu/s.central)
+* help: fixed timings in memory map (exchanged 2.68 and 3.58MHz) (thanks doppel)
+* help: added notes on using ntsc-controllers on pal-consoles (pinouts chapter)
+* gui: setup uses asia-compatible TabControl instead of unreliable PropertySheet
+
