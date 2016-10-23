@@ -1,0 +1,11 @@
+v1.3 Fixed several GTE bugs (Crash Bandicoot 3 + others)
+     More accurate SPU noise and FM (FF7 and ChronoCross sound correct)
+     Set mask bit for lines (MGS frequency display now works)
+     Fixed bug where primitive coordinates were not sign extended (ChronoCross)
+     Swapped analog sticks
+     Fixed pad force feedback crash (now properly enumerates actuators)
+     Disabled vsync in windowed mode to fix speed problems
+     Fixed SPU looping bug: -S option is no longer required (now ignored)
+     Fixed bug where starting in fullscreen would incorrectly resize window
+     Fixed debugger GPU capture
+     Added preliminary version of TheCloudOfSmoke's icon

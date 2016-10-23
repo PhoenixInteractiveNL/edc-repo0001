@@ -1,0 +1,24 @@
+
+Whats New ?
+-----------
+
+Quick Update:
+
+* Fixed Netplay Connection issue.
+
+* Fixed Netplay Dialogs in Fullscreen mode.
+
+* Config of Player 1 (the Host) is now copied to other players in Netplay.
+
+* Re-added another deleted line, the sound effects in Ecco work again.
+
+* Fixed a Timing issue, Street Racer works again.
+
+* Fixed DMA issue with Powermonger.
+
+* Fixed SMS NMI issue.
+
+
+That's all for now,
+
+Snake.

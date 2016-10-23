@@ -1,0 +1,13 @@
+Version 1.3 (05/12/2008)
+* Modified snapshot engine
+* Take screenshots by press F12 without any prompt (in style MESS)
+* Insignificant changes in main menu
+* Moved all texts in resource (for future translations)
+* Has put check on attempt to load CC2 hack's (in log file registers "ProSystem do not want to execute CC2 hacks.")
+* The default palette is updated to Underball's latest palette. It is the best palette available with Hex values taken directly from a 7800.
+* A little optimisation in logging messages
+* Documentation updated
+* "Unfortunately, everytime you exit and relaunch Prosystem it returns back to its default setting of 44100." - Fixed
+* Command line "-SampleRate" - Fixed
+* "If you launch a ROM from the command line the sound is a second or two behind the action, regardless of the sound latency setting." - Fixed
+Updated by Leonis

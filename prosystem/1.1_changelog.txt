@@ -1,0 +1,5 @@
+Version 1.1 (01/07/2007)
+* Fixed Palette file not being used on reset
+* Changed default palette to Nabuko78's palette
+* Added joystick support
+Updated by Brian Berlin

@@ -1,0 +1,32 @@
+Whats New ?
+-----------
+
+ForceCompatibleGFX=1
+CompatibleGFXOpt=0
+EnhancedGFXOpt=1
+DebugFlags=0,0,1,1
+
+Quick update:
+
+* Fixed the problem whereby you couldn't define the space bar as a key.
+
+* Modified Graphics Code. Should now work by default on more systems.
+
+* Moved the INI file settings to the top of the file for easier access.
+
+* Added Render Plugin Support
+
+The Graphics stuff and INI file editing:
+
+There are now 4 different modes you can try - by default it uses a more
+compatible, but possibly slower mode. If everything works fine you can
+try setting EnhancedGFXOpt to 1 to see if that also works - this is usually
+the fastest mode. If neither enhanced mode 0 or 1 work, you can set
+ForceCompatibleGFX to 1, and then try CompatibleGFXOpt at 0 or 1 to see
+which is the fastest. Also, on some older cards the enhanced mode may be
+quite slow - if this is the case you should use Compatible mode.
+
+I hope that this now works on a much wider range of graphics cards - let
+me know :)
+
+Snake.

@@ -1,0 +1,36 @@
+27th October 2002
+
+This is version 0.6 of RedSquirrel.
+
+Significant changes since version 0.6.x:
+
+Computer suspend is handled more gracefully
+Added StrongArm models - no faster, just for completeness
+Significant speedups in HostFS
+Fixed app name on message boxes
+Software video scaling - much faster for low end graphics cards.
+Fixed prefetch abort bugs
+Sound pitch on Vidc1 should be correct
+# key works on older models (mapped to numeric #)
+Window deactivation clears key/mouse down events
+Power cycle menu option, for when Hard Reset just isn't enough
+'Roms' which are not 2^x in size now load correctly
+Added printers command to hostfs to list printers
+Fixed floppy image loading
+Fixed Clock month offset by 1
+added hostopen and hostprint commands
+Fixed preferences not loading from RedSquirrel.cfg
+HostFS selects first mount at startup
+Added RTC centisecond timer
+Totally reorganised code to support plugins
+HostFS is now a completely separate plugin
+RISC OS/Windows cursor syncing, provided by 3rd party plugin
+	
+Issues in this version:
+
+There are some strange artefacts in software scaled modes. Model selection other
+than at startup will almost certainly crash the application.
+There is still no JIT support. This is for commercial versions only at present, sorry.
+Timing is still not right in video code (most noticeable in Lemmings and Twinworld)
+There still a SERIOUS bug in ide emulation. I suggest you move your files to a hostfs
+mount as it is better in every way.

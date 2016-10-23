@@ -1,0 +1,49 @@
+Whats New ?
+-----------
+
+Various fixes for problems found in the last version, plus a couple of
+extras:
+
+* Moved menus around a bit - the Country and CD Drive menus are now part
+  of the Options menu. This fixes problems with the old menus not fitting
+  properly in 320x240 mode, and is also a bit less cluttered.
+
+* Timing was out by a small amount after I removed test code. It should
+  now be back to where it was supposed to be, removing minor glitches from
+  a few games.
+
+* Problems with Vista-specific code reported by a few people should now
+  be fixed. Please report any problems with this as soon as possible.
+
+* Windowed VSync is not required, or desired, under Vista. Fusion now will
+  default to ignoring the VSync flag when running windowed in Vista. There
+  is an INI file option to re-enable it just incase this causes problems
+  for anyone.
+
+* Vista-specific code can also be disabled via another INI file option,
+  incase this causes problems, or you're trying to run Fusion under Wine,
+  Darwine, or Crossover.
+
+* Sound effects in Primal Rage 32X are working again.
+
+* AVI output now should not affect what you see on screen.
+
+* Screenshot options - you can now select to save screenshots at various
+  stages. Final is what you'd get from earlier versions, Corrected is non
+  filtered but aspect corrected, and raw is not aspect corrected.
+
+* Minor modifications to Render Plugin stuff.
+
+* Upped the number of Render Plugins again, to 48. Please don't ask for
+  any more, there isn't, and probably never will be, anything like 48
+  different plugins that are actually worth bothering with ;)
+
+* Modifications to Full Screen Resolution after noticing that default
+  resolutions for large widescreen monitors were sometimes not appearing
+  in the list. Should be fine now.
+
+* A few more behind-the-scenes fixes.
+
+Merry Christmas.
+
+Snake.

@@ -1,0 +1,10 @@
+v1.9 Various CDROM changes to make Ape Escape work
+     Removed incorrect ADPCM autopause functionality (fixes G-Police music)
+     More accurate emulation of GPU LCF status bit (fixes G-Police hang)
+     Implemented sprite flip draw mode bits (Master system emulator)
+     Various root counter emulation improvements (fixes Rhapsody)
+     Slight timing change to fix problem where pad stops working intermittantly
+     Fixed bug where Crash Bandicoot 2 executes illegal opcodes after intro
+     Fixed WildArms XA spell effect bug (didn't stop after effect correctly)
+     Changes to CDROM emulation to make Ape Escape work
+     Reject large polygons (fixes ChronoCross Dragonia bug and SagaFrontier2)

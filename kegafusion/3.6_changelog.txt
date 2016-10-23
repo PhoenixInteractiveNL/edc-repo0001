@@ -1,0 +1,128 @@
+Whats New ?
+-----------
+
+Well it's been a long time. Lots of really bad things have happened, often
+working on Kega felt like the last thing I wanted to be doing.
+
+Still. Work on it I did. Lots of changes and additions over the last two
+years, most of which I've forgotten about again, but here's the stuff I
+can remember:
+
+* Fixed Sound/Timing Issue with Fahrenheit SCD/32X.
+
+* Fixed a typo which corrupted a register in the YM2612 SSG/EG section.
+
+* Removed a few pieces of test code that were not supposed to be left in,
+  and affected timing of various things under certain conditions.
+
+* LOTS of behind-the-scenes fixes and improvements, which I've totally
+  forgotten, but you will notice them and remind me at some point ;-)
+
+* Rewrote controller code, should fix problems with some USB controllers.
+
+* Rewrote Menacer emulation which made it easier to add Konami Justifier
+  emulation. Just the first Justifier is emulated for now. You'll
+  definitely want to calibrate it in games that use it.
+
+* Added SegaCD SaveStates that actually, you know, work.
+
+* Added support for more games that use custom SRAM, and fixed some that
+  were already emulated, but got broken at some point.
+
+* Added support for all unlicensed Genesis games that I know of.
+
+* Added support for the Sega Virtua Processor (SVP). Thanks to the reverse
+  engineering work by the amazing Tasco Deluxe, and the proof of concept
+  emulator by Notaz, I was able to write and debug my ASM core for this in
+  just two days.
+
+* Removed some filtering in YM2612 SuperHQ mode (you won't actually notice)
+  and instead added a "Filter" option to the sound menu. This filter is
+  very close to that in a real Model 1 Genesis/MegaDrive. Most people will
+  want to leave this off (me included) but I know some people wanted it.
+
+* Removed 11025Hz option. It was causing me problems, doesn't work well on
+  most newish hardware, and sucked anyway.
+
+* Added preliminary Sega Pico support. There's a lot more I plan to do with
+  this. For now, just load as a Genesis ROM. Mouse is required for Pico,
+  along with the following controls: START switches between StoryWare and
+  trackpad, B is the pico red button, A and C turn pages, and U/D/L/R are,
+  well, U/D/L/R. 
+
+* Added ability to create 128K SegaCD RAM carts to keep SpinelSun happy ;-)
+
+* Added two controller sharing options for Netplay. Everybody can now share
+  controller one, or all controllers. The latter isn't very useful, but why
+  not.
+
+* Added "Nearest Multiple" option to the Video Menu. The various Aspect
+  modes do what they have always done when this option is enabled, but now
+  when it is disabled, they will allow non-multiple stretching while still
+  keeping the aspect ratio correct.
+
+* Added "Use NTSC Aspect" option to the Video Menu. This used to be done
+  automatically under certain conditions, now you have full control.
+
+* Added Pause Emulation feature.
+
+* Added Frame Advance feature.
+
+* Added No Frame Skipping feature. You should pretty much ignore this and
+  let Kega do what is best. But it does also trigger a special case mode
+  when you have VSync enabled, and you hit Fast Forward. Normally, VSync
+  is ignored during Fast Forward, or else Fast Forward wouldn't actually
+  do very much. With No Frame Skipping enabled, it will still do VSyncs.
+  This might be useful to you if your video mode is running at some odd
+  refresh rate. Note that the sound could well sound awful if you do this.
+
+* Added AVI Logging using custom Kega Game Video 1 lossless codec. This is
+  needed because logging RAW video causes poor performance even on highend
+  machines, and using any of the available codecs either doesn't compress
+  well enough to fix that, or does compress well enough, but can't keep up
+  with 60fps, so you get poor performance either way. The codec is able to
+  use hints from the emulator to aid in compression, allowing pretty good
+  compression while taking very little CPU time. The codec to allow you
+  to play back and convert the files is included in the archive, and can
+  be installed via right clicking on the INI file and telling the OS to
+  continue with the install. Tested on XP and Vista64, should work fine
+  on 9x and Vista32.
+
+  Note that these AVI files are not really meant to be shared as they are,
+  it's just a way for you to log video without horrible laggy gameplay.
+  Convert them to Xvid or something using the excellent VirtualDub program
+  (Google it.) I'll open up this codec sometime later incase it's useful
+  for other purposes/programs.
+
+* Disabled BIOS use where possible during Netplay games, to prevent out
+  of sync errors when people had different combinations of BIOS/NO BIOS/
+  Different BIOS.
+
+* Netplay Games should now automatically change your country code to that
+  of the host.
+
+* Added Fast 32X Timing option. This is mainly for development. If you
+  don't know what this is for, leave it disabled.
+
+* Added CartBoot option, which is enabled via INI file only. Again, if
+  you don't know what this is for, leave it disabled.
+
+* Kega Fusion now runs beautifully under Vista.
+
+Kega Fusion was already more accurate than any other emulator, this time
+around, thanks to various internal tweaks, and removing of left-over test
+code, it SHOULD be more accurate than ever before :-)
+
+I don't think I broke anything, but there have been some very big changes
+and I have changed machines and build environments twice since the last
+version, so it's entirely possible. Please let me know if I have.
+
+I'll just add here that several people assumed Kega was 'dead' because I
+hadn't updated it for a long time. Rest assured, this is not the case.
+Nothing is 'dead' unless I say otherwise. I may well have some problems,
+or even other projects, that take all my time. But just like Arnie, I'll
+be back.
+
+Gotta go, busy busy busy...
+
+Snake.

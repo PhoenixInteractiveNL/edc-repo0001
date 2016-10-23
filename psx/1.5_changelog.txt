@@ -1,0 +1,12 @@
+v1.5 Added screenshot feature
+     Fixed GTE bug that caused graphical glitches in Legend of Legia
+     Fixed minor CDROM emulation bug
+     Adjusted GPU DMA timing to fix MDEC hangs in some games (Legend of Legia)
+     Check mask bit for lines (fixes DragonWarrior 7 menus)
+     Fixed spelling of "Quicksave" (yes, I suppose I am a "d u m b a s s" ;)
+     Use exe name for quicksaves (quicksaves are now per game)
+     Changed key assignments for quicksave (F1-F5=load, F6-F10=save)
+     Reset button for gamma/brightness/contrast in graphics dialog now works
+     ESC now quits emulator (in addition to ALT+F4)
+     Added DMA breakpoints
+     Fixed some miscellaneous debugger bugs

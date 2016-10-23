@@ -1,0 +1,27 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2001-06-03 00:04:18 ....A           58       143973  Plugins\Hostfs\mounts
+2001-04-11 16:49:02 ....A          315               Plugins\Hostfs\extensions.txt
+2001-06-14 01:07:04 ....A         3839               Readme.txt
+2001-06-14 00:55:34 ....A       466944               RedSquirrel.exe
+2001-04-28 17:51:48 ....A        49152               RedUtils.dll
+2001-06-11 19:37:54 ....A        16384               Plugins\Hostfs\hostfsrom.dat
+2001-06-14 00:59:16 ....A          256               Cmos.ram
+2001-05-06 19:09:06 ....A          256               cmos.ram_Riscos2_00
+2001-06-09 16:36:38 ....A          256               cmos.ram_Riscos3_70
+2001-06-11 19:02:06 ....A          256               cmos.ram_Riscos3_70_vram
+2001-06-12 01:25:08 ....A          256               cmos.ram_Riscos4_02
+2000-12-22 19:35:16 ....A         5729               myvxd.vxd
+2000-12-28 22:27:20 ....A         6221               redutils.vxd
+2001-04-13 13:26:44 ....A            0            0  RedSquirrel.cfg
+2009-03-02 01:27:30 D....            0            0  RomSets\Riscos4_02
+2009-03-02 01:27:30 D....            0            0  RomSets\Riscos3_70_patch
+2009-03-02 01:27:30 D....            0            0  RomSets\riscos3_70
+2009-03-02 01:27:30 D....            0            0  RomSets\Riscos3_11
+2009-03-02 01:27:30 D....            0            0  RomSets\Riscos2_00
+2009-03-02 01:27:30 D....            0            0  RomSets\ArmLinux
+2009-03-02 01:27:30 D....            0            0  RomSets
+2009-03-02 01:27:30 D....            0            0  Plugins\Hostfs
+2009-03-02 01:27:30 D....            0            0  Plugins
+------------------- ----- ------------ ------------  ------------------------
+2009-03-02 01:27:30             549922       143973  14 files, 9 folders

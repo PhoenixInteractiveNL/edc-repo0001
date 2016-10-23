@@ -1,0 +1,105 @@
+Whats New ?
+-----------
+
+July 2nd, 2005:
+---------------
+
+* Split this file into README.TXT and HISTORY.TXT and basically redid
+  README.TXT. Some of the info in there was very out of date, and there
+  is some very important info I needed to add for this version.
+
+* Fixed a minor sound issue I forgot to take care of last time.
+
+* Rewrote High Priority stuff, now sets the priority differently.
+
+* Added Keyboard Shortcut for CVBS TV Mode that I forgot to add before.
+
+* Fixed GameGear Zoom with Render Plugins.
+
+* Added option (set via ini file only) to disable the TV static effect.
+  There isn't really any need to do this because it takes close to zero
+  CPU time anyway. Still - StaticDisabled=1 turns it off.
+
+* Fusion now remembers it's window coordinates between sessions.
+
+* Added selectable (via ini file only) refresh rates for PAL and NTSC.
+  See the section in README.TXT on EXPERT OPTIONS for more info.
+
+* Added the ability to specify what video modes etc. are used, and to have
+  the mode switched automatically. See the section in README.TXT on
+  EXPERT OPTIONS for more info.
+
+* Improved Command Line support. You can still specify which console to
+  start up, as before, but now it should not be neccessary, as Fusion
+  will try to detect this automatically. You can now specify options and
+  filename in any order. You can now start Fusion without a file if you
+  really want to.
+
+* Changed all references to the SegaCD "Internal RAM" to "Built-In RAM" to
+  match what the BIOS calls it. This will probably be less confusing to
+  people trying to understand the following feature... I did not alter
+  the filename used for "Per BIOS" saves, for compatibility reasons.
+
+* Added new functionality to the Load RAM Cart option - now it is valid to
+  load a Gens-style file here. You will be given the option to load the
+  Built-In RAM or the Cartridge RAM part of this file. The part you select
+  will be converted into Cartridge RAM and loaded, the original file will
+  not be altered. Now it is much easier for you to copy data from either or
+  both parts of a Gens save into your normal Built-In RAM file.
+
+* Added File History. CTRL-ALT-L will load the most recently used file.
+  (be sure to disable key shortcuts if you're likely to use these three
+  keys while playing ;)) There is another (ini file only) option related
+  to the File History - ShortenHistoryNames=1 will show just the file name
+  rather than the full path name in the History.
+
+* Fusion now supports the 'Illegal' 32X video mode correctly.
+
+* Fixed crash bug that could occur if you tried to load some invalid file
+  as a SegaCD image.
+
+* Fixed occasional crash bug with The Incredible Hulk.
+
+* Fixed a couple of problems I found with SMS/GG emulation - Terminator 2
+  The Arcade Game (GameGear) no longer has palette problems as a result,
+  this probably fixed other games too.
+
+* Fixed Counter problem with Samurai Showdown.
+
+* Fixed strange problem that could occur when loading certain games after
+  Sonic 3.
+
+* Fixed problem I seem to have introduced last year sometime with Sonic CD.
+
+* Fixed excessive music slowdown issue with the Thunderforce games. Fusion
+  now behaves exactly like the real hardware - meaning it still slows down
+  sometimes, but only very slightly.
+
+* Fixed problem that occurs when you die on the second level of SoulStar
+  (SegaCD). The music and the game will now continue as normal.
+
+I also made a lot of other changes to try to resolve certain other issues,
+but the details of all that is unimportant.
+
+July 13th, 2005:
+----------------
+
+Spent the last 11 days writing and rewriting and rewriting the following
+until I was happy enough with it to release it:
+
+* New Event System that allows me to trigger certain events on a cycle
+  accurate basis, WITHOUT making any noticable performance hit. This code
+  is still very experimental, and so far is enabled for Genesis/MegaDrive
+  games only (its disabled when the 32X is in use.) I still need to refine
+  this and make sure it doesn't break anything before I consider it done.
+  The upshot of all this is basically that Sesame Street Counting Cafe now
+  runs exactly as on a real console, for the first time. A lot of work for
+  one (not very good) game? Hell yes ;) I don't think it will affect any
+  other game but I guess we'll see. 
+
+* Altered some other video related timings in order to make the above stuff
+  work. This affects all consoles, hopefully in a positive way ;)
+
+That's all for now,
+
+Snake.

@@ -1,0 +1,25 @@
+Whats New ?
+-----------
+
+Again, another quick update:
+
+* Fixed another YM2612 bug that I added in 3.11 - I accidentally deleted
+  one line of code that I thought shouldn't be there while fixing the other
+  bug from version 3.1. Doh.
+
+* Rewrote another part of the YM2612 core. Should now be pretty much
+  perfect.
+
+* 32X PWM should now be the correct volume. I haven't noticed any nasty
+  clipping yet, but if you do, just turn off overdrive.
+
+* Slight change to SegaCD PCM. Don't know if this affects anything.
+
+* Various internal changes that should hopefully make MP3 decoding work
+  properly when VSync is on, or some slow render plugin is being used.
+
+Now, this time, I really DO mean "Next update will come when I get my
+life back." Hopefully this is only a month or so away. We shall see.
+
+
+Snake.

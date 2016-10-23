@@ -1,0 +1,18 @@
+v1.8 Various GTE fixes (fixes Wipeout, Tony Hawk Pro Skater 2, amongst others)
+     Fixed bug where self-modifying code was incorrectly detected
+     Save/restore debugger window layout
+     Debugger font can now be configured
+     Fixed crash when memory card file did not exist but was referred to by ini
+     Implemented CCD parsing
+     Improved CUE file handling (pre/post gaps and indexes now supported)
+     Fixed CD play command and report mode (fixes BIOS cd player)
+     Ignore non mode1 sub-q sectors (required when playing audio CDs)
+     Corrected sub-q faking when subcode reading is not enabled
+     Fixed bug where CDDA playing would stop when fast forwarding
+     Fixed crash when ejecting CD while game is reading it
+     Fixed crash when frame buffer is bigger than display mode (VibRibbon PAL)
+     All combo boxes in config menu are now read-only
+     Improved emulation of SPU CD and reverb buffer (VibRibbon)
+     Support SPU IRQs in CD buffer (VibRibbon)
+     Fixed crash after recovering from Ctrl-Alt-Del
+     Fixed bug where gamma settings did not update until pressing adjust key

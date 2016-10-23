@@ -1,0 +1,6 @@
+Version 1.2 (04/28/2007)
+* Implemented INTFLG (Beef Drop now works)
+* Added Command Line parameters
+* Added mapping of Exit and Menu Enable keys
+* Added storing of Menu Enable parameter
+Updated by Brian Berlin

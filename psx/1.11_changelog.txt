@@ -1,0 +1,8 @@
+v1.11 Ported to Linux
+      Log window keyboard controls
+      Added Arabic, Croation, Norwegian, Persian and Russian translations
+      Fixed bug in CD not usable error message dialog
+      DEP no longer needs to be disabled in Windows for pSX to work
+      Added aspect ratio correction
+      Centred framebuffer when it doesn't cover the entire screen
+      Fixed controller config dialog bug (pressing button fills all controls)
