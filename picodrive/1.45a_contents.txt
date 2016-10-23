@@ -1,0 +1,16 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2008-05-22 17:45:16 ....A       613888      1131162  PicoDrive.exe
+2008-05-21 06:32:28 ....A        88812               pico\pad.png
+2008-05-21 06:06:04 ....A       109427               pico\sonic the hedgehog's_0.png
+2008-05-21 06:11:02 ....A       153531               pico\sonic the hedgehog's_1.png
+2008-05-21 06:15:44 ....A       139388               pico\sonic the hedgehog's_2.png
+2008-05-21 06:17:02 ....A       130381               pico\sonic the hedgehog's_3.png
+2008-05-21 06:18:16 ....A       118249               pico\sonic the hedgehog's_4.png
+2008-05-21 06:19:34 ....A       134442               pico\sonic the hedgehog's_5.png
+2008-05-21 09:22:34 ....A       101332               pico\Tails and the Music Maker_0.png
+2008-05-22 16:52:02 ....A          114               pico\alias.txt
+2008-05-22 17:48:28 ....A         1780               readme.txt
+2008-05-22 17:48:28 D....            0            0  pico
+------------------- ----- ------------ ------------  ------------------------
+2008-05-22 17:48:28            1591344      1131162  11 files, 1 folders

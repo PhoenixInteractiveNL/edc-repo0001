@@ -1,0 +1,37 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+1996-01-12 19:26:46 ....A        16384       664627  5200 Roms\Astrochase.5200
+2009-01-31 16:16:18 ....A        92176               Disks\Adventure International Demo\Adventure International Demo.atr
+1996-03-29 09:07:06 ....A        92176               Disks\Vblitz 130XE demo\vblitz.atr
+2012-08-24 09:13:42 ....A         1069               rainbow.config
+1997-01-20 08:55:02 ....A        86737               Sound\SOUND.DAT
+2012-08-08 01:56:06 ....A       133120               Disks\Atari Dos 2.5 (enhanced).dsk
+2012-07-16 07:32:16 ....A        92160               Disks\Atari DOS2.5.dsk
+2012-07-09 03:21:44 .R..A        92160               Disks\Demo.dsk
+1995-07-25 04:59:26 ....A        92160               Disks\FREE demo\FREE_demo_1.dsk
+1995-07-25 04:59:42 ....A        92160               Disks\FREE demo\FREE_demo_2.dsk
+2012-08-23 03:26:34 ....A        92160               Disks\Silly Things demo\Silly Things.dsk
+2012-08-25 07:58:28 ....A       360448               Rainbow 2.2.exe
+2012-08-25 06:51:48 ....A       140732               Docs\Rainbow 2.2 User Guide.pdf
+2012-07-17 07:12:54 ....A           75               Disks\FREE demo\readme.txt
+2012-08-25 06:46:52 ....A           89               Disks\Silly Things demo\readme.txt
+1992-10-26 05:29:44 ....A          719               Disks\Vblitz 130XE demo\vblitz.txt
+2012-08-25 06:57:28 ....A         1414               Version history.txt
+2007-05-16 09:59:26 ....A        10240               OS Roms\OP_400
+1996-10-07 12:51:02 ....A         2048               OS Roms\OP_5200
+1996-10-07 12:52:02 ....A        16384               OS Roms\OP_XLXE
+1995-12-18 10:07:04 ....A        16384               Roms\Astrochase
+1996-10-07 12:51:02 ....A         8192               Roms\Atari Basic
+1996-10-07 12:51:02 D....            0            0  5200 Roms
+1996-10-07 12:51:02 D....            0            0  Disks\Adventure International Demo
+1996-10-07 12:51:02 D....            0            0  Disks\Vblitz 130XE demo
+1996-10-07 12:51:02 D....            0            0  Docs
+1996-10-07 12:51:02 D....            0            0  Roms
+1996-10-07 12:51:02 D....            0            0  Disks\Silly Things demo
+1996-10-07 12:51:02 D....            0            0  OS Roms
+1996-10-07 12:51:02 D....            0            0  Sound
+1996-10-07 12:51:02 D....            0            0  Disks
+1996-10-07 12:51:02 D....            0            0  Trace
+1996-10-07 12:51:02 D....            0            0  Disks\FREE demo
+------------------- ----- ------------ ------------  ------------------------
+2012-08-25 07:58:28            1439187       664627  22 files, 11 folders
