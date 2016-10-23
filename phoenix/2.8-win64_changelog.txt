@@ -1,0 +1,36 @@
+What's New in this version?
+---------------------------
+
+Version 2.8: 
+Highly refined emulation SMS (99% compatibility) 
+Optimized original software renderer 3DO 
+Improved MARIA mode CEL-Engine (D, Samurai Shawdow, ...?) 
+Fixed an order of operations over the second source in the pixel processor 3DO (Crash'n'Burn) 
+Fixed loading workers CEL registers (Wiked 18 other golf) 
+Option drawing CCB-list at the end of the allotted time (helps in Phoenix 3) 
+A more accurate picture peg to Scanline in 3DO 
+Fixed interception SPORT in the hardware renderer 3DO (BC Racers) 
+Implemented a more efficient multi-threading for CEL 
+Improved accounting CEL-Engine cycles (for Jurasic Park, select "100% + is the frame") 
+AngelScript updated to the latest version, the standard scaler textures improved, but requires optimization 
+Generate a list of compatibility on the basis of the annotation 
+Reduced latency management 
+In the context of the library menu allows you to massively delete duplicates 
+Call for abstracts editor Ctrl + A (in the screenshot will be automatically inserted into the game) 
+Locked logging (left only in the debug build, as affect performance on slower machines) 
+Added the option of accelerated emulation (for the test run, so you can evaluate the performance of your system in terms of emulation) 
+Fixed a memory access error in the memory mapping structures (could cause a random crash when 3DO emulation and debug all platforms) 
+Mass undetected removal of dumps from the list 
+ZEXALL test runs without errors (possibly corrected all errors Z80 emulation) 
+Fixed an error in weight due TMS9918A VDPTEST (left some timings for HClock, but judging by the testing, no matter what they do not affect) 
+3D games through SMS displayed frame 
+Made mapper for Pack 4 All Actions 
+Support rooms and SG-1000 Sega Game Gear within SMS 
+Implemented Korean mappers SMS 
+Added support for SMS-dump up to 4 megabytes 
+Emulating the Start button in the SMS (yes, I forgot the whole button! =) 
+The SMS added support Codemasters mapper and mapper without page register 
+Added option to bypass restrictions on TMS9918A rendering sprites 
+Support modes 224 and 240 lines, as well as scan for PAL SMS 
+Formed games base to bind to the mapper to SMS 
+Mass of small changes 

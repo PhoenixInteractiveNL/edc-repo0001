@@ -1,0 +1,9 @@
+Version 0.5 (27/06/06)
+- Optimised flag emulation and optimised outer loop - 30% speed increase
+- Couple of new instructions - latest Artworks Viewer now runs
+- Bugfix in IOMD timers - !ArcQuake and !SICK now work
+- Bugfix in MMU - large memory configurations work with all OSes now
+- Bugfix in dirty buffering - no more display artifacts
+- Windows interface slightly better
+- Added workaround for blitting issues on some graphics cards
+- Preliminary sound emulation (Windows 9x only)

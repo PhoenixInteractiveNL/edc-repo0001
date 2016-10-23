@@ -1,0 +1,84 @@
+ePSXe v1.5.1, released on xx.03.2002
+
+- Included partial support for libcrypt games. Libcrypt is a protection
+  scheme used very often in PAL games. It uses data in subchannel Q.
+  In order to play your original cd games in ePSXe you need a cdrom reader
+  which works with the read-subchannel routines in ePSXe. NOT every cdrom
+  reader with support for read subchannels will work in epsxe. If your cdrom
+  reader is able to read subchannels but it is not supported by ePSXe,
+  you can use clonecd to read the subchannel to a .SUB file, and copy it
+  in the epsxe\patches directory with the same name than cdrom PS-EXE
+  and with the extension .SUB (SLESXXX.XX.SUB/SCESXXX.XX.SUB/SLUSXXX.XX.SUB..)
+  Since reading from subchannel is slow, ePSXe includes an option in the
+  cdrom config window that you can enable to cache the subchannel to disk
+  the first time you run a game. Of course you can always use some external
+  cdrom plugins, currently only Pete's cdrom plugin supports it.
+  (The support is partial because NO every libcrypt game is working :(,
+  the no working games includes (at least) Spyro 2 and 3 PAL, and
+  formula one 99) 
+ 
+  In resumen:
+
+  1) If you want subchannel support only from files, select in the cdrom config 
+     window "Enable subchannel support".
+
+  2) If you want subchannel support from cdrom, select in the cdrom config window
+     "Enable subchannel support" and 
+     "Enable subchannel read from cdrom."
+     If your cdrom is able to read subchannels in epsxe, a message will be
+     shown in the console between the rest of init messages.
+
+  3) If you want to caching to disk the subchannel the first time what you
+     run a game, select in the cdrom config window:
+     "Enable subchannel support", 
+     "Enable subchannel read from cdrom." and
+     "Enable subchannel caching to disk."
+
+  4) If you have problems reading the cdroms after of select
+     "Enable subchannel read from cdrom." probably your cdrom is not compatible
+     with ePSXe subchannel read routines, disable this option, and make your
+     own .sub files with CloneCD.
+
+- Added support for Teac cdrom readers to internal cdrom plugins.
+  (Thanks to Pete)
+
+- Added support for pov hat joysticks.
+  (Thanks to Roberto Paredes by multiples tests)
+
+- Some CD stuff got fixed, like the problem with changing discs, the 
+  internal win2k CD plugin CDDA problems and a bug with the ppf support of 
+  the internal plugins.
+
+- Fixes to the GTE, which solve problems with 102 Dalmatinas, Rugrats in
+  paris, Destruction Derby 2, Nuclear Strike and possibly others.
+
+- Changed some internal timing stuff, which should produce better (faster)
+  background sound in several games (FF7, Threads of Fate, Valkyrie Profile)
+  (You can use the old timing with -oldtiming)
+
+- Removed the auto detection of game and required BIOS, as this prevented
+  Legend of the dragoon US and Wild Arms 2 US from working.
+
+- Removed the two options -cdinc and -nocdinc, as fixes made them 
+  unncessary. In this version -noxaread has not some effect.
+
+- Added support for MDEC transparency, for the Oddworld series, dw4/dw7 
+  battle effects. 
+
+- Added support for Capcom MDECs, but you need to use the command line
+  -adjustiming, what will give serious problems with gamepad keys and
+  memory cards (use F4 to fix this problems), and hard slowdowns.
+  (Use this option in your own risk, we recommend to use it only when
+  it will be really necessary).
+
+- Included a new commandline, it is called -nocdoverwrite. It could fix
+  problems with some games like Parappa the Rapper's demo. Sometimes
+  it does the same than -cdtiming.
+
+- LINUX version only: added partial support for external gamepad plugins.
+  Actually only works the lamer0's plugin, what is combined with the
+  internal pad plugin.
+
+- Fixes to CPU and CD-Rom make games like Star Wars - The phantom Menace,
+  Resident Evil 1 PAL, Legend of Legaia, Star Ocean 2, Gran Turismo JAP and
+  Philisoma playable.

@@ -1,0 +1,137 @@
+What's New? 2.2.2 (changelog)
+Released -- 23 September 2013
+
+
+
+
+
+
+
+The 2.2.2 release fixes a number of emulation bugs and adds many new features, most of which are related to debugging and reverse engineering.
+
+
+
+
+Common 
+
+Properly savestate NSF files 
+"Auto-resume old play session" now also works with NSFs 
+
+
+
+Emulation
+
+Fixed mappers 178, 28, 53, 154, 43, 253, 19, 2 
+Mapper 012 - added hardware dip for language select 
+UNIF PEC-586 - fixed render, added 512K cartridges suppport 
+Fixed UNIF 8157, UNIF T-262, UNIF DANCE2000 
+Palette RAM reading fix for Old PPU 
+Bring some improvements to New PPU from BizHawk, fix vtoggle5/6 back to vtoggle 
+Fixed mmc5 savestates 
+
+
+
+Lua
+
+Fix wrong frequency calculation in sound.get() function 
+
+
+
+New Lua functions:
+
+tobitstring() 
+memory.readword() 
+memory.readwordsigned() 
+debugger.hitbreakpoint() 
+debugger.getcyclescount() 
+debugger.getinstructionscount() 
+debugger.resetcyclescount() 
+debugger.resetinstructionscount(), 
+
+
+
+Win32
+
+Added "Square pixels" option to Video Config 
+"TV Aspect" ratio can be customized, by default it's 4:3 
+Changed "Disable hardware acceleration" checkbox to a drop-down list with 3 options 
+Movie recording: remember last Author name when creating a new movie 
+Movie recording: added ability to record "Insert coin" command (for VS games) 
+When no script is currently running, Shift+L loads the most recent Lua script 
+Dynamic link to lua51.dll instead of static linking, because some external libraries might crash without lua51.dll 
+Updated 7z.dll to v9.22 
+A couple of fixes which deal with "multiple ROMs in a single archive" case 
+Auto-disable "Game Genie ROM" feature when no "gg.rom" file is found 
+Fixed "Single Instance Mode" 
+
+
+
+TAS Editor
+
+Comply with Lua movie.rerecordcounting() setting 
+Fixed workflow with "Auto-adjust Input according to Lag" disabled 
+
+
+
+Debugger
+
+Smart scrolling up/down by whole instructions - ported from an obscure version of FCEUXD 1.1 
+Scrolling maintains relative position of the ">" pointer inside the Disassembly window 
+Highlight PC pointer line when a breakpoint is hit 
+debuggerFontSize can be specified in fceux.cfg 
+Fixed storing and loading .deb files when working with archived ROMs 
+Fixed Cycles counter reset when loading an earlier savestate 
+Added Symbolic Debug naming by right-clicking any address or name 
+Symbolic names behave the same way as usual addresses 
+Newly created Bookmarks inherit existing symbolic name by default 
+Added CDL data column to the left from Disassembly, to distinguish executed branches of code from not executed 
+Added 'T' condition for breakpoints (it checks the bank of the accessed data, see docs) 
+
+
+
+Trace Logger
+
+The dialog window can be resized 
+Do not clear window log when stopping the logging 
+Added "Log Cycles count" and "Log Instructions count" options 
+Added Symbolic Debug naming by right-clicking any address or name 
+Clicking any address select the address 
+Double-clicking any address brings Debugger at the address 
+Added mouse wheel support 
+Only output "from $XXXX" when the subroutine was called by JSR 
+
+
+
+PPU Viewer
+
+Added "Mask unused graphics" feature (needs Code/Data Logger running) 
+Fixed window layout when using big fonts 
+
+
+
+Hex Editor
+
+Added "Highlighting" submenu and "Highlight Activity" feature 
+Added Symbolic Debug naming by right-clicking any address 
+Specify Data bank condition when adding a Breakpoint by context menu 
+Fixed bugs when saving files while working with ROMs in archives 
+hexeditorFontSize can be specified in fceux.cfg 
+
+
+
+RAM Search/RAM Watch
+
+Added "Hex Editor" button to RAM Search (right-clicking an address works as well) 
+Fixed RAM Watch bug when contents of old .wch file were mixed with the newly saved data 
+
+
+
+SDL
+
+"--periodicsaves" command line option 
+"--4buttonexit" command line option 
+"--loadstate X" and "--savestate X" command line options 
+Added Unity desktop support 
+Added otion to use system-provided LUA library instead of statically linked LUA 
+Fix issue where battery backup save was not being saved when using "Quit" hotkey 
+Fixed bug where FCEUX would take exclusive grab of input in windowed mode when resuming from pause 

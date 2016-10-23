@@ -1,0 +1,51 @@
+ePSXe v2.0.2, released on 04.14.2016
+
+- In the first place, this version includes some important changes to improve
+  the accuracy, sadly it could breaks games, if you find that a broken game
+  on this version please report to epsxepc@gmail.com
+
+- Multi-language support. Added French and Russian languages (Thanks to
+  Benjamin Sisko and paul_met). Other languages could be added in a future
+  version.
+
+- Fixed a delay slot bug in the interpreter cpu mode. It should run again
+  some games broken on interpreter cpu mode on the v2.0. Fixed loading
+  savestates from the UI in interpreter mode.
+
+- Improved CDROM timing accuracy,bugs and change disc problems. Improved the
+  timing when seeking and reading cdrom sectors, fixed Tales of Destiny 2
+  changedisc and fixed Twins Story and Harukanaru Toki no Naka de - Banjou Yuugi.
+
+- Improved the GPU timing (when using the ePSXe GPUCORE). It fixes or improve
+  some games as: Namco Vol 4, Soul Blade, Tunguska, Derby Stallion,
+  Derby Stallion 99, NBA Live 99, Sangokushi Eiketsuden, Dukes of Hazzard,
+  Alice in Cyberland, Vampire Hunter D, Macross Digital Mission VF-X,
+  Monaco Grand Prix Racing, Power Dolls 2, Spots Goes To Hollywood ...
+
+- Improved the GPUCORE. Fixed a bug while transfering data, improved screen
+  centering (Star Ocean 2, Jumping Flash 2, Hogs of War...), fixed some
+  gargabe on the borders when changing the resolution, fixed a scrolling
+  problem, fixed a screen ratio problem when changing from windowing to
+  fullscreen on the fly, added vsync support, and added support to select the
+  blitter as OpenGL2 or OpenGL1 (it should be compatible with some old
+  videocards, but shader support is not supported in OpenGL1 mode).
+
+- Improved the openGL2 plugin. Fixes Xmen Mutant Academy 1 & 2, Nascar
+  Thunder 2002/2003/2004, Pro Pinball - Big Race Usa, Pro Pinball - TimeShock,
+  Pro Pinball Fantastic Journey and Worms Pinball (use framebuffer effects=0
+  in the pinball games).
+
+- Changes in the SPUCORE. Implemented the SPU mute flag, it fixes some sound
+  glitches during the pause in the game: Car & Driver Presents - Grand Tour
+  Racing 98.
+
+- Changes in the INPUTCORE. Now it has native supports for XInput devices,
+  select Xinput when configurating the gamepad in the config dialog if you
+  want use the XInput API. (mapping buttons is not required).
+
+- Fixed the external input plugins support when stopping and pressing continue.
+
+- Fixed the changedisc option when using external GPU plugins.
+
+- Added support to overclock the PSX CPU. You can select x1, x1.5, x2.0, x3.0
+  and x4.0. Be careful it could break compatibility.

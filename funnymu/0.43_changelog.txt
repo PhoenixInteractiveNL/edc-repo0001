@@ -1,0 +1,7 @@
+0.43
+20 Jan 2002.
+
+Added two more games.
+Also added support for Mac OS X.
+SDL doesn't fully support all keys in OS X, so the single quote
+ key is the same as the right shift key (useful for Astro pinball).

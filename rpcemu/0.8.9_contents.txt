@@ -1,0 +1,27 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2012-01-01 19:41:06 ....A        17987        15514  COPYING
+2012-01-01 19:41:06 ....A        10080               hostfs\Network\!System\310\Modules\Network\EtherRPCEm,ffa
+2012-01-01 19:41:06 ....A          171               hostfs\Network\AutoSense\EtherRPCEm,ffb
+2012-01-01 19:41:06 ....A          916               poduleroms\hostfs,ffa
+2012-01-01 19:41:06 ....A          996               poduleroms\hostfsfiler,ffa
+2012-01-01 19:41:06 ....A          596               hostfs\Network\ReadMe,fff
+2012-01-01 19:41:06 ....A          748               poduleroms\SyncClock,ffa
+2012-01-01 19:41:06 ....A         9507               readme.txt
+2012-01-01 19:41:06 ....A          227               rpc.cfg
+2012-01-01 19:41:06 ....A          256               cmos.ram
+2012-01-01 19:42:14 ....A       452067       501477  RPCEmu-Interpreter.exe
+2012-01-01 19:43:56 ....A       502627               RPCEmu-Recompiler.exe
+2011-05-30 14:08:54 ....A       990314               allegro-4.4.2-mt.dll
+2016-10-22 17:26:49 D....            0            0  roms
+2016-10-22 17:26:49 D....            0            0  podules
+2016-10-22 17:26:49 D....            0            0  poduleroms
+2016-10-22 17:26:49 D....            0            0  hostfs\Network\AutoSense
+2016-10-22 17:26:49 D....            0            0  hostfs\Network\!System\310\Modules\Network
+2016-10-22 17:26:49 D....            0            0  hostfs\Network\!System\310\Modules
+2016-10-22 17:26:49 D....            0            0  hostfs\Network\!System\310
+2016-10-22 17:26:49 D....            0            0  hostfs\Network\!System
+2016-10-22 17:26:49 D....            0            0  hostfs\Network
+2016-10-22 17:26:49 D....            0            0  hostfs
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 17:26:49            1986492       516991  13 files, 10 folders

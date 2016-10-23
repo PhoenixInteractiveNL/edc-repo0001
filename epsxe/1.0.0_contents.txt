@@ -1,0 +1,27 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2000-10-14 19:25:12 ....A        22608       121234  docs\epsxe_de.txt
+2000-10-14 19:07:40 ....A        20235               docs\epsxe_en.txt
+2000-10-14 19:08:38 ....A        22219               docs\epsxe_sp.txt
+2000-10-14 19:57:00 ....A       104960               ePSXe.exe
+1998-10-05 20:54:30 ....A         5184               subTsgMSCD16.dll
+1998-10-05 20:46:02 ....A         5632               subTsgMSCD32.dll
+2000-10-10 16:59:32 ....A           28               cheats\alundra_1_pal.cht
+2000-08-29 19:21:36 ....A           52               cheats\chrono_cross_ntsc.cht
+2000-09-01 01:43:26 ....A           40               cheats\dinocrisis_pal.cht
+2000-08-06 19:05:22 ....A           35               cheats\need_for_speed_3_pal.cht
+2000-08-25 13:00:44 ....A           30               cheats\silent_hill_pal.cht
+2000-08-25 13:02:56 ....A           30               cheats\theme_hospital_pal.cht
+2000-08-25 13:02:04 ....A           43               cheats\theme_park_world_pal.cht
+2000-08-25 13:03:50 ....A           26               cheats\timeshock_pal.cht
+2000-08-25 13:04:44 ....A           29               cheats\tomb_raider_2_pal.cht
+2000-08-24 03:39:40 ....A           16               memcards\delete.me
+2000-10-05 17:23:58 ....A           25               bios\erase.me
+2000-08-10 19:32:42 ....A           34               plugins\remove.me
+2009-06-22 11:09:54 D....            0            0  plugins
+2009-06-22 11:09:54 D....            0            0  memcards
+2009-06-22 11:09:54 D....            0            0  docs
+2009-06-22 11:09:54 D....            0            0  cheats
+2009-06-22 11:09:54 D....            0            0  bios
+------------------- ----- ------------ ------------  ------------------------
+2009-06-22 11:09:54             181226       121234  18 files, 5 folders

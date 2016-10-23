@@ -1,0 +1,51 @@
+ePSXe v1.4.0, released on  xx.06.2001
+
+- Included a new wizard guided config, what should do easier
+  configure the emulator.
+
+- Fixed a bug in the internal sound plugin which caused
+  crash on systems using directx8+geforce and some soundcards.
+
+- Fixed a division by zero bug in the gte routines that started
+  in version 1.2.0. It solves the problems with Xenogears,
+  Metal Gear Solid and Final Fantasy 7.
+
+- Added the extension .img (clonecd) to the load iso function.
+
+- Fixed a bug detecting the name of some games, it is used
+  to detect the format (pal/ntsc). (Metal Gear Solid Pal)
+
+- Fixed a bug in the function CDROpen. Fix the psemupro iso plugin.
+
+- Added support to the cdplayer included in the playstation
+  bios, you can listen to your cdda with epsxe now :)
+
+- Fixed some problems with the bootstrap of the playstation.
+  -nogui should not be needed anymore. (Destruction Derby Raw pal,
+  Breath of fire 3)
+
+- Fixed some gte problems. (Vandal hearts 2 pal, Wipeout series)
+
+- Fixed a mdec decoder bug. (Xfiles)
+
+- Added preliminary support for netplay plugins. (Cyberpad)
+
+- Now it is possible to change the memcards file in any moment of the
+  game. (Of course you shouldn't change the memcard while the
+  game is writing it, like in a psx ;-)
+
+- Fixed some problems with the change disc function. (Metal Gear Solid)
+
+- Included support for a new feature included in the video plugins,
+  it now shows a mini-picture from the savestates when you use the
+  F2 key to increase the selected save slot. (It works only with
+  savestates done with the version 1.4.0 or superior)
+
+- Fixed some problems with the XA sound effects and background
+  XA sound which fix Silent Bomber, Megaman X5, Castlevania SOTN,
+  Bloody Roar 1, Dinocrisis 2, and more.
+
+- Fixes to the CD-Rom decoder and the core, which make some more games
+  playable like for example Incredible Crisis, Simpsons Wresting,
+  Threads of fate, Tomb Raider I and II (pal),
+  Fighting Force 2 and so on ;)

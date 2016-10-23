@@ -1,0 +1,129 @@
+What's New? 2.2.1 (changelog)
+Released -- 10 March 2013
+
+
+
+
+
+
+
+The 2.2.1 release fixes many bugs and adds a couple of new features. The most notable feature is "Auto-resume old play session", which is similar to "Suspending Play". Enable this option in the Config menu and now you can close ROMs or emulator anytime, next time the game state will be resumed from the closing point.
+
+
+
+
+Common 
+
+Speed up HUD text drawing 
+
+
+
+Emulation
+
+Finished mappers to boards conversion 
+Fixed mappers 99, 228, 18, 198, 24, 26, 69, 19 
+Mapper 115 - redesign according to the hardware tests 
+Fixed "you ling xing dong" by assigning to mapper 192 
+Fixed crash when four-screen bit is set after CRC check 
+UNIF: verbose/safe chunk loading, fixes some crashes 
+
+
+
+Lua
+
+removed "shadow pixels" from gui.text() 
+
+
+
+New Lua functions:
+
+gui.parsecolor() 
+
+
+
+New scripts:
+
+JumpingFCEUXWindow.lua 
+
+
+
+Win32
+
+Fixed "Enter New Input" dialog (Hotkeys mapping) 
+Fixed zapper and mouse positioning in fullscreen 
+Remodel "Video config" dialog 
+Added "TV Aspect (4:3)" 
+Holding Shift when resizing FCEUX window inverts "Force integral factors" meaning 
+Fixed window regions redrawing 
+Added the option to define custom emulation speed (NES->Emulation Speed->Set Custom Speed) 
+Now Frame Advance timings (initial delay and speed) can be tweaked by user 
+Added Config->Enable->Auto-resume old play session 
+Moved "Config->Game Genie" to "Config->Enable->Game Genie ROM" 
+Play movie dialog shows New PPU in red if the required setting does not match 
+Fixed NameTable Viewer crash when the corresponding nametable RAM is not available on the cart 
+The number of active cheats is displayed on screen when a ROM is loaded 
+PPU/PAL/Input type changing is disabled when a movie is playing 
+
+
+
+TAS Editor
+
+Fixed keyboard accelerators when editing Notes 
+Fixed Greenzone saving while emulator is unpaused 
+Fixed drawing bugs when the Playback cursor moves more than once within one update 
+Changed "Compact save" dialog, added 4 options of Greenzone saving 
+Added "Config->Project file saving options" 
+Changed "Follow cursor" logic, now the Piano Roll doesn't follow Playback cursor while seeking 
+No "Autopause at the end of the Movie" when Recording 
+Fixed bug when adding new item to History Log 
+Fixed Bookmarks List height on Windows 7 
+
+
+
+Trace Logger
+
+Fixed RAM-located code logging when CDLogger options are enabled 
+Fixed automatic window update when a breakpoint is hit 
+Fixed RTS padding 
+
+
+
+Code/Data Logger
+
+Added current CDL filename field and default CDL naming 
+Added "Auto-save .CDL when closing ROMs" option 
+Added "Auto-load .CDL when opening the window" option 
+Added "Auto-resume logging when loading ROMs" option 
+Improved CHR logging, now it also logs the data when using Old PPU 
+
+
+
+Hex Editor
+
+Show symbolic names in the window caption when "Symbolic debug" is enabled 
+Fixed crash when trying to save ROM to an invalid path 
+Fixed ROM coloring when using CDLogger data 
+
+
+
+RAM Search
+
+Added "Search ROM" option 
+
+
+
+Cheats
+
+Added "Add from CHT file..." button 
+Update the list of cheats when ROM is changed 
+
+
+
+SDL
+
+Use desktop resolution for fullscreen by setting SDL.XResolution and SDL.YResolution to 0 (new default is 0) 
+Fixed bug where "quit" hotkey would do nothing in '--nogui' mode 
+Fixed fullscreen zapper issues 
+Display a message dialog on errors in addition to printing to stderr 
+Added "Options->Auto-Resume Play" 
+Fixed build issues on various versions of OS X 

@@ -1,0 +1,17 @@
+Version 0.8.11 - 23/10/2013
+
+Changes in this build
+
+All Platforms
+Support for emulating Phoebe, the Risc PC 2. Produced with the assistance of The Centre for Computing History.
+
+Instructions on how to setup Phoebe emulation and the required files are on the 4corn website.
+
+http://www.4corn.co.uk/articles/phoebe/
+Note, this is a prototype machine, so is more for historical interest than running production code.
+
+Introduced the concept of configuring the Hardware Model rather than using CPU type to determine hardware. See the Settings->Settings window for details. You may need to reselect a model based on your previous CPU choice.
+Fix very rare bug in which the MIPS count was sometimes wildly incorrect.
+Windows
+Fix 'Follows Host Mouse' bug, where the host and emulated mouse pointers were not lined up until the RPCEmu window had been moved.
+Fix network GUI bug where the selected networking type was not correctly set.

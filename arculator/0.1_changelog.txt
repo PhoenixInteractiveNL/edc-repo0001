@@ -1,0 +1,8 @@
+version 0.1 :
+Couple of CPU bugs fixed - Disc access now okay (hack no longer required), 
+many more programs/games run.
+Hack to work around other CPU bug.
+Better video emulation - more modes, scrolling in James Pond and Chuck
+Rock, correct scrolling in supervisor.
+New attempt at sound (quite poor).
+Better mouse emulation.

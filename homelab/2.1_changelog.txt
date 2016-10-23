@@ -1,0 +1,10 @@
+v2.1
+-----
+
+- AIRCOMP / HomeLab2 experimental models support
+- Save settings
+- Command Line Options (/ Charron:, / systemrom:, / AIRCOMP)
+- Windows always on top option
+- Tape head adjustment options
+- Log window
+- Bug fixes (eg hangbuffer overflow crash bug autoload etc.)

@@ -1,0 +1,11 @@
+v2.0
+-----
+
+- Completely rewritten in C ++ source code
+- autoload
+- Support for multiple types of memory allocations
+- Several kinds of relative speed
+- Full Screen Mode
+- Synchronization vblank
+- Composite blur
+- Bug fixes (refresh CPU registers, memory paging, snapshot etc.).

@@ -1,0 +1,70 @@
+ePSXe v1.7.0, released on 24.05.2008
+
+- Multiple changes has been done in the Pad support. This version supports
+  the Axis LRX, axis with +/-/full ranges, and a important bug in vibration
+  support has been fixed avoiding crashes. In the sio emulation section,
+  this version includes better DualShock protocol support, including
+  vibration in more games, and adding 2 new pad types, "DualAnalog" and
+  "Negcon". Finally thanks to the new Pete's gpu plugins, a new type of
+  "visual vibration" has been included, shaking the image when the
+  game triggers a vibration effect. (Note: if you are using epsxe 1.6.0
+  or older, it could be necessary to reconfigure the pad plugin in this
+  new version).
+
+- The internal SPU plugin has been updated to the 1.7.0 version. This
+  version includes new effects like better envelope, noise, interpolation,
+  frequency modulation, reverb and better synchronization between the core
+  and the sound. Thanks to this last fix, the following games work better now:
+  Metal Gear Solid, Valkyrie Profile, Eithea. Besides the spu API now
+  includes support for CDDA playing, getting better CDDA sound and core
+  synchronization, and compatibility with Vib Ribbon.
+
+- In this new version, the iso support code has been rewritten. Now it supports
+  the formats BIN/CUE, BIN/CCD and MDS/MDF (and minor fixes to ISO/NRG
+  support). Besides, due to the changes in the internal spu plugin, now
+  the CDDA sound is supported even when you run a iso game.
+  Advice!!!: The files BIN/CUE, BIN/CCD must have the same name and
+  different extension or the games will not be loaded
+
+- The MDEC decoder has been rewritten in the new version to get
+  new games playable suach as Area 51, Novastorm, Eggs of Steel 
+  and Maximum Force. It also fixes other minor bugs in other games 
+  like Rayman and Metal Gear Solid SM.
+
+- In 1.7.0, thanks to Pete's help and his gpu plugins, the framelimit 
+  management has been changed. Now the framelimit is always
+  enabled on startup and it can be toggled on/off with the F4 key.
+  It is recommended that you update your GPU plugins to the
+  version that will be released around the epsxe release date.
+
+- In this new version, a new version of the Pete's Software Plugin is
+  included in the plugins directory with the name "gpu.data. With the
+  F7 key it is possible change on the fly between the selected gpu
+  plugin and that gpu soft plugin. The software plugin "gpu.dat" can
+  be configured in the GPU plugin configuration screen with the 3
+  bottom buttons.
+
+- The XA/CDDA support has been worked in this new version, fixing sound
+  problems in the following games: Gamera 2000, The Putter Golf, Silverload,
+  The Firemen 2 Pete & Danny, Iron & Blood - Warriors of Ravenloft,
+  Chronicles of the Sword.
+
+- Fixes to the CD-Rom decoder and the core, which made at least 50 more games
+  playable like, for example, Brigandine, Need for Speed 1, Harry Potter I&II, 
+  Danger Girl, Wacky Races, Kidou Keisatsu Patlabor, Shadow Madness,
+  London Seirei Tantei-Dan, Monsters SA, Equestrian Showcase, Black Down,
+  Paca Paca Passion 1/2/special, This is football 2, Formula 1 EA 2000,
+  Winnie the Pooh, Formula one 99/2000/2001/arcade, Gegere No Kitarou,
+  Konohana - True Report, Yukyu Gensokyoku 3 - Perpetual Blue, 
+  Tama - Adventurous Ball In Giddy Labyrinth, Future Cop LAP, Virus 2000,
+  Spot goes to Hollywood, Pop'n music disney Tunes, Cosmic Race,
+  Super Gals Kotubiran, Koran Karon, WWF in your house, Tales of Fandom,
+  Transformers best of wars, Simple 1500 vol57 - the maze, Initial D,
+  Jounetsu Nekketsu Athletes, Rise of Robots 2: Resurrecion,
+  Tora Tora Tora, Victory Boxing Championship Edition, Final Fantasy 4,
+  Vampire Hunter D and otros.
+
+- Note: for information about compatibility and games's configuration,
+  it is recommended that you visit the "Playstation Datacenter" at
+  http://psxdata.snesorama.us/. We want to thank Gladiator who has
+  been a very important help in betatesting the new version.

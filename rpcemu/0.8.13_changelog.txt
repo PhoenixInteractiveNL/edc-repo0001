@@ -1,0 +1,13 @@
+Version 0.8.13 - 21/10/2015
+
+Changes in this build
+
+All Platforms
+Dynamic recompiler is no longer StrongARM specific. It supports a wider range of OSes with more processors. (RISC OS 3.50, 3.60, 3.70, 3.71, 5.22).
+Host pointer integration (follows host mouse) now works in rectangular pixel modes (e.g. Mode 12).
+The daylight saving time flag in CMOS should be automatically set on startup based on the timezone information from the host machine.
+ARM Core
+Abort handling of LDM/STM now follows the varying Abort Model of the different ARM processors.
+LDM/STM now check for abort on each data transfer, which gives accurate abort detection.
+Linux
+The display now supports pixel doubling of rectangular pixel modes (e.g. Mode 12) in the same way as the Windows version.

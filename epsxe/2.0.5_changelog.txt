@@ -1,0 +1,35 @@
+ePSXe v2.0.5, released on 06.23.2016
+
+- Updated the x86 recompiler to use the same recompiler than in the rest of 
+  versions (Android, Linux x64, Mac ...). Now it should be easier to
+  fix problems in all versions.
+
+- Ported the local netplay from Android (Experimental). This version is 
+  compatible using local netplay with the rest of ePSXe versions from the 
+  version 2.0.5 (MacOSX, Linux x86, Linux x64 and Android - version 2.0.6).
+  (Additional info the epsxe docs)
+
+- Ported the GPUCORE threading mode from the Android version. The PC CPUs
+  are faster than Android CPUs, so it will improve less FPS. (This
+  option is better when the CPU is slower).
+
+- Added new threading modes to the Pete OpenGL2 Core Plugin. It includes
+  a basic 2-thread mode, and 2 extra modes adding soft/hardware effects.
+  (It could improve some effects, for example the burning photo on the 
+  start of Castlevania)
+
+- In the INPUTCORE plugin, swapped the vibration actuators when using the
+  Xinput mode (to match to real PSX Left/Right). Besides when using a 
+  gamepad in digital mode, now you can use the left stick as the dpad.
+
+- Fixed the >2GB PBP roms support. Now it should be able to run the PSX2PSP
+  isos bigger than 2GB as Final Fantasy VIII PSP pack.
+
+- Fixed the cheat codes support when running on the interpreter mode.
+
+- Added a new option in the cheat codes window to download cheat codes from
+  the ePSXe version (Thanks to psxdatacenter.com)
+
+- Fixes to the core which made more games playable or better working.
+     - WING COMMANDER IV
+     - MONKEY HERO

@@ -1,0 +1,138 @@
+What's New? 2.1.4 (changelog)
+Released 01 June 2010
+
+2.1.4 is a maintenance release that fixes these bugs in 2.1.4:
+
+fix crash bug on .fcm convert
+
+fix erroneous reporting of savestate past the end of movie error during read-only loadstates
+
+
+
+
+Released 31 May 2010
+
+
+
+
+
+
+
+The 2.1.4 release fixes many bugs and adds new features compared to 2.1.3. In addition it also fixes up the movie code significantly; fixing implementation problems, loading speed, adding new features, and fixing bugs. 
+
+
+
+
+Common 
+
+Added microphone support option. When enabled, Port 2 Start activates the Microphone 
+Prevent .zip files containing no recognized files from causing crash 
+Autohold - Added player 3 and 4 to autohold notification window, labeled controller input 
+mapper 19 savestate fix mirroring for "Dream Master (J)" corrected to "four-screen" by CRC check 
+Disable auto-savestates during turbo 
+Fixed so Gotcha! auto-enables the zapper 
+Autohold - Added player 3 and 4 to autohold notification window, labeled controller input 
+
+
+
+Movies
+
+
+
+
+Fully implemented "bulletproof" read-only 
+Movie code now fully conforms to the Savestate section of the Laws of TAS 
+Fixed a potential desync that plays out an extra frame without an update to the frame count involving heavy lua use, joypad.get, and a loadstate 
+Movie support for microphone 
+Movies now have a "finished" mode.  If a playback stops the movie isn't cleared from memory, and can be replayed or a state loaded Similar functionality as DeSmuME and GENS rerecording 
+New PPU flag in movie headers (doesn't change an emulators PPU state when loading a movie) 
+Much faster movie loading and movie-savestate loading 
+Made gamepad 2 off by default (so less movies should have unused player 2 data) 
+Implemented a "full savestate-movie load" mode similar to the implementation in VBA-rr and SNES9x-rr.  In this mode loading a savestate in read+write doesn't truncate the movie to its frame count immediately.  Instead it waits until input is recording into the movie (next frame).  For win32 this feature is togglable in movie options and the context menu.  For SDL this is off by default and a toggle will need to be added 
+Movie + loadstate errors are handled more gracefully now, with more informative error messages and the movie doesn't have to stop if backups are enabled 
+Fix PlayMovieFromBeginning when using a movie that starts from savestate 
+
+
+
+Lua
+
+fix bug that caused zapper.read() to crash when movie playback ends 
+Win32 - Added option for palette selection as color for LUA colors. Included is a LUA script to display all choices with the value used to pick displayed color 
+
+
+
+New Lua functions
+
+movie.ispoweron() 
+movie.isfromsavestate() 
+emu.addgamegenie() 
+emu.delgamegenie() 
+savestate.object() which is savestate.create() with intuitive numbering under windows 
+gui.getpixel() which gets any gui.pixel() set pixel colors, and possibly other functions 
+emu.getscreenpixel() which gets the RGB and Palette of any pixel on the screen 
+lua function movie.getfilename() which returns the current movie filename without the path included 
+
+
+
+Input Display
+
+Input display updates on loadstate 
+Input display overhaul that uses different colors for different input contexts 
+Input display now shows both currently pressed buttons and buttons held the previous frame 
+
+
+
+Win32
+
+Added NTSC 2x scalar option with some CFG config options of it's own Added Ram Search hotkeys for the first 6 search types in the list 
+Add Cheat buttons for Ram Search and Ram Watch 
+With special scaler in window mode, it's possible to resize to anything above the minimum. 
+Recording a new movie adds it to recent movies list 
+Replay dialog, when selecting a movie in a relative path (.\movies for example), the recent movies list stores an absolute path instead 
+Replay dialog shows PAL flag and New PPU flags 
+CDLogger - fixed bug preventing correct interrupt vectors from logging 
+Memwatch - ignore spaces at the beginnign of an address in the address boxes 
+Replay dialog - fix bug that was causing it to always report savestate movies as soft-reset 
+
+
+
+Debugger
+
+
+
+
+Added conditional debugging option 'K', for bank PC is on 
+Fixed bug involving pausing emulation outside of the debugger, then trying to use the debugger commands, and having the CPU registers become corrupted 
+Made debugger able to break on and distinguish Stack reads/writes 
+
+
+
+Hex Editor
+
+
+
+
+Added "Goto" command 
+Made the Hex Editor display the Frozen, Bookmarked, etc. status of the selected address, and made the Frozen color override the Bookmarked color. 
+
+
+
+Cheat Search
+
+
+
+
+Made enabling/disabling cheats no longer deselect the selected cheat 
+Added context menu to Cheat Dialog Cheat Listbox, populated list with Toggle Cheat, Poke Cheat Value, and Goto In Hex Editor 
+Enabled multi-select for Cheat menu to allow multiple toggles and deletes 
+Made cheat menu's Pause When Active effect immediate 
+
+
+
+GUI
+
+
+
+
+Added Tools - GUI option to partially disable visual themes, so the emulator can be made to look like it did in 2.1.1 and earlier releases. Drag & Drop - if dropping a .fcm with no ROM loaded, prompt for one (same functionality that was added to .fm2 files) 
+Added single-instance mode, which makes starting a second copy of FCEUX load the file into the first, then exit.Mode off by default, togglable under Config - GUI 

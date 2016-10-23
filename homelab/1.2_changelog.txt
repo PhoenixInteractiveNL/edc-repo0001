@@ -1,0 +1,11 @@
+v1.2
+-----
+
+- Brailab emulation and voice MEA8000
+- 3.1 Homelab
+- Printer Emulation
+- memory configurations
+- Full Screen Mode
+- Symbolic keyboard
+- Save settings
+- Other GUI expansions

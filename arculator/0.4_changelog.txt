@@ -1,0 +1,4 @@
+version 0.4 (12/10/05) :
+Delayed IRQ by one instruction - Lemmings 2 now has sound
+Fast disc access
+Can disable scanline effect

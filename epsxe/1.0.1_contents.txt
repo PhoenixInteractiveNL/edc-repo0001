@@ -1,0 +1,30 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2000-12-10 18:54:54 ....A        22972       137591  docs\epsxe_en.txt
+2000-12-09 21:42:24 ....A        25347               docs\epsxe_sp.txt
+2000-12-10 18:42:44 ....A       130048               ePSXe.exe
+2000-10-10 16:59:32 ....A           28               cheats\alundra_1_pal.cht
+2000-08-29 19:21:36 ....A           52               cheats\chrono_cross_ntsc.cht
+2000-11-05 13:14:32 ....A           27               cheats\nba_basketball_2000.cht
+2000-08-06 19:05:22 ....A           35               cheats\need_for_speed_3_pal.cht
+2000-10-28 17:08:18 ....A           18               cheats\rally_cross_2.cht
+2000-10-27 22:29:36 ....A           38               cheats\resident_evil_1_pal.cht
+2000-08-25 13:00:44 ....A           30               cheats\silent_hill_pal.cht
+2000-12-02 01:41:08 ....A           24               cheats\soul_reaver_pal.cht
+2000-10-02 21:39:22 ....A           22               cheats\tarzan_pal.cht
+2000-08-25 13:02:56 ....A           30               cheats\theme_hospital_pal.cht
+2000-08-25 13:02:04 ....A           43               cheats\theme_park_world_pal.cht
+2000-08-25 13:03:50 ....A           26               cheats\timeshock_pal.cht
+2000-08-25 13:04:44 ....A           29               cheats\tomb_raider_2_pal.cht
+2000-08-24 03:39:40 ....A           16               memcards\delete.me
+2000-10-05 17:23:58 ....A           25               bios\erase.me
+2000-12-09 19:37:08 ....A           27               snap\kill.me
+2000-08-10 19:32:42 ....A           34               plugins\remove.me
+2009-06-22 11:09:50 D....            0            0  snap
+2009-06-22 11:09:50 D....            0            0  plugins
+2009-06-22 11:09:50 D....            0            0  memcards
+2009-06-22 11:09:50 D....            0            0  docs
+2009-06-22 11:09:50 D....            0            0  cheats
+2009-06-22 11:09:50 D....            0            0  bios
+------------------- ----- ------------ ------------  ------------------------
+2009-06-22 11:09:50             178871       137591  20 files, 6 folders

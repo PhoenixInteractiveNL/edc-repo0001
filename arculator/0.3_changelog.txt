@@ -1,0 +1,8 @@
+version 0.3 (22/08/05) :
+Much improved sound (filter still a bit off though)
+Slight ARM optimisations - 10% speedup
+Bug fixes to VIDC and IOC - TCD Powerscroll and ARMageddon Megademo 3 now work
+Emulated prefetch - Elite now works (stupid protection)
+Fixed stupid video mode 0 bug
+Replaced mouse hack with mouse capture technique
+Reduced CPU usage on NT/2000/XP

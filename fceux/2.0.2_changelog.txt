@@ -1,0 +1,198 @@
+What's New? 2.0.2 (changelog)
+Released August 14, 2008
+
+This release includes a large number of bug fixes, feature enhancements, and new features.
+
+
+
+
+
+
+
+Fixed Crashing Bugs
+
+
+
+
+* restore savestate error recovery functionality.  Will prevent crashes after savestate error messages
+
+* Fixed - Low speeds (1%) crash FCEUX
+
+* fixes bug where palflag 1 in .fm2 files crashes fceux
+
+* FCEUX no longer crashes when attempting to open a non movie file
+
+* Buffer overflow (change vsprintf to vsnprintf)
+
+
+
+
+Minor Bug fixes
+
+
+
+
+* SRAM not wiped on power cycle (during movies)
+
+* Moviefilenames without extension now automatically get fm2
+
+* auto-fill .fcs extension in save state as dialog
+
+* FCM>FM2 converter releases file handle
+
+* fix a new bug in windows build which caused fourscore emulation to fail in some cases
+
+* Player 3 no longer inputs when not used
+
+* prints a special message when trying to open an FCM reminding user to convert.
+
+* fixes bug where Avi recording with no sound messes up the format
+
+* Fixed bug where Convert .fcm didn't do special characters
+
+* fixed the (null) in the default lua directory listing
+
+* Ctrl+X now works in the memory watch dialog
+
+* Dialog window positions won't "disappear" (-32000 protection on all dialogs that remember x,y)
+
+* fixed View Slots bug - will now always show the used slots
+
+
+
+
+* added shift+L as default hotkey for reload lua script
+
+* added input display to the FCEUX main menu
+
+* change config filename from fceu98.cfg to fceux.cfg
+
+
+
+
+New Features
+
+
+
+
+* restore IPS patching capability which was lost when archive support was added
+
+* restore ungzipping (and unzipping in sdl) capability which was lost when archive support was added
+
+* re-enable an "author" text field in the record movie dialog
+
+* re-enable support for old-format savestates. (Note: can not be loaded into a movie!)
+
+
+
+
+* Added new toggle - frame adv. - lag skip (menu item + hotkey mapping + saved in config), will cause frame adv. to skip frames where input is not read
+
+* Added support for loading movies from archives (just like ROM files).  Note: Movies loaded from an archive file will be read-only.
+
+* movie replay dialog displays fractions of a second on movie length
+
+
+
+
+* Savestates now save the Lagcounter information.
+
+* added a mute turbo option in sound config
+
+
+
+
+* add an option to pick a constant color to draw in place of BG when BG rendering is disabled (look for gNoBGFillColor in config).
+
+
+
+
+Mappers
+
+
+
+
+* remove cnrom chr rom size limit for homebrew roms
+
+* mmc5 - 64KB WRAM games now work correctly
+
+* mmc5 - use of chr A regs for BG in sprite 8x8 mode is fixed
+
+* upgrade to cah4e3's latest mapper 163&164 code to fix a crash in a game
+
+
+
+
+
+
+
+Debugging Tools
+
+
+
+
+* Debugger - restore snap functionality
+
+* Debugger - add FORBID breakpoints - regions which block breakpoints from happening if they contain the PC
+
+* Debugger - debugger window is now resizeable
+
+* nametable viewer  will display correct NT,CHR,ATTR data in more cases (specifically, including some exotic mmc5 cases).
+
+
+
+
+Lua
+
+
+
+
+* Savestates remember Lua painting
+
+* add memory.readbyterange to emulua
+
+
+
+
+SDL only
+
+
+
+
+* SDL: fixed --input(1-4) options.  input1 and 2 are regular inputs, input3 and 4 are famicom expansion inputs
+
+* SDL fix configfile woes. configfile now goes to ~/.fceux/fceux.cfg
+
+* SDL: fixed segfault when opening .fcm files
+
+* SDL: Saner sound defaults for less choppy sound
+
+* SDL: "--special" option fixed for special video scaling filters
+
+* SDL: cleaned up the SConsruct
+
+* SDL: fixed issue where fceu would lock up when file dialogs were opened during fullscreen
+
+* SDL: fixed bug where fceux would close when file dialogs were closed
+
+* SDL: File open dialog is now used to movie playback
+
+* SDL: File open wrapper now takes a titlebar argument
+
+* SDL: Cleanup of usage
+
+* SDL: rename options --no8lim -> --nospritelim and --color -> --ntsccolor
+
+* SDL: Screenshots now always prepend the game name.
+
+* SDL: Changed default A/B from numpad 2 and 3 to j and k.
+
+* SDL: Enable frameskip by default
+
+* SDL: Fixed a bug that would crash fceux if the emulation speed was overincreased
+
+* SDL: New default hotkeys to more closely match win32 defaults
+
+* SDL: Added lua script loading hotkey (f3).  Non win32 SDL requires zenity for this to function.
+
+* SDL: Build script cleanup; also added option for DEBUG builds.

@@ -1,0 +1,62 @@
+version 0.09 :
+Couple of CPU bugs fixed - BASIC and FPU emulation should be fine now.
+Better cursor emulation.
+Hack to get floppy disc to "work".
+
+pre-release 11 :
+Totally rewritten. RiscOS now goes to desktop + is usable.
+Mouse and keyboard also better.
+
+pre-release 10 :
+Offset all CMOS accesses by 64 bytes, now seems to work.
+Started floppy emulation (very bugged).
+Couple of optimisations.
+
+pre-release 9 :
+More ARM bugs fixed - RiscOS now boots (but with some errors)
+Proper VIDC/MEMC/IOC emulation
+Keyboard and mouse now emulated (mouse a bit screwy though)
+DMA addresses are actually correct now.
+
+pre-release 8 :
+Some more ARM bugs fixed - many more demos/games work.
+More SWIs trapped.
+Various address modes for video emulation.
+Monitor improved.
+Video mode changed to 400x300 to allow overscan screens to display.
+First binary release.
+
+pre-release 7 :
+Monitor/debugger/disassembler added.
+Some stupid ARM bugs fixed (such as LSR not working correctly) - RiscOS gets
+further.
+SWI faking improved - more demos run.
+Alternate address for video emulation (for TCD demo 1)
+No longer compiles without DJGPP/Allegro
+Correct default palette
+
+pre-release 6 :
+Can now load absolute files. Some demos run.
+SWI faking added (only for absolute files).
+Couple of ARM bug fixes.
+Primitive video emulation (mode 13 only).
+
+pre-release 5 :
+Full 32k MEMC emulation.
+Some more ARM bugs fixed. RiscOS 2,3.11 and Arthur get to the first SWI.
+
+pre-release 4 :
+Some ARM bugs fixed, RiscOS 3.11 starts MEMC page test.
+MEMC emulated a bit, 32k pages only, still many bugs.
+
+pre-release 3 :
+RiscOS 3.11 now starts long memory test. Fixed other tests.
+Other versions of ARM emulator removed.
+
+pre-release 2 :
+RiscOS 3.11 now gets past checksum.
+slightly better docs.
+
+pre-release 1 :
+first release.
+ARM heavily bugged.

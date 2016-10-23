@@ -1,0 +1,65 @@
+ePSXe v1.8.0, released on 09.11.2012
+
+- Added cheat codes support. Now ePSXe support Gameshark cheat codes. See
+  the Cheat Code section below to get information on how to use it.
+
+- Added support for disc images in PBP format. It supports compressed images, and
+  multi-disc images (a list of images is shown when you choose a multi-disc pbp).
+  This doesn't support encrypted files.
+
+- Added subchannel support using SBI files from redump.org. To get it working 
+  with isos the SBI file has to be renamed with the same filename as the image 
+  (except the extension, for example .bin to .sbi) and be located in the same folder.
+  To get it working in cdroms, you need to put the SBI file in directory patches,
+  with the PS-EXE name of the game and ".sbi" at the end of the name.
+  (example: SLES_99.999.SBI). Be carefull, ".sub" has priority over ".sbi",
+  so if you prefer to use the ".sbi" file, remove/move ".sub" to another folder.
+
+- Fixed changedisc feature, which was broken in 1.7.0, and added fixes to
+  support changedisc in more games that were not previously working.
+
+- The internal SPU plugin has been updated to the 1.8.0 version. This
+  version includes multiples fixes and add compatibility with a lot of
+  sound effects that were not properly supported before. Thanks goes to 
+  Shalma and Tikalat.  The following games work better in this release: 
+  Um Jammer Lammy, Final Fantasy VII, Final Fantasy Tactics, Xenogears, 
+  Vagrant Story, Misadventures of Tron Bonne, Spyro 2 & 3, Vib Ribbon, 
+  Discworld Noir, Tales of Destiny, Extreme Ghostbuster, 
+  South Park Chef's Luv Shack, Silhouette, Thousand Arms, Adidas Power Soccer ...
+
+- Added better support to change memcards on the fly (Dragon Warrior 7,
+  Star Ocean 2, Valkyrie Profile ...). This includes a
+  better detection by the games. You can also disable the memcards
+  in the configuration screen (needed in Lifeforce Tenka). Thanks goes to
+  Shalma and Tikalat.
+
+- Improved dual shock, mouse, guncon, multitap emulation (vibration on
+  multitap not supported). Mouse is working again in the Pad2 (Quake), 
+  and multitap is working in more games like Frogger 2, Rampage 2 and 
+  Crash Bash.  Thanks goes to Shalma and Tikalat.
+
+- Better support for CDDA in games, more games which had CDDA in the
+  previous version work now. It also adds better RepPlay, and
+  AutoPause support.
+
+- Some games with GPU status problems are detected and auto-activate the
+  required options in the GPU. These games don't work if you use PEC.
+  The list of affected games includes: To heart, Ishin No Arashi,
+  Dukes hazzard Racing for Home, Hot wheels: turbo racing, U.P.P.
+  Thanks goes to gladiator.
+
+- Added support for savestates in some game which didn't work in the previous
+  version because it was unable to find the game code name. It now generates 
+  a game code name for the game like SLU_XX.XXX.
+
+- Fixes to the CD-ROM decoder and the core which made almost 150 more games
+  playable or working better like. For example this fixed Shaman king, 
+  Arcade Pack (Rampage), Virtual Pool 3, Heart of Darkness, Eldergate,
+  Blue's Clues - Blue's Big Musical, Carnage Heart EZ,
+  Simple 1500 Series Vol 006 - The hanafuda, Roswell Conspirancies - Level 7,
+  Armored Core - Master of Arena, Digital Figure Iina, My Dream / On Air...
+
+- Note: for information about compatibility and games's configuration,
+  it is recommended that you visit the "Playstation Datacenter" at
+  http://psxdatacenter.com/. We want to thank Gladiator who has
+  been a very important help in betatesting the new version. 

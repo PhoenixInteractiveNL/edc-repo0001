@@ -1,0 +1,7 @@
+version 0.5 (23/01/06) :
+Working 82c711 emulation. This allows high density disc access and avoids the
+ hanging bug in 1772 emulation.
+Along with 82c711 emulation comes IDE hard disc emulation.
+Preliminary FDI support (1772 only).
+Increased frequency of keyboard/mouse updates - mouse now much smoother
+Slight optimisations to video

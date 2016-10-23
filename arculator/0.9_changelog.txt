@@ -1,0 +1,14 @@
+Changes since last release :
+
+- Fixed ARM bugs - Bug Hunter now works, Phaethon no longer crashes on level 3
+- Fixed bug in 82c711 - Nebulus now works on new FDC
+- Fixed timing in modes 48/49
+- Various optimisations.
+- Can now emulate ARM3 at 33mhz.
+- Now emulates two hard discs
+- Removed software scaling options - improvements to hardware scaling mean these
+  are not necessary anymore.
+- Improved FDI support in new FDC - more games supported (eg Wolf 3d, SF3000 etc)
+  with hard disc install.
+- Mouse & keyboard shouldn't lock up in some stuff anymore
+- Some other fixes

@@ -1,0 +1,13 @@
+Changes since last release :
+
+- ICS IDE interface emulated, when new FDC is not in use.
+- Improved IOC mapping, improvements on !PCem, NetBSD etc.
+- ArculFS now read/write, and now ROM based.
+- Sound improved a little.
+- Can now disable all video borders
+- SWPB now works, also corrected SWP and MUL encoding - Fire & Ice now works
+- Return of FDI support
+- ADP protected disc image support
+- FDC improvements
+- High-res mono monitor emulation (1152x896)
+- A3010 joystick emulation

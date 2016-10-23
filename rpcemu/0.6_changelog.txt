@@ -1,0 +1,15 @@
+Version 0.6 (26/12/06)
+- Working StrongARM emulation.
+- Changed timing system, sound much more stable.
+- Moved blitting to seperate thread, big speed boost in some stuff on dual core/
+  hyperthreading CPUs.
+- Optimisations to ARM + memory, speed boost between 10% and 25%.
+- Fixed abort handling and MSR/MRS in 26-bit modes, more stuff now works, eg
+  Ankh, Blu, Era, Reactivity, RISC OS 6.
+- Changes to MMU permissions, ArmLinux now starts (but doesn't run yet)
+- Crash bug fixed in 32-bit colour.
+- Can now alter video refresh rate from the default of 60hz.
+- Better mouse support in Linux.
+- Early GUI in Linux.
+- Linux port now works on x86-64.
+- Fullscreen mode (Windows only).
