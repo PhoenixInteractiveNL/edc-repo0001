@@ -1,0 +1,54 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2002-10-27 15:01:00 ....A          775       175099  copyright.txt
+2002-02-17 22:04:30 ....A          315               Plugins\Hostfs\extensions.txt
+1994-10-27 15:05:34 ....A          126               Hostfs\Disk310\readme.txt
+1998-10-27 15:09:28 ....A          124               Hostfs\Disk370\readme.txt
+2001-11-27 14:34:14 ....A          435               Hostfs\readme.txt
+2002-02-17 21:45:22 ....A         4149               Models\Readme.txt
+2002-10-27 14:57:22 ....A          129               Hostfs\Disk200\readme.txt
+2002-10-27 15:04:02 ....A          131               Hostfs\DiskGames\readme.txt
+2002-10-27 15:51:52 ....A         2221               Readme.txt
+2002-10-28 14:27:16 ....A       585796               RedSquirrel.exe
+2002-10-24 19:34:40 ....A        24576               Plugins\CallWin32\CallWin32.dll
+2002-10-19 12:42:52 ....A        61440               Plugins\Hostfs\hostfs.dll
+2002-10-24 19:34:40 ....A        20480               MouseSync.dll
+2002-10-27 14:51:22 ....A          361               Models\A440, RISC OS 2.0\MODEL.CFG
+2002-10-27 14:51:44 ....A          400               Models\A games-only machine\MODEL.CFG
+2002-10-27 14:53:16 ....A          434               Models\A7000, RISC OS 3.7\MODEL.CFG
+2002-10-27 14:53:38 ....A          441               Models\Risc PC 700, RISC OS 3.7\MODEL.CFG
+2002-10-27 14:54:02 ....A          446               Models\Risc PC SA, RISC OS 3.7\MODEL.CFG
+2002-10-27 15:06:16 ....A          396               Models\A440, RISC OS 3.1\MODEL.CFG
+2002-10-28 14:21:04 ....A          458               Models\A5000, RISC OS 3.1\model.cfg
+2002-10-28 14:22:34 ....A          532               RedSquirrel.cfg
+2002-10-21 02:53:18 ....A        16384               Plugins\CallWin32\CallWin32.dat
+2002-10-19 13:20:06 ....A        16384               Plugins\Hostfs\hostfsrom.dat
+2002-10-27 15:04:10 ....A          256               Models\A games-only machine\cmos.ram
+2002-10-27 15:07:56 ....A          256               Models\A440, RISC OS 2.0\cmos.ram
+2002-10-27 15:09:52 ....A          256               Models\A7000, RISC OS 3.7\cmos.ram
+2002-10-27 15:49:42 ....A          256               Models\Risc PC SA, RISC OS 3.7\cmos.ram
+2002-10-27 16:47:06 ....A          256               Models\A440, RISC OS 3.1\cmos.ram
+2002-10-27 16:50:16 ....A          256               Models\Risc PC 700, RISC OS 3.7\cmos.ram
+2002-10-28 14:21:14 ....A          256               Models\A5000, RISC OS 3.1\cmos.ram
+2009-03-02 01:27:35 D....            0            0  RomSets\Riscos370
+2009-03-02 01:27:35 D....            0            0  RomSets\Riscos311
+2009-03-02 01:27:35 D....            0            0  RomSets\Riscos200
+2009-03-02 01:27:35 D....            0            0  RomSets
+2009-03-02 01:27:35 D....            0            0  Plugins\Hostfs
+2009-03-02 01:27:35 D....            0            0  Plugins\CallWin32
+2009-03-02 01:27:35 D....            0            0  Plugins
+2009-03-02 01:27:36 D....            0            0  Models\Risc PC SA, RISC OS 3.7
+2009-03-02 01:27:36 D....            0            0  Models\Risc PC 700, RISC OS 3.7
+2009-03-02 01:27:36 D....            0            0  Models\A7000, RISC OS 3.7
+2009-03-02 01:27:35 D....            0            0  Models\A5000, RISC OS 3.1
+2009-03-02 01:27:35 D....            0            0  Models\A440, RISC OS 3.1
+2009-03-02 01:27:35 D....            0            0  Models\A440, RISC OS 2.0
+2009-03-02 01:27:35 D....            0            0  Models\A games-only machine
+2009-03-02 01:27:36 D....            0            0  Models
+2009-03-02 01:27:35 D....            0            0  Hostfs\DiskGames
+2009-03-02 01:27:35 D....            0            0  Hostfs\Disk370
+2009-03-02 01:27:35 D....            0            0  Hostfs\Disk310
+2009-03-02 01:27:35 D....            0            0  Hostfs\Disk200
+2009-03-02 01:27:35 D....            0            0  Hostfs
+------------------- ----- ------------ ------------  ------------------------
+2009-03-02 01:27:36             738725       175099  30 files, 20 folders

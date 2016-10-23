@@ -1,0 +1,10 @@
+v1.12 Fixed crash on startup with -f command line option
+      Fixed SPU bug that caused FF8 FMV audio to stop sometimes
+      Fixed bug that prevented some keys being mapped to controllers
+      Fixed bug where window size/position was reset when using fast forward
+      Added support for Alcohol 120% MDF/MDS images
+      Fake subcode in track gaps (required for TombRaider1)
+      Fixed Syphon Filter boot hang
+      Fixed infinite loop in Tekken3 and Deception3
+      Changed 384 mode to 364 which seems to be correct (based on TombRaider)
+      Fixed aspect ratio correction for 5:4

@@ -1,0 +1,17 @@
+Snapshot Release 0.4.4 13th June 2001
+
+Changes in this version (didn't realise it was so long!)
+
+RISC OS 4 works (at last). RISC OS 3.7 shouldn't have worked...
+Some sound crackle is fixed. Some games and RiscPC will
+still suffer from bad crackle or just noise.
+Sound timing is handled in a different way which may improve
+matters on Win2k but it may also have other unwanted effects
+RiscPC memory/vram size is configurable.
+HostFS configuration is less broken ;-)
+Status bar indicators for floppy/ide work again
+Very slow response on fast machines (>700mhz) is fixed. This
+may rear its head again on > 1400Mhz machines.
+
+Don't use 'Free' on large HostFS shares, it'll lock up the
+desktop.

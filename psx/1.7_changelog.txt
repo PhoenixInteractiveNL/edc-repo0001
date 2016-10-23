@@ -1,0 +1,12 @@
+v1.7 Subcode reading (libcrypt games should now work)
+     Better support for self-modifying code (fixes Spyro3)
+     More anti-mod protected games now work (tested on WildArms2)
+     Added support for MDEC STP bit (fixes DragonWarrior7 spell effects)
+     Fixed quickload menu bug
+     Fixed crash loading v1.5 state saves
+     Fixed bug where .bin file was named .cue when converting CDZ file
+     Fixed bug where CDZs created without .cue file did not work
+     ESC can now be configured (either quit, or exit fullscreen)
+     CD drivers now retry when an error occurs (up to 16 times)
+     Fixed bug where switching back to windowed sometimes didn't work
+     File requester is now displayed when BIOS is not found

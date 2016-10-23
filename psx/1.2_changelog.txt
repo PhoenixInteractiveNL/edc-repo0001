@@ -1,0 +1,6 @@
+v1.2 Improved ASPI and IoControl latency
+     Added SPTI support
+     Added support for 16bit rendering (including 565), only used if necessary
+     Full screen mode configuration (NTSC and PAL configured separately)
+     Fixed GTE bug that caused Valkyrie Profile to crash
+     Improved streamed ADPCM audio (Valkyrie Profile and others)

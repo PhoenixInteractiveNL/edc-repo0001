@@ -1,0 +1,46 @@
+Whats New ?
+-----------
+
+Lots of stuff that I did months ago, and now have completely forgotten...
+However here is the stuff that I remember doing.
+
+* Rewrites to lots of Genesis and 32X side stuff. Should fix things I broke
+  in 3.4, and is very slightly faster. Hopefully nothing is broken.
+
+* Re-added one line of ASM to the 32X emulation which must have gotten
+  deleted a long time ago. Now disolveable objects in Chaotix work again.
+
+* Fixed the SegaCD Fader.
+
+* Fusion now supports more MP3 formats than Winamp does - i.e. all of them.
+  44100Hz Stereo is still recommended, but not neccessary.
+
+* Seeking within MP3s works now. Not sure about VBR files though.
+
+* Blackthorne 32X sound glitch fixed - it now performs exactly as on real
+  hardware.
+
+* Controller config rewrite. You can now define directions for controllers
+  as well as buttons.
+
+* VGM Log now logs VGM1.10 format files, which should be much smaller. You
+  can change back to VGM1.01 if you need to by editing the VGM_Version
+  setting in the INI file. (16,1 for VGM1.10, 1,1 for VGM1.01)
+
+* Added 'ForceSWBuffer' sound compatibility option. This is set to 1 by
+  default because this is the preferred option. However if you are getting
+  no sound (due to buggy drivers), or your framerate fluctuates for no
+  reason, you can try setting this to 0.
+
+* Drag and drop support added.
+ 
+* Brighten option for those that prefer a slightly brighter palette.
+
+* Preliminary Netplay support. You MUST read the README.TXT to learn how to
+  use this feature.
+
+LOTS more stuff - if you find something, please tell me ;)
+
+Happy new year!
+
+Snake.

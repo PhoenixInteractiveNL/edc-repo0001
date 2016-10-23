@@ -1,0 +1,14 @@
+v1.6 Fixed missing characters in WildArms battles (GTE flags inaccuracy)
+     Fixed GTE bugs that caused missing graphics in Tombraider Chronicles
+     Fixed recompiler bug that cause Tomraider Chronicles to crash
+     Add missing CDROM functionality that caused DW7 to hang during FMVs
+     Emulator can now be full screened on any monitor (autodetect or force)
+     Fixed bug that caused XA audio to cut out (often during fastforward)
+     Added support for CloneCD and ISO CD images
+     Made BIN images work even if CUE file is missing (not recommended)
+     Added support for new CD image types to CDZ
+     Corrected aspect ratio in PAL modes
+     Fixed bug where quick saves didn't work with certain games
+     Fixed bug where F10 entered the menu instead of loading quick save
+     More accurate SPU ADSR envelopes (including exponential modes)
+     Initialise ADSR registers after SPU reset (fixes sound in Tombraider)

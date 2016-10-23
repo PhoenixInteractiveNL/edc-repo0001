@@ -1,0 +1,39 @@
+Whats New ?
+-----------
+
+Yet Another Quick Update:
+
+* Fixed Turrican (Genesis)
+
+* Improved Command Line Support
+
+* Forgot to add the 6 button changes to Alternate Timing mode. Is there now.
+
+* Added GameGear Zoom Mode
+
+* Added "Scanlines 0%" option and seperated them from the other options. Now you can
+  select the type of Scanlines you want in any of the renderers
+
+* Switched Power On and Soft Reset around, hopefully people will now only use the
+  Soft Reset function when its actually useful ;-)
+
+* Added "ForceFullScreen32" INI file setting
+
+
+Command Line works as follows:
+
+Fusion gamename.ext [console] [country] [-fullscreen]
+
+Console options are: -sms, -gg, -gen or -md or -32x, -scd or -mcd
+Country options are: -usa -jap -eur or -auto
+
+Default console is Genesis/Megadrive.
+Default country is whatever is set in the INI file, i.e. whatever was last used.
+
+Apart from the filename, which must come first, all options can be in any order,
+and are optional.
+
+When using the -fullscreen option, the ESCAPE key will exit the emulator.
+
+
+Snake.

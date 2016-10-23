@@ -1,0 +1,40 @@
+Whats New ?
+-----------
+
+Well I wanted to add some new stuff before releasing another version, but
+since people have been asking, and since I'm not going to be able to do
+anything with it for a while due to "real life" getting in the way, I am
+releasing the current version, which has many small changes and bugfixes.
+
+To be honest I've forgotten most of what I fixed ;-) Anyway, here is the
+stuff I remember:
+
+* Fixed a small problem with the SegaCD CDD
+
+* Fixed VGM issue
+
+* Fixed "Streets of Rage" sound problem
+
+* Discovered what some sound drivers do and worked around it (Thanks to
+  Stone for testing), more machines should now work without having to drop
+  to "Alternate Timing" mode
+
+* Added "Sleep While Waiting" option - NOT recommended because it can cause
+  skipping in the sound and the framerate of the emulator, also not really
+  needed because the emulator *will* give up time to any running program
+  automatically - but since so many people really want to see the task
+  manager showing available CPU time, here it is. Use it if you must. But
+  don't complain about choppy frame rates ;-)
+
+* Upped the number of render plugins to 16
+
+* Updated render plugin system to allow for 2x, 3x and 4x scalers. (Only
+  works in Enhanced GFX mode)
+
+* Render plugins can now go into a "Plugins" folder to avoid clutter
+
+* Lots of other fixes which I really can't remember now.
+
+More to come when my life gets back to something resembling "normal".
+
+Snake.

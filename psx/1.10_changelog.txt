@@ -1,0 +1,8 @@
+v1.10 Allow ADSR changes while voice keyed on (fixes sounds in FF7 and others)
+      Localisation for various languages
+      Added internal manifest file (dialogs now support XP theme correctly)
+      Sound device can now be set to disabled
+      Fixed bug where sound was muted when reverb was disabled
+      Fixed Chrono Cross hangs introduced in v1.9
+      Breakpoints can now be added/removed in debugger while CPU is running
+      Added check for valid BIOS

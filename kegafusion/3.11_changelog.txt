@@ -1,0 +1,17 @@
+Whats New ?
+-----------
+
+VERY quick one...
+
+* Fixed silly YM2612 bug that I added in the last version.
+
+* Now selecting -fullscreen from the command line will not alter fullscreen
+  setting in the INI file.
+
+That's pretty much it, the last version was unusable because of the silly
+YM2612 bug, so I needed to get a new version out quickly. I had a look at
+the MP3 problem some people were reporting, and made a small change to
+fullscreen mode which *might* help. I'll need to rewrite my entire CDDA
+handling code to make any real improvement, though... Some other time.
+
+Snake.

@@ -1,0 +1,9 @@
+v1.1 ALT+F4 now exits the emulatoer
+     Pressing F1/Shift+F1 switches back to windowed mode for file dialog
+     *.mcr files are shown in memory card dialog
+     Option to disable status icons (CD/XA/MR, etc..) - disabled by default
+     dbghelp.dll is now optional (required for saving crash dumps though)
+     CD drives (IoControl and ASPI) should now work
+     pSX now works under Win98/ME (hopefully ;)
+     Fixed save state loading bug
+     Fixed crash when entering non existant save state filename

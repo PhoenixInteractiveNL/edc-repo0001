@@ -1,0 +1,54 @@
+Shell:
+
+ Additions:
+  
+  - Menu option for DIP switch window popup on file load.
+  - Movie recording now supported during netplay.
+
+ Changes:
+ 
+  - Smaller netplay data packets.
+  - Minor GUI adjustments.
+  - Refactoring.
+  
+ Fixes:
+ 
+  - Scaling artifacts with NTSC filter on certain resolutions.
+  - Auto NTSC/PAL window resize bug.
+  - Sound stuttering on window clicks.
+  - Netplay bugs/quirks.
+  - Joystick auto-calibration bug.
+
+Core:
+
+ Additions:
+
+  - Mapper 63.
+  - Mapper 121 and 134. Info from CaH4e3.
+  - Mapper 136 for Sachen board SA-002 3011. Info from Enri.
+  - Mapper 178 for "San Guo Zhong Lie Zhuan (Ch)". Info from temryu.
+  - UNIF boards: AX5705, T-230, CTC-65 and 190IN1. Info from CaH4e3.
+  - Adaptive sound streaming synchronization.
+  - More optimization hints for GCC.
+  - Database entries.
+
+ Changes:
+ 
+  - Movie file format rewritten. Older files will no longer work (sorry, had to 
+    be done sooner or later). New format is much more flexible and extendable.
+  - Lower memory consumption.    
+  - APU speed optimizations.
+  - Most DIP switches are now configurable through dialogs instead being
+    soft-reset-triggered.
+  - Board names. Info from Pongbashi and Bootgod.
+  - Refactoring.
+
+ Fixes:
+ 
+  - Mapper 41 and 43.
+  - Mapper 112. Fixes "Fighting Hero III". Info from temryu.
+  - Minor save state inaccuracy.
+  - FDS sound emulation inaccuracy. 
+    Fixes "Nazo no Magazine Disk - Nazoraa Land Dai 3 Gou".
+  - Small rewinder bug.
+  - Database entries.

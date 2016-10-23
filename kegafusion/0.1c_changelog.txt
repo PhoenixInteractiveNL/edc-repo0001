@@ -1,0 +1,37 @@
+Whats New ?
+-----------
+
+Another Quick Update:
+
+* Fixed Spiderman (32X)
+
+* Fixed Joe and Mac (Genesis)
+
+* Fixed Pirates Gold (Genesis)
+
+* Fixed "Red Bar"
+
+* Modified 6 Button Controller Code
+
+* Added Command Line Support
+
+* Another small modification to the Graphics code
+
+* Added Message Box for first time run to try and cut down the number of
+  people asking about the graphics settings...
+
+
+Command Line works as follows:
+
+Fusion gamename.ext [console] [-fullscreen]
+
+Console options are: -sms, -gg, -gen or -md, -32x, -scd or -mcd
+
+Default console is Genesis/Megadrive.
+
+When using the -fullscreen option, the ESCAPE key will exit the emulator.
+
+
+Thats all for now,
+
+Snake.

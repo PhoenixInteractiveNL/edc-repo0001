@@ -1,0 +1,18 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2005-10-08 18:32:22 ....A           17       326614  cdimages\put_cdimages_here.txt
+2005-10-08 18:32:38 ....A           17               memcards\put_memcards_here.txt
+2005-10-08 18:32:46 ....A           17               saves\put_saves_here.txt
+2006-07-02 04:52:34 .R..A        11372               readme.txt
+2006-05-28 13:21:06 ....A            7               screenshots\screenshots_go_here.txt
+2006-07-02 04:55:52 ....A       110592               utils\cdztool.exe
+2006-07-02 04:47:11 .R..A      1171456               psxfin.exe
+2006-01-27 22:36:18 ....A            0            0  bios\put scph1001.bin here.txt
+2009-06-27 18:16:34 D....            0            0  utils
+2009-06-27 18:16:34 D....            0            0  screenshots
+2009-06-27 18:16:34 D....            0            0  saves
+2009-06-27 18:16:34 D....            0            0  memcards
+2009-06-27 18:16:34 D....            0            0  cdimages
+2009-06-27 18:16:34 D....            0            0  bios
+------------------- ----- ------------ ------------  ------------------------
+2009-06-27 18:16:34            1293478       326614  8 files, 6 folders

@@ -1,0 +1,44 @@
+Whats New ?
+-----------
+
+I'm making this unplanned release, because things never go as planned, and
+all my stuff is going to be in storage for a while (again). Due to that
+thing they call 'real life' I have probably forgotten most of what I've
+changed since the last build, and there may be stuff I have only partially
+implemented and forgotten about.
+
+But I'll list what I remember, and I'm sure you guys (and girls) will find
+stuff I forgot about, or broke - because you rock.
+
+Most of what I've done is by user request. PLEASE LET ME KNOW OF ANY MAJOR
+PROBLEMS IMMEDIATELY.
+
+* Swapped SMS buttons
+
+* Added an option (that I couldn't think of a suitable name for) to show
+  the full SMS area when running GG games
+
+* Fixed a couple of non-working SMS games (auto disable of some features,
+  e.g. YM2413, which would cause them to crash if present)
+
+* Fixed some other minor SMS issues
+
+* GG games that are really SMS games in a GG cart should now auto boot in
+  SMS mode
+
+* A couple of 32X tweaks that will only matter to homebrew coders currently
+
+* Fixed a couple of SegaCD games that didn't boot/run - if you find any
+  more, please do let me know - as far as I know, there are none
+
+* Command line with -scd or -mcd and no filename will now cause Fusion to
+  start up in 'Boot SegaCD' mode
+
+* Added support for the (pretty useless) SF7000 floppy disk interface for
+  the SC3000 - you need the SF7000 IPL ROM for this to work
+
+* SC3000 keyboard can now be enabled from the options menu
+
+* A few sound tweaks
+
+Regular scheduled programming will resume as soon as possible.

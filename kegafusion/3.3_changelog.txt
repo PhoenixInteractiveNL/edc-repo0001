@@ -1,0 +1,118 @@
+
+Well it took just a bit longer to get my life back than it was supposed to.
+Hopefully things go well in the next month or so, because I still have some
+major rewriting as well as some huge features planned. Would be a shame if
+they don't happen.
+
+Most of the changes in this version were done shortly after v3.2 was
+released, right before any concept of 'free time' vanished completely.
+I've forgotten most of what I did - there were some pretty major changes
+behind the scenes, and I may have broken stuff / forgot to take some test
+code out... but everything seems stable to me, so here goes. It's a big
+one, and this is just what I made a note of...
+
+Whats New ?
+-----------
+
+* Removed the BETA status. It was only really there because I never like to
+  say something is finished until I'm done with it. But, yet again, some
+  people won't bother to try 'Beta' software...
+
+* Fixed problem relating to GameGear/Master System and saving GameGenie
+  codes.
+
+* Re-added code to look for MP3 ID3 tags. There should be no problem with
+  MP3s now. However - if your MP3s are playing at the wrong speed, or not
+  at all, then make sure they are 44100Hz Stereo MP3s! These are supposed
+  to be CD Audio tracks, you know ;)
+
+* Fixed silly problem where I forgot to alter the size of a YM2612 buffer.
+  All YM2612 related sound problems should be gone, and the core should
+  now be pretty much 100% accurate to real hardware.
+
+* 32X PWM sound is now hardware accurate.
+
+* Improved SMD/BIN detection, should have less problems loading odd sized
+  BIN files.
+
+* Added an option to set Fusion to run at High Priority. This option does
+  a couple of other things too, such as change the way that Fusion gives
+  up time to other apps (making it give up very little.) Probably makes
+  sense to turn off 'Sleep while Waiting' while using this option, too.
+
+* Rewrite of a fair bit of the Genesis VDP functions.
+
+* Added another TV Mode, slightly less blurry (but not much)
+
+* Added an option to disable all keyboard shortcuts (except the ESC key)
+  for those people who had problems with accidentally triggering a menu
+  while playing.
+
+* Alt-Enter now switches between full screen / windowed as well as the
+  ESC key. I never really liked this behaviour, but it was requested.
+
+* Added another 'Fixed Aspect' option. Whereas the first will try to best
+  fit the image within your display, this one basically does the opposite.
+  Example: if you have a widescreen TFT monitor, this option will try to
+  best fill the width of your monitor. Clipping may occur at the top and
+  bottom instead of getting big black bars at the left and right. This
+  also works the other way if your monitor is taller than it is wide.
+  I know some people will prefer this.
+
+* Fixed problems related to the Genesis OS ROM and resetting / saving /
+  loading states.
+
+* Added seperate folders for SMS and GG Patch (i.e. GameGenie) Files.
+
+* Fixed bug where SMS Save States ended up in the Genesis Save State
+  folder.
+
+* Added Screenshot function. By default Fusion will save compressed TGAs,
+  but since some art packages have problems with these, you can instead
+  select uncompressed TGAs, or BMPs. Be aware though that these files can
+  get quite big ;)
+
+* Tidied up all use of Load/Save dialogs to prevent loading of non existant
+  files, creating save states with invalid names, and other things that
+  could be done accidentally.
+
+* Fixed timing issue when sound is disabled.
+
+* Added dialogs when the user attempts to use the SegaCD RAM cart options
+  when the SegaCD is not running, hopefully this should help prevent all
+  the confusion surrounding RAM carts.
+
+* SegaCD RAM carts are now created as CRM files to distinguish them from
+  internal BRM files. You can still load BRM files in the same way as
+  before.
+
+* When Fusion detects a Gens format BRM file, it will create a backup, and
+  then create seperate BRM and CRM files out of it. It will also alert the
+  user to the fact that it has done this. This should prevent people from
+  managing to corrupt their save files among other things. Now all we need
+  is to get Gens itself to do this and the nightmare will be over.
+
+* Made a few changes to the way SegaCD BRM/CRM is loaded/saved in order to
+  prevent any possibility of data loss (all related to the above).
+
+* Fusion is now compatible with Windows XP Visual Styles.
+
+* 32X emulation is now far more accurate. Primal Rage, Shadow Squadron,
+  Toughman Contest, Pitfall, Virtua Racing and Mortal Kombat now perform
+  exactly as on real hardware. Some of these problems took a HUGE amount
+  of time to track down, and understand, but I think it's worth it. I
+  don't believe any other emulator can run all of these games accurately.
+
+* 32X BIOS is no longer required. This hasn't received any serious testing
+  but seems to work fine. If Fusion cannot load one or more of the 32X
+  BIOS files it will default to not using them. If you find any problems
+  you should probably test with a real BIOS to make sure that isn't the
+  cause.
+
+* A MASSIVE amount of behind the scenes stuff and other stuff that I've
+  forgotten. You may notice this version is faster/slower than previously,
+  I'm really not sure about that yet ;)
+
+Have fun, hopefully I fixed everything, and broke nothing.
+
+Snake.

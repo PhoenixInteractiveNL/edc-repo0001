@@ -1,0 +1,5 @@
+Shell:
+
+ Fixes:
+
+  - NSF text info bug from v1.30.

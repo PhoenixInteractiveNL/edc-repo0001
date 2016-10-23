@@ -1,0 +1,21 @@
+v1.4 Added final icon and controller dialog graphcs from TheCloudOfSmoke
+     Fixed bug where joystick device selection was not kept after restarting
+     Implemented PPF patch support (command line only for now)
+     Added option to disable bilinear filtering
+     Added L3 and R3 buttons for dualshock controller
+     Added reverse axis option for controller analog axes
+     Option to disable controller rumble now works
+     Second controller now works
+     Fixed keys that did not work in controller config dialog (eg. cursors)
+     Integrated CDZ converter into main program
+     Added gamma, brightness and contrast controls (fullscreen only)
+     Added quicksave/load functionality
+     Fast forward now temporarily turns off vsync
+     ASPI DLL is no longer required if using IOControl
+     Fixed state save dialog (now uses save type instead of open)
+     Fixed window painting when paused (or in modal dialogs)
+     Removed log menu option in release version
+     Editing code in debugger memory window works even when using recompiler
+     Fixed some other debugger problems
+     Implemented breakpoint editing
+     Fixed save state loading bug
