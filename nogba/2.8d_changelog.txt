@@ -1,0 +1,17 @@
+What's New in this version?
+---------------------------
+
+26 May 2016 - version 2.8d
+- dsi/rsa: supports unencrypted "rsa" signatures (via hooked RSA swi functions)
+- dsi/sdmmc: supports NDMA sdmmc start condition (for SD data32 read/write)
+- dsi/sdmmc: supports SD card initialization (CMD0,2,3,7,8,9, ACMD6,13,41,42,51)
+- dsi/sdmmc: created/included empty sd-card-image (file dsi-1.sd, in dsi-sd.zip)
+- dsi/sdmmc: fixed irq-retriggering (recurse irq_stat on irq_mask changes)
+- dsi/sdmmc: adjusts insert/eject and write-protect flags depending on dsi-#.sd
+- dsi/sdmmc: prevents RXRDY in DATA32 mode (@@skip_rxrdy_in_data32_mode)
+- dsi/help: added notes on EMPTY sd-image (dsi-#.sd) (DSi SD/MMC Images chapter)
+- dsi/help: added notes unencrypted signatures (see BIOS RSA Functions chapter)
+- dsi/help: added notes on encrypted twl-*.der files (in "verdata" NARC file)
+- dsi/help: added CRC32 checksums for currently known/dump-able DSi-BIOS areas
+- dsi/debug: shows insternal sd/mmc registers in iomap screen (cid,csd,csr,src)
+- sample: updated magic floor gba/nds version, now with working dsi cart header

@@ -1,0 +1,6 @@
+What's New in this version?
+---------------------------
+
+New in Version 1.1
+
+Emulates Video Waitstates, improved vertical scrolling/timings, vertical border with optional sprites in border area, supports all stable undocumented opcodes, emulates read-modify and page-wrap CPU glitches. Version 1.1 additionally includes C16, Plus/4, and VIC-20 emulation modes, about all of the C64 emulation/debugging features have been customized for these new emulation modes. 

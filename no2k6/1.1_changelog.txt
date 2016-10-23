@@ -1,0 +1,13 @@
+What's New in this version?
+---------------------------
+
+16 Oct 2012 - no$2k6 v1.1
+- controls: emulates lightgun (via mouse)
+- help: updated atari 2600 programming specs (2k6specs.txt and 2k6specs.htm)
+- help: added lightgun and trackball specs, and fine-tuned some chapters
+- a22i: sample source code for no$2k6 assembler (see magic2k6.zip package)
+- a22i: conditional jump "slow/fast" prefixes for exact cross-page jump timing
+- a22i: numeric expressions with brackets, and alu/booleans operations
+- a22i: added some macro support (parameter handling is rather crude though)
+- gui: memorizes recent files (for reloading them via file menu)
+- plus: some other details that may have crept into no$xxx gui/emu cores

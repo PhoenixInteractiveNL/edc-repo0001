@@ -1,0 +1,9 @@
+What's New in this version?
+---------------------------
+
+Version 0.972
+-------------
+I hate to make releases so quickly but I have to since there was a bug left
+in the EEPROM code that could cause some games to fail.
+
+* Fixed a bug in EEPROM code which caused NBA Jam Tournament Edition to crash.

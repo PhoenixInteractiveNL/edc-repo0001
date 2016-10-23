@@ -1,0 +1,13 @@
+What's New in this version?
+---------------------------
+
+1st May 2003 - no$msx version 1.5
+  vram viewer: user scr, bgmap, tiles, oam (for now screen 2 only, windows only)
+  fileloader: arj/zipped ROM-file decompression working, arjzip preview
+  bugfix: fixed place_getold_charset (sometimes crashed before loading bios rom)
+  a22i: merges cont. dta lines into single dzone (saves ass/sym/dis mem) 11/2002
+  debugger: various news from my other emus (gui, hack, a22i, xed, arjzip, sym)
+  screen 0/40+80: supports name table base addrs other than zero (thanks luis)
+  autostart: forces blank boot screen when autostarting games (as from no$cpc)
+  debugger: basic de-compreter function view/list to file 11/2001 (from no$zx81)
+  emulation: added still rather trashy sprite collision detection 11/2001

@@ -1,0 +1,40 @@
+What's New in this version?
+---------------------------
+
+Released 27th March 2005.
+
+Added:
+1)	A new method of getting video synchronization with monitor’s refresh rate of 100/120 Hz has been introduced. See Advanced Graphics Options dialog box HIDD_GRAPHICSADV and How to improve smoothness of animations HID_IMPROVE_ANIMATIONS for detailed information about this feature.
+2)	A new keyboard template prepared by Radek Sterba. The very accurate Atari-style keyboard layout may be especially useful when using programs like TMC, which makes the piano keyboard emulation available to users.
+
+Changed:
+1)	The minimum height of the status bar is set to a value that makes the state indicators HID_STATE_INDICATORS look better when small fonts are used in the Windows environment.
+2)	The new sound engine is not reinitialized every time the sound options are changed. This prevents the sound from getting noisy in some cases.
+3)	A new appearance of the pause screen (patch by Marcin Lewandowski).
+4)	Some GUI changes for new Atari800 kernel features.
+
+Fixed:
+1)	A nasty bug causing fatal crash of the emulator after selecting Misc/Convert/ROM to CART has been fixed.
+2)	Fixed incorrect behavior of the emulator when switching between PAL and NTSC video modes without rebooting the emulated Atari (vide the Reboot when video system is changed option in the Advanced Atari Settings dialog box HIDD_SETTINGSADV).
+3)	"Keysticks" and the emulated Atari keyboard should not be locked anymore after pressing the Alt key.
+4)	Fixed some problems with switching to full screen modes (thanks to Itay Chamiel for the bug report).
+
+User-visible changes introduced by new Atari800 kernel:
+1)	Cycle-exact emulation upgrade by Perry McFarlane!
+Fixed display bugs in "Master of the Lamps", "Mail Order Monsters" etc. Cycle-exact changes to colours, GTIA modes, player horizontal positions, player graphics, even cycle-exact GTIA11_DELAY ("Demonic Laughter"). Improved handling of DMACTL changes in the middle of a scanline HID_GLOSSARY_SCANLINE ("Decathlon", "Mail Order Monsters"). Emulation of a DMACTL width change bug.
+2)	New high-quality POKEY sound emulation by Michael Borisov!
+You may still choose the old sound engine by Ron Fries - use Sound Quality in the Sound Options dialog box HIDD_SOUND.
+3)	H: emulation enhancements by Mark Grebe!
+Full support for the standard Atari DOS functions: Rename, Delete, Lock, Unlock, Note, Point, and Open for Update. Full support for subdirectories: CREDIR, RMDIR, CWD, ?DIR work in SpartaDos and BW-DOS ('>' and '>>' are used as directory separators). Changed the directory listing to look like the standard Atari DOS 2.0 listing (the sector count is based on 256-byte sectors). Support for the binary load commands.
+4)	Cassette handling improved by Achim Haertel and Piotr Fusik!
+Writing implemented and loading improved (blocks which pass on tape while the OS waits for a leader are skipped now).
+5)	Monitor enhancements and CPU emulation improved by Marcin Lewandowski!
+Corrected bug with zeropage indirect modes: XXX (ZZ),Y and XXX (ZZ,X). Corrected bug with saving state of N flag when the monitor is called. Debugging instructions are now unlocked and working. Added conditional breaks. Added LABEL command to load the output from X-ASM (it allows using own labels in the monitor). Trace command (TRON) saves the output to a file.
+6)	Fixed MultiJoy and PORTB ("Road Race" works in XL/XE mode - didn't in 3.1).
+7)	Fixed Atari 5200 crash after pressing SHIFT and * in "Super Pacman".
+8)	Swapped GTIA and CTIA artifacting modes, because they were swapped by mistake in version 2.6b.
+9)	New cartridges type: Switchable XEGS 1 MB, Phoenix 8 KB, Blizzard 16 KB.
+10)	Added XF551 HighSpeed transfer emulation.
+11)	Fixed cartridge bank switching to switch back the main bank of switchable XEGS cartridges.
+
+CAUTION: This version may still have some flaws related to the GUI under Windows Me/2000/XP.

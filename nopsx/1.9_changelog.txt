@@ -1,0 +1,80 @@
+What's New in this version?
+---------------------------
+
+28 May 2014 no$psx v1.9
+webpage: moved from http://nocash.emubase.de/ to http://problemkaputt.de/ 
+hc05: low-level cdrom sub-cpu emulation (motorola mc68hc05 with cdrom bios) 
+hc05: setup: allows to select new low-level emu, older/faster high-level emu 
+hc05: setup: ignores hc05 low-level option if file MC68HC05.ROM is missing 
+hc05: setup: forces reset when changing between low-level and high-level emu 
+hc05: setup: prevents skipping mips-bios-intro in low-level cdrom emulation 
+hc05: cpu: emulates motorola hc05 opcodes and hc05 onchip I/O ports and timer2
+hc05: cpu: switches between mips/hc05 (on interval and on 1F80180xh access) 
+hc05: io: emulates servo amplifier and signal processor CX(nn) commands 
+hc05: io: emulates servo/signal SENSE result (with SERIAL SENSE on new chips) 
+hc05: io: emulates decoder cmd/param/reply fifos and sector data transfers 
+hc05: io: emulates SUBQ spi bus transfers (for position and table of contents)
+hc05: scex: simulates serial scex bitstream (when DISK,near POS0,SINGLE speed)
+hc05: scex: simulates new subq channel "encrypted" scex signal (version vC3) 
+hc05: disc: creates SUBQ data for TOC (with point A0h,A1h,A2h,01h..NNh) 
+hc05: disc: skips nonsense track 0 (lead-in) entries in .nrg "CUES" chunks 
+hc05: sled-mech: supports sled move via FastSled and TrackJump commands 
+hc05: sled-mech: supports sled brake (with reduced kick and move voltages) 
+hc05: sled-mech: computes non-linear sector number versus sled seek distance 
+hc05: mech: simulates DOOR OPEN switch period (required to sense disc changes)
+hc05: mech: simulates POS0 switch (required for sled reverse lead-in seeking) 
+hc05: mech: nag feature: simulates GFS=bad on spindle speed change (eg.spinup)
+hc05: mech: nag feature: forces GFS=bad and FOK=bad when disc missing 
+hc05: audio: forwards xa-adpcm data (on adpmnt) and cd-da data (when demuted) 
+hc05: tty: logs incoming cmd/param fifo and outgoing irq/reply fifo transfers 
+hc05: tty: logs CX(nn) commands (with description on known command/params) 
+hc05: tty: logs most recent MM:SS:FF alongsides with CX(nn) commands 
+hc05: bios: cdrom-image-loader treats 16.5K ".ROM" files as cdrom bios-images 
+hc05: bios: autodetects chipset and oscillator (via CXDnnnn strings in BIOS) 
+hc05: debug: supports f6-key set pc, f4-key break, f7-key trace 
+hc05: debug: ctrl+t toggle between MIPS and HC05 debug view (if low level on) 
+hc05: debug: optional bad I/O warnings (with CODE window moved to fault addr) 
+hc05: debug: integrated low-level mode in debugger (re_read_io, vac, iomap) 
+hc05: snapshots: saves hc05 registers and memory and low-level/chipset type 
+hc05: help: added summary of used CX(nn) values for vC1,vC2,vC3 versions 
+hc05: help: add notes on sled motor control methods (move, brake, nonlinear) 
+hc05: help: add info on vC3 specials (TzcOut, NewScex, CX(nn0000)-padding) 
+hc05: help: add info on oscillator clocks, and openbus-reading effects 
+hc05: help: add motorola bootstrap info and cdrom bios dumping info/link 
+cdrom: doesn't set stat.read/play bits until seek completion (gran turismo 1) 
+cdrom: slightly more accurate setloc (kept pending after seek_l/seek_p) 
+cdrom: computes average time per seek distance (faster than real hw though) 
+help: added note on DTL-H2000 using a Sony SPC700 sub-cpu (not Motorola HC05) 
+setup: allows to select 0,1,2,or 8 memcards (workaround for problem in "One") 
+debug: optional MIPS and HC05 tracelog function in TTY window (as in no$sns) 
+debug: new TTY buffer size option (1/10/100MB limit, with optional stop/wrap) 
+debug: resolves ASCII datazones and a0h/b0h/c0h jump lists for DTL-H2000 bios 
+tty: added "tty_force_newline" at begin of auto-generated (non-user) lines 
+cdrom: always uses low-level sector buffer (removed high-level buffer relicts)
+help: added info on DTL-H2000 memory and atcons/dip/led/etc I/O ports 
+help: added 176-pin CXD2941R pinouts (SPU+CDROM+SPU_RAM on PM-41(2) boards) 
+help: notes on missing cdrom commands in vC0 (1Dh+1Eh+5xh + 19h,22h..25h/7xh) 
+help: fixed apu min/max typos, and cpu j/jal F0000000 typo (thanks mitikoro) 
+help: note on cache/cop0 info in LR3330/L64360 datasheets (thanks LostTemplar)
+a22i: added ".pack_crc32 result,initial" directive (use with ".pack_org") 
+a22i: added ".pack_chksum_xor8bit result" and ".pack_chksum_add8bit result" 
+snapshot: bugfix: removed duplicated "SECT" chunk name (cdrom sector buffer) 
+help: added new "PSX Dev-Board Chipsets" chapter (for DTL-Hnnnn boards, etc) 
+debug: fixed tty bios patch for cex-1000 (opcode 0FF019CDh instead 0FF019E1h) 
+bios: gui doesn't mute cd-audio (eg. required for games like wipeout 2097) 
+bios: recognizes GetID result for unlicensed mode2 disks WITH audio tracks 
+debug: allows editing values in REGS window (alternately rx=nn in CODE window)
+bios clone: sends secret unlock commands (works/tested: boots without modchip)
+a22i: added mc68hc05 assembler (for testing/re-assembling cdrom sub-cpu bios) 
+a22i: resurrected nocash-syntax in online assembler (if disass in nocash mode)
+help: hardware numbers: added sony's DTL-Hxxxx developer tool hardware numbers
+gpu/dma2: pre-checks linked-list size (and abort/warn if endless-link-chain) 
+spu: supports multi-block manual ram write (repeated spucnt=C010h; bios intro)
+spu/irq: emulates i_stat edge-triggering (gex,finalfantasy9,tokimekimemorial2)
+cdrom/irq: emulates i_stat edge-triggering (though rarely needed in practice) 
+emu: emulates dirt effects on 8bit/16bit/32bit writes to various I/O ports 
+help: added details on multi-block manual spu ram writes, and on spu ram addr 
+help: extra note on I_STAT bits being edge triggered (was already mentioned) 
+help: unpredictable things: added details on 8bit/16bit/32bit write effects 
+help: memctrl correction: 1F801020h.16-17 and FFFE0130h.8,11-31 are fully R/W 
+spu: ignores writes to "read-only" registers (SPUSTAT and ENDX voice flags) 

@@ -1,0 +1,30 @@
+What's New in this version?
+---------------------------
+
+(20/05/2006),Changes Gens 2.14 Souvenir <- Gens 2.11 :
+-------------------------------
+[Update]
+
+* Fixed a bug in YM2612
+
+* Update Joypad config system.
+
+* SEGA CD save states supported.
+
+* Set none external ram cart as default.
+
+[Comment]
+
+This version maybe the end of the old classic Gens.So I give it a 
+code name 'Souvenir'.it's a glory that I can help stef to update 
+this version.I was thought that copy more codes form Gens32 to make 
+this version more powerful.But finally,I just change a little.I keep 
+Gens as Gens.Because I know,that good old days is more important 
+then a emulator itself.You know,I have completely rewrite Gens32 3 
+times.But all of the 3 editons was based on Stef's Gens.Because I just 
+know that the Gens is a good emulator.
+
+Forgive me for my poor Englsih.
+
+			                  DarkDancer
+                                           20.05.2006 

@@ -1,0 +1,24 @@
+What's New in this version?
+---------------------------
+
+Aug 2012: v2.2
+	- improvements to video timing
+	- Bennet tables implemented for DMA timing
+	- mid-scanline timing fixes (e.g. Fast Eddie, Silly Things demo, Master of the Lamps)
+	- 6502 store timing fix
+	- VSCROL fixed
+	- VDELAY fixed
+	- player & missile colours fixed for GTIA modes
+	- "Share Joystick fpr Player 2" menu item added
+		(share a single joystick for 2 players, playing alternately)
+	- PIA memory repeat added
+	- PIA fixes for DCRs and data registers
+	- menu option to turn on/off console speaker	
+	- SIO disk fixes
+	- sound restored when window gets focus
+	- more trace info for CPU, SIO, PIA and display options
+	- scanline ruler added
+	- CONSOL read fixed for 5200 (Xari Arena ok now)
+	- 20% faster than v2.1
+
+

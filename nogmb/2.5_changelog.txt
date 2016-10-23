@@ -1,0 +1,114 @@
+What's New in this version?
+---------------------------
+
+23th July 2000 - v2.5 download (current windows version) (120 KBytes)
+
+* frameskip: optionally displays frameskip values in performance indicator
+* frameskip: completely rewrote the entire frameskip calculation (it's basically running more fluent now, and it's heavily improving the performance of the combination flat32+pentium)
+* sound: fixed stereo noise on channel 1 and 2 if right channel muted
+* sound: sound output for first player only (in multiple machines mode)
+* sound: supported master volume (ff24) for ch3, and sound obscurity feature
+* huc3: emulated data-read and data-ready registers, whatever that is used for
+* mbc3: xdebug version emulates MBC3 timer, also updated if cartridge not loaded
+* cgb: color translation procedure skips unused colors, possibly a bit faster
+* colors: changed default colors for mono gameboy more to brown (less yellow)
+* battery ram saving: optionally saves whole 8/32K ram area (for bung sram)
+* cheats: loads gamegenie and gameshark data from file no$gmb.ggs, with comments
+* cheats: saves gamegenie and gameshark codes in file no$gmb.ggs
+* cheats: update URLs for gamegenie and gameshark cheats (thanks cameron & brad)
+* cartheader: added more manufacturers codes from the peitschi collection
+* file menu: added "Reload Cartridge" function in "file" popup menu
+* vram viewer: tile & oam screen display monochrome OAM tiles as OBP0, OBP1
+* vram viewer: palette screen displays monochrome gameboy BGP, OBP0, OBP1
+* sgb debugging: made conditional breaks and use of symbolic info freeware
+* debugger: killed the "watchpoint" memory inspection window, instead watches are entered through CTRL+I now, declared as one-byte datazone,and displayed as "bookmarks" in breakpoint window
+* debugger: datawindow highlights cursor in the active part (hex or asc) only
+* xdebug: optionally emulates/warns on disabled external/battery RAM, [0000]=0A
+* help: updated games and options sections, added "two player mode" chapter
+* help: added homepage overview, added "making no$gmb faster" chapter
+* help: added child-proof (hexdump) email address & brief homepage description
+* help: added link to abisx.zip in help file (converts ISX files to SYM files)
+* help: updated the "Features" section, now summarizes all basic features
+* help: added "about the program and work" section
+* biosfix: dummy es:bx adr for acer int15/8301, otherwise it killed a bit in mem
+* diskreadline: fast 16K buffered read (for fast loading big .ggs cheat files)
+* commandline: recognizes .SNAps (provided that file is in SNAP subdirectory)
+* setup: disables sound script file on startup (even if somebody enabled it)
+* cgb bugfix: no more unwanted mono-color init (avoid flicker during tracing)
+* network fix: no$gmb.exe path may contain \\networkname\ instead of drive:\
+* startup: added message to prepare people for the discovery that it's shareware
+* intruder alert: info about ethics that shouldn't be necessary to talk about
+* flat32guifix: always initializes colors when drawing SGB border (pfamirii)
+* flat32fix: uses 32bit string-len (instead 16bit) in ctrl+s search function
+* flat32fix: fixed crash that occured when debugging external RAM banks 1-3
+* flat32gui: info message when attempting to activate empty debug message window
+* flat32gui: allows background gifs bigger than DOS-style 320x200 pixels
+* flat32gui: vram screens freshened during/after tracing/running emulation
+* flat32gui: flicker-free grid in vram viewer screens (user, map, tiles)
+* flat32gui: displays text "paused" in gamescreen caption during debugging
+* flat32gui: added automatic close/create/hide options for game/debug windows
+* flat32gui: displays "caret" (hardware cursor) in data window if it's active
+* flat32gui: gamescreen adjusts its size also when background gif isn't loaded
+* flat32gui: destruction of inactive debug/game window doesn't activate it
+* flat32gui: supports multiplayer (2 players with GIF border, 3-12 without GIF)
+* flat32gui: border between code & data window can be vertically adjusted
+* flat32gui: own button/checkbox class (that won't capture keyboard focus)
+* flat32gui: displays emulation speed (performance) in debug window statusbar
+* flat32gui: automatically starts/stops emu when switching between game/debug
+* flat32gui: gamescreen can be maximized, maximize-state saved in setup
+* flat32gui: optionally gamescreen can be sized at any step and ratio
+* flat32gui: gamescreen can be sized (with mouse) to any size (step 50%)
+* flat32gui: separate child windows for LCD screen and GIF/SGB border fragments (speedup, child windows are drawn directly, old code used a 320x200pix temp buffer for "emulated direct" VGA vram access)
+* flat32gui: removed dos-style debugscreen options (colors, vsize, resolution)
+* flat32gui: debug window/frame can by re-sized vertically, fixed xed-sizing
+* flat32gui: added right mouse button context menues in debugscreen
+* flat32gui: ported main debug screen to windows format, and moved performance
+  indicator to window caption; no$gmb.f?? DOS-font files are no longer required
+* flat32: completely removed SetDIBColorTable, CreateDIBSection, and XxxBlt's. using StretchDIBits instead seems to fix 8bit palette dirt & lockups
+* flat32gui: override option in xcept setup disables/grays options below
+* flat32gui: ported help text windows style pages, headlines, links, etc.
+* flat32gui: keyboard setup works for player 1-12
+* flat32gui: windows gui port of built-in editor mostly completed and working
+* flat32: entering data in stack window fixed (with ycur<>0) (thanks randy)
+* flat32gui: started to port the included "xed" text editor (still incomplete)
+* flat32gui: right mousebutton popup menu in emulation mode
+* flat32gui: setup (at the moment the screens are arranged a bit messy though)
+* flat32: detects non-prensent soundcard (and disables sound if necessary)
+* flat32gui: added setup autosave option (saves settings on exit)
+* flat32nogui: clicking left mouse button stops emulation (as in DOS version)
+* flat32: removed DOS-only options (display redraw mode, swapping, plain text)
+* flat32gui: ported the vram viewer screens to windows style format
+* flat32: removed maxmize box in caption, removed modalframe in modeless dialogs
+* flat32: disabled unwanted screen-to-bggif centering in 3..12 players mode
+* flat32: redisptotal redisps all screens (indirectly fixes CGB blank color bug)
+* flat32gui: supports loading and saving in color scheme editor
+* flat32: fixed SGB border colors (didn't use incoming ch in set_sgb_color_dacs)
+* flat32: palette animation (GIF/SGB borders, and colsch edit in 8bit vga mode)
+* flat32gui: color scheme editor (isn't fully functional yet though)
+* flat32: put Sleep(1) in main getkey loop (more multitasking friendly)
+* flat32gui: subclassed wm_char --> search processing in files.lst menu
+* flat32: cartloader warning messages on bad checksums, undef mbc-type, etc.
+* flat32fix: fixed all DialogProcs for win2000 (added begin/end_proc pushpops)
+* flat32gui: added small lowres cartridge icon for caption/title bar
+* flat32fix: fixed input_proc for win2000 (added pusha/popa_proc)
+* flat32gui: win-explorer style filemenues, around 10 times slower than before
+* flat32gui: no$gmb internal stats modal dialog box, unregistered-debug dialog
+* flat32gui: F10-hardware info screen as modeless dialog, renamed to I/O Map
+* flat32fix: added invalidate rect's for color scheme load/save menues
+* flat32gui: unregistered users CGB five minute timeout message box
+* flat32gui: debug message dialog box window (instead DOS hercules debug screen)
+* flat32gui: SGB packet window, update info if older than 6 months messagebox
+* flat32gui: a22i source code assembler result/errormessage dialog box
+* flat32fix: repaired memchange breaks (conditionals like "(FF40)!&80")
+* flat32fix: multiple cgb-machine reset (crashed when 2 player saved in setup)
+* flat32fix: battery ram saving size (for 32KB external ram) fixed ax/xax
+* flat32gui: files.lst menu
+* flat32: fixed SGB packet window crash (pop xbp instead pop bp)
+* flat32: fixed a22i errmsg lockup (emulated text cursor offscreen, total_ysize)
+* flat32: added DOS stub message with URL for DOS version
+* flat32fix: fixed [xregpc] instead [si] in halt-with-di procedure (thanks ein)
+* flat32gui: dialog box for gameshark (took around 4 days), and for gamegenie
+* flat32gui: input/output textbox, aboutbox, fixed options, bung eeprom writer
+* flat32: resource file with copyright info, gameboy- and cursors-icon 26 Feb 00
+* update info: made option version-specific so it'll be re-enabled in updates
+* xt version: translated pusha/popa macros to calls to free mem in basis segment

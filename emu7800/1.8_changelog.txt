@@ -1,0 +1,7 @@
+What's New in this version?
+---------------------------
+
+v1.8
+EMU7800.D2D.exe, EMU7800.Launcher.exe: Added ability to start a recognizable ROM by providing its path on the command-line
+No changes to the core emulation library
+No changes to EMU7800 Classic
