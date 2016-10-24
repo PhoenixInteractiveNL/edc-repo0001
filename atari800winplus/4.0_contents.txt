@@ -1,0 +1,46 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2004-08-09 18:32:32 ....A         1055       614688  Keyboard\Default.a8k
+2004-12-30 10:33:50 ....A         1052               Keyboard\Raster.a8k
+2004-08-09 18:32:32 ....A         1072               Keyboard\Ultima3.a8k
+2004-08-09 18:32:32 ....A           25               Trainer\AlleyCat.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\BlueThunder.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\BoulderDash.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\BruceLee.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\Conan.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\DanStrikesBack.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\DonkeyKong.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\DonkeyKongJunior.a8t
+2004-08-09 18:32:32 ....A           29               Trainer\Draconus.a8t
+2004-08-09 18:32:32 ....A           29               Trainer\Dropzone.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\FortApocalypse.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\Goonies.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\Gyruss.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\HERO.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\JetSetWilly.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\KeystoneKapers.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\Loco.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\MontezumasRevenge.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\MoonPatrol.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\MrRobotAndHisRobotFactory.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\RiverRaid.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\Starquake.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\Zorro.a8t
+2004-08-09 18:32:32 ....A           25               Trainer\Zorro_FullVersion.a8t
+2004-08-09 18:32:32 ....A          768               Palette\Default.act
+2004-08-09 18:32:32 ....A          768               Palette\Gray.act
+2004-08-09 18:32:32 ....A          768               Palette\Green.act
+2004-08-09 18:32:32 ....A          768               Palette\Jakub.act
+2004-08-09 18:32:32 ....A          768               Palette\Real.act
+2004-08-09 18:32:32 ....A          768               Palette\Xformer.act
+2004-08-09 19:32:32 ....A         3843               Atari800Win.cnt
+2005-08-26 08:38:58 ....A         1599               file_id.diz
+2004-08-09 18:32:32 ....A        32256               kailleraclient.dll
+2005-08-29 07:26:22 ....A      1007616               Atari800Win.exe
+2005-08-29 07:26:54 ....A       307920               Atari800Win.hlp
+2005-08-29 07:26:54 D....            0            0  Rom
+2005-08-29 07:26:54 D....            0            0  Palette
+2005-08-29 07:26:54 D....            0            0  Keyboard
+2005-08-29 07:26:54 D....            0            0  Trainer
+------------------- ----- ------------ ------------  ------------------------
+2005-08-29 07:26:54            1361629       614688  38 files, 4 folders

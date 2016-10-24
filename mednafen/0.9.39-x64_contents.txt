@@ -1,0 +1,64 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+1996-12-24 17:32:00 ....A      3145728      7590138  bc racers (usa).bin
+2016-10-22 10:14:02 ....A       275419               mednafen-09x.cfg
+2016-07-31 06:22:52 ....A         1975               Documentation\mednafen.css
+2016-08-05 05:11:12 ....A       125624               libcharset-1.dll
+2016-08-05 05:11:12 ....A       561418               libgcc_s_seh-1.dll
+2016-08-05 05:11:12 ....A      1029120               libiconv-2.dll
+2016-08-05 05:11:12 ....A      1522688               libsndfile-1.dll
+2016-08-05 05:11:12 ....A       984576               libstdc++-6.dll
+2016-08-05 05:11:12 ....A       327680               SDL.dll
+2016-08-05 05:11:12 ....A     19177984               mednafen.exe
+2016-08-04 12:18:48 ....A        11120               Documentation\cdplay.html
+2016-07-31 06:22:52 ....A           14               Documentation\cheat.html
+2016-07-31 06:22:52 ....A         9108               Documentation\debugger.html
+2016-08-04 12:18:48 ....A        12391               Documentation\gb.html
+2016-08-04 12:18:48 ....A        13337               Documentation\gba.html
+2016-08-04 12:18:48 ....A        10846               Documentation\gg.html
+2016-08-04 12:18:48 ....A        12358               Documentation\lynx.html
+2016-08-04 12:18:48 ....A        20900               Documentation\md.html
+2016-08-04 12:18:50 ....A       115961               Documentation\mednafen.html
+2016-08-04 12:18:48 ....A        51269               Documentation\nes.html
+2016-08-04 12:18:48 ....A         4770               Documentation\netplay.html
+2016-08-04 12:18:48 ....A        12373               Documentation\ngp.html
+2016-08-04 12:18:48 ....A        27115               Documentation\pce.html
+2016-08-04 12:18:48 ....A        18023               Documentation\pce_fast.html
+2016-08-04 12:18:48 ....A        24768               Documentation\pcfx.html
+2016-08-04 12:18:48 ....A        56674               Documentation\psx.html
+2016-08-04 12:18:48 ....A        11590               Documentation\sms.html
+2016-08-04 12:18:48 ....A        15882               Documentation\snes.html
+2016-08-04 12:18:48 ....A        14936               Documentation\snes_faust.html
+2016-08-04 12:18:48 ....A        27810               Documentation\ss.html
+2016-08-04 12:18:48 ....A        11657               Documentation\ssfplay.html
+2016-08-04 12:18:48 ....A        19365               Documentation\vb.html
+2016-08-04 12:18:48 ....A        16397               Documentation\wswan.html
+2016-08-05 05:11:12 ....A        37199               ru\LC_MESSAGES\mednafen.mo
+2016-08-05 05:11:12 ....A        27544               de\LC_MESSAGES\mednafen.mo
+2016-07-31 06:22:52 ....A         3306               Documentation\bwolf0.png
+2016-07-31 06:22:52 ....A         3958               Documentation\bwolf1.png
+2016-07-31 06:22:52 ....A          412               Documentation\headerbg.png
+2016-07-31 06:22:52 ....A        64681               Documentation\mednafen.png
+2016-07-31 06:22:52 ....A        10449               Documentation\sapphire0.png
+2016-07-31 06:22:52 ....A        11216               Documentation\sapphire1.png
+2016-07-31 06:22:52 ....A          452               Documentation\cheats.txt
+2016-07-31 06:22:52 ....A         1808               Documentation\fname_format.txt
+2016-10-22 10:14:02 ....A         3599               stdout.txt
+2016-10-22 03:44:10 ....A      1116437               bcracers.zip
+2016-08-04 12:34:54 ....A       366487               ChangeLog
+2016-07-31 06:22:52 ....A        18010               COPYING
+2016-07-31 06:22:52 D....            0            0  Documentation
+2016-07-31 06:22:52 D....            0            0  pgconfig
+2016-07-31 06:22:52 D....            0            0  de\LC_MESSAGES
+2016-07-31 06:22:52 D....            0            0  ru\LC_MESSAGES
+2016-07-31 06:22:52 D....            0            0  cheats
+2016-07-31 06:22:52 D....            0            0  firmware
+2016-07-31 06:22:52 D....            0            0  ru
+2016-07-31 06:22:52 D....            0            0  mcs
+2016-07-31 06:22:52 D....            0            0  mcm
+2016-07-31 06:22:52 D....            0            0  sav
+2016-07-31 06:22:52 D....            0            0  de
+2016-07-31 06:22:52 D....            0            0  snaps
+2016-07-31 06:22:52 D....            0            0  palettes
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 10:14:02           29336434      7590138  47 files, 13 folders

@@ -1,0 +1,80 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2015-06-07 15:30:23 ....A         4096      1918238  roms\7800highscore.bin
+2015-06-07 15:30:23 ....A         4096               roms\7800NTSCBIOS.bin
+2015-06-07 15:30:23 ....A        16384               roms\7800PALBIOS.bin
+2015-06-07 15:30:23 ....A         4096               roms\actionmn.BIN
+2015-06-07 15:30:23 ....A         4096               roms\ADVNTURE.BIN
+2015-06-07 15:30:23 ....A         8192               roms\ASTEROID.BIN
+2015-06-07 15:30:23 ....A        16384               roms\Asteroids.bin
+2015-06-07 15:30:23 ....A         4096               roms\Berzerk.bin
+2015-06-07 15:30:23 ....A         2048               roms\Breakout.bin
+2015-06-07 15:30:23 ....A         4096               roms\Choprcmd.bin
+2015-06-07 15:30:23 ....A         2048               roms\Combat.bin
+2015-06-07 15:30:23 ....A         4096               roms\Cosmcark.bin
+2015-06-07 15:30:23 ....A       131072               roms\Darkchambers.bin
+2015-06-07 15:30:23 ....A         4096               roms\Demonatk.bin
+2015-06-07 15:30:23 ....A        16384               roms\Digdug.bin
+2015-06-07 15:30:23 ....A        49152               roms\Donkeykong.bin
+2015-06-07 15:30:23 ....A        49152               roms\Donkeykongjr.bin
+2015-06-07 15:30:23 ....A         4096               roms\Drgnfire.bin
+2015-06-07 15:30:23 ....A         4096               roms\Frogger.bin
+2015-06-07 15:30:23 ....A        32768               roms\Galaga.bin
+2015-06-07 15:30:23 ....A       131072               roms\Impossiblemission.bin
+2015-06-07 15:30:23 ....A        32768               roms\Joust.bin
+2015-06-07 15:30:23 ....A        49152               roms\Mariobros.bin
+2015-06-07 15:30:23 ....A         4096               roms\MISSCOMM.BIN
+2015-06-07 15:30:23 ....A        16384               roms\Mspacman.bin
+2015-06-07 15:30:23 ....A         4096               roms\OYSTR29.BIN
+2015-06-07 15:30:23 ....A        32768               roms\PACCOLL.BIN
+2015-06-07 15:30:23 ....A         4096               roms\Pacman.bin
+2015-06-07 15:30:23 ....A        32768               roms\Robotron2084.bin
+2015-06-07 15:30:23 ....A        16384               roms\SI7800.BIN
+2015-06-07 15:30:23 ....A         4096               roms\SPCINVAD.BIN
+2015-06-07 15:30:23 ....A       131072               roms\Summergames.bin
+2015-06-07 15:30:23 ....A       131072               roms\Wintergames.bin
+2015-06-07 15:30:27 ....A          571               EMU7800.Win.exe.config
+2015-06-07 15:30:27 ....A       208116               ROMProperties.csv
+2015-09-27 16:47:34 ....A       143360               EMU7800.Core.dll
+2015-09-27 15:20:22 ....A        89600               x86\EMU7800.DirectX.dll
+2015-09-27 16:47:36 ....A       105984               x64\EMU7800.DirectX.dll
+2015-09-27 16:47:36 ....A       141312               EMU7800.Win.exe
+2015-06-07 15:30:23 ....A         2872               README\EMU7800.SL.html
+2015-09-27 15:40:23 ....A        49840               README\README.html
+2015-06-07 15:30:23 ....A         4865               README\images\adventure26.JPG
+2015-06-07 15:30:23 ....A         2780               README\images\asteroids26.JPG
+2015-06-07 15:30:23 ....A         5774               README\images\asteroids78.JPG
+2015-06-07 15:30:23 ....A         5663               README\images\breakout26.JPG
+2015-06-07 15:30:23 ....A         4506               README\images\combat26.JPG
+2015-06-07 15:30:23 ....A         6953               README\images\cosmicark26.JPG
+2015-06-07 15:30:23 ....A        19313               README\images\darkchambers78.JPG
+2015-06-07 15:30:23 ....A        16969               README\images\dkongjr78.JPG
+2015-06-07 15:30:23 ....A         8734               README\images\earthdiesscreaming26.JPG
+2015-06-07 15:30:23 ....A        71171               README\images\EMU7800Console.JPG
+2015-06-07 15:30:23 ....A        58581               README\images\EMU7800GameSelect.JPG
+2015-06-07 15:30:23 ....A       130648               README\images\EMU7800Help.JPG
+2015-06-07 15:30:23 ....A        59977               README\images\EMU7800OpenFile.JPG
+2015-06-07 15:30:23 ....A        28047               README\images\EMU7800Settings.JPG
+2015-06-07 15:30:23 ....A        10075               README\images\frogger26.JPG
+2015-06-07 15:30:23 ....A         8753               README\images\gijoe26.JPG
+2015-06-07 15:30:23 ....A        26165               README\images\impossiblemission78.JPG
+2015-06-07 15:30:23 ....A         8192               README\images\joust78.JPG
+2015-06-07 15:30:23 ....A        11826               README\images\mariobros78.JPG
+2015-06-07 15:30:23 ....A        17592               README\images\mspacman78.JPG
+2015-06-07 15:30:23 ....A         4602               README\images\omegarace26.JPG
+2015-06-07 15:30:23 ....A         7560               README\images\oystron26.JPG
+2015-06-07 15:30:23 ....A         5610               README\images\robotron78.JPG
+2015-06-07 15:30:23 ....A        17687               README\images\summergames78.JPG
+2015-09-27 16:47:34 ....A       388608               EMU7800.Core.pdb
+2015-09-27 15:20:22 ....A      1683456               x86\EMU7800.DirectX.pdb
+2015-09-27 16:47:36 ....A      1511424               x64\EMU7800.DirectX.pdb
+2015-09-27 16:47:36 ....A       235008               EMU7800.Win.pdb
+2015-06-07 15:30:23 ....A        18331               LICENSE.TXT
+2015-06-07 15:30:23 ....A       525387               README\EMU7800.SL.xap
+2015-06-07 15:30:23 D....            0            0  x64
+2015-06-07 15:30:23 D....            0            0  README
+2015-06-07 15:30:23 D....            0            0  x86
+2015-06-07 15:30:23 D....            0            0  README\images
+2015-06-07 15:30:23 D....            0            0  roms
+------------------- ----- ------------ ------------  ------------------------
+2015-09-27 16:47:36            6600280      1918238  71 files, 5 folders
