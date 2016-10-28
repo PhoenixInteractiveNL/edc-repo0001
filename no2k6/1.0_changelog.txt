@@ -1,0 +1,9 @@
+24 July 2005 - no$2k6 v1.0 - first release
+- Precise timing emulation synchronizes CPU with the cathode ray beam
+- Auto-detects pal/ntsc frame rates & cartridge memory banking types
+- Emulates joysticks, paddles, keypads, and steering controller
+- Debugger: with breakpoints, symbolic debug info (labels)
+- Debugger: automatic I/O disassembler comments, built-in
+- assembler/disassembler supports native/nocash syntaxes
+- upload to real atari function (via parallel port cable)
+- help text includes full atari programming specs (also in 2k6specs.txt/htm)

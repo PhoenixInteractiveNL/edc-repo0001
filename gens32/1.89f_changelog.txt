@@ -1,0 +1,7 @@
+////////////////////////////////////////////
+//Gens32 Surreal v1.89 F
+////////////////////////////////////////////
+1) Fixed the srm problem of xin qi gai wang zi(v1.88N).
+2) Change Gens32 Filter V to Gens32 HD Filter 720P.
+3) Update Gens32 Filter.
+4) Maybe more in 1.88 and 1.87.But too long to remember them...

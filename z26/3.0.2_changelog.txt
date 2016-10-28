@@ -1,0 +1,9 @@
+What's new in version 3.02?
+  * Works on a Snow-Leopard (Intel) Macintosh (binary supplied). 
+  * All 23 bankswitch schemes are accessable from the GUI.  
+  * The Atari 32K bankswitch scheme without a SARA chip is now the default for 32K carts. 
+  * These changes allow Medieval Mayhem to play.
+  * Fixed bug in missile positioning.  Combat, Yars' Revenge and a number of other games now work. 
+  * FIxed bug with alt-Tab by including a version of SDL.dll from Enigma. 
+  * Thanks to Team Enigma! (http://www.nongnu.org/enigma/download.html#stable
+  * Thanks to Eckhard Stolberg for help with this version!  

@@ -1,0 +1,10 @@
+////////////////////////////////////////////
+//Gens32 Surreal v1.80 Std
+////////////////////////////////////////////
+1)Rewrite Gens32 Filter I.
+2)Rewrite Gens32 Filter II.
+3)Update YM2612 stuff.Adjust for 114db playback.
+4)Update mouse driver system,buildin 4 drivers.
+They are Lethal Enforcers,Lethal Enforcers II, Dune2, Cannon Fodder.
+you can check out mouse.txt for more details.
+5)Try to fix DAC sound.

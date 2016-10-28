@@ -1,0 +1,49 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2012-07-12 20:13:02 ....A       243571       258341  ChangeLog
+2005-08-21 00:06:40 ....A        18010               COPYING
+2010-06-12 06:21:30 ....A         5827               Documentation\bwolf0.png
+2010-06-12 06:21:32 ....A         6701               Documentation\bwolf1.png
+2008-02-08 12:44:18 ....A          412               Documentation\headerbg.png
+2008-02-08 12:44:20 ....A        70554               Documentation\mednafen.png
+2010-06-12 06:20:50 ....A        17621               Documentation\sapphire0.png
+2010-06-12 06:20:54 ....A        18329               Documentation\sapphire1.png
+2011-08-02 00:10:04 ....A         8546               Documentation\debugger.html
+2012-07-12 20:16:02 ....A        11943               Documentation\gb.html
+2012-07-12 20:16:02 ....A        12987               Documentation\gba.html
+2012-07-12 20:16:02 ....A        10378               Documentation\gg.html
+2012-07-12 20:16:02 ....A        11884               Documentation\lynx.html
+2012-07-12 20:16:02 ....A        15421               Documentation\md.html
+2012-07-12 20:16:04 ....A       106413               Documentation\mednafen.html
+2012-07-12 20:16:02 ....A        48428               Documentation\nes.html
+2012-07-12 20:16:04 ....A         3491               Documentation\netplay.html
+2012-07-12 20:16:02 ....A        12035               Documentation\ngp.html
+2012-07-12 20:16:02 ....A        25716               Documentation\pce.html
+2012-07-12 20:16:02 ....A        17876               Documentation\pce_fast.html
+2012-07-12 20:16:04 ....A        22333               Documentation\pcfx.html
+2012-07-12 20:16:04 ....A        24367               Documentation\psx.html
+2012-07-12 20:16:04 ....A        11136               Documentation\sms.html
+2012-07-12 20:16:04 ....A        13763               Documentation\snes.html
+2012-07-12 20:16:04 ....A        18584               Documentation\vb.html
+2012-07-12 20:16:04 ....A        15698               Documentation\wswan.html
+2010-06-10 00:10:48 ....A         1968               Documentation\mednafen.css
+2006-08-08 19:36:40 ....A          452               Documentation\cheats.txt
+2010-12-19 18:05:58 ....A         1808               Documentation\fname_format.txt
+2012-07-12 20:32:30 ....A        34902               de\LC_MESSAGES\mednafen.mo
+2012-07-12 20:32:30 ....A        47706               ru\LC_MESSAGES\mednafen.mo
+2012-07-12 20:32:30 ....A      9783296      3468266  mednafen.exe
+2012-07-12 20:32:30 ....A       701008               libcdio-13.dll
+2012-07-12 20:32:30 ....A       100904               libcharset-1.dll
+2012-07-12 20:32:30 ....A        92160               libgcc_s_sjlj-1.dll
+2012-07-12 20:32:30 ....A      1434919               libiconv-2.dll
+2012-07-12 20:32:30 ....A      2304512               libsndfile-1.dll
+2012-07-12 20:32:30 ....A       829440               libstdc++-6.dll
+2012-07-12 20:32:30 ....A       303616               SDL.dll
+2012-07-12 20:32:30 ....A        87552               zlib1.dll
+2016-10-28 18:29:04 D....            0            0  ru\LC_MESSAGES
+2016-10-28 18:29:04 D....            0            0  ru
+2016-10-28 18:29:04 D....            0            0  Documentation
+2016-10-28 18:29:04 D....            0            0  de\LC_MESSAGES
+2016-10-28 18:29:04 D....            0            0  de
+------------------- ----- ------------ ------------  ------------------------
+2016-10-28 18:29:04           16496267      3726607  40 files, 5 folders

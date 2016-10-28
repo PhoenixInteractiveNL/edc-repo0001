@@ -1,0 +1,96 @@
+** 2.0.2 released on 2006-04-08
+
+2006-04-08  Petr Stehlik  <pstehlik@sophics.cz>
+* atari_sdl.c: map ATARI key to SDL_BACKQUOTE key as well (similarly to DOS
+  port) since LSUPER key (the WINDOW key) is unusable in MS Windows (it
+  opens up the Start menu).
+
+* config.{guess,sub}: updated to version from 2006-02-23
+
+* debian/*: update for new release. Fixes bugs in Debian BTS (#346876, #288543)
+
+* atari800.{h,man},configure.ac,README*,atari800.spec: update for 2.0.2 release
+
+
+2006-04-06  Perry McFarlane  <perry_m@fastmail.fm>
+* antic.c: removed IR = 0 and anticmode = 0. Added a check to ignore JVB
+  in the jump instruction instead.
+
+
+2006-03-29  Perry McFarlane  <perry_m@fastmail.fm>
+* atari_sdl.c, atari_ntsc.c: added command line options, help and rearranged
+  code a bit in the NTSC emulator.
+* DOC/USAGE updated for the NTSC emulator.
+* DOC/BUGS added Satan's Hollow and Sirius games.
+* TODO updated to add NTSC emulator todos and a large number of other ideas.
+* DOC/CREDITS added Shay Green as author the of NTSC emulator
+
+
+2006-03-19  Piotr Fusik  <fox@scene.pl>
+* compfile.c: fixed DCM image handling - support 0x45 "End Of Pass" code
+  in an empty sector block starting at any sector (usually 0x0045)
+
+
+2006-03-10  Perry McFarlane  <perry_m@fastmail.fm>
+* atari_sdl.c, atari_ntsc.c: Blargg's NTSC composite video emulator based on
+  NewRisingSun's algorithm. SDL port 640x480x16 only. Use -ntscemu.
+
+
+2006-02-03  Piotr Fusik  <fox@scene.pl>
+* antic.c: a bug in do_border_gtia10 caused a crash on machines that don't
+  support unaligned words (problem reported by Mark Watson), on other machines
+  sprites on the right border in GTIA 10 modes were incorrectly shifted;
+  a pointer cast in DO_BORDER_1 replaced with IS_ZERO_ULONG, just in case
+
+
+2006-01-31  Piotr Fusik  <fox@scene.pl>
+* win32/screen_win32.c: made DDERR_UNSUPPORTED user-friendly ;-)
+
+* atari.h, input.c, statesav.c, ui.c, ui.h, ui_basic.c, dc/atari_dc.c,
+  dc/atari800.cfg, dc/config.h, dc/dc_chdir.c, dc/icon.h, dc/Makefile.dc,
+  dc/version.h, dc/vmu.c, dc/vmu.h, DOC/CHANGES.dc, DOC/README.dc:
+  integrated Christian Groessler's SEGA Dreamcast port
+
+
+2006-01-30  Perry McFarlane  <perry_m@fastmail.fm>
+* antic.c: fixes for Spider City and Fast Eddie
+  Don't display usual graphics if DMACTL width changed from 0 past a
+  certain cycle.  Also don't continue to steal cycles. Bug made Fast Eddie
+  bounce up and down one scan line in the demo mode and caused garbage lines
+  in Spider City.
+
+* antic.c: fix update_scanline_* to adjust for HSCROL only when IR&0x10 is
+  true.  I don't know if it caused any problems but it was wrong.
+
+* antic.c: fix for Final Orbit. Set IR = 0 after JVB instruction.  Bug made the
+  screen shake badly.
+
+
+2006-01-26  Piotr Fusik  <fox@scene.pl>
+* ui_basic.c: directory that has been left (via Backspace or "[..]")
+  is highlighted in the parent directory; display an error message
+  when cannot enter a directory
+
+
+2006-01-14  Piotr Fusik  <fox@scene.pl>
+* monitor.c: "D" command displayed FFFE and FFFF instruction addresses
+  as FFFFFFFE and FFFFFFFF respectively
+
+
+2006-01-11  Troy Ayers  <holiday42@gmail.com>
+* atari_ps2.c: Added routines for sound_pauses and sound resume for the PS2
+
+
+2006-01-09  Piotr Fusik  <fox@scene.pl>
+* pokeysnd.c: some fixes for stereo RF pokeysnd, essential for ASAP
+
+
+2006-01-07  Piotr Fusik  <fox@scene.pl>
+* atari.[ch], memory.c, ui.c: 192 KB RAM
+
+
+2006-01-06  Piotr Fusik  <fox@scene.pl>
+* configure.ac: small fix for sound on PS2
+
+* DOC/BUGS: 5200 Joust sets all colors to black on PAL machines
+  (not Atari800's bug)

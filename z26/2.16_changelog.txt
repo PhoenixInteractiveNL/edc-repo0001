@@ -1,0 +1,3 @@
+What's new in version 2.16?
+  * Fix GUI bug related to controller selection.
+  * Thanks to Eckhard Stolberg for help with this version.

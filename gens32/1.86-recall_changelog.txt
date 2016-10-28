@@ -1,0 +1,10 @@
+////////////////////////////////////////////
+//Gens32 Surreal v1.86 Recall
+////////////////////////////////////////////
+1)Rewrite Super TV Filter.make it more like some TV set.
+2)Rewrite Gens32 Filter IV.
+3)Adjust sounds,try to make it more like real hardware.
+4)Add a noise effect while reading SEGA CD.Since I don't
+have the hardware yet,I got it from my Sony WALKMAN...
+5)Remove soundrate stuff.
+6)Remove OpenGL stuff,since it's so hard to got a SDK.

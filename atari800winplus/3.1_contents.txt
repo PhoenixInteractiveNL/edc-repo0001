@@ -1,0 +1,43 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2002-11-16 07:13:38 ....A       298355       207275  Atari800Win.hlp
+2001-03-01 22:15:48 ....A         1055               Keyboard\Default.a8k
+1998-09-08 03:43:02 ....A         1072               Keyboard\Ultima3.a8k
+2002-09-30 09:34:04 ....A           25               Trainer\AlleyCat.a8t
+2002-09-30 09:29:26 ....A           25               Trainer\BlueThunder.a8t
+2002-09-30 09:35:24 ....A           25               Trainer\BoulderDash.a8t
+2002-09-30 09:36:02 ....A           25               Trainer\BruceLee.a8t
+2002-09-30 09:31:26 ....A           25               Trainer\DanStrikesBack.a8t
+2002-09-30 09:43:30 ....A           25               Trainer\DonkeyKong.a8t
+2002-09-30 09:44:12 ....A           25               Trainer\DonkeyKongJunior.a8t
+2002-09-30 09:27:12 ....A           29               Trainer\Draconus.a8t
+2002-09-30 09:24:46 ....A           25               Trainer\Dropzone.a8t
+2002-09-30 09:32:24 ....A           25               Trainer\Goonies.a8t
+2002-10-26 23:09:58 ....A           25               Trainer\Gyruss.a8t
+2002-10-26 23:10:52 ....A           25               Trainer\JetSetWilly.a8t
+2002-10-26 23:13:00 ....A           25               Trainer\KeystoneKapers.a8t
+2002-09-30 09:37:32 ....A           25               Trainer\Loco.a8t
+2002-09-30 09:39:22 ....A           25               Trainer\MontezumasRevenge.a8t
+2002-09-30 09:40:12 ....A           25               Trainer\MoonPatrol.a8t
+2002-10-01 18:32:20 ....A           25               Trainer\MrRobotAndHisRobotFactory.a8t
+2002-09-30 09:50:00 ....A           25               Trainer\RiverRaid.a8t
+2002-09-30 09:42:20 ....A           25               Trainer\Starquake.a8t
+2002-09-30 09:54:26 ....A           25               Trainer\Zorro.a8t
+2002-09-30 09:54:50 ....A           25               Trainer\Zorro_FullVersion.a8t
+2000-04-09 11:43:36 ....A          768               Palette\Default.act
+2000-05-05 07:31:16 ....A          768               Palette\Gray.act
+2002-03-15 21:34:02 ....A          768               Palette\Green.act
+2001-11-30 14:54:14 ....A          768               Palette\Jakub.act
+2000-07-16 02:12:54 ....A          768               Palette\Real.act
+2000-09-27 14:40:56 ....A          768               Palette\Xformer.act
+2002-10-16 00:21:28 ....A         3757               Atari800Win.cnt
+2002-11-07 19:51:18 ....A         4352               file_id.diz
+2002-11-16 07:14:40 ....A       524288       210282  Atari800Win.exe
+2002-02-13 14:52:38 ....A        32256               kailleraclient.dll
+1998-12-04 04:33:36 ....A        69632               zlib.dll
+2016-10-28 20:04:19 D....            0            0  Trainer
+2016-10-28 20:04:19 D....            0            0  Rom
+2016-10-28 20:04:19 D....            0            0  Palette
+2016-10-28 20:04:19 D....            0            0  Keyboard
+------------------- ----- ------------ ------------  ------------------------
+2016-10-28 20:04:19             939904       417557  35 files, 4 folders

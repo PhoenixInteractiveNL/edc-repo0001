@@ -1,0 +1,6 @@
+////////////////////////////////////////////
+//Gens32 Surreal v1.79 Ghost
+////////////////////////////////////////////
+1)Rewrite Gens32 Filter I.
+2)Rewrite Gens32 Filter II.
+3)Added a speed up engine.Only worked when sound enabled.

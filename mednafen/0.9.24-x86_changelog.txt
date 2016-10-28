@@ -1,0 +1,30 @@
+-- 0.9.24-WIP: --
+
+July 12, 2012:
+	Only use "AI_ADDRCONFIG" flag with getaddrinfo() hints if it's available; fixes a compilation error on OpenBSD.
+
+	Disallow manual save states with "snes" module during netplay, since the bsnes save state code alters the current state on save state,
+	which would cause desynchs, or annoyances and extra bandwidth usage to work around the issue, in a netplay environment.
+
+July 9, 2012:
+	Netplay:
+		Removed setting "netplay.merge", since similar functionality can be obtained by issuing one or more of the newly-added commands.
+
+		Added /take, /dupe, and /drop commands.
+
+July 8, 2012:
+	PSX: Implemented CD-XA playback current file and channel matching(per very limited tests on a real PS1), fixes broken speech in
+	"Yarudora Series Vol.1 - Double Cast".
+
+	Netplay:
+		BSD/POSIX: Only use MSG_NOSIGNAL if it is defined; fixes compilation issue on Mac OS X.  And don't use MSG_NOSIGNAL
+		for recv(), only send().
+
+		BSD/POSIX: Use socket option "SO_NOSIGPIPE", if available.
+
+		Handle a recv() return value of zero properly(or at least semi-properly :b), to prevent a lockup in certain situations.
+
+		Added player /swap command(requires mednafen-server 0.5.0).
+
+July 6, 2012:
+	SMS: Added "Power Strike II" to the internal game database, to force PAL mode, per suggestion from "megadriver".

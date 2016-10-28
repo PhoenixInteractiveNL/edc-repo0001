@@ -1,0 +1,211 @@
+** tagged as 1.3.0
+
+2003-02-10  Petr Stehlik  <pstehlik@sophics.cz>
+
+* pokey.c, monitor.c: added include. Interesting is that my compiler at
+  home hasn't complained but the gcc-3.2.2 here at work was uncompromising.
+* atari.c: "--help", "--usage" and "--version" recognized now, though the
+  former two just ask user to type "-help" again.
+* pokeysnd.[ch]: fixed typo errors
+* configure.in: alternate user and system-wide config file names for DOS
+  and TOS ($HOME/atari800.cfg and C:\atari800.cfg) since their filesystem
+  is still limited to 8+3 filenames.
+* win32/sound.c: restored original behaviour of "-quality" switch.
+* atari800.man: version increased, SDL option "-audio16" added.
+* win32/sound.c: "-bit16" renamed to "-audio16" to be in sync with SDL port
+* emuos.h: finally updated with proper URL
+* most files in DOC folder updated with minor fixes
+
+2003-02-09  Petr Stehlik  <pstehlik@sophics.cz>
+
+* pokey.[ch]: 'stereo_enabled' variable moved to rt-config.c
+* prompts.[ch]: YesNo() renamed to GetYesNo() and added GetYesNoAsInt()
+  that allows user to enter Y/N in the RtConfigUpdate process
+* rt-config.c: added 'enable_new_pokey'
+  * added "ENABLE_NEW_POKEY" and "STEREO_POKEY" config options
+  * removed all the code for backward compatibility since it could cause
+    confusion if both old and new option existed in one config file
+  * updated for GetYesNoAsInt() prompt
+  * completely reworked the way the config file is searched for on disk:
+    now it first tries in user's $HOME folder file named ".atari800.cfg"
+    (which is configurable at compile-time) and later it falls back
+    to system wide "/etc/atari800.cfg" (also configurable at compile-time).
+  * also saving to user defined config file (-config <fname>) should work
+    now (contrary to previous state where it saved to default file).
+  * actual config filename is printed so users are sure which file was
+    used (if their configured, or $HOME, or the system wide one)
+* ui.c: updated for 'enable_new_pokey'
+* pokeysnd.c: it wasn't clear to me how important the 'quality' parameter
+  was so I added a function Pokey_set_quality(int). If it wasn't that
+  important (was for testing only?) then let's remove this function.
+* pokeysnd.c: a new function "Pokey_DoInit()" does the actual initialization
+  of the Pokey emulation. It's been separated from Pokey_sound_init to
+  allow calling from UI.
+* atari_amiga.c, sound.c, sound_falcon.c, dos/sound_dos.c, win32/sound.c,
+  wince/sound.c: updated for Pokey_sound_init()'s number of parameters.
+* atari_sdl.c: removed "-mzpokey", "-oldpokey" and "-stereo" command line
+  switches. This job (cleaning up the bloated command line options) was
+  actually one of the main reasons for all my today's changes.
+* configure.in: STEREO sound enabled by default. Shouldn't hurt since
+  at the same time the 'enabled_stereo' is FALSE by default. So basically
+  released binaries will be able to turn on stereo anytime users'll wish.
+  Slower machines might want to disable this (as well as pixel-exact
+  Antic emulation and a few more things) before building. Configure script
+  could even take care of that if it knew which targets are running on
+  slow machines.
+* atari.h, DOC/NEWS, DOC/INSTALL updated with info from above.
+
+** tagged as 1.2.10
+
+2003-02-09  Petr Stehlik  <pstehlik@sophics.cz>
+
+* pokeysnd.[ch]: added Pokey_set/get_quality() that allows me to switch
+  the Pokey routines (Ron Fries/Michael Borisov) on-the-fly from UI.
+* ui.c: Sound Settings submenu added. Allows changing the Pokey routines
+  on-the-fly (automatically reboots) and also Mono/Stereo (if compiled in).
+* emuos.lis: updated URL
+
+2003-02-08  Petr Stehlik  <pstehlik@sophics.cz>
+
+* atari_sdl.c: signal keyboard interrupt only when it's enabled
+  (bugfix copied from input.c where it was fixed by Piotr)
+* configure.in, acconfig.h: autoconf 2.5x required again. OS/2 and other
+  platforms with old autoconf can use the pre-generated configure script
+  found in released versions.
+* atari_curses.c: exit() was not defined so I replaced it by return.
+* atari_x11.c: some variables are used only if SHM is not defined
+* configure.in, ui_basic.c: "CURSES" replaced by "USE_CURSES" so that
+  compiler doesn't complain about a redefined stuff
+* pokeysnd.c: null functions defined properly to avoid compiler warnings
+
+
+2003-02-04  Petr Stehlik  <pstehlik@sophics.cz>
+
+* configure.in, acconfig.h: after few days of autoconf 2.5x support I
+  rolled back the changes since Ken Ames had a problem with upgrading
+  autoconf on OS/2.
+
+** tagged as 1.2.9
+
+2003-01-27  Perry McFarlane  <ce596@torfree.net>
+
+  I am going to send my cycle-exact patch now because I don't have any
+  more time to work on it.  Hopefully it will be useful.  I hope
+  it is not a problem to apply the patches.  I tried to make them
+  to the current version.  They need more testing, though.
+  In particular state saving is not tested.
+
+  I have been working over the past few weeks on some improvements
+  to the Atari800 emulator.
+  I wanted to add support for mid-scanline changes to colours
+  and players which are used by some (few) games and demos.
+  I have written some code that does this, as a patch to
+  the current code base.
+  To avoid using the new code './configure --disable-cycleexact'
+  This patch will fix display bugs in Master of the Lamps,
+  Mail order monsters etc.
+  However there were still a few bugs in some programs (see BUGS)
+  and I haven't had time to fully test it.   I also have run out
+  of personal time to work on this code for a while so I won't have
+  much time to maintain it.   I think I should submit it now and
+  hopefully it can be used to help improve the emulator.  If I had
+  more time I would have completed more of the changes I wanted, see
+  TODO in the code for some future ideas.
+  As for efficency, it is probably going to be slower than normal
+  to use this code, but it seems OK on my (fast) machine, so
+  since it is a #define to remove the new technique I hope this
+  will not be a problem.
+
+  There is also a test program called T7.bas which I was using to
+  help find out how the real Atari's timing works, it might
+  be of interest to someone. (probably not) I am going to include
+  it anyways along with some brief documentation. There is asm code
+  t7.asm and a c program bdata.c that converts asm to Atari basic data
+  statements.   T7.asm can be compiled with ATASM.
+
+* antic.c, gtia.c, cycle_map.c:
+  Cycle-exact changes to colours, player horizontal positions, player
+  graphics.
+  Basic idea: arrays cpu2antic and antic2cpu are created in
+  cycle_map.c  Antic.c selects the correct cycle map
+  based on the IR mode and scanline #, DMACTL screen width and HSCROL
+  then cpu2antic_ptr and antic2cpu_ptr will convert the cpu's cycles
+  to those of antic and vice-versa.  xpos will now represent the
+  cpu's perception of cycles and not the acutual xpos.
+  font_cycles, DMAR etc are not used.  When the cpu changes
+  a display register, the display is updated partially to the point
+  where the change occurs.  A function draw_partial_scanline does
+  this using the existing antic drawing code in a somewhat hackish way.
+
+  cycle-exact GTIA11_DELAY for "Demonic laughter" demo.
+  using ring buffer approach
+
+  Improved handling of DMACTL changes in the middle of a scanline.
+  Fixes: Decathlon, Mail order monsters.
+  Emulation of a DMACTL width change bug.
+
+* cpu.c, monitor.c:
+  The monitor remembers xpos and ypos in a buffer.
+  A new command, YBREAK, can cause a breakpoint at a given scanline(ypos)
+  setting YBREAK ypos+1000 causes a flickering line to appear at
+  that point on the screen rather than breaking the cpu.  This allows
+  debugging what happens at that scanline more easily.
+  The memmove approach for remember_JMP, remmeber_PC has been replaced
+  with a more efficent ring buffer approach
+  The HISTORY command now gives a disassembly of the last N instructions
+  where N=64 by default, and if the new cycle-exact code is used, it
+  also gives the xpos and ypos of those instructions.
+  correction to SIZEP2 SIZEP3 equates
+
+* pokey.c:
+  cycle-exact random number generator reads.
+
+** tagged as 1.2.8
+
+2003-01-27  Jason Duerstock  <jason@cluephone.com>
+
+* PAGED_ATTRIB support, removing the attrib[] array and replacing it with
+  a map of 256 pointers (one for each page of memory.  If the pointer is
+  NULL, then the  memory[] array will be accessed directly.
+
+  This change is activated through './configure --enable-paged'.
+
+  In my estimation, this should improve the performance of the emulator,
+  removing 64K of cache usage, and short-circuiting some switch {}
+  statements.
+
+  Note that this will render old saved-state files incompatible.
+
+  There are a few short bits not finished yet, one of which being the
+  "H:" device patch, which is mapped into 0xd1xx (parallel bus space),
+  the other being state saving.
+
+  My idea on how to do this is through the following struct:
+
+	map_save save_map[2] = {
+	        {0,     NULL,   NULL},          /* RAM */
+	        {1,     NULL,   ROM_PutByte}    /* ROM */
+	};
+
+  The readmap and writemap will be compared with the pair of pointers
+  in the struct, and a byte (the first column) will be saved for each
+  page.
+
+  On restore, the byte will be used to reconstruct the readmap and
+  writemap.
+
+* Several warnings have been cleaned up through inclusion of the proper
+  headers.
+
+* 'make distclean' has been added, to remove all the files generated
+  from autoconf and ./configure
+
+  In the process, I removed the (admittedly ugly) memory.[ch] redirection
+  to memory-[pd].[ch].  If the general consensus is that PAGED_ATTRIB
+  is a step in the right direction, then I will look at tacking PAGED_MEM
+  back on through PAGED_ATTRIB.
+
+  Any comments, suggestions, critiques, etc are appreciated.
+
+joy> something has to be done regarding the saved-state files. Backward
+     compatibility is a key thing in this area.

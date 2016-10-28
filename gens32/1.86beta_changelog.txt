@@ -1,0 +1,7 @@
+////////////////////////////////////////////
+//Gens32 Surreal v1.86 Beta
+////////////////////////////////////////////
+1) Can use fbl to adjust color palate now.
+2) Rewrite Gens32 Filter IV
+3) Add Gens32 Filter V(WIP).
+4) Rewrite Super TV mode. 

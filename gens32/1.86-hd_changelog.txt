@@ -1,0 +1,7 @@
+////////////////////////////////////////////
+//Gens32 Surreal v1.86 HD
+////////////////////////////////////////////
+Marry Christmas ^_^
+1) Adjust sounds.
+2) Rewrite Gens32 Filter IV
+2) Fixed the save problem of XinQiGaiWangZhi(Chinese). 

@@ -1,0 +1,122 @@
+** 1.3.6 released on 2005-04-30
+
+2005-04-30  Petr Stehlik  <pstehlik@sophics.cz>
+* ui.c, boot.h: "Make Blank Boot Disk" added to "Disk Management",
+  inspired by LNG (lng.sourceforge.net). It creates a blank boot atr file.
+  Before you can use this blank disk, you must format it. Patch by
+  'maddoxik' (whoever he is, didn't supply real name).
+
+
+2005-03-24  Piotr Fusik  <fox@scene.pl>
+* cpu.c: fixed incorrectly saved N flag when entering the monitor (bug found
+  by Marcin Lewandowski)
+
+* devices.c: added "-help"
+
+
+2005-03-15  Achim Haertel <achim.haertel@e-technik.tu-chemnitz.de>
+* casette.[ch], pokey.[ch], sio.[ch], pia.c: implemented cassette loading
+  by hardware registers.
+  Examples of now working games:
+  - Ninja: (eof-)blocks pass on tape while the OS waits for a leader.
+  - Elektraglide has a nonstandard format which is not readable by the
+    SIO-patch but requires raw loading.
+
+
+2005-03-11  Piotr Fusik  <fox@scene.pl>
+* atari_x11.c: "-mouse" works. Set default clipping area to 336x240.
+  x11-motif is now compilable, possibly also x11-xview.
+
+
+2005-03-10  Piotr Fusik  <fox@scene.pl>
+* atari_basic.c: updated for new Atari800_Frame()
+
+* atari_sdl.c: corrected Atari_TRIG() and don't initialize sound on "-help"
+
+* ui.c: "Extract ROM image from Cartridge" should skip the CART header,
+  not just copy the whole file
+
+* ui_basic.c: fixed a memory leak
+
+* ui.[ch], atari.c, cpu.c: removed the unused "screen" parameter from ui()
+  and SelectCartType()
+
+
+2005-03-09  Petr Stehlik  <pstehlik@sophics.cz>
+* atari_sdl.c: switched back to Atari800_Frame like all other ports do.
+  So far everything looks OK. Why did Jacek abandon the Atari800_Frame
+  way? Weird.
+  Also finally disabled propagating of the KP0-KP9 keys to key_code.
+  Without this the keyboard joystick emulation was mostly unusable.
+  Needs a more general solution - masking out all keyboard joystick keys.
+  Copy from atari_vga.c, it's solved properly there, IIRC.
+
+* atari_x11.c: disabled propagating of the KP0-KP9 keys to key_code.
+
+* configure.ac: enables linux joystick by default. The atari_x11.c needs
+  a lot of cleanup: move the mouse emulation to input.c and make sure
+  the keyboard joystick, mouse joystick and real joysticks do cope together.
+
+
+2005-03-08  Piotr Fusik  <fox@scene.pl>
+* antic.c: added missing combinations of ANTIC modes with GTIA modes.
+  GTIA modes are correctly scrolled horizontally.
+
+* compfile.c, devices.c, gtia.c, monitor.c, mzpokeysnd.c, sio.c, ui_basic.c:
+  killed gcc -W warnings. Remained only the warnings about unused parameters.
+
+* antic.c, input.c, dos/sound_dos.c: handle "-help" option
+
+
+2005-03-05  Piotr Fusik  <fox@scene.pl>
+* ui_basic.c: fixed "Error opening '' directory"
+
+* input.[ch]: support AKEY_BREAK
+
+* atari.[ch], atari_curses.c, atari_falcon.c, atari_svgalib.c, atari_x11.c,
+  amiga/amiga.c, dos/atari_vga.c, win32/main.c, wince/port/atari_wince.c:
+  support for special AKEY_*, refresh rate control and atari_sync()
+  moved to Atari800_Frame()
+
+* atari_curses.c, atari_falcon.c, atari_x11.c: F6 is Atari HELP key
+
+
+2005-03-03  Piotr Fusik  <fox@scene.pl>
+* win32/*, configure.ac:
+  renamed win32/screen.[ch] to win32/screen_win32.[ch]
+
+* wince/port/*, wince/PocketAtari.vcp:
+  renamed wince/port/screen.* to wince/port/screen_wince.*
+
+* atari.[ch], screen.[ch], antic.c, cpu.c, input.c, ui_basic.c:
+  moved screen-related variables to the new "screen" module
+
+* configure.ac, makefile, atari.[ch], screen.[ch], sio.[ch], atari_sdl.c,
+  dos/atari_vga.c:
+  deleted diskled.[ch], moved disk LEDs to the new "screen" module,
+  added sector counter and speedometer
+
+
+2005-02-23  Piotr Fusik  <fox@scene.pl>
+* colours.[ch]: refactored, using jakub.act by default
+
+* log.c, configure.ac: use vsnprintf only if available
+
+* screen.[ch]: renamed from ataripcx.[ch] and added PNG screenshots
+
+* atari.c, atari_curses.c, atari_sdl.c, atari_svgalib.c, atari_x11.c, ui.c,
+  Makefile.in, amiga/makefile, dos/atari_vga.c, win32/main.c,
+  wince/port/atari_wince.c, wince/PocketAtari.vcp:
+  PNG screenshots
+
+
+2005-02-22  Piotr Fusik  <fox@scene.pl>
+* cartridge.c: switch back on the main bank of switchable XEGS cartridges
+  (bug found by Chris Hutt)
+
+
+2005-01-06  Petr Stehlik  <pstehlik@sophics.cz>
+* atari_sdl.c: F8 (enter monitor) was not implemented. Fixed. Also
+  entering monitor now switches off the fullscreen mode which makes
+  the monitor usable in X-Windows (not sure about framebuffer but
+  I'd guess for that one we'd have to turn off the graphics completely).

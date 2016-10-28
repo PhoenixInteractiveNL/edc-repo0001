@@ -1,0 +1,9 @@
+////////////////////////////////////////////
+//Gens32 Surreal v1.79 BadBoy
+////////////////////////////////////////////
+1)Try to fix the bugs on ATI HD2600 etc..
+2)Adjust DAC.
+3)ADjust YM2612.
+4)Adjust PCM.
+5)Deleted some filters.Update Gens32 Surreal II.
+6)Update Gens32 IO for some hack use.

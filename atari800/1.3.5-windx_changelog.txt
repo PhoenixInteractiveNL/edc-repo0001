@@ -1,0 +1,22 @@
+** 1.3.5 released on 2004-12-30
+
+2004-12-29  Petr Stehlik  <pstehlik@sophics.cz>
+* atari_x11.c: Ken Zalewski contributed a patch for keyboard handling
+  that fixes a segfault (XLookupString was called even if the event
+  was not keyboard related).
+
+* atari_x11.c: after looking into the keyboard handling under X11
+  I realized that keyboard auto-repeat was not working at all.
+  I tried to fix it by keeping the keycode status persistent.
+  It seems to work in non-XVIEW/non-MOTIF version.
+
+
+2004-12-28  Petr Stehlik  <pstehlik@sophics.cz>
+* atari_sdl.c: Daniel Serpell contributed a patch for keyboard handling
+  that makes the Atari800 keyboard working on non-US keyboard layouts
+  simply by using the Unicode values of the keys (instead of scancodes).
+  Also, keys Control-0 to 9 and Control-A to Z were added. The "Atari"
+  key is mapped to the left Windows key, the Caps-toggle key is mapped
+  to the right Windows key and the Atari Shift+F1 and Shift+F2 keys
+  are mapped to host's PageUp and PageDown keys (as this is the function
+  of those keys in the Atari-XL OS).

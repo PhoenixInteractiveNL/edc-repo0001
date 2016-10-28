@@ -1,0 +1,6 @@
+////////////////////////////////////////////
+//Gens32 Surreal v1.89 Se
+////////////////////////////////////////////
+1) Change Gens32 Filter IV to muti-Filter HD 720P.
+2) Update Gens32 HD Filter 720P.Still some bugs there,if it can not worked well,try muti-Filter HD.
+3) Fixed 3D render system.Much better now.

@@ -1,0 +1,20 @@
+** 2.0.1 released on 2006-01-02
+
+2006-01-02  Petr Stehlik  <pstehlik@sophics.cz>
+* atari_sdl.c: keysym.unicode is not defined for KEYUP event (reported
+  by Patrice Mandin, the Atari libSDL port author)
+
+* various doc files: update for 2.0.1 bugfix release
+
+
+2006-01-02  Piotr Fusik  <fox@scene.pl>
+* devices.c: H: device defaults to read-only
+
+* atari_sdl.c: keys used for joystick emulation shouldn't be ignored in UI
+  (reported by Wiktor Grebla)
+
+* ui.c: fixed a bug in per-file ROM configuration in UI (reported
+  by Piotr Skamruk)
+
+* ui.[ch]: MENU_PLACEHOLDER is no longer necessary thanks to the new
+  FindMenuItem()
