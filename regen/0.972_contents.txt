@@ -1,0 +1,165 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2008-09-29 05:31:12 ....A         7198       630099  Languages\Template\resource\raw\algo0.bmp
+2008-09-29 05:31:38 ....A         7198               Languages\Template\resource\raw\algo1.bmp
+2008-09-29 05:31:52 ....A         7198               Languages\Template\resource\raw\algo2.bmp
+2008-09-29 05:32:08 ....A         7198               Languages\Template\resource\raw\algo3.bmp
+2008-09-29 05:32:24 ....A         7198               Languages\Template\resource\raw\algo4.bmp
+2008-09-29 05:32:38 ....A         7198               Languages\Template\resource\raw\algo5.bmp
+2008-09-29 05:32:54 ....A         7198               Languages\Template\resource\raw\algo6.bmp
+2008-09-29 05:33:06 ....A         7198               Languages\Template\resource\raw\algo7.bmp
+2008-09-19 14:15:16 ....A         6902               Languages\Template\resource\kcool.bmp
+2009-08-05 08:26:50 ....A           92               Languages\Template\stub.cpp
+2008-04-17 08:11:34 ....A          377               Cheats\Adventures of Batman and Robin, The (U) [!].dat
+2008-02-18 13:26:00 ....A          974               Cheats\After Burner II (UE) [!].dat
+2008-03-14 04:40:34 ....A          213               Cheats\Aladdin II (Unl).dat
+2008-03-14 04:40:34 ....A          442               Cheats\Alex Kidd in the Enchanted Castle (U) [!].dat
+2008-03-14 04:40:34 ....A          828               Cheats\Alien 3 (UE) (REV00) [!].dat
+2008-03-14 04:40:34 ....A          411               Cheats\Altered Beast (UE) (REV02) [!].dat
+2008-03-25 08:06:18 ....A          159               Cheats\Animaniacs (U) [!].dat
+2008-03-14 04:40:34 ....A          473               Cheats\Bare Knuckle III (J) [!].dat
+2008-03-14 04:40:34 ....A          425               Cheats\Batman (U) [!].dat
+2008-03-14 04:40:34 ....A          260               Cheats\Batman - Revenge of the Joker (U) [!].dat
+2008-03-14 04:40:34 ....A          170               Cheats\Battletoads and Double Dragon (U) [c][!].dat
+2008-03-14 04:40:34 ....A          352               Cheats\Beavis and Butt-head (U) [!].dat
+2008-03-14 04:40:34 ....A          249               Cheats\Bonanza Bros. (U) [!].dat
+2008-03-14 04:40:34 ....A          287               Cheats\Boogerman (U) [!].dat
+2008-04-17 07:52:44 ....A          248               Cheats\Bram Stoker's Dracula (U) [!].dat
+2008-03-14 04:40:34 ....A          107               Cheats\Bubba N Stix (U) [!].dat
+2008-03-14 04:40:34 ....A          239               Cheats\Cannon Fodder (E) [!].dat
+2008-04-17 07:45:02 ....A          184               Cheats\Captain America and the Avengers (U) [!].dat
+2008-03-14 04:40:34 ....A          220               Cheats\Captain Planet and the Planeteers (E) [!].dat
+2008-03-14 05:54:38 ....A          464               Cheats\Castle of Illusion Starring Mickey Mouse (UE) [!].dat
+2008-03-14 04:40:34 ....A          163               Cheats\Chaos Engine, The (E) [!].dat
+2008-03-14 04:40:34 ....A          174               Cheats\Chiki Chiki Boys (UE) [!].dat
+2008-03-14 04:40:34 ....A          238               Cheats\Chuck Rock (U) [c][!].dat
+2008-03-14 04:40:34 ....A          247               Cheats\Comix Zone (U) [!].dat
+2008-03-14 04:40:34 ....A          378               Cheats\Contra - Hard Corps (U) [!].dat
+2008-03-14 04:40:34 ....A          406               Cheats\Cool Spot (U) [!].dat
+2008-03-14 04:40:34 ....A          704               Cheats\Crack Down (U) [!].dat
+2008-03-14 04:40:34 ....A          321               Cheats\Daffy Duck in Hollywood (E) (M5) [!].dat
+2008-03-14 04:40:34 ....A          160               Cheats\Dark Castle (UE) [!].dat
+2008-03-14 04:40:34 ....A          335               Cheats\Dashin' Desperadoes (U) [!].dat
+2008-04-17 07:53:24 ....A          265               Cheats\Death and Return of Superman, The (U) [!].dat
+2008-03-14 04:40:34 ....A           52               Cheats\Desert Demolition (UE) [!].dat
+2008-04-17 08:35:22 ....A          924               Cheats\Desert Strike - Return to the Gulf (UE) [!].dat
+2008-03-14 04:40:34 ....A          167               Cheats\Dinosaurs for Hire (U) [!].dat
+2008-03-14 04:40:34 ....A          360               Cheats\Disney's Aladdin (U) [!].dat
+2008-03-14 04:40:34 ....A          379               Cheats\Double Dragon 3 - The Rosetta Stone (UE) [!].dat
+2008-03-14 04:40:34 ....A          288               Cheats\Dragon Ball Z - Buyuu Retsuden (J) [!].dat
+2008-03-14 04:40:34 ....A          561               Cheats\Earthworm Jim (U) [!].dat
+2008-03-14 04:40:34 ....A          247               Cheats\Earthworm Jim 2 (U) [!].dat
+2008-03-14 04:40:34 ....A          514               Cheats\El Viento (U) [!].dat
+2008-03-14 04:40:34 ....A          273               Cheats\Flintstones, The (U) [c][!].dat
+2008-03-14 04:40:34 ....A          239               Cheats\Garfield - Caught in the Act (UE) [!].dat
+2008-03-14 04:40:34 ....A          263               Cheats\Gargoyles (U) [!].dat
+2008-03-14 04:40:34 ....A          345               Cheats\General Chaos (UE) [!].dat
+2008-03-14 04:40:34 ....A          159               Cheats\Ghostbusters (W) (REV01) [!].dat
+2008-03-14 04:40:34 ....A         2733               Cheats\Ghouls 'N Ghosts (UE) (REV01) [!].dat
+2008-03-14 04:40:34 ....A          457               Cheats\Golden Axe III (J) [!].dat
+2008-03-14 04:40:34 ....A          347               Cheats\Gunstar Heroes (U) [!].dat
+2008-03-14 04:40:34 ....A          513               Cheats\Incredible Hulk, The (UE) [!].dat
+2008-03-14 04:40:34 ....A          288               Cheats\International Superstar Soccer Deluxe (E) [!].dat
+2008-03-14 04:40:36 ....A          268               Cheats\James Bond 007 - The Duel (UE) [!].dat
+2008-03-14 04:40:36 ....A          431               Cheats\Judge Dredd - The Movie (W) [!].dat
+2008-04-17 08:39:24 ....A         1345               Cheats\Jungle Strike (UE) [!].dat
+2008-03-14 04:40:36 ....A          192               Cheats\Justice League Task Force (W) [!].dat
+2008-03-14 04:40:36 ....A          109               Cheats\King of the Monsters 2 (U) [!].dat
+2008-03-14 04:40:36 ....A          107               Cheats\Last Action Hero (U) [!].dat
+2008-03-14 04:40:36 ....A           52               Cheats\Lion King II, The (Unl) [p1][!].dat
+2008-03-14 04:40:36 ....A           75               Cheats\Master of Monsters (U) [!].dat
+2008-04-17 07:51:48 ....A          286               Cheats\McDonald's Treasure Land Adventure (U) [!].dat
+2008-03-14 04:40:36 ....A          386               Cheats\Michael Jackson's Moonwalker (W) (REV00) [!].dat
+2008-03-14 04:40:36 ....A          386               Cheats\Michael Jackson's Moonwalker (W) (REV01) [!].dat
+2008-04-17 07:59:50 ....A          823               Cheats\Mighty Morphin Power Rangers (U) [!].dat
+2008-03-14 04:40:36 ....A           57               Cheats\Mighty Morphin Power Rangers - The Movie (U) [!].dat
+2008-03-14 04:40:36 ....A           50               Cheats\Ms. Pac-Man (U) [!].dat
+2008-03-14 04:40:36 ....A         1025               Cheats\NBA Jam Tournament Edition (W) (REV00) [!].dat
+2008-03-14 04:40:36 ....A           53               Cheats\Ooze, The (JU) [!].dat
+2008-03-14 04:40:36 ....A          107               Cheats\Pagemaster, The (U) [!].dat
+2008-03-14 04:40:36 ....A          159               Cheats\Pink Goes to Hollywood (U) [!].dat
+2008-03-14 04:40:36 ....A          347               Cheats\Pitfall - The Mayan Adventure (U) [!].dat
+2008-03-14 04:40:36 ....A           54               Cheats\Prince of Persia 2 - The Shadow and The Flame (Beta).dat
+2008-03-14 04:40:36 ....A           53               Cheats\Puggsy (U) [!].dat
+2008-03-14 04:40:36 ....A          515               Cheats\Punisher, The (U) [!].dat
+2008-03-14 04:40:36 ....A          607               Cheats\Quack Shot Starring Donald Duck (W) (REV00) [!].dat
+2008-03-14 04:40:36 ....A          581               Cheats\Ranger-X (U) [!].dat
+2008-03-14 04:40:36 ....A          333               Cheats\Revenge of Shinobi, The (W) (REV03) [!].dat
+2008-03-14 04:40:36 ....A          273               Cheats\Ristar (UE) (REV00) [!].dat
+2008-03-14 04:40:36 ....A          561               Cheats\Road Rash 3 (UE) [!].dat
+2008-03-14 04:40:36 ....A          528               Cheats\Robocop 3 (UE) [!].dat
+2008-03-14 04:40:36 ....A          419               Cheats\Robocop Versus The Terminator (U) [!].dat
+2008-03-14 04:40:36 ....A          406               Cheats\Saint Sword (U) [c][!].dat
+2008-03-14 04:40:36 ....A          377               Cheats\Shinobi III - Return of the Ninja Master (U) [!].dat
+2008-03-14 04:40:36 ....A          689               Cheats\Simpsons, The - Bart vs The Space Mutants (W) (REV 00) [!].dat
+2008-04-17 08:10:10 ....A          570               Cheats\Sonic 3D Blast (UE) [!].dat
+2008-04-17 06:12:16 ....A          701               Cheats\Sonic And Knuckles & Sonic 2 (W) [!].dat
+2008-04-17 06:15:06 ....A         2753               Cheats\Sonic And Knuckles & Sonic 3 (W) [!].dat
+2008-02-25 09:25:30 ....A         1950               Cheats\Sonic And Knuckles (W) [!].dat
+2008-03-04 09:06:56 ....A          323               Cheats\Sonic Spinball (U) [!].dat
+2008-04-17 06:05:22 ....A          776               Cheats\Sonic The Hedgehog (W) (REV00) [!].dat
+2008-04-17 06:05:28 ....A          776               Cheats\Sonic The Hedgehog (W) (REV01) [!].dat
+2008-02-27 05:39:02 ....A          968               Cheats\Sonic The Hedgehog 2 (Nick Arcade Prototype) [!].dat
+2008-02-27 05:39:02 ....A         1013               Cheats\Sonic The Hedgehog 2 (Simon Wai Prototype) [!].dat
+2008-04-17 06:08:24 ....A         1399               Cheats\Sonic The Hedgehog 2 (W) (REV00) [!].dat
+2008-04-17 06:08:02 ....A         1399               Cheats\Sonic The Hedgehog 2 (W) (REV01) [!].dat
+2008-04-17 07:48:14 ....A         1778               Cheats\Sonic The Hedgehog 3 (E) [!].dat
+2008-04-17 07:48:10 ....A         1778               Cheats\Sonic The Hedgehog 3 (J) [!].dat
+2008-04-17 07:47:30 ....A         1778               Cheats\Sonic The Hedgehog 3 (U) [!].dat
+2008-03-14 04:40:36 ....A          293               Cheats\Spider-Man - The Animated Series (W) [!].dat
+2008-03-14 04:40:36 ....A          504               Cheats\Spider-Man and Venom - Maximum Carnage (W) [!].dat
+2008-03-14 04:40:36 ....A          595               Cheats\Spider-Man and Venom - Separation Anxiety (U) [!].dat
+2008-03-14 04:40:36 ....A          922               Cheats\Spider-Man and X-Men - Arcade's Revenge (UE) [!].dat
+2008-03-14 04:40:36 ....A          743               Cheats\Spider-Man vs The Kingpin (W) [!].dat
+2008-03-14 04:40:36 ....A          271               Cheats\Streets of Rage (W) (REV00) [!].dat
+2008-03-14 04:40:36 ....A          363               Cheats\Streets of Rage 2 (U) [!].dat
+2008-03-14 04:40:36 ....A          555               Cheats\Streets of Rage 3 (U) [!].dat
+2008-03-14 04:40:36 ....A          108               Cheats\Super Donkey Kong 99 (Unl) [!].dat
+2008-03-14 04:40:36 ....A          435               Cheats\Superman (U) [!].dat
+2008-03-14 04:40:36 ....A          160               Cheats\Syd of Valis (U) [!].dat
+2008-03-14 04:40:36 ....A           57               Cheats\Syndicate (UE) [!].dat
+2008-03-14 04:40:36 ....A          163               Cheats\Tale Spin (UE) [!].dat
+2008-03-14 04:40:36 ....A          316               Cheats\Taz-Mania (W) [!].dat
+2008-03-14 04:40:36 ....A          174               Cheats\Teenage Mutant Ninja Turtles - The Hyperstone Heist (U) [!].dat
+2008-03-14 04:40:36 ....A           78               Cheats\Theme Park (UE) [!].dat
+2008-03-14 04:40:36 ....A          283               Cheats\Thunder Force II (U) [!].dat
+2008-03-14 04:40:36 ....A          384               Cheats\Thunder Force III (JU) [!].dat
+2008-03-14 04:40:36 ....A          205               Cheats\Thunder Force IV (E) [c][!].dat
+2008-03-14 04:40:36 ....A          183               Cheats\Toejam & Earl in Panic on Funkotron (U) [!].dat
+2008-03-14 04:40:36 ....A          107               Cheats\Toy Story (U) [!].dat
+2008-04-17 07:56:42 ....A          855               Cheats\Ultimate Mortal Kombat 3 (U) [!].dat
+2008-04-17 08:37:52 ....A         1311               Cheats\Urban Strike (UE) [!].dat
+2008-03-19 07:19:28 ....A          586               Cheats\Vectorman (UE) [!].dat
+2008-04-17 07:55:32 ....A          598               Cheats\Vectorman 2 (U) [!].dat
+2008-04-04 05:48:22 ....A           70               Cheats\Wheel of Fortune (U) [!].dat
+2008-03-14 04:40:36 ....A         1000               Cheats\Wolverine Adamantium Rage (UE) [!].dat
+2008-03-14 04:40:36 ....A          171               Cheats\World of Illusion Starring Mickey Mouse & Donald Duck (U) [!].dat
+2008-04-17 05:48:14 ....A          601               Cheats\X-Men (U) [!].dat
+2008-04-17 07:57:36 ....A          746               Cheats\X-Men 2 - Clone Wars (UE) [!].dat
+2008-03-14 04:40:36 ....A          483               Cheats\Zombies Ate My Neighbors (U) [c][!].dat
+2009-10-24 10:03:26 ....A       128428               Languages\1033\Satellite.dll
+2009-10-25 06:55:58 ....A       469504               Regen.exe
+2009-10-24 10:02:12 ....A        41273               Languages\Template\resource.h
+2009-08-05 08:27:02 ....A          256               Languages\Template\stdafx.h
+2008-02-24 05:00:20 ....A         1150               Languages\Template\resource\icon2.ico
+2008-02-24 04:59:30 ....A         4286               Languages\Template\resource\Sonic1.ico
+2009-10-25 06:59:28 ....A        59618               Logo.png
+2009-10-24 10:02:40 ....A        82148               Languages\Template\Regen.rc
+2008-03-18 17:34:50 ....A        24064               Plugins\interpolation.rpi
+2009-10-18 10:32:54 ....A       106496               Plugins\mdntsc.rpi
+2008-03-18 17:34:50 ....A        23552               Plugins\normal2x.rpi
+2009-10-17 08:55:06 ....A          899               Languages\Template\Regen.sln
+2009-10-25 06:52:32 ....A        43276               History.txt
+2009-10-22 09:02:44 ....A        30971               ReadMe.txt
+2009-10-17 08:57:52 ....A         3617               Languages\Template\Regen.vcproj
+2009-10-21 18:10:38 ....A          669               Languages\Template\resource\manifest.xml
+2009-10-17 09:00:46 ....A          298               Languages\Template\makefile
+2009-10-17 09:00:46 D....            0            0  Languages\Template\resource\raw
+2009-10-17 09:00:46 D....            0            0  Languages\Template\resource
+2009-10-17 09:00:46 D....            0            0  Plugins
+2009-10-17 09:00:46 D....            0            0  Languages
+2009-10-17 09:00:46 D....            0            0  Languages\1033
+2009-10-17 09:00:46 D....            0            0  Languages\Template
+2009-10-17 09:00:46 D....            0            0  Cheats
+------------------- ----- ------------ ------------  ------------------------
+2009-10-25 06:59:28            1147601       630099  154 files, 7 folders
