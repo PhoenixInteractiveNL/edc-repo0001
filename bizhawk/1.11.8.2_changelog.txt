@@ -1,0 +1,56 @@
+BizHawk 1.11.8.2
+Released October 25, 2016
+Windows binary
+N64
+GLideN64 video plugin support
+Added cxd4 to the RSP options
+Fix Donkey Kong 64 bone displacement issues
+Perfect Dark fixed
+Fix trace callback
+NesHawk
+Accuracy Improvements
+Fix and implement numerous obscure boards and games
+Fix bug in NES BG evaluation - fixes a long standing bug in micro machines
+Option to override initial WRAM pattern
+Fix path exception when loading Ironman Stwart's Super Off-Road
+Fixes to FDS audio, fixes damage sounds in kid icarus and Zelda II, and sword sounds in Zelda 1
+GBA
+Upgrade to mGBA 0.5
+SMS
+Fix Micro Machines
+EmuHawk
+Smoother FPS Counter calcuations
+Fix filename generation when there are colons in the game name, fixes #661
+Cheats - Fix behavior when loading a new rom when a cheat is loaded, fixes #550
+Virtual Pads - Analog Sticks - check min and max range before setting the value. Fixes #686
+Lua
+Close a lua instance before creating a new one, fixes #455
+Clear the OSD before doing loadstate callbacks, fixes #635
+Ram Search
+Don't throw excpetions when Diff column displayed, fixes #637
+Fix toolbar enabling disabling when selecting rows, fixes #629
+Fix Slow Select All (Ctrl+A), fixes #630
+TAStudio
+Preserve branch text per update (unless default text has changed)
+Add a show cursor hotkey
+Paste from OS clipboard
+Fixed TAStudio crash when deselecting "Show Player X"
+Fixed bug with selected rows drawing hidden columns.
+Fixed bug with right click selection.
+Crash fixes
+Refresh when seeking is done
+Don't pause on green arrow if seeking past it
+Removed ability to keep drawing while the view is scrolling, fixes scrolling recursion
+ClearLeftMouseStates() before Save dialog pops up
+Pasting input beyond movie length extends it
+History - properly fix recording
+Display invalidated color consistently
+Fix removal of states near lag frames
+Hex Editor
+When switching to a domain where highlighted addresses are out of range, clear the highlighted addresses, #710
+Fix exception when pasting beyond the range of the domain, #708
+Fix a minor bug with displaying the selected address, fixes #709
+Basic Bot
+Fix logic for determining the best attempt, no longer thinks every new attempt is better, fixes #603
+Prevent empty Change dropdown style to DropdownList to avoid empty and invalid choices. Fixes #602
+Update Run button status when loading a bot file

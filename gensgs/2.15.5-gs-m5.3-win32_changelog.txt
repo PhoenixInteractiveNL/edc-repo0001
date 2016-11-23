@@ -1,0 +1,12 @@
+What's new in Gens/GS v2.15.5/GS-m5.3?
+
+Milestone 5.3 fixes the following bugs:
+
+- PIC compilation was broken due to the new CPU Flags code.
+
+- nasm's -O3 optimization doesn't work properly on the Gens code with older
+  versions of nasm. Gens now uses the -O1 optimization instead.
+
+Milestone 5.3 has the following miscellaneous changes:
+
+- [GTK+] Removed some unnecessary GDK includes.

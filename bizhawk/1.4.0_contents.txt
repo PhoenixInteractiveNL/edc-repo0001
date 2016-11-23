@@ -1,0 +1,224 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2012-10-09 20:10:16 ....A       210703       795656  gamedb\NesCarts.7z
+2012-12-11 20:50:14 ....A          103               gamedb\update_gamedb.bat
+2012-12-22 19:47:24 ....A         2504               Firmware\BIOS_Info.txt
+2012-10-09 20:13:54 ....A        36777               dll\ffmpeg_readme.txt
+2012-11-26 19:16:20 ....A        10067               gamedb\gamedb.txt
+2012-10-19 20:55:26 ....A       258987               gamedb\gamedb_a2600.txt
+2012-11-25 11:39:42 ....A        29150               gamedb\gamedb_coleco.txt
+2012-10-08 21:47:04 ....A       124485               gamedb\gamedb_gb.txt
+2012-10-08 21:47:04 ....A       118762               gamedb\gamedb_gbc.txt
+2012-10-08 21:47:04 ....A         9392               gamedb\gamedb_pce_cd.txt
+2012-10-08 21:47:04 ....A       109336               gamedb\gamedb_pce_hucards.txt
+2012-10-08 21:47:04 ....A        95154               gamedb\gamedb_sega_8bit.txt
+2012-10-08 21:47:04 ....A       418411               gamedb\gamedb_sega_md.txt
+2012-11-05 19:04:46 ....A       290685               gamedb\gamedb_snes.txt
+2012-10-31 19:59:06 ....A         8726               gamedb\gamedb_vs.txt
+2012-12-12 19:32:56 ....A       205510               gamedb\EMU7800.csv
+2012-04-29 08:19:48 ....A         2578               Lua\ButtonCount.lua
+2012-09-09 02:15:22 ....A         5059               Lua\Genesis\Castlevania Bloodlines.lua
+2012-10-07 11:40:48 ....A         2606               Lua\NES\Castlevania.lua
+2012-09-30 12:48:50 ....A         8366               Lua\PCE\Castlevania_Rondo_of_Blood.lua
+2012-12-15 14:40:54 ....A         2965               Lua\SNES\Congo's Caper.lua
+2012-09-11 20:47:48 ....A         3669               Lua\SNES\Contra 3.lua
+2012-10-04 18:58:02 ....A         2403               Lua\SNES\Donkey Kong Country 3.lua
+2012-10-13 16:47:04 ....A           67               Lua\DrawTesting.lua
+2012-10-26 20:34:44 ....A           63               Lua\E.T. The Extra-Terrestrial (1982) (Atari) [!].lua
+2012-10-13 14:36:54 ....A          227               Lua\EventTesting.lua
+2012-10-03 20:32:20 ....A         4759               Lua\NES\Holy Diver.lua
+2012-09-04 21:27:40 ....A         3152               Lua\Genesis\Legend of Toki.lua
+2012-10-14 16:56:54 ....A         3272               Lua\NES\Megaman 4.lua
+2012-09-26 08:19:00 ....A         4008               Lua\SNES\Megaman X.lua
+2012-09-26 19:25:40 ....A         3000               Lua\SNES\Megaman X2.lua
+2012-09-26 19:25:40 ....A         3138               Lua\SNES\Megaman X3.lua
+2012-09-27 20:13:16 ....A         2915               Lua\NES\NinjaGaiden_Hitbox.lua
+2012-09-27 20:13:16 ....A         2273               Lua\NES\PunchOutStats.lua
+2012-10-06 16:37:02 ....A         7643               Lua\NES\RBIBaseball.lua
+2012-10-13 16:56:24 ....A         4396               Lua\SNES\Rockman & Forte.lua
+2012-10-06 12:36:18 ....A         4889               Lua\NES\Simons Quest.lua
+2012-05-05 10:00:08 ....A          198               Lua\SMB-hitbox-fceux.lua
+2012-07-25 21:03:38 ....A           51               Lua\SMB-hitbox.lua
+2012-09-27 20:13:16 ....A         6322               Lua\NES\SMB2U.lua
+2012-09-27 20:13:16 ....A         1087               Lua\NES\Snake Rattle N' Roll.lua
+2012-10-06 10:30:50 ....A           79               Lua\Sonic Chaos.lua
+2012-09-30 12:48:50 ....A         3480               Lua\NES\Super C.lua
+2012-09-04 21:27:40 ....A         5411               Lua\SNES\Super Castlevania 4.lua
+2012-09-09 02:15:22 ....A         5520               Lua\SNES\Super Ghouls N Ghost.lua
+2012-10-06 12:12:40 ....A          301               Lua\Super Mario Bros..lua
+2012-09-09 02:15:22 ....A         5782               Lua\SNES\Super Mario World.lua
+2012-09-09 00:00:22 ....A         2456               Lua\SNES\Super Metroid.lua
+2012-09-16 21:34:50 ....A           77               Lua\Super Punch-Out!! (U) [!] 1.lua
+2012-09-16 21:35:52 ....A           80               Lua\Super Punch-Out!! (U) [!] 2.lua
+2012-09-14 09:42:36 ....A          551               Lua\Super Punch-Out!! (U) [!].lua
+2012-04-29 21:02:40 ....A           68               Lua\Mike Tyson's Punch-Out!!.luases
+2012-09-02 12:17:48 ....A           96               Lua\Ninja Gaiden.luases
+2012-06-04 21:40:50 ....A           38               Lua\Pasky.luases
+2012-06-10 19:37:54 ....A           39               Lua\Pasky2.luases
+2012-10-06 15:38:56 ....A           70               Lua\R.B.I. Baseball.luases
+2012-10-13 17:11:28 ....A          133               Lua\Super Mario Bros..luases
+2012-06-09 16:32:46 ....A           67               Lua\Super Mario Bros.luases
+2012-09-13 20:05:12 ....A           80               Lua\Super Punch-Out!! (U) [!].luases
+2012-09-15 21:54:36 ....A          245               Gameboy\Palettes\ALLEY WAY.pal
+2012-02-22 21:09:16 ....A          192               NES\Palettes\ASQ_realityA.pal
+2012-02-22 21:09:16 ....A          192               NES\Palettes\ASQ_realityB.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\ASTEROIDS&MISCMD.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\BA.TOSHINDEN.pal
+2012-09-15 21:54:36 ....A          254               Gameboy\Palettes\BALLOON KID.pal
+2012-09-15 21:54:36 ....A          260               Gameboy\Palettes\BASEBALL.pal
+2012-09-16 11:06:26 ....A          263               Gameboy\Palettes\BGB (lcd green).pal
+2012-02-22 21:09:16 ....A          192               NES\Palettes\BMF_final2.pal
+2012-02-22 21:09:16 ....A          192               NES\Palettes\BMF_final3.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\BOY AND BLOB GB1.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\BOY AND BLOB GB2.pal
+2012-09-16 10:37:22 ....A          263               Gameboy\Palettes\bsnes v087.pal
+2012-09-15 21:54:36 ....A          245               Gameboy\Palettes\BT2RAGNAROKWORLD.pal
+2012-09-16 11:19:52 ....A          263               Gameboy\Palettes\default.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\DEFENDER&JOUST.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\DMG FOOTBALL.pal
+2012-09-15 21:54:36 ....A          252               Gameboy\Palettes\DONKEY KONG.pal
+2012-09-15 21:54:36 ....A          258               Gameboy\Palettes\DONKEYKONGLAND 2.pal
+2012-09-15 21:54:36 ....A          258               Gameboy\Palettes\DONKEYKONGLAND 3.pal
+2012-09-15 21:54:36 ....A          258               Gameboy\Palettes\DONKEYKONGLAND.pal
+2012-09-15 21:54:36 ....A          260               Gameboy\Palettes\DONKEYKONGLAND95.pal
+2012-09-15 21:54:36 ....A          241               Gameboy\Palettes\DR.MARIO.pal
+2012-09-15 21:54:36 ....A          241               Gameboy\Palettes\DYNABLASTER.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\F1RACE.pal
+2012-02-22 21:09:16 ....A          192               NES\Palettes\FCEU-13-default_nitsuja.pal
+2012-02-22 21:09:16 ....A          192               NES\Palettes\FCEU-15-nitsuja_new.pal
+2012-02-22 21:09:16 ....A          192               NES\Palettes\FCEUX.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\G&W GALLERY.pal
+2012-09-15 21:54:36 ....A          245               Gameboy\Palettes\GALAGA&GALAXIAN.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\Game and Watch 2.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\GAME&WATCH.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\GAMEBOY GALLERY.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\GAMEBOY GALLERY2.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\GBC - Blue.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\GBC - Brown.pal
+2012-09-15 21:54:36 ....A          250               Gameboy\Palettes\GBC - Dark Blue.pal
+2012-09-15 21:54:36 ....A          257               Gameboy\Palettes\GBC - Dark Brown.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\GBC - Dark Green.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\GBC - Grayscale.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\GBC - Green.pal
+2012-09-15 21:54:36 ....A          245               Gameboy\Palettes\GBC - Inverted.pal
+2012-09-15 21:54:36 ....A          254               Gameboy\Palettes\GBC - Orange.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\GBC - Pastel Mix.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\GBC - Red.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\GBC - Yellow.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\GBWARS.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\GOLF.pal
+2012-09-15 21:54:36 ....A          249               Gameboy\Palettes\HOSHINOKA-BI.pal
+2012-09-15 21:54:36 ....A          245               Gameboy\Palettes\JAMES  BOND  007.pal
+2012-09-15 21:54:36 ....A          249               Gameboy\Palettes\KAERUNOTAMENI.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\KEN GRIFFEY JR.pal
+2012-09-15 21:54:36 ....A          250               Gameboy\Palettes\KID ICARUS.pal
+2012-09-15 21:54:36 ....A          250               Gameboy\Palettes\KILLERINSTINCT95.pal
+2012-09-15 21:54:36 ....A          241               Gameboy\Palettes\KINGOFTHEZOO.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\KIRAKIRA KIDS.pal
+2012-09-15 21:54:36 ....A          249               Gameboy\Palettes\KIRBY BLOCKBALL.pal
+2012-09-15 21:54:36 ....A          249               Gameboy\Palettes\KIRBY DREAM LAND.pal
+2012-09-15 21:54:36 ....A          249               Gameboy\Palettes\KIRBY'S PINBALL.pal
+2012-09-15 21:54:36 ....A          249               Gameboy\Palettes\KIRBY2.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\LOLO2.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\MAGNETIC SOCCER.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\MANSELL.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\MARIO & YOSHI.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\MARIO'S PICROSS.pal
+2012-09-15 21:54:36 ....A          252               Gameboy\Palettes\MARIOLAND2.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\MEGA MAN 2.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\MEGAMAN.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\MEGAMAN3.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\METROID2.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\MILLI&CENTI&PEDE.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\MOGURANYA.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\MYSTIC QUEST.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\NETTOU KOF 95.pal
+2012-09-15 21:54:36 ....A          241               Gameboy\Palettes\NEW CHESSMASTER.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\OTHELLO.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\PAC-IN-TIME.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\PICROSS 2.pal
+2012-09-15 21:54:36 ....A          255               Gameboy\Palettes\PINOCCHIO.pal
+2012-09-15 21:54:36 ....A          262               Gameboy\Palettes\POKEBOM.pal
+2012-09-15 21:54:36 ....A          241               Gameboy\Palettes\POKEMON BLUE.pal
+2012-09-15 21:54:36 ....A          245               Gameboy\Palettes\POKEMON GREEN.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\POKEMON RED.pal
+2012-09-15 21:54:36 ....A          254               Gameboy\Palettes\POKEMON YELLOW.pal
+2012-09-15 21:54:36 ....A          255               Gameboy\Palettes\QIX.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\RADARMISSION.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\ROCKMAN WORLD.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\ROCKMAN WORLD2.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\ROCKMANWORLD3.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\SEIKEN DENSETSU.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\SOCCER.pal
+2012-09-15 21:54:36 ....A          245               Gameboy\Palettes\SOLARSTRIKER.pal
+2012-09-15 21:54:36 ....A          245               Gameboy\Palettes\SPACE INVADERS.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\STAR STACKER.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\STAR WARS-NOA.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\STAR WARS.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\STREET FIGHTER 2.pal
+2012-09-15 21:54:36 ....A          252               Gameboy\Palettes\SUPER MARIOLAND.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\SUPER RC PRO-AM.pal
+2012-09-15 21:54:36 ....A          260               Gameboy\Palettes\SUPERDONKEYKONG.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\SUPERMARIOLAND3.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\TENNIS.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\TETRIS ATTACK.pal
+2012-09-15 21:54:36 ....A          254               Gameboy\Palettes\TETRIS BLAST.pal
+2012-09-15 21:54:36 ....A          255               Gameboy\Palettes\TETRIS FLASH.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\TETRIS PLUS.pal
+2012-09-15 21:54:36 ....A          254               Gameboy\Palettes\TETRIS.pal
+2012-09-15 21:54:36 ....A          255               Gameboy\Palettes\TETRIS2.pal
+2012-09-15 21:54:36 ....A          241               Gameboy\Palettes\THE CHESSMASTER.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\TOPRANKINGTENNIS.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\TOPRANKTENNIS.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\TOY STORY.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\TRIP WORLD.pal
+2012-09-15 21:54:36 ....A          243               Gameboy\Palettes\VEGAS STAKES.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\WARIO BLAST.pal
+2012-09-15 21:54:36 ....A          246               Gameboy\Palettes\WARIOLAND2.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\WAVERACE.pal
+2012-09-15 21:54:36 ....A          248               Gameboy\Palettes\WORLD CUP.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\X.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\YAKUMAN.pal
+2012-09-15 21:54:36 ....A          255               Gameboy\Palettes\YOSHI'S COOKIE.pal
+2012-09-15 21:54:36 ....A          255               Gameboy\Palettes\YOSSY NO COOKIE.pal
+2012-09-15 21:54:36 ....A          253               Gameboy\Palettes\YOSSY NO PANEPON.pal
+2012-09-15 21:54:36 ....A          251               Gameboy\Palettes\YOSSY NO TAMAGO.pal
+2012-09-15 21:54:36 ....A          247               Gameboy\Palettes\ZELDA.pal
+2012-11-20 19:26:24 ....A          251               Gameboy\Palettes\ZELDA2.pal
+2012-12-23 13:55:32 ....A      4720128     10570854  BizHawk.MultiClient.exe
+2012-12-23 13:55:26 ....A       314880               DiscoHawk.exe
+2012-10-09 20:13:54 ....A     18900480               dll\ffmpeg.exe
+2012-10-08 21:47:04 ....A       252416               gamedb\wget.exe
+2012-12-22 19:51:52 ....A       878592               dll\7z.dll
+2012-12-23 13:55:24 ....A      1494016               dll\BizHawk.Emulation.dll
+2012-12-23 13:55:24 ....A       172032               dll\BizHawk.Util.dll
+2012-12-08 22:45:04 ....A        25935               dll\blip_buf.dll
+2012-12-16 13:56:22 ....A       138240               dll\EMU7800.dll
+2012-05-11 19:40:08 ....A       200704               dll\ICSharpCode.SharpZipLib.dll
+2012-12-23 11:33:48 ....A         7168               dll\libco_msvc_win32.dll
+2012-11-21 19:05:34 ....A       177152               dll\libgambatte.dll
+2012-11-13 18:32:54 ....A      2801664               dll\libmednahawk.dll
+2012-12-05 19:33:56 ....A       143360               dll\libmeteor.dll
+2012-12-23 11:33:48 ....A      2428567               dll\libsneshawk.dll
+2012-10-09 20:13:54 ....A       157184               dll\libspeexdsp.dll
+2012-06-11 19:58:18 ....A       315392               dll\lua51.dll
+2012-07-14 22:00:18 ....A        61440               dll\LuaInterface.dll
+2012-10-30 19:09:28 ....A        24576               dll\MOS6502XNative.dll
+2012-10-09 20:13:54 ....A       362496               dll\MusashiDLL.dll
+2012-06-16 19:11:18 ....A        68096               dll\Newtonsoft.Json.dll
+2012-02-22 21:09:18 ....A      3312128               dll\SlimDX.dll
+2012-10-08 21:47:04 ....A            0            0  gamedb\gamedb_neshomebrew.txt
+2016-11-23 20:07:23 D....            0            0  NES\Palettes
+2016-11-23 20:07:23 D....            0            0  NES
+2016-11-23 20:07:23 D....            0            0  Lua\SNES
+2016-11-23 20:07:23 D....            0            0  Lua\PCE
+2016-11-23 20:07:23 D....            0            0  Lua\NES
+2016-11-23 20:07:23 D....            0            0  Lua\Genesis
+2016-11-23 20:07:23 D....            0            0  Lua
+2016-11-23 20:07:23 D....            0            0  gamedb
+2016-11-23 20:07:24 D....            0            0  Gameboy\Palettes
+2016-11-23 20:07:23 D....            0            0  Gameboy
+2016-11-23 20:07:24 D....            0            0  Firmware
+2016-11-23 20:07:23 D....            0            0  dll
+------------------- ----- ------------ ------------  ------------------------
+2016-11-23 20:07:24           39019833     11366510  208 files, 12 folders

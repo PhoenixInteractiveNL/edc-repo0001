@@ -1,0 +1,81 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2009-04-04 18:18:42 ....A          639       230284  doc\manual\icons\2rightarrow.png
+2009-04-04 18:18:42 ....A          842               doc\manual\icons\application-exit.png
+2009-04-04 18:18:42 ....A         2098               doc\manual\icons\chronometer.png
+2009-04-04 18:18:42 ....A          677               doc\manual\icons\color-picker.png
+2009-04-04 18:18:42 ....A          531               doc\manual\icons\document-open.png
+2009-04-04 18:18:42 ....A          794               doc\manual\icons\document-revert.png
+2009-04-04 18:18:42 ....A          839               doc\manual\icons\document-save-as.png
+2009-04-04 18:18:42 ....A          563               doc\manual\icons\document-save.png
+2009-04-04 18:18:42 ....A          485               doc\manual\icons\edit-copy.png
+2009-08-02 21:17:14 ....A        21353               doc\manual\images\gens-gs-r7_pre3.png
+2009-04-04 18:18:42 ....A        84620               doc\manual\images\io-config.png
+2009-04-04 18:18:42 ....A          905               doc\manual\icons\media-optical.png
+2009-06-20 17:16:26 ....A        11162               doc\manual\images\menus-cpu.png
+2009-04-04 18:18:42 ....A        22024               doc\manual\images\menus-file.png
+2009-04-04 18:18:42 ....A        19326               doc\manual\images\menus-graphics.png
+2009-04-04 18:18:42 ....A          581               doc\manual\icons\modem.png
+2009-04-04 18:18:42 ....A          446               doc\manual\icons\view-fullscreen.png
+2009-04-04 18:18:42 ....A          931               doc\manual\icons\view-refresh.png
+2009-04-04 18:18:42 ....A          781               doc\manual\icons\viewmag.png
+2009-04-04 18:18:42 ....A          813               doc\manual\icons\window-close.png
+2009-08-02 21:18:50 ....A         1205               doc\manual\index.html
+2009-04-04 18:18:42 ....A         2953               doc\manual\io-config.html
+2009-08-02 21:18:38 ....A        12633               doc\manual\io-teamplayer.html
+2009-07-28 00:52:06 ....A         3216               doc\mdp\mdp_cpuflags_h.html
+2009-04-29 20:33:40 ....A         3564               doc\mdp\mdp_dlopen_h.html
+2009-08-02 20:24:32 ....A        12351               doc\mdp\mdp_error_h.html
+2009-06-29 15:16:34 ....A         8084               doc\mdp\mdp_h.html
+2009-06-27 17:59:52 ....A        17948               doc\mdp\mdp_host_h.html
+2009-04-20 10:45:48 ....A         3079               doc\mdp\mdp_version_h.html
+2009-06-20 17:26:16 ....A         1852               doc\manual\menus-cpu.html
+2009-04-04 18:18:42 ....A         2694               doc\manual\menus-file.html
+2009-04-04 18:18:42 ....A         3155               doc\manual\menus-graphics.html
+2009-04-04 18:18:42 ....A          864               doc\manual\gens.css
+2009-06-27 16:52:40 ....A         1447               doc\mdp\mdp.css
+2009-02-08 23:41:36 ....A          113               doc\AUTHORS.txt
+2009-06-30 12:24:32 ....A          727               doc\BUGS.txt
+2009-08-02 20:52:38 ....A        31994               doc\ChangeLog.txt
+2009-02-08 23:41:36 ....A        17992               doc\COPYING.txt
+2009-02-08 23:41:36 ....A         2448               doc\genecyst_save_file_format.txt
+2009-02-08 23:41:36 ....A        35883               doc\gens.txt
+2009-02-08 23:41:36 ....A        22962               doc\gfdl-1.3.txt
+2009-02-08 23:41:36 ....A        34609               doc\history.txt
+2009-08-02 20:41:46 ....A        15868               doc\MDP.txt
+2009-08-02 20:52:26 ....A         9336               NEWS.txt
+2009-08-02 20:48:00 ....A         7424               README.txt
+2009-07-21 12:07:54 ....A         5085               doc\TODO.txt
+2009-03-16 13:20:58 ....A           56               doc\manual\icons\.directory
+2009-08-02 22:03:04 ....A      3042816       751012  gens.exe
+2009-08-02 22:03:04 ....A       118272               plugins\mdp_misc_game_genie.dll
+2009-08-02 22:03:04 ....A        83456               plugins\mdp_misc_ips_patcher.dll
+2009-08-02 22:03:04 ....A        40960               plugins\mdp_misc_sgens.dll
+2009-08-02 22:03:04 ....A        11264               plugins\mdp_misc_vdp_layer_options.dll
+2009-08-02 22:03:04 ....A         6656               plugins\mdp_render_2xsai.dll
+2009-08-02 22:03:04 ....A        49664               plugins\mdp_render_blargg_ntsc.dll
+2009-08-02 22:03:04 ....A         5632               plugins\mdp_render_epx.dll
+2009-08-02 22:03:04 ....A         8192               plugins\mdp_render_epx_plus.dll
+2009-08-02 22:03:04 ....A        77312               plugins\mdp_render_hq2x.dll
+2009-08-02 22:03:04 ....A       101888               plugins\mdp_render_hq3x.dll
+2009-08-02 22:03:04 ....A       267776               plugins\mdp_render_hq4x.dll
+2009-08-02 22:03:04 ....A         6656               plugins\mdp_render_interpolated.dll
+2009-08-02 22:03:04 ....A         6144               plugins\mdp_render_interpolated_scanline.dll
+2009-08-02 22:03:04 ....A         6656               plugins\mdp_render_interpolated_scanline_25.dll
+2009-08-02 22:03:04 ....A         6656               plugins\mdp_render_interpolated_scanline_50.dll
+2009-08-02 22:03:04 ....A        10240               plugins\mdp_render_scale2x.dll
+2009-08-02 22:03:04 ....A         9728               plugins\mdp_render_scale3x.dll
+2009-08-02 22:03:04 ....A        13312               plugins\mdp_render_scale4x.dll
+2009-08-02 22:03:04 ....A         6144               plugins\mdp_render_scanline.dll
+2009-08-02 22:03:04 ....A         6656               plugins\mdp_render_scanline_25.dll
+2009-08-02 22:03:04 ....A         6656               plugins\mdp_render_scanline_50.dll
+2009-08-02 22:03:04 ....A         6656               plugins\mdp_render_super_2xsai.dll
+2009-08-02 22:03:04 ....A         6656               plugins\mdp_render_super_eagle.dll
+2016-11-23 17:16:24 D....            0            0  plugins
+2016-11-23 17:16:23 D....            0            0  doc\mdp
+2016-11-23 17:16:23 D....            0            0  doc\manual\images
+2016-11-23 17:16:23 D....            0            0  doc\manual\icons
+2016-11-23 17:16:23 D....            0            0  doc\manual
+2016-11-23 17:16:23 D....            0            0  doc
+------------------- ----- ------------ ------------  ------------------------
+2016-11-23 17:16:24            4336000       981296  71 files, 6 folders

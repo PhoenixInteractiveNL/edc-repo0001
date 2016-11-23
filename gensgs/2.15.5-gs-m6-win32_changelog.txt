@@ -1,0 +1,49 @@
+What's new in Gens/GS v2.15.5/GS-m6?
+
+Milestone 6 introduces the following new features:
+
+- Mega Drive Plugins v0.1.0. The initial version of the plugin system
+  only supports render plugins and only if they're built into the
+  main executable. A later version will add support for external
+  plugins (.dll on Windows, .so on Linux), as well as more types of
+  plugins, such as netplay, debugging, and movie recording.
+
+- doc/MDP.txt contains the MDP Interface Specifiction Version 0.1.0.
+  This document is licensed under the GNU Free Documentation License v1.3.
+
+- All renderers now support 32-bit color.
+
+- [Win32] hq2x has been fixed.
+
+- Scale2x now has optimized C and x86 mmx implementations.
+
+- New renderers: Scale3x, Scale4x, hq3x, hq4x.
+
+- Added a 32-bit color asm version of the Fast Blur effect, with mmx
+  optimizations if available.
+
+Milestone 6 fixes the following bugs:
+
+- [SDL] Ctrl+Q did not work in fullscreen mode.
+
+Milestone 6 has the following low-level code changes:
+
+- Many x86 assembler files have been cleaned up. In particular, many of them
+  no longer depend on the "nasmhead.inc" macro file. This macro file provided
+  alignment macros (which nasm has built-in) and "DECL" macros, which provide
+  both underscored and non-underscored symbol declarations. Only one of these
+  is needed per symbol, and it depends on architecture. Removing "DECL" and
+  manually redefining symbols reduced the total symbol count.
+
+- Adjusted alignment values for many x86 asm functions.
+
+- Added alpha transparency support to ImageUtil::writePNG().
+
+- Major overhaul for the ImageUtil::writeBMP() code. Changes include using
+  a templated function for different color depths, using pointer arithmetic
+  instead of recalculating array indexes for every iteration, and fixing a
+  bug that caused bitmaps to be 54 bytes larger than they should have been.
+
+- The "Render Fullscreen" and "Render Windowed" values in the gens.cfg file
+  now contain the renderer tag instead of an ID number. For example, instead
+  of saying "1" for the Normal renderer, the value would be "Normal".

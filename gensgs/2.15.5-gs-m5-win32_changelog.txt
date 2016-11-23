@@ -1,0 +1,78 @@
+What's new in Gens/GS v2.15.5/GS-m5?
+
+Milestone 5 introduces the following new features:
+
+- The Windows UI and DirectX code has been integrated into the codebase.
+  The Gens/GS codebase can now be used to compile both the Linux versions
+  and the Windows versions.
+
+- [Linux] The frame counter code has been updated to work a lot better.
+  In particular, it no longer uses the x86 instruction "rdtsc", so it
+  should be more accurate on multiprocessor and multicore systems.
+
+- 7z: A warning dialog is now shown if the 7z binary cannot be run. This
+  usually occurs if 7-Zip isn't installed.
+
+- [GTK+] The "General Options" dialog now has regular buttons instead of
+  radio buttons for selecting colors. It seems that most GTK+ themes don't
+  properly support changing the colors of radio buttons, so changing them
+  to regular buttons enables proper color support.
+
+Milestone 5 fixes the following bugs:
+
+- [32X] PWM audio volume has been increased by a factor of 4, making it audible.
+
+- [SegaCD] The 8th PCM audio channel now works.
+
+- [Linux] If Gens is started in a terminal window, Ctrl-C now correctly
+  shuts down the program. Earlier versions ignored Ctrl-C. Apparently,
+  SDL catches the Ctrl-C (SIGINT) and adds it to the SDL event queue as
+  an SDL_QUIT message.
+
+- The "Save Config" and "Load Config As" functions incorrectly passed a
+  NULL value to the GensUI class when a C++ string was expected, resulting
+  in a crash.
+
+- Clicking "OK" in the "Archive File Selection" dialog with no file selected
+  resulted in a crash.
+
+- [32X] Some 32X ROMs were misdetected as Genesis ROMs. In particular, drx's
+  "Sonic 32X" does not say "SEGA 32X" in the header. However, the ROM does
+  have "MARS" at 0x040E. The detection function has been updated to take
+  this into account, so "Sonic 32X" is now properly detected as a 32X ROM.
+
+- [GTK+] Fixed GTK+ 2.4 compatibility issues.
+
+- [GTK+] Added accelerators for the "Cancel" and "Save" buttons in the
+  Game Genie window.
+
+Milestone 5 has the following low-level code changes:
+
+- -Wl,--as-needed has been added to LDFLAGS. This eliminates unnecessary
+  library dependencies.
+
+- Internal copies of zlib and libpng have been added. These internal copies
+  are not used by default on the Linux build, since most Linux systems have
+  zlib and libpng already installed, but are used by default on the Windows
+  build. Use of these internal copies can be configured using the ./configure
+  script.
+
+- MP3 playback support can now be disabled in the ./configure script.
+
+- rom.cpp, save.cpp, and imageutil.cpp (formerly scrshot.c) have been
+  converted to static C++ classes.
+
+- The INI parser now supports hexadecimal and octal numbers. These numbers
+  are identified by prefixes. (Hexadecimal: "0x" or "0X"; Octal: "0".)
+  
+- Controller mappings are now saved as hexadecimal numbers in gens.cfg.
+
+Milestone 5 has the following known issues:
+
+- [Win32] MP3 support is currently disabled due to problems with the MP3
+  library. ASPI support is available though, so you can use an ASPI library
+  with a CD-ROM emulator, such as Daemon Tools.
+
+- [Win32] Stretched rendering may not work properly in fullscreen mode.
+
+- [Linux] Monaural sound is broken.

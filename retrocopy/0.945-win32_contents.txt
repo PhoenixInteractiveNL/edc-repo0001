@@ -1,0 +1,98 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2002-04-17 11:54:54 ....A        18123      2535970  docs\zexall\LICENSE
+2011-02-03 15:48:50 ....A         1110               nes\saves\d-pad hero.zip
+2010-07-10 19:26:46 ....A        15480               objects\concrete.jpg
+2009-08-24 10:58:46 ....A        17933               objects\Controls.jpg
+2009-10-30 09:00:24 ....A        52976               objects\couch.jpg
+2009-06-18 04:30:56 ....A       112716               sms\media\default.jpg
+2009-11-30 17:04:02 ....A       181433               megadrive\media\default.jpg
+2010-09-03 13:31:08 ....A       225244               gamegear\media\default.jpg
+2010-06-18 15:15:04 ....A         9177               objects\floor.jpg
+2009-11-02 20:00:46 ....A        89442               objects\gamegear.jpg
+2009-11-25 22:37:20 ....A       301023               objects\genesisad.jpg
+2009-09-01 13:11:12 ....A         7786               objects\mSuper_S.jpg
+2009-08-24 10:57:20 ....A        20515               objects\OldTel01.jpg
+2009-08-24 10:57:42 ....A       203317               objects\OldTelly.jpg
+2010-09-04 03:24:04 ....A        60380               objects\poster1.jpg
+2010-09-04 03:23:46 ....A        48854               objects\poster2.jpg
+2009-08-24 10:58:16 ....A        20149               objects\Wood01.jpg
+2009-09-01 02:25:20 ....A       403269               objects\arcade.3DS
+2009-11-03 15:39:56 ....A        21512               objects\couch.3DS
+2010-07-10 19:01:42 ....A        14233               objects\floorlamp.3DS
+2009-11-03 16:29:48 ....A        19511               objects\gamegear.3DS
+2010-04-07 17:04:12 ....A        19913               objects\ggbox.3DS
+2009-09-02 22:10:04 ....A        27320               objects\lightfixture.3DS
+2010-04-08 15:52:46 ....A         7822               objects\markiiibox.3DS
+2010-08-19 01:26:40 ....A         1300               objects\poster1.3DS
+2010-08-19 15:58:18 ....A         1300               objects\poster2.3DS
+2010-09-04 02:45:26 ....A       156108               objects\retrocopy.3DS
+2010-08-18 18:30:44 ....A         1620               objects\room_block.3DS
+2010-08-16 18:25:36 ....A         1620               objects\room_blockbig.3DS
+2010-08-18 16:43:26 ....A         1421               objects\room_column.3DS
+2010-06-24 18:20:48 ....A         1370               objects\room_ramp.3DS
+2010-08-16 18:05:58 ....A         1370               objects\room_stairblock.3DS
+2010-08-16 18:37:50 ....A        12686               objects\room_stairs.3DS
+2010-08-16 18:20:26 ....A         1421               objects\room_wall2m.3DS
+2010-08-18 17:48:42 ....A         5624               objects\room_walldoor.3DS
+2010-08-17 01:47:42 ....A         4958               objects\room_wallwindow.3DS
+2010-08-29 16:11:36 ....A        22644               objects\smsbox.3ds
+2010-04-07 14:25:14 ....A        22644               objects\smscardbox.3ds
+2010-09-03 00:35:08 ....A         7824               objects\smsmycard.3ds
+2010-09-14 15:40:16 ....A        66338               objects\tv.3DS
+2009-11-03 17:14:08 ....A       136404               objects\tv2.3DS
+2009-09-01 01:09:46 ....A        46356               objects\tvunit.3DS
+2010-06-27 02:02:06 ....A       136404               objects\walltv.3DS
+2003-01-14 14:42:10 ....A        25683               docs\zexall\source\BBC Micro font.inc
+2003-01-14 14:42:10 ....A        25683               docs\zexall\source\maxim\BBC Micro font.inc
+2003-06-11 14:06:08 ....A          528               docs\zexall\source\sdsc.inc
+2003-03-18 09:57:26 ....A         1429               docs\zexall\source\maxim\VDP data.inc
+2004-07-29 08:12:46 ....A         1487               docs\zexall\source\VDP data.inc
+2003-03-18 10:23:06 ....A        51878               docs\zexall\source\maxim\zexall.asm
+2006-02-09 18:52:02 ....A        55775               docs\zexall\source\zexall.asm
+2011-01-22 17:28:22 ....A        62136               theme.xml
+2011-01-23 23:08:58 ....A         3290               docs\cgwg-CRT v3.shader.txt
+2010-09-04 01:58:14 ....A         3084               docs\Quick Guide.txt
+2003-06-15 12:47:38 ....A         1780               docs\zexall\readme.txt
+2009-09-07 14:06:54 ....A          387               docs\dpadhero\readme.txt
+2010-09-04 01:09:56 ....A          349               docs\Warning.txt
+2011-02-04 14:23:42 ....A        37749               docs\whatsnew.txt
+2006-02-12 01:00:52 ....A       552895               retrogamemusic\M.U.S.H.A. - 02 - Fullmetal Fighter
+2011-01-26 12:03:44 ....A        94836               dat\arcade.dat
+2011-01-26 12:03:42 ....A       465741               dat\gamegear.dat
+2011-01-28 02:22:56 ....A      1833372               dat\megadrive.dat
+2011-01-26 12:03:46 ....A       471236               dat\sms.dat
+2010-02-16 01:54:56 ....A        35736               nes\d-pad hero.game
+2011-01-29 02:56:30 ....A        55582               megadrive\Pringles Game.game
+2011-02-04 03:56:56 ....A       329958               sms\RetroBilly.game
+2002-12-28 09:57:10 ....A         8094               docs\zexall\source\brettk\font.src
+2002-12-28 10:58:42 ....A          429               docs\zexall\source\brettk\vdpdata.src
+2003-03-14 00:02:46 ....A        43401               docs\zexall\source\jgharston\zexall-spectrum.src
+2003-01-17 12:22:34 ....A        51326               docs\zexall\source\brettk\zexall.src
+2006-03-30 16:20:06 ....A       100006               retrogamemusic\Castlevania Bloodlines - Reincarnated Soul.vgm
+2005-12-17 21:11:52 ....A       384451               retrogamemusic\Michael Jackson's Moonwalker -  Beat It.vgm
+2006-06-11 04:53:20 ....A       446315               retrogamemusic\Sonic 3 & Knuckles - Carnival Night Zone 1.vgm
+2006-06-20 20:36:54 ....A       421959               retrogamemusic\Thunder Force IV - Metal Squad.vgm
+1996-04-28 08:14:06 ....A        40283               docs\zexall\source\original\zexall.z80
+2011-02-04 14:08:08 ....A      6660608      3970106  retrocopy.exe
+2016-11-23 19:07:01 D....            0            0  sms\media
+2016-11-23 19:07:01 D....            0            0  sms
+2016-11-23 19:07:01 D....            0            0  retrogamemusic
+2016-11-23 19:07:01 D....            0            0  objects
+2016-11-23 19:07:00 D....            0            0  nes\saves
+2016-11-23 19:07:00 D....            0            0  nes
+2016-11-23 19:07:00 D....            0            0  megadrive\media
+2016-11-23 19:07:00 D....            0            0  megadrive
+2016-11-23 19:07:00 D....            0            0  gamegear\media
+2016-11-23 19:07:00 D....            0            0  gamegear
+2016-11-23 19:07:00 D....            0            0  docs\zexall\source\original
+2016-11-23 19:07:00 D....            0            0  docs\zexall\source\maxim
+2016-11-23 19:07:00 D....            0            0  docs\zexall\source\jgharston
+2016-11-23 19:07:00 D....            0            0  docs\zexall\source\brettk
+2016-11-23 19:07:00 D....            0            0  docs\zexall\source
+2016-11-23 19:07:00 D....            0            0  docs\zexall
+2016-11-23 19:07:00 D....            0            0  docs\dpadhero
+2016-11-23 19:07:00 D....            0            0  docs
+2016-11-23 19:07:00 D....            0            0  dat
+------------------- ----- ------------ ------------  ------------------------
+2016-11-23 19:07:01           14796116      6506076  75 files, 19 folders

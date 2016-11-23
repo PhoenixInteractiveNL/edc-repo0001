@@ -1,0 +1,94 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2009-09-12 18:34:08 ....A          639       325085  doc\manual\icons\2rightarrow.png
+2009-09-12 18:34:08 ....A          842               doc\manual\icons\application-exit.png
+2009-09-12 19:04:56 ....A          606               doc\manual\icons\binary.png
+2009-09-12 18:34:08 ....A         2098               doc\manual\icons\chronometer.png
+2009-09-12 18:34:08 ....A          677               doc\manual\icons\color-picker.png
+2009-09-12 19:04:56 ....A          419               doc\manual\icons\document-open-folder.png
+2009-09-12 18:34:08 ....A          531               doc\manual\icons\document-open.png
+2009-09-12 18:34:08 ....A          794               doc\manual\icons\document-revert.png
+2009-09-12 18:34:08 ....A          839               doc\manual\icons\document-save-as.png
+2009-09-12 18:34:08 ....A          563               doc\manual\icons\document-save.png
+2009-09-12 18:34:08 ....A          485               doc\manual\icons\edit-copy.png
+2009-09-12 21:37:20 ....A        21994               doc\manual\images\gens-gs-r7_pre4.png
+2009-09-06 20:01:34 ....A        84620               doc\manual\images\io-config.png
+2009-09-12 18:34:08 ....A          905               doc\manual\icons\media-optical.png
+2009-09-12 19:04:56 ....A          792               doc\manual\icons\memory.png
+2009-09-12 19:04:56 ....A        11162               doc\manual\images\menu-cpu.png
+2009-09-12 19:04:56 ....A        22024               doc\manual\images\menu-file.png
+2009-09-12 19:04:56 ....A        19326               doc\manual\images\menu-graphics.png
+2009-09-12 19:04:56 ....A        18003               doc\manual\images\menu-options.png
+2009-09-12 19:04:56 ....A        11746               doc\manual\images\menu-plugins.png
+2009-09-12 19:04:56 ....A        20547               doc\manual\images\menu-sound.png
+2009-09-12 18:34:08 ....A          581               doc\manual\icons\modem.png
+2009-09-12 19:04:56 ....A        39053               doc\manual\images\plugin-manager.png
+2009-09-12 19:04:56 ....A          758               doc\manual\icons\preferences-desktop-gaming.png
+2009-09-12 19:04:56 ....A          874               doc\manual\icons\preferences-system.png
+2009-09-12 18:34:08 ....A          446               doc\manual\icons\view-fullscreen.png
+2009-09-12 18:34:08 ....A          931               doc\manual\icons\view-refresh.png
+2009-09-12 18:34:08 ....A          781               doc\manual\icons\viewmag.png
+2009-09-12 18:34:08 ....A          813               doc\manual\icons\window-close.png
+2009-09-12 21:26:00 ....A         1369               doc\manual\index.html
+2009-09-12 18:34:08 ....A         2953               doc\manual\io-config.html
+2009-09-12 21:25:44 ....A        12633               doc\manual\io-teamplayer.html
+2009-09-12 19:04:56 ....A         3216               doc\mdp\mdp_cpuflags_h.html
+2009-09-12 18:34:08 ....A         3564               doc\mdp\mdp_dlopen_h.html
+2009-09-12 19:04:56 ....A        12351               doc\mdp\mdp_error_h.html
+2009-09-12 18:36:40 ....A         8084               doc\mdp\mdp_h.html
+2009-09-12 18:36:40 ....A        17948               doc\mdp\mdp_host_h.html
+2009-09-12 18:34:08 ....A         3079               doc\mdp\mdp_version_h.html
+2009-09-12 19:04:56 ....A         1850               doc\manual\menu-cpu.html
+2009-09-12 19:04:56 ....A         2692               doc\manual\menu-file.html
+2009-09-12 19:04:56 ....A         3153               doc\manual\menu-graphics.html
+2009-09-12 19:04:56 ....A         2553               doc\manual\menu-options.html
+2009-09-12 19:04:56 ....A         1156               doc\manual\menu-plugins.html
+2009-09-12 19:04:56 ....A         2832               doc\manual\menu-sound.html
+2009-09-12 19:04:56 ....A         1904               doc\manual\plugin-manager.html
+2009-09-12 18:34:08 ....A          864               doc\manual\gens.css
+2009-09-12 18:36:40 ....A         1447               doc\mdp\mdp.css
+2009-02-08 23:41:36 ....A          113               doc\AUTHORS.txt
+2009-09-12 18:36:40 ....A          727               doc\BUGS.txt
+2009-09-12 20:10:44 ....A        23597               doc\ChangeLog.txt
+2009-02-08 23:41:36 ....A        17992               doc\COPYING.txt
+2009-09-06 20:01:34 ....A         2448               doc\genecyst_save_file_format.txt
+2009-09-06 20:01:34 ....A        35883               doc\gens.txt
+2009-02-08 23:41:36 ....A        22962               doc\gfdl-1.3.txt
+2009-09-06 20:01:34 ....A        34609               doc\history.txt
+2009-09-12 19:04:56 ....A        26434               doc\lgpl-2.1.txt
+2009-09-12 19:04:56 ....A        15868               doc\MDP.txt
+2009-09-12 21:22:20 ....A        13363               NEWS.txt
+2009-09-12 20:10:46 ....A         7493               README.txt
+2009-09-12 19:04:56 ....A         5101               doc\TODO.txt
+2009-09-12 22:44:42 ....A      3064320       756468  gens.exe
+2009-09-12 22:45:06 ....A       118784               plugins\mdp_misc_game_genie.dll
+2009-09-12 22:45:06 ....A        83456               plugins\mdp_misc_ips_patcher.dll
+2009-09-12 22:45:06 ....A        41472               plugins\mdp_misc_sgens.dll
+2009-09-12 22:45:06 ....A        12288               plugins\mdp_misc_vdp_layer_options.dll
+2009-09-12 22:45:06 ....A         6656               plugins\mdp_render_2xsai.dll
+2009-09-12 22:45:06 ....A        51712               plugins\mdp_render_blargg_ntsc.dll
+2009-09-12 22:45:06 ....A         5632               plugins\mdp_render_epx.dll
+2009-09-12 22:45:06 ....A         8192               plugins\mdp_render_epx_plus.dll
+2009-09-12 22:45:06 ....A        77312               plugins\mdp_render_hq2x.dll
+2009-09-12 22:45:06 ....A       101888               plugins\mdp_render_hq3x.dll
+2009-09-12 22:45:06 ....A       267776               plugins\mdp_render_hq4x.dll
+2009-09-12 22:45:06 ....A         6656               plugins\mdp_render_interpolated.dll
+2009-09-12 22:45:06 ....A         6144               plugins\mdp_render_interpolated_scanline.dll
+2009-09-12 22:45:06 ....A         6656               plugins\mdp_render_interpolated_scanline_25.dll
+2009-09-12 22:45:06 ....A         6656               plugins\mdp_render_interpolated_scanline_50.dll
+2009-09-12 22:45:06 ....A        10240               plugins\mdp_render_scale2x.dll
+2009-09-12 22:45:06 ....A         9728               plugins\mdp_render_scale3x.dll
+2009-09-12 22:45:06 ....A        13312               plugins\mdp_render_scale4x.dll
+2009-09-12 22:45:06 ....A         6144               plugins\mdp_render_scanline.dll
+2009-09-12 22:45:06 ....A         6656               plugins\mdp_render_scanline_25.dll
+2009-09-12 22:45:06 ....A         6656               plugins\mdp_render_scanline_50.dll
+2009-09-12 22:45:06 ....A         6656               plugins\mdp_render_super_2xsai.dll
+2009-09-12 22:45:06 ....A         6656               plugins\mdp_render_super_eagle.dll
+2016-11-23 17:16:18 D....            0            0  doc\manual\images
+2016-11-23 17:16:18 D....            0            0  doc\manual\icons
+2016-11-23 17:16:18 D....            0            0  doc\manual
+2016-11-23 17:16:18 D....            0            0  doc
+2016-11-23 17:16:18 D....            0            0  plugins
+2016-11-23 17:16:18 D....            0            0  doc\mdp
+------------------- ----- ------------ ------------  ------------------------
+2016-11-23 17:16:18            4485735      1081553  84 files, 6 folders

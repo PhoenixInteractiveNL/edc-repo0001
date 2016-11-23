@@ -1,0 +1,6 @@
+*************************************
+v0.945 - Released February 04 2011
+*************************************
+[CORE] Fixed an issue where files were placed in wrong directory when user fixed game files.
+[CORE] Recoded some parts to remove a few warnings
+[WINDOWS] Removed Link Time Code Generation for MSVC10 builds as it buggy
