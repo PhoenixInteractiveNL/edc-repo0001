@@ -1,0 +1,53 @@
+----------------------------------------------------------------
+1.46
+----------------------------------------------------------------
+Unix Shell:
+
+ Additions:
+  - Mask Overscan option
+  - Disable GUI option
+  - Command line interface
+  - Scale Factor and Filters can be changed while playing
+  - Zapper support
+  - Palette and Picture options
+  - Ability to turn Vsync on/off
+  - Alternate emulation speed
+  - libao audio output (handles ALSA, OSS, Pulse, etc)
+  - More volume controls
+  - Turbo Buttons A and B
+
+ Changes:
+  - Ported to SDL 2.0
+  - Completely rewrote config file handling
+  - Completely rewrote input config and input handling
+  - Completely rewrote cheats
+  - Removed ALSA and OSS audio output
+
+Windows Shell:
+
+ Fixes:
+  - xBR dialog now updates video output when options change
+
+libretro:
+
+ Additions:
+  - Ability to load NstDatabase.xml (needed for some games)
+  - Overscan masking (themaister)
+  - Palette options
+  - Zapper support
+
+ Changes:
+  - Region detection based on NstDatabase.xml
+
+Core:
+
+ Additions:
+  - Game Genie sound distortion option
+  - Mapper 210 (NAMCOT-175, NAMCOT-340)
+
+ Fixes:
+  - Hard Drivin' now playable (dragon2snow)
+  - Kaettekita Mario Bros. fix (dragon2snow)
+  - Fix for rewinder sound issue (steelywing)
+  - Typos and syntax error fixes (lioncash)
+  - Fix for Mickey's Safari in Letterland (joepogo, james)

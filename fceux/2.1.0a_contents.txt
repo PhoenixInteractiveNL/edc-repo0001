@@ -1,0 +1,70 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2009-03-29 09:06:58 ....A       304189       351536  fceux.chm
+2009-03-29 08:47:30 ....A         9560               luaScripts\UsingLuaBot-Documentation.txt
+2009-03-29 08:47:30 ....A         9341               luaScripts\UsingLuaScripting-Documentation.txt
+2009-03-29 11:03:54 ....A        13275               luaScripts\UsingLuaScripting-ListofFunctions.txt
+2008-08-04 11:16:52 ....A         1544               auxlib.lua
+2009-03-29 18:39:42 ....A         5535               luaScripts\BugsBunnyBirthdayBlowout.lua
+2009-03-29 18:40:44 ....A         2348               luaScripts\Excitingbike-speedometeronly.lua
+2009-03-29 18:40:20 ....A         6099               luaScripts\Excitingbike.lua
+2009-03-29 18:41:02 ....A         5795               luaScripts\Galaxian.lua
+2009-03-29 09:13:10 ....A        11491               luaScripts\Gradius-BulletHell.lua
+2009-03-29 08:47:30 ....A          744               luaScripts\GUI-iup_button.lua
+2009-03-29 08:47:30 ....A         8299               luaScripts\GUI-iup_example.lua
+2009-03-29 08:47:30 ....A        13779               luaScripts\Luabot.lua
+2009-03-29 08:47:30 ....A        22517               luaScripts\luabot_framework.lua
+2009-03-29 18:41:28 ....A         7250               luaScripts\Machrider.lua
+2009-03-29 09:13:34 ....A        18880               luaScripts\MegamanII-LaserEyes.lua
+2009-03-29 08:47:30 ....A         1479               luaScripts\MemoryWatch.lua
+2009-03-29 09:19:48 ....A         5670               luaScripts\m_utils.lua
+2009-03-29 08:47:30 ....A         5626               luaScripts\Registerfind(CheatSearch).lua
+2009-03-29 08:47:30 ....A         1176               luaScripts\shapedefs.lua
+2009-03-29 18:44:26 ....A         2561               luaScripts\SMB-AreaScrambler.lua
+2009-03-29 08:47:30 ....A         8892               luaScripts\SMB-HitBoxes.lua
+2009-03-29 18:43:38 ....A        10618               luaScripts\SMB-Jetpack.lua
+2009-03-29 08:47:30 ....A         2245               luaScripts\SMB-Lives&HPDisplay.lua
+2009-03-29 18:45:10 ....A        17416               luaScripts\SMB-Mouse.lua
+2009-03-29 18:46:22 ....A         6825               luaScripts\SMB-Snow.lua
+2009-03-29 08:47:30 ....A         6222               luaScripts\SMB2U.lua
+2009-03-29 10:58:56 ....A        15147               luaScripts\SMB3-RainbowRiding.lua
+2009-03-29 08:47:30 ....A         1618               luaScripts\TeenageMutantNinjaTurtles.lua
+2009-03-29 08:47:30 ....A         5355               luaScripts\tetris.lua
+2009-02-10 23:03:40 ....A        17034               luaScripts\vnb.lua
+2009-03-27 07:07:56 ....A         6154               luaScripts\x_functions.lua
+2009-03-28 05:24:18 ....A         3852               luaScripts\x_interface.lua
+2009-03-27 07:03:16 ....A         2428               luaScripts\x_smb1enemylist.lua
+2009-03-29 09:21:20 ....A         1875               luaScripts\ZapperFun.lua
+2009-03-29 08:47:30 ....A          192               palettes\ASQ_realityA.pal
+2009-03-29 08:47:30 ....A          192               palettes\ASQ_realityB.pal
+2009-03-29 08:47:30 ....A          192               palettes\BMF_final2.pal
+2009-03-29 08:47:30 ....A          192               palettes\BMF_final3.pal
+2009-03-29 08:47:30 ....A          192               palettes\FCEU-13-default_nitsuja.pal
+2009-03-29 08:47:30 ....A          192               palettes\FCEU-15-nitsuja_new.pal
+2009-03-29 08:47:30 ....A          192               palettes\FCEUX.pal
+2009-04-05 11:32:50 ....A       425472      1115606  fceux.exe
+2008-07-09 09:03:34 ....A       242176               7z.dll
+2009-03-29 08:47:30 ....A       462848               cd.dll
+2009-03-29 08:47:30 ....A        57344               cdgdiplus.dll
+2009-03-29 08:47:30 ....A        20480               cdiup.dll
+2009-03-29 08:47:30 ....A        81920               cdlua51.dll
+2009-03-29 08:47:30 ....A        20480               cdluaiup51.dll
+2009-03-29 08:47:30 ....A       159744               iup.dll
+2009-03-29 08:47:30 ....A       196608               iupcontrols.dll
+2009-03-29 08:47:30 ....A        20480               iupgl.dll
+2009-03-29 08:47:30 ....A        20480               iupim.dll
+2009-03-29 08:47:30 ....A       176128               iupimglib.dll
+2009-03-29 08:47:30 ....A        69632               iuplua51.dll
+2009-03-29 08:47:30 ....A        40960               iupluacontrols51.dll
+2009-03-29 08:47:30 ....A        20480               iupluagl51.dll
+2009-03-29 08:47:30 ....A        20480               iupluaim51.dll
+2009-03-29 08:47:30 ....A        20480               iupluaole51.dll
+2009-03-29 08:47:30 ....A        20480               iuplua_pplot51.dll
+2009-03-29 08:47:30 ....A        28672               iupole.dll
+2009-03-29 08:47:30 ....A        86016               iup_pplot.dll
+2009-03-29 08:47:30 ....A       118784               lua5.1.dll
+2009-03-29 08:47:30 ....A        20480               lua51.dll
+2016-11-25 20:09:25 D....            0            0  palettes
+2016-11-25 20:09:25 D....            0            0  luaScripts
+------------------- ----- ------------ ------------  ------------------------
+2016-11-25 20:09:25            2894807      1467142  64 files, 2 folders
