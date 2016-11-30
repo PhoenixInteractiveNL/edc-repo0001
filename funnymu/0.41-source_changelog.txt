@@ -1,0 +1,3 @@
+0.41   29 Nov 2001. Tidied up the SDL code a bit and removed Unix.c and 
+       LibUnix.c that aren't really required any more. Sound still works
+       fine under Linux but varies on Win32. May depend on your sound card.

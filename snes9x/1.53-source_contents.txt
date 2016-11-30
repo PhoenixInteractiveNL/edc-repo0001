@@ -1,0 +1,472 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2011-04-24 14:38:10 ....A          152      1421097  gtk\AUTHORS
+2011-04-24 21:12:51 ....A         3769               gtk\compile
+2011-04-24 14:38:10 ....A       261270               unix\configure
+2011-04-24 21:12:51 ....A       271303               gtk\configure
+2011-04-24 21:12:51 ....A        18615               gtk\depcomp
+2011-04-24 14:38:10 ....A         9233               unix\install-sh
+2011-04-24 21:12:51 ....A        13663               gtk\install-sh
+2011-04-24 14:38:10 ....A          409               gtk\doc\LICENSE
+2011-04-24 14:38:10 ....A           81               gtk\po\LINGUAS
+2011-04-24 21:12:51 ....A        11419               gtk\missing
+2011-04-24 21:12:50 ....A         3538               gtk\mkinstalldirs
+2011-04-24 14:38:10 ....A         1522               gtk\doc\README
+2011-04-24 14:38:10 ....A         5074               macosx\icons.png
+2011-04-24 14:38:10 ....A        29426               macosx\logo_defrost.png
+2011-04-24 14:38:10 ....A        20720               macosx\logo_freeze.png
+2011-04-24 14:38:10 ....A          581               gtk\src\mini_icon.png
+2011-04-24 14:38:10 ....A          133               macosx\musicbox_effect.png
+2011-04-24 14:38:10 ....A          729               macosx\musicbox_indicator.png
+2011-04-24 14:38:10 ....A          108               macosx\musicbox_pause.png
+2011-04-24 14:38:10 ....A          136               macosx\musicbox_rewind.png
+2011-04-24 14:38:10 ....A        19544               macosx\English.lproj\Snes9x Help\gfx\s9xic128.png
+2011-04-24 14:38:10 ....A          679               macosx\English.lproj\Snes9x Help\gfx\s9xic16.png
+2011-04-24 14:38:10 ....A          581               gtk\data\snes9x_16x16.png
+2011-04-24 14:38:10 ....A          855               gtk\data\snes9x_24x24.png
+2011-04-24 14:38:10 ....A         1453               gtk\data\snes9x_32x32.png
+2011-04-24 14:38:10 ....A        32834               gtk\src\splash.png
+2011-04-24 14:38:10 ....A       129078               win32\rsrc\bitmap2.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\cdd.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\closedfold.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\hd.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\hiddir.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\nd.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\openfold.bmp
+2011-04-24 14:38:10 ....A        15478               win32\rsrc\pad.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\ram.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\rd.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\rodir.bmp
+2011-04-24 14:38:10 ....A          822               win32\rsrc\ud.bmp
+2011-04-24 14:38:10 ....A        20934               win32\rsrc\icon1.ico
+2011-04-24 14:38:10 ....A        20079               gtk\data\snes9x.svg
+2011-04-24 14:38:10 ....A         6470               filter\2xsai.h
+2011-04-24 14:38:10 ....A         8481               65c816.h
+2011-04-24 14:38:10 ....A         1084               jma\7z.h
+2011-04-24 14:38:10 ....A         7202               apu\apu.h
+2011-04-24 14:38:10 ....A         1995               jma\aribitcd.h
+2011-04-24 14:38:10 ....A         1027               jma\ariconst.h
+2011-04-24 14:38:10 ....A          222               jma\ariprice.h
+2011-04-24 14:38:10 ....A         7575               win32\AVIOutput.h
+2011-04-24 14:38:10 ....A         5205               apu\blargg_common.h
+2011-04-24 14:38:10 ....A          620               apu\blargg_config.h
+2011-04-24 14:38:10 ....A         6364               apu\blargg_endian.h
+2011-04-24 14:38:10 ....A         3037               apu\blargg_source.h
+2011-04-24 14:38:10 ....A         7747               filter\blit.h
+2011-04-24 14:38:10 ....A         7025               bsx.h
+2011-04-24 14:38:10 ....A         3559               jma\btreecd.h
+2011-04-24 14:38:10 ....A         6951               c4.h
+2011-04-24 14:38:10 ....A         8613               win32\CDirect3D.h
+2011-04-24 14:38:10 ....A         7486               win32\CDirectDraw.h
+2011-04-24 14:38:10 ....A         7639               win32\CDirectSound.h
+2011-04-24 14:38:10 ....A         7237               win32\CFMOD.h
+2011-04-24 14:38:10 ....A          699               win32\CFMODEx.h
+2011-04-24 14:38:10 ....A         9125               win32\cgFunctions.h
+2011-04-24 14:38:10 ....A         8066               cheats.h
+2011-04-24 14:38:10 ....A        15101               conffile.h
+2011-04-24 14:38:10 ....A        15291               controls.h
+2011-04-24 14:38:10 ....A         8609               win32\COpenGL.h
+2011-04-24 14:38:10 ....A        17413               cpuaddr.h
+2011-04-24 14:38:10 ....A         9029               cpuexec.h
+2011-04-24 14:38:10 ....A        19751               cpumacro.h
+2011-04-24 14:38:10 ....A         6413               cpuops.h
+2011-04-24 14:38:10 ....A          827               jma\crc32.h
+2011-04-24 14:38:10 ....A         8439               crosshairs.h
+2011-04-24 14:38:10 ....A         4712               unzip\crypt.h
+2011-04-24 14:38:10 ....A         7968               win32\CXAudio2.h
+2011-04-24 14:38:10 ....A         6756               debug.h
+2011-04-24 14:38:10 ....A         7688               display.h
+2011-04-24 14:38:10 ....A         6830               dma.h
+2011-04-24 14:38:10 ....A        14188               dsp.h
+2011-04-24 14:38:10 ....A         6279               filter\epx.h
+2011-04-24 14:38:10 ....A          234               gtk\src\filter_epx_unsafe.h
+2011-04-24 14:38:10 ....A        24853               font.h
+2011-04-24 14:38:10 ....A         7026               fxemu.h
+2011-04-24 14:38:10 ....A        16830               fxinst.h
+2011-04-24 14:38:10 ....A        27520               getset.h
+2011-04-24 14:38:10 ....A        10880               gfx.h
+2011-04-24 14:38:10 ....A       570383               win32\glext.h
+2011-04-24 14:38:10 ....A         2105               gtk\src\gtk_binding.h
+2011-04-24 14:38:10 ....A         1889               gtk\src\gtk_builder_window.h
+2011-04-24 14:38:10 ....A          628               gtk\src\gtk_cheat.h
+2011-04-24 14:38:10 ....A         5295               gtk\src\gtk_config.h
+2011-04-24 14:38:10 ....A         2085               gtk\src\gtk_control.h
+2011-04-24 14:38:10 ....A         2890               gtk\src\gtk_display.h
+2011-04-24 14:38:10 ....A         1712               gtk\src\gtk_display_driver.h
+2011-04-24 14:38:10 ....A         1115               gtk\src\gtk_display_driver_gtk.h
+2011-04-24 14:38:10 ....A         6744               gtk\src\gtk_display_driver_opengl.h
+2011-04-24 14:38:10 ....A         1656               gtk\src\gtk_display_driver_xv.h
+2011-04-24 14:38:10 ....A          300               gtk\src\gtk_file.h
+2011-04-24 14:38:10 ....A         2299               gtk\src\gtk_icon.h
+2011-04-24 14:38:10 ....A          268               gtk\src\gtk_netplay.h
+2011-04-24 14:38:10 ....A          501               gtk\src\gtk_netplay_dialog.h
+2011-04-24 14:38:10 ....A         1331               gtk\src\gtk_preferences.h
+2011-04-24 14:38:10 ....A         1224               gtk\src\gtk_s9x.h
+2011-04-24 14:38:10 ....A          496               gtk\src\gtk_s9xcore.h
+2011-04-24 14:38:10 ....A         2932               gtk\src\gtk_s9xwindow.h
+2011-04-24 14:38:10 ....A          404               gtk\src\gtk_sound.h
+2011-04-24 14:38:10 ....A          396               gtk\src\gtk_sound_driver.h
+2011-04-24 14:38:10 ....A          598               gtk\src\gtk_sound_driver_alsa.h
+2011-04-24 14:38:10 ....A          564               gtk\src\gtk_sound_driver_oss.h
+2011-04-24 14:38:10 ....A          663               gtk\src\gtk_sound_driver_portaudio.h
+2011-04-24 14:38:10 ....A          617               gtk\src\gtk_sound_driver_pulse.h
+2011-04-24 14:38:10 ....A          548               gtk\src\gtk_sound_driver_sdl.h
+2011-04-24 14:38:10 ....A       206201               gtk\src\gtk_splash.h
+2011-04-24 14:38:10 ....A         4300               apu\hermite_resampler.h
+2011-04-24 14:38:10 ....A        28063               macosx\HID_Utilities_External.h
+2011-04-24 14:38:10 ....A         6479               filter\hq2x.h
+2011-04-24 14:38:10 ....A         5793               jma\iiostrm.h
+2011-04-24 14:38:10 ....A         1999               jma\inbyte.h
+2011-04-24 14:38:10 ....A         6824               win32\InputCustom.h
+2011-04-24 14:38:10 ....A         2535               unzip\ioapi.h
+2011-04-24 14:38:10 ....A          422               unzip\iowin32.h
+2011-04-24 14:38:10 ....A         6815               win32\IS9xDisplayOutput.h
+2011-04-24 14:38:10 ....A         6984               win32\IS9xSoundOutput.h
+2011-04-24 14:38:10 ....A         2396               jma\jma.h
+2011-04-24 14:38:10 ....A         7194               language.h
+2011-04-24 14:38:10 ....A         2650               jma\lencoder.h
+2011-04-24 14:38:10 ....A         3277               apu\linear_resampler.h
+2011-04-24 14:38:10 ....A         3487               jma\litcoder.h
+2011-04-24 14:38:10 ....A         6370               logger.h
+2011-04-24 14:38:10 ....A         3460               jma\lzma.h
+2011-04-24 14:38:10 ....A         2850               jma\lzmadec.h
+2011-04-24 14:38:10 ....A         6788               macosx\mac-appleevent.h
+2011-04-24 14:38:10 ....A         6911               macosx\mac-audio.h
+2011-04-24 14:38:10 ....A         7094               macosx\mac-cart.h
+2011-04-24 14:38:10 ....A         6746               macosx\mac-cheat.h
+2011-04-24 14:38:10 ....A         6913               macosx\mac-cheatfinder.h
+2011-04-24 14:38:10 ....A         7028               macosx\mac-client.h
+2011-04-24 14:38:10 ....A         7244               macosx\mac-cocoatools.h
+2011-04-24 14:38:10 ....A        10076               macosx\mac-controls.h
+2011-04-24 14:38:10 ....A         7037               macosx\mac-coreimage.h
+2011-04-24 14:38:10 ....A         7985               macosx\mac-dialog.h
+2011-04-24 14:38:10 ....A         6925               macosx\mac-file.h
+2011-04-24 14:38:10 ....A         6963               macosx\mac-global_prefix.h
+2011-04-24 14:38:10 ....A         6845               macosx\mac-gworld.h
+2011-04-24 14:38:10 ....A         8292               macosx\mac-joypad.h
+2011-04-24 14:38:10 ....A         7287               macosx\mac-keyboard.h
+2011-04-24 14:38:10 ....A         6814               macosx\mac-multicart.h
+2011-04-24 14:38:10 ....A         7965               macosx\mac-musicbox.h
+2011-04-24 14:38:10 ....A         7925               macosx\mac-netplay.h
+2011-04-24 14:38:10 ....A        10511               macosx\mac-os.h
+2011-04-24 14:38:10 ....A         6880               macosx\mac-prefix.h
+2011-04-24 14:38:10 ....A         6833               macosx\mac-prefs.h
+2011-04-24 14:38:10 ....A         6857               macosx\mac-quicktime.h
+2011-04-24 14:38:10 ....A         6923               macosx\mac-render.h
+2011-04-24 14:38:10 ....A         7000               macosx\mac-screenshot.h
+2011-04-24 14:38:10 ....A         6988               macosx\mac-server.h
+2011-04-24 14:38:10 ....A         7589               macosx\mac-snes9x.h
+2011-04-24 14:38:10 ....A         6963               macosx\mac-stringtools.h
+2011-04-24 14:38:10 ....A        10866               memmap.h
+2011-04-24 14:38:10 ....A         7081               messages.h
+2011-04-24 14:38:10 ....A         7649               missing.h
+2011-04-24 14:38:10 ....A         8441               movie.h
+2011-04-24 14:38:10 ....A          681               unzip\mztools.h
+2011-04-24 14:38:10 ....A        11128               netplay.h
+2011-04-24 14:38:10 ....A         6489               obc1.h
+2011-04-24 14:38:10 ....A        16093               pixform.h
+2011-04-24 14:38:10 ....A        11126               port.h
+2011-04-24 14:38:10 ....A         2638               jma\portable.h
+2011-04-24 14:38:10 ....A        21540               ppu.h
+2011-04-24 14:38:10 ....A         2774               jma\rcdefs.h
+2011-04-24 14:38:10 ....A         7102               reader.h
+2011-04-24 14:38:10 ....A         6565               win32\render.h
+2011-04-24 14:38:10 ....A         1250               apu\resampler.h
+2011-04-24 14:38:10 ....A        22219               win32\rsrc\resource.h
+2011-04-24 14:38:10 ....A         2109               apu\ring_buffer.h
+2011-04-24 14:38:10 ....A         3344               jma\rngcoder.h
+2011-04-24 14:38:10 ....A         6417               jma\s9x-jma.h
+2011-04-24 14:38:10 ....A         9496               sa1.h
+2011-04-24 14:38:10 ....A         6962               sar.h
+2011-04-24 14:38:10 ....A         6275               screenshot.h
+2011-04-24 14:38:10 ....A         6332               sdd1.h
+2011-04-24 14:38:10 ....A         6281               sdd1emu.h
+2011-04-24 14:38:10 ....A         7248               seta.h
+2011-04-24 14:38:10 ....A         6724               snapshot.h
+2011-04-24 14:38:10 ....A        12991               snes9x.h
+2011-04-24 14:38:10 ....A         9094               win32\snes_ntsc.h
+2011-04-24 14:38:10 ....A         9254               gtk\src\snes_ntsc.h
+2011-04-24 14:38:10 ....A         9299               filter\snes_ntsc.h
+2011-04-24 14:38:10 ....A          791               win32\snes_ntsc_config.h
+2011-04-24 14:38:10 ....A          835               gtk\src\snes_ntsc_config.h
+2011-04-24 14:38:10 ....A          841               filter\snes_ntsc_config.h
+2011-04-24 14:38:10 ....A        12330               filter\snes_ntsc_impl.h
+2011-04-24 14:38:10 ....A        12330               gtk\src\snes_ntsc_impl.h
+2011-04-24 14:38:10 ....A        12330               win32\snes_ntsc_impl.h
+2011-04-24 14:38:10 ....A         8292               apu\SNES_SPC.h
+2011-04-24 14:38:10 ....A         7874               spc7110.h
+2011-04-24 14:38:10 ....A         1965               spc7110dec.h
+2011-04-24 14:38:10 ....A         3940               spc7110emu.h
+2011-04-24 14:38:10 ....A        23970               apu\SPC_CPU.h
+2011-04-24 14:38:10 ....A         8093               apu\SPC_DSP.h
+2011-04-24 14:38:10 ....A         1065               apu\SPC_Filter.h
+2011-04-24 14:38:10 ....A         6626               srtc.h
+2011-04-24 14:38:10 ....A          517               srtcemu.h
+2011-04-24 14:38:10 ....A         6367               tile.h
+2011-04-24 14:38:10 ....A        13035               unzip\unzip.h
+2011-04-24 14:38:10 ....A        40536               win32\wglext.h
+2011-04-24 14:38:10 ....A         7459               win32\win32_display.h
+2011-04-24 14:38:10 ....A         6317               win32\win32_sound.h
+2011-04-24 14:38:10 ....A         2408               jma\winout.h
+2011-04-24 14:38:10 ....A        24382               win32\wlanguage.h
+2011-04-24 14:38:10 ....A        14951               win32\wsnes9x.h
+2011-04-24 14:38:10 ....A        10170               unzip\zip.h
+2011-04-24 14:38:10 ....A         8148               win32\_tfwopen.h
+2011-04-24 14:38:10 ....A         3721               unzip\ioapi.c
+2011-04-24 14:38:10 ....A         6411               unzip\iowin32.c
+2011-04-24 14:38:10 ....A        15647               unzip\miniunz.c
+2011-04-24 14:38:10 ....A        13262               unzip\minizip.c
+2011-04-24 14:38:10 ....A         7985               unzip\mztools.c
+2011-04-24 14:38:10 ....A         2666               win32\objfix.c
+2011-04-24 14:38:10 ....A         8208               gtk\src\snes_ntsc.c
+2011-04-24 14:38:10 ....A         8666               filter\snes_ntsc.c
+2011-04-24 14:38:10 ....A         8666               win32\snes_ntsc.c
+2011-04-24 14:38:10 ....A         1132               gtk\src\sourcify.c
+2011-04-24 14:38:10 ....A        53204               unzip\unzip.c
+2011-04-24 14:38:10 ....A        39181               unzip\zip.c
+2011-04-24 14:38:10 ....A        19867               filter\2xsai.cpp
+2011-04-24 14:38:10 ....A         1712               jma\7zlzma.cpp
+2011-04-24 14:38:10 ....A        17484               apu\apu.cpp
+2011-04-24 14:38:10 ....A        14455               win32\AVIOutput.cpp
+2011-04-24 14:38:10 ....A        20714               filter\blit.cpp
+2011-04-24 14:38:10 ....A        26050               bsx.cpp
+2011-04-24 14:38:10 ....A         9612               c4.cpp
+2011-04-24 14:38:10 ....A        40189               c4emu.cpp
+2011-04-24 14:38:10 ....A        30621               win32\CDirect3D.cpp
+2011-04-24 14:38:10 ....A        25280               win32\CDirectDraw.cpp
+2011-04-24 14:38:10 ....A        14859               win32\CDirectSound.cpp
+2011-04-24 14:38:10 ....A        10942               win32\CFMOD.cpp
+2011-04-24 14:38:10 ....A         2958               win32\CFMODEx.cpp
+2011-04-24 14:38:10 ....A        10992               win32\cgFunctions.cpp
+2011-04-24 14:38:10 ....A        15731               cheats.cpp
+2011-04-24 14:38:10 ....A        10562               cheats2.cpp
+2011-04-24 14:38:10 ....A        11274               clip.cpp
+2011-04-24 14:38:10 ....A        18944               conffile.cpp
+2011-04-24 14:38:10 ....A        86082               controls.cpp
+2011-04-24 14:38:10 ....A        27027               win32\COpenGL.cpp
+2011-04-24 14:38:10 ....A         9464               cpu.cpp
+2011-04-24 14:38:10 ....A        15148               cpuexec.cpp
+2011-04-24 14:38:10 ....A       116586               cpuops.cpp
+2011-04-24 14:38:10 ....A         4335               jma\crc32.cpp
+2011-04-24 14:38:10 ....A        16858               crosshairs.cpp
+2011-04-24 14:38:10 ....A        11716               win32\CXAudio2.cpp
+2011-04-24 14:38:10 ....A        63313               debug.cpp
+2011-04-24 14:38:10 ....A        45031               dma.cpp
+2011-04-24 14:38:10 ....A         7147               dsp.cpp
+2011-04-24 14:38:10 ....A        65782               dsp1.cpp
+2011-04-24 14:38:10 ....A        14443               dsp2.cpp
+2011-04-24 14:38:10 ....A        32033               dsp3.cpp
+2011-04-24 14:38:10 ....A        58102               dsp4.cpp
+2011-04-24 14:38:10 ....A        11558               filter\epx.cpp
+2011-04-24 14:38:10 ....A        12795               gtk\src\filter_epx_unsafe.cpp
+2011-04-24 14:38:10 ....A        22959               fxdbg.cpp
+2011-04-24 14:38:10 ....A        22015               fxemu.cpp
+2011-04-24 14:38:10 ....A        72382               fxinst.cpp
+2011-04-24 14:38:10 ....A        62973               gfx.cpp
+2011-04-24 14:38:10 ....A        16245               globals.cpp
+2011-04-24 14:38:10 ....A         4450               gtk\src\gtk_binding.cpp
+2011-04-24 14:38:10 ....A         6143               gtk\src\gtk_builder_window.cpp
+2011-04-24 14:38:10 ....A         7322               gtk\src\gtk_cheat.cpp
+2011-04-24 14:38:10 ....A        32639               gtk\src\gtk_config.cpp
+2011-04-24 14:38:10 ....A        18336               gtk\src\gtk_control.cpp
+2011-04-24 14:38:10 ....A        49631               gtk\src\gtk_display.cpp
+2011-04-24 14:38:10 ....A         7606               gtk\src\gtk_display_driver_gtk.cpp
+2011-04-24 14:38:10 ....A        28125               gtk\src\gtk_display_driver_opengl.cpp
+2011-04-24 14:38:10 ....A        17903               gtk\src\gtk_display_driver_xv.cpp
+2011-04-24 14:38:10 ....A        12042               gtk\src\gtk_file.cpp
+2011-04-24 14:38:10 ....A         7328               gtk\src\gtk_netplay.cpp
+2011-04-24 14:38:10 ....A         3486               gtk\src\gtk_netplay_dialog.cpp
+2011-04-24 14:38:10 ....A        39452               gtk\src\gtk_preferences.cpp
+2011-04-24 14:38:10 ....A        18402               gtk\src\gtk_s9x.cpp
+2011-04-24 14:38:10 ....A        57336               gtk\src\gtk_s9xwindow.cpp
+2011-04-24 14:38:10 ....A         3643               gtk\src\gtk_sound.cpp
+2011-04-24 14:38:10 ....A         4312               gtk\src\gtk_sound_driver_alsa.cpp
+2011-04-24 14:38:10 ....A         4541               gtk\src\gtk_sound_driver_oss.cpp
+2011-04-24 14:38:10 ....A         4807               gtk\src\gtk_sound_driver_portaudio.cpp
+2011-04-24 14:38:10 ....A         2883               gtk\src\gtk_sound_driver_pulse.cpp
+2011-04-24 14:38:10 ....A         2240               gtk\src\gtk_sound_driver_sdl.cpp
+2011-04-24 14:38:10 ....A       198351               filter\hq2x.cpp
+2011-04-24 14:38:10 ....A         3927               jma\iiostrm.cpp
+2011-04-24 14:38:10 ....A         1684               jma\inbyte.cpp
+2011-04-24 14:38:10 ....A        38466               win32\InputCustom.cpp
+2011-04-24 14:38:10 ....A        16274               jma\jma.cpp
+2011-04-24 14:38:10 ....A         9073               loadzip.cpp
+2011-04-24 14:38:10 ....A         7668               logger.cpp
+2011-04-24 14:38:10 ....A         1122               jma\lzma.cpp
+2011-04-24 14:38:10 ....A         9021               jma\lzmadec.cpp
+2011-04-24 14:38:10 ....A         9827               macosx\mac-appleevent.cpp
+2011-04-24 14:38:10 ....A        20954               macosx\mac-cheat.cpp
+2011-04-24 14:38:10 ....A        59922               macosx\mac-cheatfinder.cpp
+2011-04-24 14:38:10 ....A        36989               macosx\mac-client.cpp
+2011-04-24 14:38:10 ....A        17691               macosx\mac-controls.cpp
+2011-04-24 14:38:10 ....A        36837               macosx\mac-dialog.cpp
+2011-04-24 14:38:10 ....A        20781               macosx\mac-file.cpp
+2011-04-24 14:38:10 ....A        12479               macosx\mac-gworld.cpp
+2011-04-24 14:38:10 ....A        34600               macosx\mac-joypad.cpp
+2011-04-24 14:38:10 ....A        35000               macosx\mac-keyboard.cpp
+2011-04-24 14:38:10 ....A        20206               macosx\mac-multicart.cpp
+2011-04-24 14:38:10 ....A         7314               macosx\mac-netplay.cpp
+2011-04-24 14:38:10 ....A        48239               macosx\mac-prefs.cpp
+2011-04-24 14:38:10 ....A        19123               macosx\mac-quicktime.cpp
+2011-04-24 14:38:10 ....A        49633               macosx\mac-render.cpp
+2011-04-24 14:38:10 ....A        13659               macosx\mac-screenshot.cpp
+2011-04-24 14:38:10 ....A        36623               macosx\mac-server.cpp
+2011-04-24 14:38:10 ....A        14372               macosx\mac-snes9x.cpp
+2011-04-24 14:38:10 ....A         8758               macosx\mac-stringtools.cpp
+2011-04-24 14:38:10 ....A        98142               memmap.cpp
+2011-04-24 14:38:10 ....A        31367               movie.cpp
+2011-04-24 14:38:10 ....A        33866               netplay.cpp
+2011-04-24 14:38:10 ....A         8273               obc1.cpp
+2011-04-24 14:38:10 ....A        48881               ppu.cpp
+2011-04-24 14:38:10 ....A         8452               reader.cpp
+2011-04-24 14:38:10 ....A       139586               win32\render.cpp
+2011-04-24 14:38:10 ....A         7167               jma\s9x-jma.cpp
+2011-04-24 14:38:10 ....A        28315               sa1.cpp
+2011-04-24 14:38:10 ....A        11714               sa1cpu.cpp
+2011-04-24 14:38:10 ....A         9092               screenshot.cpp
+2011-04-24 14:38:10 ....A         6834               sdd1.cpp
+2011-04-24 14:38:10 ....A        15094               sdd1emu.cpp
+2011-04-24 14:38:10 ....A        43101               server.cpp
+2011-04-24 14:38:10 ....A         6472               seta.cpp
+2011-04-24 14:38:10 ....A        30024               seta010.cpp
+2011-04-24 14:38:10 ....A         8766               seta011.cpp
+2011-04-24 14:38:10 ....A         9560               seta018.cpp
+2011-04-24 14:38:10 ....A        60246               snapshot.cpp
+2011-04-24 14:38:10 ....A        30274               snes9x.cpp
+2011-04-24 14:38:10 ....A        17125               apu\SNES_SPC.cpp
+2011-04-24 14:38:10 ....A        18692               apu\SNES_SPC_misc.cpp
+2011-04-24 14:38:10 ....A         3938               apu\SNES_SPC_state.cpp
+2011-04-24 14:38:10 ....A        14040               spc7110.cpp
+2011-04-24 14:38:10 ....A        14678               spc7110dec.cpp
+2011-04-24 14:38:10 ....A        17598               spc7110emu.cpp
+2011-04-24 14:38:10 ....A        26738               apu\SPC_DSP.cpp
+2011-04-24 14:38:10 ....A         1768               apu\SPC_Filter.cpp
+2011-04-24 14:38:10 ....A         7325               srtc.cpp
+2011-04-24 14:38:10 ....A         6047               srtcemu.cpp
+2011-04-24 14:38:10 ....A        40264               tile.cpp
+2011-04-24 14:38:10 ....A        45683               unix\unix.cpp
+2011-04-24 14:38:10 ....A        47051               win32\wconfig.cpp
+2011-04-24 14:38:10 ....A        42969               win32\win32.cpp
+2011-04-24 14:38:10 ....A        28158               win32\win32_display.cpp
+2011-04-24 14:38:10 ....A         9060               win32\win32_sound.cpp
+2011-04-24 14:38:10 ....A         2314               jma\winout.cpp
+2011-04-24 14:38:10 ....A       337921               win32\wsnes9x.cpp
+2011-04-24 14:38:10 ....A        38376               unix\x11.cpp
+2011-04-24 14:38:10 ....A         7053               win32\_tfwopen.cpp
+2011-04-24 14:38:10 ....A        49395               win32\rsrc\snes9x.rc
+2011-04-24 14:38:10 ....A       101929               win32\snes9xw.vcproj
+2011-04-24 14:38:10 ....A        14706               win32\zlib\zlib.vcproj
+2011-04-24 14:38:10 ....A         2118               win32\snes9xw.sln
+2011-04-24 14:38:10 ....A         2377               win32\zlib\zlib.sln
+2011-04-24 14:38:10 ....A         2727               macosx\English.lproj\Snes9x Help\pgs\01.html
+2011-04-24 14:38:10 ....A         4717               macosx\English.lproj\Snes9x Help\pgs\02.html
+2011-04-24 14:38:10 ....A         1569               macosx\English.lproj\Snes9x Help\pgs\03.html
+2011-04-24 14:38:10 ....A         9239               macosx\English.lproj\Snes9x Help\pgs\04.html
+2011-04-24 14:38:10 ....A         2930               macosx\English.lproj\Snes9x Help\pgs\05.html
+2011-04-24 14:38:10 ....A         3658               macosx\English.lproj\Snes9x Help\pgs\06.html
+2011-04-24 14:38:10 ....A         5192               macosx\English.lproj\Snes9x Help\pgs\07.html
+2011-04-24 14:38:10 ....A         3052               macosx\English.lproj\Snes9x Help\pgs\08.html
+2011-04-24 14:38:10 ....A         4409               macosx\English.lproj\Snes9x Help\pgs\09.html
+2011-04-24 14:38:10 ....A         4727               macosx\English.lproj\Snes9x Help\pgs\10.html
+2011-04-24 14:38:10 ....A         1269               macosx\English.lproj\Snes9x Help\pgs\11.html
+2011-04-24 14:38:10 ....A         2862               macosx\English.lproj\Snes9x Help\pgs\12.html
+2011-04-24 14:38:10 ....A         5251               macosx\English.lproj\Snes9x Help\pgs\13.html
+2011-04-24 14:38:10 ....A         5844               macosx\English.lproj\Snes9x Help\pgs\14.html
+2011-04-24 14:38:10 ....A         4086               macosx\English.lproj\Snes9x Help\pgs\15.html
+2011-04-24 14:38:10 ....A         1672               macosx\English.lproj\Snes9x Help\index.html
+2011-04-24 14:38:10 ....A        28758               docs\porting.html
+2011-04-24 14:38:10 ....A        37286               unix\docs\readme_unix.html
+2011-04-24 14:38:10 ....A          799               macosx\English.lproj\Snes9x Help\sty\style.css
+2011-04-24 14:38:10 ....A          963               macosx\English.lproj\Snes9x Help\sty\top.css
+2011-04-24 14:38:10 ....A          187               gtk\autogen.sh
+2011-04-24 14:38:10 ....A       151147               docs\changes.txt
+2011-04-24 14:38:10 ....A         2994               docs\control-inputs.txt
+2011-04-24 14:38:10 ....A         3844               docs\controls.txt
+2011-04-24 14:38:10 ....A        14685               win32\docs\faqs-windows.txt
+2011-04-24 14:38:10 ....A        17987               docs\gpl-2.0.txt
+2011-04-24 14:38:10 ....A         2752               win32\docs\how2compile.txt
+2011-04-24 14:38:10 ....A        26434               docs\lgpl-2.1.txt
+2011-04-24 14:38:10 ....A        26940               gtk\doc\lgpl.txt
+2011-04-24 14:38:10 ....A          270               jma\license.txt
+2011-04-24 14:38:10 ....A        26436               apu\license.txt
+2011-04-24 14:38:10 ....A         5311               docs\portsofsnes9x.txt
+2011-04-24 14:38:10 ....A           45               macosx\docs\readme-mac.txt
+2011-04-24 14:38:10 ....A        36599               win32\docs\readme-windows.txt
+2011-04-24 14:38:10 ....A         3500               docs\snapshots.txt
+2011-04-24 14:38:10 ....A         6013               docs\snes9x-license.txt
+2011-04-24 14:38:10 ....A        26436               filter\snes_ntsc-license.txt
+2011-04-24 14:38:10 ....A         8579               macosx\docs\FAQ.rtf
+2011-04-24 14:38:10 ....A       295144               macosx\libHIDUtilities_u.a
+2011-04-24 14:38:10 ....A       241192               macosx\libz_u.a
+2011-04-24 14:38:10 ....A        10114               unix\configure.ac
+2011-04-24 14:38:10 ....A        12135               gtk\configure.ac
+2011-04-24 14:38:10 ....A         3014               macosx\freeze_defrost.aiff
+2011-04-24 14:38:10 ....A          888               gtk\data\Makefile.am
+2011-04-24 14:38:10 ....A         4888               gtk\Makefile.am
+2011-04-24 14:38:10 ....A          326               win32\rsrc\nodrop.cur
+2011-04-24 14:38:10 ....A         5402               docs\snes9x.conf.default
+2011-04-24 14:38:10 ....A          181               gtk\data\snes9x.desktop
+2011-04-24 14:38:10 ....A          111               win32\Valid.Ext
+2011-04-24 14:38:10 ....A        45989               unix\config.guess
+2011-04-24 14:38:10 ....A        35212               macosx\English.lproj\Snes9x Help\Snes9x Help.helpindex
+2011-04-24 14:38:10 ....A        50902               macosx\APPL.icns
+2011-04-24 14:38:10 ....A        46567               macosx\CART.icns
+2011-04-24 14:38:10 ....A        53334               macosx\folder_Freezes.icns
+2011-04-24 14:38:10 ....A        52357               macosx\folder_SRAMs.icns
+2011-04-24 14:38:10 ....A          858               macosx\musicbox_ledoff.icns
+2011-04-24 14:38:10 ....A          843               macosx\musicbox_ledon.icns
+2011-04-24 14:38:10 ....A        46488               macosx\SAVE.icns
+2011-04-24 14:38:10 ....A        50271               macosx\SRAM.icns
+2011-04-24 14:38:10 ....A         3193               unix\Makefile.in
+2011-04-24 21:12:51 ....A        17361               gtk\data\Makefile.in
+2011-04-24 21:12:51 ....A       248282               gtk\Makefile.in
+2011-04-24 21:12:50 ....A         6911               gtk\po\Makefile.in.in
+2011-04-24 14:38:10 ....A          170               gtk\po\POTFILES.in
+2011-04-24 21:12:50 ....A        66301               gtk\aclocal.m4
+2011-04-24 14:38:10 ....A        33143               macosx\mac-audio.mm
+2011-04-24 14:38:10 ....A        73129               macosx\mac-cart.mm
+2011-04-24 14:38:10 ....A        10497               macosx\mac-cocoatools.mm
+2011-04-24 14:38:10 ....A        28617               macosx\mac-coreimage.mm
+2011-04-24 14:38:10 ....A        17102               macosx\mac-musicbox.mm
+2011-04-24 14:38:10 ....A        88612               macosx\mac-os.mm
+2011-04-24 14:38:10 ....A       214862               macosx\snes9x.xcodeproj\project.pbxproj
+2011-04-24 14:38:10 ....A         4504               macosx\Info.plist
+2011-04-24 14:38:10 ....A         4511               macosx\Info_i386.plist
+2011-04-24 14:38:10 ....A         4510               macosx\Info_ppc.plist
+2011-04-24 14:38:10 ....A        33101               gtk\po\es_VE.po
+2011-04-24 14:38:10 ....A        34758               gtk\po\fr_FR.po
+2011-04-24 14:38:10 ....A        34058               gtk\po\pt_BR.po
+2011-04-24 14:38:10 ....A        46211               gtk\po\ru.po
+2011-04-24 14:38:10 ....A        32435               gtk\po\sr@latin.po
+2011-04-24 14:38:10 ....A          186               macosx\English.lproj\InfoPlist.strings
+2011-04-24 14:38:10 ....A         2934               macosx\English.lproj\Localizable.strings
+2011-04-24 14:38:10 ....A        33941               unix\config.sub
+2011-04-24 14:38:10 ....A       467383               gtk\src\snes9x.ui
+2011-04-24 14:38:10 ....A        93636               macosx\English.lproj\musicbox.xib
+2011-04-24 14:38:10 ....A      2008449               macosx\English.lproj\Snes9x.xib
+2016-10-21 13:57:48 D....            0            0  win32\zlib
+2016-10-21 13:57:48 D....            0            0  win32\rsrc
+2016-10-21 13:57:48 D....            0            0  win32\docs
+2016-10-21 13:57:48 D....            0            0  win32
+2016-10-21 13:57:46 D....            0            0  unzip
+2016-10-21 13:57:46 D....            0            0  unix\docs
+2016-10-21 13:57:46 D....            0            0  unix
+2016-10-21 13:57:47 D....            0            0  macosx\snes9x.xcodeproj
+2016-10-21 13:57:47 D....            0            0  macosx\English.lproj\Snes9x Help\sty
+2016-10-21 13:57:47 D....            0            0  macosx\English.lproj\Snes9x Help\pgs
+2016-10-21 13:57:47 D....            0            0  macosx\English.lproj\Snes9x Help\gfx
+2016-10-21 13:57:47 D....            0            0  macosx\English.lproj\Snes9x Help
+2016-10-21 13:57:47 D....            0            0  macosx\English.lproj
+2016-10-21 13:57:47 D....            0            0  macosx\docs
+2016-10-21 13:57:47 D....            0            0  macosx
+2016-10-21 13:57:46 D....            0            0  jma
+2016-10-21 13:57:46 D....            0            0  gtk\src
+2016-10-21 13:57:46 D....            0            0  gtk\po
+2016-10-21 13:57:46 D....            0            0  gtk\doc
+2016-10-21 13:57:46 D....            0            0  gtk\data
+2016-10-21 13:57:46 D....            0            0  gtk
+2016-10-21 13:57:47 D....            0            0  filter
+2016-10-21 13:57:47 D....            0            0  docs
+2016-10-21 13:57:46 D....            0            0  apu
+------------------- ----- ------------ ------------  ------------------------
+2016-10-21 13:57:48           11840786      1421097  444 files, 24 folders

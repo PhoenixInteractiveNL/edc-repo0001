@@ -1,0 +1,156 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2015-10-21 17:51:18 ....A         7333       278035  src\compile
+2015-10-21 17:51:18 ....A       190646               src\configure
+2015-10-21 17:51:18 ....A        17987               src\COPYING
+2015-10-21 17:51:18 ....A        23566               src\depcomp
+2015-10-21 17:51:18 ....A        10080               hostfs\Network\!System\310\Modules\Network\EtherRPCEm,ffa
+2015-10-21 17:51:18 ....A        10080               riscos-progs\EtherRPCEm\!System\310\Modules\Network\EtherRPCEm,ffa
+2015-10-21 17:51:18 ....A          171               hostfs\Network\AutoSense\EtherRPCEm,ffb
+2015-10-21 17:51:18 ....A          171               riscos-progs\EtherRPCEm\!Boot\Resources\Configure\!InetSetup\AutoSense\EtherRPCEm,ffb
+2015-10-21 17:51:18 ....A         1324               poduleroms\hostfs,ffa
+2015-10-21 17:51:18 ....A         1324               riscos-progs\HostFS\hostfs,ffa
+2015-10-21 17:51:18 ....A         1132               poduleroms\hostfsfiler,ffa
+2015-10-21 17:51:18 ....A         1132               riscos-progs\HostFS\hostfsfiler,ffa
+2015-10-21 17:51:18 ....A        13997               src\install-sh
+2015-10-21 17:51:18 ....A        18671               riscos-progs\EtherRPCEm\LICENSE
+2015-10-21 17:51:18 ....A          292               riscos-progs\HostFS\Makefile
+2015-10-21 17:51:18 ....A         1060               riscos-progs\EtherRPCEm\Makefile
+2015-10-21 17:51:18 ....A         6872               src\missing
+2015-10-21 17:51:18 ....A         1150               riscos-progs\EtherRPCEm\cmhg\ModHdr
+2015-10-21 17:51:18 ....A          848               riscos-progs\EtherRPCEm\Notes
+2015-10-21 17:51:18 ....A          362               src\README
+2015-10-21 17:51:18 ....A          596               hostfs\Network\ReadMe,fff
+2015-10-21 17:51:18 ....A          596               riscos-progs\EtherRPCEm\ReadMe,fff
+2015-10-21 17:51:18 ....A          748               poduleroms\SyncClock,ffa
+2015-10-21 17:51:18 ....A          748               riscos-progs\SyncClock\SyncClock,ffa
+2015-10-21 17:51:18 ....A         7987               riscos-progs\SyncClock\SyncClockSrc,ffb
+2015-10-21 17:51:18 ....A        43692               src\win\rpcemu.ico
+2015-10-21 17:51:18 ....A         2063               src\arm.h
+2015-10-21 17:51:18 ....A        28312               src\ArmDynarecOps.h
+2015-10-21 17:51:18 ....A         8218               src\arm_common.h
+2015-10-21 17:51:18 ....A          212               src\cdrom-ioctl.h
+2015-10-21 17:51:18 ....A          109               src\cdrom-iso.h
+2015-10-21 17:51:18 ....A          362               src\cmos.h
+2015-10-21 17:51:18 ....A          471               src\codegen_amd64.h
+2015-10-21 17:51:18 ....A          510               src\codegen_x86.h
+2015-10-21 17:51:18 ....A         5196               src\codegen_x86_common.h
+2015-10-21 17:51:18 ....A          412               src\cp15.h
+2015-10-21 17:51:18 ....A         4256               riscos-progs\EtherRPCEm\DCI.h
+2015-10-21 17:51:18 ....A         3182               riscos-progs\EtherRPCEm\Defines.h
+2015-10-21 17:51:18 ....A         6274               riscos-progs\EtherRPCEm\Equates.h
+2015-10-21 17:51:18 ....A          452               src\fdc.h
+2015-10-21 17:51:18 ....A           58               src\gui.h
+2015-10-21 17:51:18 ....A          896               src\hostfs.h
+2015-10-21 17:51:18 ....A          363               src\i8042.h
+2015-10-21 17:51:18 ....A          876               src\ide.h
+2015-10-21 17:51:18 ....A         3322               src\iomd.h
+2015-10-21 17:51:18 ....A          861               src\keyboard.h
+2015-10-21 17:51:18 ....A         6473               riscos-progs\EtherRPCEm\mbuf_c.h
+2015-10-21 17:51:18 ....A         1912               src\mem.h
+2015-10-21 17:51:18 ....A         1021               riscos-progs\EtherRPCEm\Module.h
+2015-10-21 17:51:18 ....A         2073               src\network.h
+2015-10-21 17:51:18 ....A          159               src\podulerom.h
+2015-10-21 17:51:18 ....A          172               src\podules-win.h
+2015-10-21 17:51:18 ....A         1706               src\podules.h
+2015-10-21 17:51:18 ....A         1587               src\win\resources.h
+2015-10-21 17:51:18 ....A           82               src\romload.h
+2015-10-21 17:51:18 ....A         7339               src\rpcemu.h
+2015-10-21 17:51:18 ....A          454               src\sound.h
+2015-10-21 17:51:18 ....A         2955               riscos-progs\EtherRPCEm\Structs.h
+2015-10-21 17:51:18 ....A          506               src\superio.h
+2015-10-21 17:51:18 ....A         1574               src\tap.h
+2015-10-21 17:51:18 ....A          684               src\vidc20.h
+2015-10-21 17:51:18 ....A        78919               src\arm.c
+2015-10-21 17:51:18 ....A        34482               src\ArmDynarec.c
+2015-10-21 17:51:18 ....A         9500               src\arm_common.c
+2015-10-21 17:51:18 ....A         9021               src\win\cdrom-ioctl.c
+2015-10-21 17:51:18 ....A         3244               src\cdrom-iso.c
+2015-10-21 17:51:18 ....A         3054               src\cdrom-linuxioctl.c
+2015-10-21 17:51:18 ....A        18909               src\cmos.c
+2015-10-21 17:51:18 ....A        40544               src\codegen_amd64.c
+2015-10-21 17:51:18 ....A          138               src\codegen_null.c
+2015-10-21 17:51:18 ....A        82668               src\codegen_x86.c
+2015-10-21 17:51:18 ....A        17636               src\cp15.c
+2015-10-21 17:51:18 ....A        25942               src\fdc.c
+2015-10-21 17:51:18 ....A        22912               src\fpa.c
+2015-10-21 17:51:18 ....A        23461               src\gui.c
+2015-10-21 17:51:18 ....A        60162               src\hostfs.c
+2015-10-21 17:51:18 ....A         4903               src\i8042.c
+2015-10-21 17:51:18 ....A         1803               src\icside.c
+2015-10-21 17:51:18 ....A        37197               src\ide.c
+2015-10-21 17:51:18 ....A        31866               src\iomd.c
+2015-10-21 17:51:18 ....A        28034               src\keyboard.c
+2015-10-21 17:51:18 ....A        22068               src\mem.c
+2015-10-21 17:51:18 ....A        22739               riscos-progs\EtherRPCEm\Module.c
+2015-10-21 17:51:18 ....A        11633               src\network-linux.c
+2015-10-21 17:51:18 ....A         6789               src\win\network-win.c
+2015-10-21 17:51:18 ....A         8518               src\network.c
+2015-10-21 17:51:18 ....A         4960               src\podulerom.c
+2015-10-21 17:51:18 ....A         3190               src\win\podules-win.c
+2015-10-21 17:51:18 ....A         9358               src\podules.c
+2015-10-21 17:51:18 ....A         5592               src\romload.c
+2015-10-21 17:51:18 ....A         7501               src\rpc-linux.c
+2015-10-21 17:51:18 ....A         1024               src\rpc-machdep.c
+2015-10-21 17:51:18 ....A         6024               src\rpc-macosx.c
+2015-10-21 17:51:18 ....A        40888               src\win\rpc-win.c
+2015-10-21 17:51:18 ....A        16589               src\rpcemu.c
+2015-10-21 17:51:18 ....A         5913               src\sound.c
+2015-10-21 17:51:18 ....A        10652               src\superio.c
+2015-10-21 17:51:18 ....A        23231               src\win\tap-win32.c
+2015-10-21 17:51:18 ....A        68381               src\vidc20.c
+2015-10-21 17:51:18 ....A         3938               src\win\acorn.rc
+2015-10-21 17:51:18 ....A          596               src\win\rpcemu.manifest
+2015-10-21 17:51:18 ....A         2419               riscos-progs\HostFS\arm_binutils.txt
+2015-10-21 17:51:18 ....A         4957               src\dynarec.txt
+2015-10-21 17:51:18 ....A         2260               src\poduleapi.txt
+2015-10-21 17:51:18 ....A         9507               readme.txt
+2015-10-21 17:51:18 ....A          406               roms\roms.txt
+2015-10-21 17:51:18 ....A        19879               src\win\COPYING.rtf
+2015-10-21 17:51:18 ....A         2553               src\configure.ac
+2015-10-21 17:51:18 ....A         1372               src\Makefile.am
+2015-10-21 17:51:18 ....A          224               rpc.cfg
+2015-10-21 17:51:18 ....A        45297               src\config.guess
+2015-10-21 17:51:18 ....A         1969               src\config.h.in
+2015-10-21 17:51:18 ....A        91181               src\Makefile.in
+2015-10-21 17:51:18 ....A        51235               src\aclocal.m4
+2015-10-21 17:51:18 ....A         2159               src\config.h.mingw
+2015-10-21 17:51:18 ....A         1625               src\Makefile.mingw
+2015-10-21 17:51:18 ....A          256               cmos.ram
+2015-10-21 17:51:18 ....A        11270               riscos-progs\HostFS\hostfs.s
+2015-10-21 17:51:18 ....A         9967               riscos-progs\HostFS\hostfsfiler.s
+2015-10-21 17:51:18 ....A         2871               riscos-progs\EtherRPCEm\intveneer.s
+2015-10-21 17:51:18 ....A        35564               src\config.sub
+2015-10-21 17:51:18 ....A         8297               src\win\RPCEmu.wxs
+2015-10-21 17:51:18 ....A        13017               src\rpcemu.xpm
+2015-10-21 17:51:18 ....A            0            0  src\AUTHORS
+2015-10-21 17:51:18 ....A            0            0  src\ChangeLog
+2015-10-21 17:51:18 ....A            0            0  src\INSTALL
+2015-10-21 17:51:18 ....A            0            0  src\NEWS
+2016-10-22 16:42:23 D....            0            0  src\win
+2016-10-22 16:42:23 D....            0            0  src
+2016-10-22 16:42:23 D....            0            0  roms
+2016-10-22 16:42:23 D....            0            0  riscos-progs\SyncClock
+2016-10-22 16:42:23 D....            0            0  riscos-progs\HostFS
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\cmhg
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!System\310\Modules\Network
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!System\310\Modules
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!System\310
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!System
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!Boot\Resources\Configure\!InetSetup\AutoSense
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!Boot\Resources\Configure\!InetSetup
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!Boot\Resources\Configure
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!Boot\Resources
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm\!Boot
+2016-10-22 16:42:23 D....            0            0  riscos-progs\EtherRPCEm
+2016-10-22 16:42:23 D....            0            0  riscos-progs
+2016-10-22 16:42:23 D....            0            0  poduleroms
+2016-10-22 16:42:23 D....            0            0  hostfs\Network\AutoSense
+2016-10-22 16:42:23 D....            0            0  hostfs\Network\!System\310\Modules\Network
+2016-10-22 16:42:23 D....            0            0  hostfs\Network\!System\310\Modules
+2016-10-22 16:42:23 D....            0            0  hostfs\Network\!System\310
+2016-10-22 16:42:23 D....            0            0  hostfs\Network\!System
+2016-10-22 16:42:23 D....            0            0  hostfs\Network
+2016-10-22 16:42:23 D....            0            0  hostfs
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 16:42:23            1589931       278035  127 files, 25 folders

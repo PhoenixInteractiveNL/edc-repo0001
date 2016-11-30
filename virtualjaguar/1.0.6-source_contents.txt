@@ -1,0 +1,86 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2003-09-16 00:07:52 ....A         1621       179408  INSTALL
+2003-09-16 00:01:58 ....A         4865               docs\README
+2003-09-16 00:06:06 ....A         2108               docs\TODO
+2003-09-15 23:58:30 ....A         6985               docs\WHATSNEW
+2003-09-17 20:44:52 ....A         3262               vj.ico
+2003-06-30 19:36:58 ....A          302               src\include\anajoy.h
+2003-08-21 21:44:00 ....A          639               src\include\blitter.h
+2003-02-21 13:05:26 ....A          268               src\include\cdbios.h
+2003-08-28 05:26:56 ....A         1210               src\include\cdi.h
+2003-08-21 21:35:18 ....A          462               src\include\cdrom.h
+2003-06-30 19:38:38 ....A          293               src\include\clock.h
+2002-12-21 19:40:00 ....A          121               src\include\crc32.h
+2003-07-08 23:16:38 ....A         4420               src\include\cry2rgb.h
+2003-08-16 05:49:38 ....A          352               src\include\dac.h
+2003-09-13 22:20:44 ....A         1082               src\include\dsp.h
+2003-08-29 05:26:42 ....A          422               src\include\eeprom.h
+2003-08-22 02:07:20 ....A        99181               src\include\font1.h
+2003-08-21 22:17:22 ....A         1045               src\include\gpu.h
+2003-09-03 01:05:30 ....A          386               src\include\gui.h
+2003-06-30 19:37:46 ....A          160               src\include\jagdasm.h
+2003-08-29 02:18:22 ....A         2255               src\include\jaguar.h
+2003-08-21 21:37:06 ....A          738               src\include\jerry.h
+2003-06-30 19:37:42 ....A          347               src\include\joystick.h
+2003-08-20 05:29:32 ....A          332               src\include\log.h
+2003-08-05 15:32:54 ....A        13267               src\m68k.h
+2003-08-13 01:24:26 ....A         6886               src\m68kconf.h
+2001-01-30 16:49:24 ....A        60715               src\m68kcpu.h
+2003-06-30 19:37:28 ....A          662               src\include\memory.h
+2003-09-03 06:47:20 ....A          639               src\include\objectp.h
+2003-09-19 04:12:42 ....A          406               src\include\sdlemu_config.h
+2003-09-02 05:28:44 ....A         1348               src\include\sdlemu_opengl.h
+2003-09-19 04:13:22 ....A          924               src\include\settings.h
+2003-09-02 20:11:32 ....A         1634               src\include\tom.h
+2003-08-29 15:58:00 ....A          870               src\include\types.h
+2003-07-31 20:26:24 ....A         3473               src\include\unzip.h
+2003-08-29 05:27:20 ....A          238               src\include\version.h
+2003-09-03 16:24:46 ....A          365               src\include\video.h
+2003-07-28 17:14:12 ....A        26472               src\include\wavetable.h
+2001-01-30 16:37:04 ....A        37535               src\m68kcpu.c
+2003-08-26 05:10:26 ....A        99871               src\m68kdasm.c
+2001-02-03 18:31:30 ....A        44972               src\m68kmake.c
+2001-01-29 20:07:10 ....A       225370               src\m68k_in.c
+2003-09-02 05:46:08 ....A         6741               src\sdlemu_opengl.c
+2003-08-29 05:37:10 ....A        20524               src\unzip.c
+2003-08-29 05:42:58 ....A         1150               src\anajoy.cpp
+2003-08-27 22:49:32 ....A        43334               src\blitter.cpp
+2003-08-21 21:59:30 ....A        16833               src\cdbios.cpp
+2003-08-28 05:29:32 ....A         8328               src\cdi.cpp
+2003-08-21 22:59:32 ....A         2278               src\cdrom.cpp
+2003-07-03 22:28:30 ....A          517               src\clock.cpp
+2003-07-03 22:28:24 ....A         4292               src\crc32.cpp
+2003-09-03 04:42:44 ....A         8550               src\dac.cpp
+2003-09-15 23:30:56 ....A       154879               src\dsp.cpp
+2003-09-12 01:48:36 ....A         8192               src\eeprom.cpp
+2003-09-16 01:24:34 ....A        69034               src\gpu.cpp
+2003-09-22 06:33:48 ....A        28113               src\gui.cpp
+2003-08-27 22:30:16 ....A         6539               src\jagdasm.cpp
+2003-09-15 23:08:32 ....A        29768               src\jaguar.cpp
+2003-09-15 23:23:08 ....A        23330               src\jerry.cpp
+2003-09-14 06:09:16 ....A         8478               src\joystick.cpp
+2003-09-09 16:35:54 ....A         1033               src\log.cpp
+2003-08-28 05:33:08 ....A         3019               src\memory.cpp
+2003-09-03 19:15:00 ....A        58338               src\objectp.cpp
+2003-09-19 04:12:24 ....A         4227               src\sdlemu_config.cpp
+2003-09-15 23:05:56 ....A         4527               src\settings.cpp
+2003-09-03 06:42:48 ....A        56616               src\tom.cpp
+2003-08-29 05:35:58 ....A          360               src\version.cpp
+2003-09-03 16:24:26 ....A         5189               src\video.cpp
+2003-09-19 04:13:02 ....A        10799               src\vj.cpp
+2003-07-02 23:40:40 ....A        18011               docs\gpl.txt
+2003-07-02 23:40:40 ....A           42               bios\readme.txt
+2003-08-11 19:56:02 ....A           46               eeproms\readme.txt
+2003-09-17 20:45:32 ....A         3542               vj-ico.o
+2003-09-15 23:07:20 ....A         2151               vj.cfg
+2003-09-19 04:13:40 ....A         2877               Makefile.unix
+2003-09-19 04:14:04 ....A         2880               Makefile.win32
+2003-09-19 02:05:50 ....A        40227               vj.xpm
+2016-10-21 13:01:30 D....            0            0  src\include
+2016-10-21 13:01:30 D....            0            0  src
+2016-10-21 13:01:29 D....            0            0  eeproms
+2016-10-21 13:01:29 D....            0            0  docs
+2016-10-21 13:01:30 D....            0            0  bios
+------------------- ----- ------------ ------------  ------------------------
+2016-10-21 13:01:30            1313267       179408  77 files, 5 folders

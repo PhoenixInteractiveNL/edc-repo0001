@@ -1,0 +1,112 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+1997-02-02 18:18:02 ....A          152       112431  potator-0.6-src\src\M6502\Makefile
+2004-04-19 21:57:20 ....A         9686               potator-0.6-src\RCa00484
+2004-04-19 23:07:08 ....A        16198               potator-0.6-src\src\gui\logo.bmp
+2004-04-19 23:06:24 ....A        28798               potator-0.6-src\src\gui\sponsor.bmp
+2002-04-07 14:21:46 ....A          829               potator-0.6-src\src\2xSaI.h
+2004-04-19 23:00:50 ....A         1440               potator-0.6-src\src\filters\2xsai.h
+1998-12-25 00:06:00 ....A        14778               potator-0.6-src\src\seal\AUDIO.H
+2001-09-23 13:10:30 ....A         3096               potator-0.6-src\src\sdl\include\begin_code.h
+2001-09-23 10:11:00 ....A         1447               potator-0.6-src\src\sdl\include\close_code.h
+2004-04-17 21:10:14 ....A        12687               potator-0.6-src\src\M6502\Codes.h
+2004-04-30 14:07:58 ....A          267               potator-0.6-src\src\controls.h
+2004-04-16 22:36:52 ....A          172               potator-0.6-src\src\M6502\dasm.h
+2004-04-19 23:00:50 ....A         7803               potator-0.6-src\src\filters\doubled.h
+2002-05-05 18:22:24 ....A          271               potator-0.6-src\src\filters\filter_partA.h
+2004-04-19 23:00:50 ....A          645               potator-0.6-src\src\filters\filter_partB.h
+2004-05-01 01:11:30 ....A         1998               potator-0.6-src\src\filters\filter_partC.h
+2004-04-19 22:14:18 ....A          143               potator-0.6-src\src\filters\filter_partD.h
+2002-04-07 19:41:04 ....A          138               potator-0.6-src\src\filters\filter_partE.h
+2004-04-30 13:33:24 ....A          344               potator-0.6-src\src\gpu.h
+2004-04-19 23:00:50 ....A         2328               potator-0.6-src\src\filters\halfscanlines.h
+2004-05-08 12:25:02 ....A         5147               potator-0.6-src\src\filters\interpolate.h
+2004-04-30 14:37:22 ....A          338               potator-0.6-src\src\interrupts.h
+2004-04-30 13:23:38 ....A          204               potator-0.6-src\src\io.h
+2002-10-09 11:20:34 ....A          428               potator-0.6-src\src\log.h
+2004-04-16 20:45:46 ....A         6321               potator-0.6-src\src\M6502\M6502.h
+2002-10-09 13:55:40 ....A          660               potator-0.6-src\src\memory.h
+2004-04-30 22:29:18 ....A          454               potator-0.6-src\src\memorymap.h
+2004-04-19 23:07:08 ....A         2104               potator-0.6-src\resource.h
+2004-04-19 23:00:50 ....A         1755               potator-0.6-src\src\filters\scanlines.h
+2001-04-26 08:50:18 ....A         3171               potator-0.6-src\src\sdl\include\SDL.h
+2002-10-09 22:02:58 ....A         4858               potator-0.6-src\src\sdl\include\SDLptc.h
+2001-04-26 08:50:18 ....A         1948               potator-0.6-src\src\sdl\include\SDL_active.h
+2001-09-23 09:39:30 ....A        10862               potator-0.6-src\src\sdl\include\SDL_audio.h
+2001-09-11 12:38:50 ....A         1889               potator-0.6-src\src\sdl\include\SDL_byteorder.h
+2001-04-26 08:50:18 ....A         5659               potator-0.6-src\src\sdl\include\SDL_cdrom.h
+2001-04-26 08:50:18 ....A          999               potator-0.6-src\src\sdl\include\SDL_copying.h
+2001-04-26 08:50:18 ....A         4814               potator-0.6-src\src\sdl\include\SDL_endian.h
+2001-04-26 08:50:18 ....A         1753               potator-0.6-src\src\sdl\include\SDL_error.h
+2001-04-26 08:50:18 ....A        12023               potator-0.6-src\src\sdl\include\SDL_events.h
+2001-04-26 08:45:46 ....A          721               potator-0.6-src\src\sdl\include\SDL_getenv.h
+2001-04-26 08:50:18 ....A         5180               potator-0.6-src\src\sdl\include\SDL_joystick.h
+2001-04-26 08:50:18 ....A         3859               potator-0.6-src\src\sdl\include\SDL_keyboard.h
+2001-09-13 20:33:02 ....A         7288               potator-0.6-src\src\sdl\include\SDL_keysym.h
+2001-09-11 12:38:50 ....A         2670               potator-0.6-src\src\sdl\include\SDL_main.h
+2001-04-26 08:50:18 ....A         4394               potator-0.6-src\src\sdl\include\SDL_mouse.h
+2001-04-26 08:50:18 ....A         5498               potator-0.6-src\src\sdl\include\SDL_mutex.h
+2001-10-24 21:37:32 ....A        14597               potator-0.6-src\src\sdl\include\SDL_opengl.h
+2001-04-26 08:50:18 ....A         1998               potator-0.6-src\src\sdl\include\SDL_quit.h
+2001-04-26 08:50:18 ....A         3374               potator-0.6-src\src\sdl\include\SDL_rwops.h
+2001-07-08 01:00:06 ....A         4702               potator-0.6-src\src\sdl\include\SDL_syswm.h
+2001-04-26 08:50:18 ....A         2372               potator-0.6-src\src\sdl\include\SDL_thread.h
+2001-04-26 08:50:18 ....A         4420               potator-0.6-src\src\sdl\include\SDL_timer.h
+2001-09-11 12:38:50 ....A         2890               potator-0.6-src\src\sdl\include\SDL_types.h
+2001-07-30 16:13:04 ....A         2662               potator-0.6-src\src\sdl\include\SDL_version.h
+2001-07-30 21:36:10 ....A        36433               potator-0.6-src\src\sdl\include\SDL_video.h
+2004-05-08 12:26:44 ....A          349               potator-0.6-src\src\sound.h
+2004-04-19 23:00:50 ....A         2015               potator-0.6-src\src\filters\special.h
+2004-04-19 23:00:50 ....A         1965               potator-0.6-src\src\filters\standard.h
+2004-04-16 19:39:34 ....A          773               potator-0.6-src\StdAfx.h
+2004-04-19 23:00:50 ....A         1449               potator-0.6-src\src\filters\super2xsai.h
+2004-04-19 23:00:50 ....A         1449               potator-0.6-src\src\filters\supereagle.h
+2004-05-01 00:58:50 ....A         1133               potator-0.6-src\src\supervision.h
+2004-04-17 21:11:04 ....A         2858               potator-0.6-src\src\M6502\Tables.h
+2004-04-30 13:50:50 ....A          250               potator-0.6-src\src\timer.h
+2003-10-12 22:01:42 ....A          939               potator-0.6-src\src\types.h
+2002-10-09 09:34:58 ....A          462               potator-0.6-src\src\version.h
+2004-04-30 14:18:42 ....A         5676               potator-0.6-src\src\M6502\dasm.c
+1997-02-02 18:16:24 ....A         8247               potator-0.6-src\src\M6502\Debug.c
+2004-04-17 21:11:18 ....A        14180               potator-0.6-src\src\M6502\M6502.c
+2004-04-19 22:02:34 ....A        20690               potator-0.6-src\src\2xSaI.cpp
+2004-04-30 20:32:58 ....A        31526               potator-0.6-src\src\seal\audio.cpp
+2004-04-30 14:08:52 ....A         2662               potator-0.6-src\src\controls..cpp
+2004-04-30 14:38:10 ....A         4047               potator-0.6-src\src\gpu.cpp
+2004-04-30 14:37:22 ....A         2987               potator-0.6-src\src\interrupts.cpp
+2004-04-30 13:26:14 ....A         2005               potator-0.6-src\src\io.cpp
+2002-12-05 07:54:00 ....A         1333               potator-0.6-src\src\log.cpp
+2002-10-09 13:55:34 ....A         4942               potator-0.6-src\src\memory.cpp
+2004-04-30 23:22:22 ....A         7648               potator-0.6-src\src\memorymap.cpp
+2004-05-08 12:30:40 ....A        18762               potator-0.6-src\src\sound.cpp
+2004-04-16 19:39:34 ....A          298               potator-0.6-src\StdAfx.cpp
+2004-05-08 12:28:56 ....A        18422               potator-0.6-src\Supervision.cpp
+2004-05-01 01:15:48 ....A         2589               potator-0.6-src\src\timer.cpp
+2004-05-08 12:28:52 ....A         1339               potator-0.6-src\src\version.cpp
+2004-05-08 12:28:56 ....A         5146               potator-0.6-src\src\watara.cpp
+2004-05-08 12:25:04 ....A         4874               potator-0.6-src\gui.rc
+2004-05-01 01:18:54 ....A         8112               potator-0.6-src\Supervision.dsp
+2004-04-16 19:39:34 ....A          545               potator-0.6-src\Supervision.dsw
+2004-05-08 12:33:40 ....A          281               potator-0.6-src\readme.txt
+2003-10-28 13:28:30 ....A        12490               potator-0.6-src\technical_summary.txt
+1998-12-25 00:06:00 ....A        28736               potator-0.6-src\src\seal\AUDW32VC.LIB
+2002-04-07 09:19:14 ....A       115910               potator-0.6-src\src\sdl\SDL.lib
+2002-04-07 09:19:24 ....A         6224               potator-0.6-src\src\sdl\SDLmain.lib
+2004-05-08 12:25:04 ....A        80832               potator-0.6-src\gui.aps
+2003-07-25 15:52:06 ....A           64               potator-0.6-src\src\sdl\vssver.scc
+1998-12-26 00:06:00 ....A        69632       106102  potator-0.6-src\AUDIOW32.DLL
+1998-12-26 00:06:00 ....A        69632               potator-0.6-src\src\seal\AUDIOW32.DLL
+2002-04-07 09:19:14 ....A       211456               potator-0.6-src\src\sdl\SDL.dll
+2016-10-08 18:10:12 D....            0            0  potator-0.6-src\src\seal
+2016-10-08 18:10:11 D....            0            0  potator-0.6-src\src\sdl\Release
+2016-10-08 18:10:11 D....            0            0  potator-0.6-src\src\sdl\include
+2016-10-08 18:10:11 D....            0            0  potator-0.6-src\src\sdl
+2016-10-08 18:10:10 D....            0            0  potator-0.6-src\src\M6502\Release
+2016-10-08 18:10:10 D....            0            0  potator-0.6-src\src\M6502\Debug
+2016-10-08 18:10:10 D....            0            0  potator-0.6-src\src\M6502
+2016-10-08 18:10:11 D....            0            0  potator-0.6-src\src\gui
+2016-10-08 18:10:11 D....            0            0  potator-0.6-src\src\filters
+2016-10-08 18:10:12 D....            0            0  potator-0.6-src\src
+2016-10-08 18:10:13 D....            0            0  potator-0.6-src
+------------------- ----- ------------ ------------  ------------------------
+2016-10-08 18:10:13            1046594       218533  97 files, 11 folders

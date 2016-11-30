@@ -1,0 +1,106 @@
+What's New? 2.0.3 (changelog)
+Released November 02, 2008
+
+This release includes some key bug fixes and feature enhancements.
+
+
+
+
+
+Major Bug / Crash Bug Fixes
+
+
+
+
+* Reset/Power-on recording for .fm2 files!
+
+* fix ..fcm conversion, recording, and playback of reset and power commands
+
+* Win32 - auto-load the only useful ROM or movie from an archive, in cases where there is only one
+
+* Win32 - permit user optionally to proceed through the movie savestate mismatch error condition, in case he knows what he is doing.
+
+* Win32 - fix a bug in the savestate recovery code which prevent aborted savestate loads from recovering emulator state correctly.
+
+* gracefully handle non-convertible broken UTF-8 text without crashing
+
+* Win32 - don't read every archive file when scanning for replay dialog. scan them, and only look for *.fm2
+
+
+
+
+New Features Win32
+
+
+
+
+* Win32 - added a toggle for binding savestates to movies
+
+* Win32 - added -cfg (config file) command line argument
+
+
+
+
+Minor Bug fixes
+
+
+
+
+* Win32 - Sound config dialog will now look to see if Mute Turbo should be checked
+
+* Win32 - Debugger - Fix Child windows inside debugging window get invalid sizes
+
+* Win32 - bind a menu option for display frame counter
+
+* Win32 - fix problem where replay dialog couldn't work when the process current directory had changed to something other than emulator base directory
+
+* Lua ignores second joypad.set()
+
+* Load state as... does not use the savestate override dir (fixed; now, it does)
+
+*Win32 - debugger - fix issue where keyboard keys get stuck when switching between debugger window and main window
+
+
+
+
+
+
+
+SDL 
+
+
+
+
+* SDL - added support for AVI creation for SDL, see documentation/Videolog.txt for more
+
+* SDL - --inputcfg can now be used without a filename
+
+* SDL - should fix issues with missing author field crashing FCEUX
+
+* SDL - toggle lag frame counter for SDL, default hotkey F8
+
+* SDL - toggle skipping of lag frames for SDL, default hotkey F6
+
+* SDL - user ability to toggle "bind savestates to movie" added for SDL, default hotkey F2
+
+* SDL - Lua is now optional, thanks Shinydoofy for a patch.  also fixed some build issues.
+
+* SDL - fixed an issue where flawed movie would crash FCEUX on every startup
+
+* SDL - fixed issue where windowed mode would always be set to 32 bpp
+
+* SDL - fixed ppc build errors and added LSB_FIRST option to build scripts
+
+* SDL - --newppu option added to SDL, disabled by default
+
+
+
+
+GFCEUX (SDL)
+
+
+
+
+* GFCEUX - made the input config window more usable
+
+* GFCEUX - added uninstall script for GFCEUX

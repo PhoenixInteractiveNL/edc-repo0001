@@ -1,0 +1,7 @@
+What's new in Gens for Linux v2.15.4/GS-m4.2?
+
+Milestone 4.2 fixes the following bugs:
+
+- Joystick input was still completely broken due to an accidental swapping
+  of "which" (device number) and "axis" (axis number). This bug was
+  reported by Techokami in #retro.

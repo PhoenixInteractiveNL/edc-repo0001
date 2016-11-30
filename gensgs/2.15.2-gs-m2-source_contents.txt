@@ -1,0 +1,349 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2005-03-08 16:02:11 ....A           91       578711  AUTHORS
+2005-03-08 16:02:11 ....A          645               BUGS
+2005-03-08 16:02:11 ....A         2774               compile
+2008-08-28 22:08:53 ....A       752540               configure
+2005-03-08 16:02:10 ....A        17992               COPYING
+2005-03-08 16:02:10 ....A        12117               depcomp
+2008-08-28 10:15:23 ....A        11272               Doxyfile
+2005-03-08 16:02:11 ....A         7831               INSTALL
+2005-03-08 16:02:10 ....A         5598               install-sh
+2008-08-27 16:13:27 ....A       120442               src\gens\ui\gtk\Makefile
+2005-03-08 16:02:09 ....A         8857               missing
+2005-03-08 16:02:11 ....A          724               mkinstalldirs
+2008-08-29 00:25:57 ....A         4152               NEWS
+2005-03-08 16:02:10 ....A         3967               README
+2008-08-27 20:31:38 ....A           23               stamp-h
+2008-08-27 14:46:11 ....A       118036               src\starscream\main68k\star_m68k
+2008-08-28 23:47:37 ....A         1104               doc\TODO
+2005-03-08 16:02:35 ....A          639               pixmaps\2rightarrow.png
+2005-03-08 16:02:21 ....A          606               pixmaps\binary.png
+2005-03-08 16:02:21 ....A          767               pixmaps\folder_slin_open.png
+2005-03-08 16:02:21 ....A         4336               pixmaps\gens_small.png
+2005-03-08 16:02:35 ....A          740               pixmaps\history.png
+2005-03-08 16:02:21 ....A          801               pixmaps\kmix.png
+2005-03-08 16:02:36 ....A          884               pixmaps\ksysguard.png
+2005-03-08 16:02:36 ....A          792               pixmaps\memory.png
+2005-03-08 16:02:36 ....A          568               pixmaps\modem.png
+2005-03-08 16:02:36 ....A          760               pixmaps\package_games.png
+2005-03-08 16:02:36 ....A          739               pixmaps\package_settings.png
+2005-03-08 16:02:35 ....A          505               pixmaps\password.png
+2005-03-08 16:02:35 ....A          803               pixmaps\resource.png
+2005-03-08 16:02:21 ....A          781               pixmaps\viewmag.png
+2005-03-08 16:02:36 ....A          821               pixmaps\xpaint.png
+2005-03-08 16:02:35 ....A        47878               pixmaps\gens_big.bmp
+2005-03-08 16:02:35 ....A        13366               pixmaps\gens_small.bmp
+2005-03-08 16:02:21 ....A          766               pixmaps\gens.ico
+2005-03-08 16:02:36 ....A         3638               pixmaps\Gens2.ico
+2005-03-08 16:02:36 ....A         4710               pixmaps\sonic.ico
+2005-03-08 16:02:20 ....A         2862               pixmaps\sonic2.ico
+2005-03-08 16:02:39 ....A        31939               src\gens\gens_core\mem\mem_m68k_32x.inc
+2005-03-08 16:02:39 ....A        24636               src\gens\gens_core\mem\mem_m68k_cd.inc
+2005-03-08 16:03:20 ....A          596               src\gens\gens_core\nasmhead.inc
+2005-03-08 16:02:54 ....A        61567               src\gens\gens_core\cpu\sh2\sh2_io.inc
+2008-08-26 21:50:45 ....A         2030               src\gens\ui\gtk\about\about_window.h
+2008-08-26 21:46:19 ....A         2189               src\gens\ui\gtk\bios_misc_files\bios_misc_files_window.h
+2008-08-26 21:46:29 ....A         2206               src\gens\ui\gtk\bios_misc_files\bios_misc_files_window_callbacks.h
+2008-08-26 21:46:00 ....A         1910               src\gens\ui\gtk\bios_misc_files\bios_misc_files_window_misc.h
+2008-08-28 18:25:09 ....A         1986               src\gens\gens_core\gfx\blit.h
+2008-08-27 19:01:32 ....A         2296               src\gens\gens_core\misc\byteswap.h
+2005-03-08 16:03:11 ....A          301               src\gens\netplay\ccnet.h
+2008-08-22 17:42:22 ....A          374               src\gens\segacd\cdda_mp3.h
+2008-08-22 17:42:11 ....A         3941               src\gens\segacd\cd_aspi.h
+2008-08-22 17:42:29 ....A          527               src\gens\segacd\cd_file.h
+2008-08-22 17:52:12 ....A         3228               src\gens\segacd\cd_sys.h
+2005-03-08 16:02:19 ....A         3171               src\gens\util\file\chd.h
+2008-08-26 21:48:13 ....A         1897               src\gens\ui\gtk\color_adjust\color_adjust_window.h
+2008-08-26 21:48:31 ....A         2175               src\gens\ui\gtk\color_adjust\color_adjust_window_callbacks.h
+2008-08-26 21:48:44 ....A         1849               src\gens\ui\gtk\color_adjust\color_adjust_window_misc.h
+2008-08-28 00:01:20 ....A         4735               src\gens\util\file\compress\compress.h
+2008-08-23 16:09:39 ....A          334               src\gens\util\file\config_file.h
+2008-08-26 21:51:29 ....A         1951               src\gens\ui\gtk\controller_config\controller_config_window.h
+2008-08-26 21:51:24 ....A         2289               src\gens\ui\gtk\controller_config\controller_config_window_callbacks.h
+2008-08-26 21:51:49 ....A         1927               src\gens\ui\gtk\controller_config\controller_config_window_misc.h
+2008-08-26 21:52:19 ....A         1941               src\gens\ui\gtk\country_code\country_code_window.h
+2008-08-26 21:52:39 ....A         2340               src\gens\ui\gtk\country_code\country_code_window_callbacks.h
+2008-08-26 21:52:51 ....A         1910               src\gens\ui\gtk\country_code\country_code_window_misc.h
+2005-03-08 16:02:55 ....A          348               src\gens\gens_core\cpu\68k\cpu_68k.h
+2005-03-08 16:02:54 ....A          232               src\gens\gens_core\cpu\sh2\cpu_sh2.h
+2005-03-08 16:02:39 ....A           89               src\gens\gens_core\cpu\z80\cpu_z80.h
+2008-08-27 21:29:01 ....A          592               src\gens\debug\debug.h
+2008-08-26 21:53:25 ....A         2095               src\gens\ui\gtk\directory_config\directory_config_window.h
+2008-08-26 21:53:41 ....A         2232               src\gens\ui\gtk\directory_config\directory_config_window_callbacks.h
+2008-08-27 22:48:33 ....A         1914               src\gens\ui\gtk\directory_config\directory_config_window_misc.h
+2008-08-27 23:26:28 ....A         2064               src\gens\util\file\compress\dummy.h
+2008-08-26 21:54:18 ....A         1867               src\gens\ui\gtk\game_genie\game_genie_window.h
+2008-08-26 21:54:35 ....A         2598               src\gens\ui\gtk\game_genie\game_genie_window_callbacks.h
+2008-08-26 21:54:47 ....A         2000               src\gens\ui\gtk\game_genie\game_genie_window_misc.h
+2008-08-26 21:55:59 ....A         1991               src\gens\ui\gtk\general_options\general_options_window.h
+2008-08-26 21:55:50 ....A         2156               src\gens\ui\gtk\general_options\general_options_window_callbacks.h
+2008-08-26 21:56:20 ....A         1871               src\gens\ui\gtk\general_options\general_options_window_misc.h
+2008-08-29 00:19:30 ....A         1546               src\gens\emulator\gens.h
+2008-08-27 21:05:35 ....A         2037               src\gens\ui\gtk\gens\gens_window.h
+2008-08-26 21:57:11 ....A         6695               src\gens\ui\gtk\gens\gens_window_callbacks.h
+2008-08-28 19:23:02 ....A         2060               src\gens\ui\gtk\gens\gens_window_sync.h
+2008-08-20 23:35:07 ....A          580               src\gens\gens_core\gfx\gfx_cd.h
+2008-08-24 17:05:28 ....A          531               src\gens\util\file\ggenie.h
+2008-08-26 22:01:13 ....A         3346               src\gens\ui\gtk\gtk-misc.h
+2005-03-08 16:03:19 ....A          283               src\gens\util\sound\gym.h
+2008-08-27 23:32:21 ....A         2056               src\gens\util\file\compress\gzip.h
+2008-08-27 22:44:03 ....A          263               src\gens\emulator\g_32x.h
+2008-08-28 22:37:59 ....A         1760               src\gens\sdllayer\g_effects.h
+2008-08-23 01:03:52 ....A          663               src\gens\emulator\g_input.h
+2008-08-21 16:02:27 ....A         3990               src\gens\emulator\g_input_linux.h
+2008-08-28 21:54:23 ....A         4536               src\gens\emulator\g_main.h
+2008-08-22 16:39:11 ....A          404               src\gens\emulator\g_main_linux.h
+2008-08-20 17:26:33 ....A          415               src\gens\emulator\g_mcd.h
+2008-08-20 17:26:30 ....A          351               src\gens\emulator\g_md.h
+2008-08-28 21:34:25 ....A         1880               src\gens\sdllayer\g_opengl.h
+2008-08-23 16:28:01 ....A          360               src\gens\emulator\g_palette.h
+2008-08-28 22:38:01 ....A         1457               src\gens\sdllayer\g_sdldraw.h
+2008-08-24 20:03:44 ....A         1850               src\gens\sdllayer\g_sdlinput.h
+2008-08-22 17:43:24 ....A          801               src\gens\sdllayer\g_sdlsound.h
+2005-03-08 16:02:38 ....A        15949               src\mp3_dec\huffman.h
+2005-03-08 16:03:20 ....A         5533               src\gens\gens_core\io\io.h
+2005-03-08 16:02:53 ....A         1803               src\gens\segacd\lc89510.h
+2008-08-27 21:30:05 ....A          218               src\gens\debug\m68kd.h
+2008-08-20 22:55:30 ....A         1604               src\gens\gens_core\mem\mem_m68k.h
+2005-03-08 16:02:39 ....A          976               src\gens\gens_core\mem\mem_s68k.h
+2005-03-08 16:02:39 ....A         2789               src\gens\gens_core\mem\mem_sh2.h
+2005-03-08 16:02:39 ....A         1963               src\gens\gens_core\mem\mem_z80.h
+2008-08-24 03:48:09 ....A          707               src\gens\gens_core\misc\misc.h
+2005-03-08 16:02:38 ....A         4747               src\mp3_dec\mpg123.h
+2005-03-08 16:02:38 ....A          936               src\mp3_dec\mpglib.h
+2005-03-08 16:03:11 ....A          602               src\gens\netplay\net.h
+2008-08-26 21:57:54 ....A         1917               src\gens\ui\gtk\opengl_resolution\opengl_resolution_window.h
+2008-08-26 21:58:08 ....A         2199               src\gens\ui\gtk\opengl_resolution\opengl_resolution_window_callbacks.h
+2008-08-26 21:58:42 ....A         1867               src\gens\ui\gtk\opengl_resolution\opengl_resolution_window_misc.h
+2007-06-12 23:18:20 ....A         4735               src\gens\emulator\parse.h
+2005-03-08 16:02:37 ....A          917               src\gens\gens_core\sound\pcm.h
+2005-03-08 16:02:18 ....A          702               src\gens\port\port.h
+2008-08-20 22:50:26 ....A          847               src\gens\gens_core\sound\psg.h
+2008-08-22 17:37:30 ....A         1049               src\gens\gens_core\sound\pwm.h
+2008-08-28 17:42:06 ....A         2809               src\gens\gens_core\gfx\renderers.h
+2008-08-27 01:25:00 ....A         1579               src\gens\util\file\rom.h
+2008-08-23 16:07:39 ....A         1723               src\gens\util\file\save.h
+2008-08-27 20:05:34 ....A          128               src\gens\util\gfx\scrshot.h
+2008-08-26 21:59:36 ....A         1928               src\gens\ui\gtk\select_cdrom\select_cdrom_window.h
+2008-08-26 21:59:52 ....A         2184               src\gens\ui\gtk\select_cdrom\select_cdrom_window_callbacks.h
+2008-08-26 22:00:22 ....A         1852               src\gens\ui\gtk\select_cdrom\select_cdrom_window_misc.h
+2005-03-08 16:02:54 ....A        14145               src\gens\gens_core\cpu\sh2\sh2.h
+2008-08-27 21:29:37 ....A          227               src\gens\debug\sh2d.h
+2008-08-25 03:15:19 ....A         5828               src\starscream\main68k\STARCPU.H
+2008-08-25 03:15:31 ....A         5828               src\starscream\sub68k\STARCPU.H
+2008-08-20 23:00:48 ....A         5850               src\gens\gens_core\cpu\68k\star_68k.h
+2005-03-08 16:02:18 ....A          184               src\gens\port\timer.h
+2008-08-26 21:50:52 ....A         2742               src\gens\ui\ui-common.h
+2008-08-26 21:28:23 ....A         1475               src\gens\emulator\ui_proxy.h
+2005-03-08 16:02:19 ....A         9930               src\gens\util\file\unzip.h
+2008-08-21 00:24:16 ....A          588               src\gens\gens_core\vdp\vdp_32x.h
+2008-08-22 17:35:58 ....A         1770               src\gens\gens_core\vdp\vdp_io.h
+2008-08-28 19:41:57 ....A          700               src\gens\gens_core\vdp\vdp_rend.h
+2005-03-08 16:03:18 ....A         1354               src\gens\util\sound\wave.h
+2008-08-22 17:37:00 ....A         8552               src\gens\gens_core\sound\ym2612.h
+2005-03-08 16:02:39 ....A         5275               src\gens\gens_core\cpu\z80\z80.h
+2008-08-27 21:29:01 ....A          218               src\gens\debug\z80dis.h
+2008-08-27 23:49:17 ....A         2050               src\gens\util\file\compress\Zip.h
+2008-08-28 00:25:05 ....A         1852               src\gens\ui\gtk\zip_select\zip_select_dialog.h
+2008-08-28 00:40:07 ....A         1880               src\gens\ui\gtk\zip_select\zip_select_dialog_misc.h
+2008-08-27 21:09:27 ....A         8161               src\gens\ui\gtk\about\about_window.c
+2008-08-27 22:33:43 ....A        10423               src\gens\ui\gtk\bios_misc_files\bios_misc_files_window.c
+2008-08-27 22:53:04 ....A         2633               src\gens\ui\gtk\bios_misc_files\bios_misc_files_window_callbacks.c
+2008-08-27 21:09:40 ....A         3699               src\gens\ui\gtk\bios_misc_files\bios_misc_files_window_misc.c
+2008-08-28 16:36:49 ....A         3182               src\gens\gens_core\gfx\blit1x.c
+2008-08-28 16:36:43 ....A         3679               src\gens\gens_core\gfx\blit2x.c
+2008-08-24 18:21:39 ....A          521               src\gens\gens_core\misc\byteswap.c
+2005-03-08 16:03:11 ....A        11063               src\gens\netplay\ccnet.c
+2008-08-22 17:41:52 ....A         8726               src\gens\segacd\cdda_mp3.c
+2008-08-24 01:58:46 ....A        16064               src\gens\segacd\cd_aspi.c
+2008-08-22 17:41:38 ....A        10026               src\gens\segacd\cd_file.c
+2008-08-22 18:21:57 ....A        20941               src\gens\segacd\cd_sys.c
+2005-03-08 16:02:19 ....A         9028               src\gens\util\file\chd.c
+2008-08-27 21:10:06 ....A         9347               src\gens\ui\gtk\color_adjust\color_adjust_window.c
+2008-08-27 22:52:41 ....A         2421               src\gens\ui\gtk\color_adjust\color_adjust_window_callbacks.c
+2008-08-27 21:10:12 ....A         4267               src\gens\ui\gtk\color_adjust\color_adjust_window_misc.c
+2005-03-08 16:02:38 ....A         7008               src\mp3_dec\common.c
+2008-08-27 23:59:33 ....A         2424               src\gens\util\file\compress\compress.c
+2008-08-28 22:10:36 ....A        24622               src\gens\util\file\config_file.c
+2008-08-27 21:10:56 ....A        15315               src\gens\ui\gtk\controller_config\controller_config_window.c
+2008-08-27 22:54:30 ....A         4767               src\gens\ui\gtk\controller_config\controller_config_window_callbacks.c
+2008-08-27 21:10:51 ....A        10142               src\gens\ui\gtk\controller_config\controller_config_window_misc.c
+2008-08-27 21:11:11 ....A         9377               src\gens\ui\gtk\country_code\country_code_window.c
+2008-08-27 22:50:19 ....A         2697               src\gens\ui\gtk\country_code\country_code_window_callbacks.c
+2008-08-27 21:11:13 ....A         6415               src\gens\ui\gtk\country_code\country_code_window_misc.c
+2005-03-08 16:02:55 ....A        12945               src\gens\gens_core\cpu\68k\cpu_68k.c
+2005-03-08 16:02:54 ....A        13061               src\gens\gens_core\cpu\sh2\cpu_sh2.c
+2005-03-08 16:02:39 ....A         2520               src\gens\gens_core\cpu\z80\cpu_z80.c
+2005-03-08 16:02:38 ....A         9990               src\mp3_dec\dct64_i386.c
+2008-08-28 19:42:43 ....A        33365               src\gens\debug\debug.c
+2005-03-08 16:02:38 ....A         3596               src\mp3_dec\decode_i386.c
+2008-08-27 21:11:33 ....A        10159               src\gens\ui\gtk\directory_config\directory_config_window.c
+2008-08-27 22:52:40 ....A         2642               src\gens\ui\gtk\directory_config\directory_config_window_callbacks.c
+2008-08-27 21:11:27 ....A         3591               src\gens\ui\gtk\directory_config\directory_config_window_misc.c
+2008-08-28 00:03:50 ....A         4155               src\gens\util\file\compress\dummy.c
+2008-08-27 21:11:53 ....A        12705               src\gens\ui\gtk\game_genie\game_genie_window.c
+2008-08-27 22:53:28 ....A         4867               src\gens\ui\gtk\game_genie\game_genie_window_callbacks.c
+2008-08-27 21:11:46 ....A         8122               src\gens\ui\gtk\game_genie\game_genie_window_misc.c
+2008-08-27 21:12:05 ....A        14804               src\gens\ui\gtk\general_options\general_options_window.c
+2008-08-27 22:53:20 ....A         2477               src\gens\ui\gtk\general_options\general_options_window_callbacks.c
+2008-08-27 22:21:22 ....A         8990               src\gens\ui\gtk\general_options\general_options_window_misc.c
+2008-08-23 16:28:43 ....A         3922               src\gens\emulator\gens.c
+2008-08-28 22:12:12 ....A        40025               src\gens\ui\gtk\gens\gens_window.c
+2008-08-28 22:11:06 ....A        15937               src\gens\ui\gtk\gens\gens_window_callbacks.c
+2008-08-28 22:10:01 ....A        18704               src\gens\ui\gtk\gens\gens_window_sync.c
+2008-08-27 22:34:32 ....A        11374               src\gens\util\file\ggenie.c
+2008-08-26 22:01:03 ....A         4099               src\gens\ui\gtk\gtk-misc.c
+2008-08-27 22:34:53 ....A         5484               src\gens\util\sound\gym.c
+2008-08-27 23:55:56 ....A         4325               src\gens\util\file\compress\gzip.c
+2008-08-27 22:42:37 ....A        24193               src\gens\emulator\g_32x.c
+2008-08-28 23:10:56 ....A         6398               src\gens\sdllayer\g_effects.c
+2008-08-28 22:38:22 ....A         9164               src\gens\emulator\g_input.c
+2008-08-28 22:09:10 ....A         9416               src\gens\emulator\g_main.c
+2008-08-22 16:38:34 ....A         5425               src\gens\emulator\g_main_linux.c
+2008-08-27 01:25:24 ....A        25997               src\gens\emulator\g_mcd.c
+2008-08-25 03:50:29 ....A        13458               src\gens\emulator\g_md.c
+2008-08-28 22:15:19 ....A        11375               src\gens\sdllayer\g_opengl.c
+2008-08-29 00:23:24 ....A         5390               src\gens\emulator\g_palette.c
+2008-08-29 00:23:34 ....A        14250               src\gens\sdllayer\g_sdldraw.c
+2008-08-26 11:13:51 ....A        18917               src\gens\sdllayer\g_sdlinput.c
+2008-08-26 00:16:15 ....A         8447               src\gens\sdllayer\g_sdlsound.c
+2008-08-28 18:22:35 ....A         1768               src\gens\gens_core\gfx\hq2x_funcs.c
+2005-03-08 16:02:38 ....A         4140               src\mp3_dec\interface.c
+2005-03-08 16:02:38 ....A        52135               src\mp3_dec\layer3.c
+2008-08-22 17:40:35 ....A        16549               src\gens\segacd\lc89510.c
+2008-08-27 22:04:21 ....A        28247               src\gens\debug\m68kd.c
+2005-03-08 16:03:11 ....A         3151               src\gens\netplay\net.c
+2008-08-27 21:12:30 ....A         7908               src\gens\ui\gtk\opengl_resolution\opengl_resolution_window.c
+2008-08-27 22:53:08 ....A         2486               src\gens\ui\gtk\opengl_resolution\opengl_resolution_window_callbacks.c
+2008-08-28 22:15:40 ....A         3292               src\gens\ui\gtk\opengl_resolution\opengl_resolution_window_misc.c
+2008-08-27 22:32:33 ....A        16404               src\gens\emulator\parse.c
+2008-08-21 00:51:11 ....A         9119               src\gens\gens_core\sound\pcm.c
+2008-08-23 16:04:23 ....A         6090               src\gens\port\port.c
+2008-08-24 01:57:42 ....A         9647               src\gens\gens_core\sound\psg.c
+2008-08-28 18:30:20 ....A         3807               src\gens\gens_core\gfx\renderers.c
+2008-08-28 00:44:17 ....A        18274               src\gens\util\file\rom.c
+2008-08-26 10:24:36 ....A        67359               src\gens\util\file\save.c
+2008-08-28 16:53:24 ....A         4484               src\gens\gens_core\gfx\scale2x.c
+2008-08-28 22:35:06 ....A         9294               src\gens\util\gfx\scrshot.c
+2008-08-27 21:12:54 ....A         9283               src\gens\ui\gtk\select_cdrom\select_cdrom_window.c
+2008-08-27 22:53:01 ....A         2436               src\gens\ui\gtk\select_cdrom\select_cdrom_window_callbacks.c
+2008-08-27 21:12:58 ....A         4593               src\gens\ui\gtk\select_cdrom\select_cdrom_window_misc.c
+2005-03-08 16:02:54 ....A        19260               src\gens\gens_core\cpu\sh2\sh2.c
+2008-08-27 21:27:47 ....A        10843               src\gens\debug\sh2d.c
+2008-08-25 03:15:19 ....A       136718               src\starscream\main68k\star.c
+2008-08-25 03:15:31 ....A       135420               src\starscream\sub68k\star.c
+2005-03-08 16:02:38 ....A         2789               src\mp3_dec\tabinit.c
+2008-08-24 03:27:41 ....A         1322               src\gens\port\timer.c
+2008-08-27 15:48:10 ....A         3179               src\gens\ui\ui-common.c
+2008-08-26 22:01:31 ....A        12317               src\gens\ui\gtk\ui-common_gtk.c
+2008-08-28 19:01:47 ....A        22097               src\gens\emulator\ui_proxy.c
+2005-03-08 16:02:19 ....A        34197               src\gens\util\file\unzip.c
+2005-03-08 16:03:18 ....A        18500               src\gens\util\sound\wave.c
+2008-08-22 17:37:10 ....A        65241               src\gens\gens_core\sound\ym2612.c
+2008-08-27 21:29:48 ....A        13785               src\gens\debug\z80dis.c
+2008-08-27 23:55:48 ....A         6353               src\gens\util\file\compress\Zip.c
+2008-08-28 23:45:46 ....A         5271               src\gens\ui\gtk\zip_select\zip_select_dialog.c
+2008-08-28 00:40:17 ....A         4182               src\gens\ui\gtk\zip_select\zip_select_dialog_misc.c
+2008-08-28 16:07:46 ....A         3945               src\gens\gens_core\gfx\blit1x.asm
+2008-08-28 16:07:53 ....A         5823               src\gens\gens_core\gfx\blit2x.asm
+2008-08-28 20:23:25 ....A        10528               src\gens\gens_core\gfx\blit2x_int.asm
+2008-08-28 16:08:20 ....A         4136               src\gens\gens_core\gfx\blit2x_scanline.asm
+2008-08-28 20:23:42 ....A         3747               src\gens\gens_core\gfx\blit2x_scanline_25.asm
+2008-08-28 20:24:28 ....A         3840               src\gens\gens_core\gfx\blit2x_scanline_25_int.asm
+2008-08-28 20:23:59 ....A         3380               src\gens\gens_core\gfx\blit2x_scanline_50.asm
+2008-08-28 20:24:38 ....A         3473               src\gens\gens_core\gfx\blit2x_scanline_50_int.asm
+2008-08-28 20:25:00 ....A         4685               src\gens\gens_core\gfx\blit2x_scanline_int.asm
+2008-08-28 21:06:29 ....A        16058               src\gens\gens_core\gfx\blit_2xSAI.asm
+2008-08-28 18:24:53 ....A        41067               src\gens\gens_core\gfx\blit_hq2x_16.asm
+2008-08-21 00:03:08 ....A        17085               src\gens\gens_core\gfx\gfx_cd.asm
+2005-03-08 16:03:20 ....A        26267               src\gens\gens_core\io\io.asm
+2008-08-25 09:25:39 ....A        37248               src\gens\gens_core\mem\mem_m68k.asm
+2005-03-08 16:02:39 ....A        56537               src\gens\gens_core\mem\mem_s68k.asm
+2008-08-21 00:25:17 ....A        34374               src\gens\gens_core\mem\mem_sh2.asm
+2005-03-08 16:02:39 ....A         7960               src\gens\gens_core\mem\mem_z80.asm
+2008-08-29 00:02:44 ....A        43169               src\gens\gens_core\misc\misc.asm
+2008-08-22 17:37:27 ....A         6666               src\gens\gens_core\sound\pwm.asm
+2005-03-08 16:02:54 ....A        85597               src\gens\gens_core\cpu\sh2\sh2a.asm
+2008-08-28 20:26:38 ....A         5297               src\gens\gens_core\vdp\vdp_32x.asm
+2008-08-28 11:26:52 ....A        30290               src\gens\gens_core\vdp\vdp_io.asm
+2008-08-28 20:12:07 ....A        52333               src\gens\gens_core\vdp\vdp_rend.asm
+2005-03-08 16:02:39 ....A       124315               src\gens\gens_core\cpu\z80\z80.asm
+2008-03-20 18:00:38 ....A       200719               ltmain.sh
+2008-08-24 04:30:36 ....A         2448               doc\genecyst_save_file_format.txt
+2005-01-29 00:21:26 ....A          365               GENS-DEVS-README-FIRST.txt
+2008-08-24 00:14:29 ....A        35883               doc\gens.txt
+2008-08-24 00:14:29 ....A        34609               doc\history.txt
+2008-08-25 03:15:19 ....A        40196               src\starscream\main68k\STARDOC.TXT
+2008-08-25 03:15:31 ....A        40195               src\starscream\sub68k\STARDOC.TXT
+2005-03-08 16:03:09 ....A          271               src\starscream\sub68k\Makefile.am
+2005-03-08 16:03:12 ....A          276               src\starscream\main68k\Makefile.am
+2005-03-08 16:03:20 ....A           25               src\starscream\Makefile.am
+2008-08-23 02:36:20 ....A           50               Makefile.am
+2008-08-26 22:24:37 ....A          374               pixmaps\Makefile.am
+2008-08-27 17:40:58 ....A           62               src\Makefile.am
+2008-08-27 17:43:03 ....A          294               src\mp3_dec\Makefile.am
+2008-08-28 22:03:10 ....A        10288               src\gens\Makefile.am
+2006-04-20 13:03:54 ....A           61               Makefile.cvs
+2008-05-29 01:51:45 ....A        45468               config.guess
+2008-08-28 22:09:00 ....A         1893               config.h.in
+2008-08-28 22:08:44 ....A         3483               configure.in
+2008-08-28 22:08:51 ....A        10654               pixmaps\Makefile.in
+2008-08-28 22:08:51 ....A        14548               src\Makefile.in
+2008-08-28 22:08:52 ....A        13848               src\starscream\sub68k\Makefile.in
+2008-08-28 22:08:52 ....A        13856               src\starscream\main68k\Makefile.in
+2008-08-28 22:08:52 ....A        14548               src\starscream\Makefile.in
+2008-08-28 22:08:52 ....A        15681               src\mp3_dec\Makefile.in
+2008-08-28 22:08:52 ....A        19612               Makefile.in
+2008-08-28 22:08:52 ....A       283776               src\gens\Makefile.in
+2008-08-28 22:08:49 ....A       285179               aclocal.m4
+2008-05-29 01:51:45 ....A        33653               config.sub
+2008-06-19 18:02:11 ....A            0            0  build-stamp
+2005-03-08 16:03:11 ....A            0            0  src\gens\netplay\.dirstamp
+2008-08-27 17:34:37 ....A            0            0  src\mp3_dec\.dirstamp
+2016-11-23 18:17:32 D....            0            0  src\starscream\sub68k
+2016-11-23 18:17:32 D....            0            0  src\starscream\main68k
+2016-11-23 18:17:32 D....            0            0  src\starscream
+2016-11-23 18:17:32 D....            0            0  src\mp3_dec
+2016-11-23 18:17:32 D....            0            0  src\gens\util\sound
+2016-11-23 18:17:32 D....            0            0  src\gens\util\gfx
+2016-11-23 18:17:32 D....            0            0  src\gens\util\file\compress
+2016-11-23 18:17:32 D....            0            0  src\gens\util\file
+2016-11-23 18:17:32 D....            0            0  src\gens\util
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\zip_select
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\select_cdrom
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\opengl_resolution
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\gens
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\general_options
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\game_genie
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\directory_config
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\country_code
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\controller_config
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\color_adjust
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\bios_misc_files
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk\about
+2016-11-23 18:17:32 D....            0            0  src\gens\ui\gtk
+2016-11-23 18:17:32 D....            0            0  src\gens\ui
+2016-11-23 18:17:32 D....            0            0  src\gens\segacd
+2016-11-23 18:17:32 D....            0            0  src\gens\sdllayer
+2016-11-23 18:17:32 D....            0            0  src\gens\port
+2016-11-23 18:17:32 D....            0            0  src\gens\netplay
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\vdp
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\sound
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\misc
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\mem
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\io
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\gfx
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\cpu\z80
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\cpu\sh2
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core\cpu\68k
+2016-11-23 18:17:31 D....            0            0  src\gens\gens_core\cpu
+2016-11-23 18:17:32 D....            0            0  src\gens\gens_core
+2016-11-23 18:17:32 D....            0            0  src\gens\emulator
+2016-11-23 18:17:32 D....            0            0  src\gens\debug
+2016-11-23 18:17:32 D....            0            0  src\gens
+2016-11-23 18:17:32 D....            0            0  src
+2016-11-23 18:17:32 D....            0            0  pixmaps
+2016-11-23 18:17:32 D....            0            0  doc
+------------------- ----- ------------ ------------  ------------------------
+2016-11-23 18:17:32            4650108       578711  301 files, 44 folders

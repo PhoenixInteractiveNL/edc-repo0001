@@ -1,0 +1,5 @@
+Potator 0.60
+------------
+
+* Source code cleanup
+* Potator is now open source

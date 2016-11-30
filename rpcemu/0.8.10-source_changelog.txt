@@ -1,0 +1,13 @@
+Version 0.8.10 - 27/3/2013
+
+Changes in this build
+
+All Platforms
+Fix bug in emulation of SMLAL instruction in 32-bit DynaRec.
+Fix bug in emulation of unaligned STR with Writeback in 32-bit DynaRec.
+Fix bug in emulation of LDR/LDRB with Writeback in both 32-bit and 64-bit DynaRec.
+Extensive code-refactoring enabling the above fixes, and in preparation for future improvements.
+Windows
+Host CD-ROM drives now appear correctly in the CD-ROM submenu.
+Linux
+A program icon has been added to the main Window.

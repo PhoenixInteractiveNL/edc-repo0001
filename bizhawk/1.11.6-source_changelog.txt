@@ -1,0 +1,54 @@
+BizHawk 1.11.6
+Released March 07, 2016
+Windows binary
+Genesis
+Disassembler support
+Trace Logger support
+Sprite Layer toggles, and custom backdrop color
+Add "M68K BUS" and "S68K BUS" domains
+Capture Sega CD flag in movie files
+Enable low-pass filter
+Atari2600
+Double and quad size players are now correctly delayed an extra pixel.
+Added an R to the State output to indicate when the RDY signal is false.
+Use the RDY flag to halt the CPU instead of a loop in the TIA.
+mGBA
+Capture SRAM in savestates, ALL PREVIOUS SAVESTATES are now incompatible
+Update to the latest mGBA
+Layer toggle
+Saturn
+fix bug in GLManager causing yabause in opengl mode to not work unless frameadvancing
+TI-83
+Implement Trace Logger
+Colecovision
+Implement Trace Logger
+EmuHawk
+Fix ramwatch crashing bug involving core reboots and watchlist hanging on to stale emulator instances
+Hex Editor - fix exception when pressing "Ok" on the "Go to Address" input prompt in the Hex Editor with an empty string
+GameShark tool - layout improvements
+Make Screenshot Raw to Clipboard and Screenshot Client to Clipboard into configurable hotkeys instead of hardcoded shortcut keys in the menu items
+Cheats - comparison type column
+Lua
+add emu.disassemble(uint pc, string name)
+Set file watchers on lua session autoload
+Better auto-complete for Sublime Text 2
+Call the lua loadstate callback before redrawing the screen and other updates
+Trace Logger
+Capture headers in log files
+Separate Disassmbly and Registers in separate columns
+Remember column widths
+Add an Open button
+Use .log extention (allows extension based user syntax highlight)
+Debugger
+Don't update when unpaused. only update PC when we really need it.
+Add a Run button
+Registers - format reg names on launch, smarter spacing.
+Return address in hex when copying.
+Fix how Seek To determines the PC register
+Update when maximized
+Multi-disk bundler
+Fix ROM path generation
+Add a remove button
+TAStudio
+Fix some savestate bugs
+Don't allow saving while saving.

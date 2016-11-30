@@ -1,0 +1,17 @@
+Version 0.8.12 - 22/10/2014
+
+Changes in this build
+
+All Platforms
+ARM Core
+Fix 4 issues related to the SWP instruction
+Fix for STRB where the PC should be offset
+Fix implementation-specific behaviour for single data transfer
+Floppy Drive
+Support the FDC Format and Verify commands, this enables you to format an empty 800KB or 1600KB file as a disc image. Including code provided by Rob Sprowson.
+Experimental fix for floppy-drive support in Recompiler. Please report any issues discovered with this.
+Fix rendering of wimp modes 29 and 30 (800x600 in 1bpp and 2bpp)
+HostFS
+Add support for RISC OS ImageFS extensions and add a default disc name This enables several programs that previous failed to work to work, including Photodesk and the Acorn C/C++ installer.
+Add support for querying HostFS free disc space.
+Add a 'Help' menu to the UI with links to the website and manual

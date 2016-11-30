@@ -1,0 +1,197 @@
+What's New? 2.2.0 (changelog)
+Released -- 27 November 2012
+
+
+
+
+
+
+
+The 2.2.0 release fixes a lot of bugs and adds many new features to prior releases, increasing game compatibility and enhancing usability of both Windows and SDL ports. The Windows version also includes major improvement of debugging tools and introduces the new powerful toolset – TAS Editor v1.0 – created to boost efficiency and ease of Tool-Assisted Speedrunning.
+
+
+
+
+Common 
+
+Fixed crash when using machine with no sound card 
+Fixed long savestate messages containing path 
+Soft reset and power switch messages 
+All onscreen messages are now logged to Message Log 
+Fixed wrong default palette entry 
+Fixed bug when loading UNIF games 
+Improved HUD text rendering wrapping 
+"Display FPS" option 
+
+
+
+Emulation
+
+PAL/NTSC noise channel bug fixed 
+All latest mapper changes from fceu-mm 
+Also added mappers 176, 116, 156, 252, 28 
+Fixed mappers 242, 227, 115, 248, 12, 164, 15, 253, 23, 178, 90, 73 and many others 
+Straighten out bandai m159/m016 handling and add valid null-EEPROM emulation to get those games booting. 
+Add ability for CNROM games to choose whether they have bus conflicts (fixes Colorful Dragon (Unl) (Sachen), since it flakes out if bus conflicts are emulated) 
+Fixed bus conflict emulation, no kage no densetsu bug anymore 
+Fixed newppu bug which prevented metroid from booting, CHR RAM was not getting initialized to anything 
+Newppu - fix bug in scroll reg logic causing mis-scrolls in p'radikus conflict 
+
+
+
+Movies
+
+Fixed old bug in "Play Movie From Beginning" 
+Fixed replay engine bug that doubles the last input of the movie 
+Fixed movie savestates logic, loading post-movie savestates from different timeline is not allowed in read-only 
+Fixed savestates filenaming bug when working with a movie 
+Added support for HUD recording in AVI dumping 
+Rerecords counter display 
+Config->Movie options->Always suggest Read-Only replay (for Replay dialog). No more accidental rewrites! 
+Removed "Lag Counter Reset" hotkey, as it was obsolete since FCEUX 2.0.2 
+
+
+
+Lua
+
+Fixed lua drawing alpha blending 
+Auto-clearing previous frame drawings (same behaviour as other emulators) 
+New library: taseditor (Windows-only) - contains 24 functions, see taseditor.chm 
+
+
+
+New Lua functions:
+
+emu.paused() 
+emu.setlagflag() 
+joypad.getimmediate() 
+
+
+
+New scripts:
+
+BoulderDash_AmoebaAI.lua 
+ButtonCount.lua 
+CustomLagIndicator_RvT.lua 
+RBIBaseball.lua 
+SoundDisplay.lua 
+SoundDisplay2.lua 
+taseditor\InputDisplay_for_Selection.lua 
+taseditor\InvertSelection.lua 
+taseditor\RecordBackwards.lua 
+taseditor\ShowNotes.lua 
+taseditor\Swap1P2P.lua 
+taseditor\TrackNoise.lua 
+
+
+
+Win32
+
+Total revamp of fulscreen support 
+Fixed graphic tearing with vertical sync enabled 
+Added "Maintain aspect ratio" option to Video config 
+Added "Hide mouse cursor" and "Use console BG color for empty areas" options to Video config 
+Added "Switch fullscreen by double-click" option to GUI config 
+Added "Force Grayscale" option to Palette config 
+Fixed crashes and bugs caused by 2.1.5 allowing hotkeys without ROM loaded 
+Lua console now gets proper file path when selecting a file from the recent menu 
+Fixed context menus to use rightclicks in context menus correctly 
+Reload hotkey now also supports removing invalid filenames in Recent ROMs 
+Replay dialog speedup, it doesn't search for movies in fceux root folder anymore 
+Support multibyte languages for opening files through drag&drop (except for Lua files) 
+Loading TAS Editor projects (*.fm3) by drag&drop 
+Fixed bug with Input Config not displaying some key names 
+Launch tools hotkeys shown in menu; general cleanup of menu/settings, changed some checkboxes to radiobuttons 
+Added "Clear" button to Message Log 
+
+
+
+TAS Editor
+
+Completely rewritten tool with brand new architecture and design. Too many changes to enlist, see taseditor.chm 
+
+
+
+Debugger
+
+General window layout cleanup; different font; ".DEB files" can be switched off; etc 
+Deleting a breakpoint/bookmark leaves selection in the list 
+Fixed mysterious out of bounds condition while editing breakpoints 
+Fixed RAM peek by a rightclick on left pane 
+Allow Frame Advancing when Debugger is in breakpoint state 
+Disabled breakpoints now don't impose slowdown 
+When a breakpoint is hit, it becomes highlighed (selected) in the breakpoints list 
+Show the number of breakpoints (enabled and total) above the breakpoints list 
+">" points at current line in disassembly 
+Improved stack display 
+Added "CPU cycles" and "Instructions" counters (cumulative and delta) 
+Added "Cycles counter exceeds N" and "Instructions counter exceeds N" type of breakpoints 
+Single click on any address copies this address to the "Seek To" field and "Bookmark Add" field 
+Double-click on any address prompts "Add Breakpoint here" dialog 
+"ROM offsets" option displays real ROM addresses in the Disassembly window 
+Fixed conditional breakpoints bug: the error message didn't appear when editing a breakpoint 
+Fixed and improved Symbolic debug (Names and Comments display) 
+Added Bookmarks naming 
+Cleaned up and vastly improved debugging documentation 
+
+
+
+Trace Logger
+
+Added "Symbolic trace" option 
+"RTS" instructions now output the subroutine address/name 
+Added "Use Stack Pointer for code tabbing (nesting visualization)" option 
+Added "To the left from disassembly text" option for log format customization 
+Added "Log current Frame number" option 
+Added "Log emulator messages" option 
+Added "Log breakpoint hits" option 
+Fixed bug with trying to log to file without choosing a filename 
+Tracer now also updates its window when user pauses the game, not just when Debugger snaps 
+
+
+
+Code/Data Logger
+
+Now can log data access from RAM code 
+"Save Unused Data" button complements "Save Stripped iNes Rom" feature 
+Now can log VROM access (CHR banks of the ROM) when NewPPU is enabled 
+
+
+
+Hex Editor
+
+Display 0x5000-0x5FFF contents 
+Ctrl+F opens Find dialog 
+
+
+
+RAM Watch / RAM Search
+
+Updating list when emulator is paused (on Power or when resetting search) 
+Fixed loading Data Size and Data Type from a .wch, now corrupted .wch won't crash 
+
+
+
+Cheats
+
+Added Compare box to the Cheats window 
+Don't lose cheat compare value when toggle cheat enables through UI 
+Parse cheat files with non-ASCII characters properly 
+
+
+
+SDL
+
+gtk 2.24 now recommended 
+added gtk hotkey configuration dialog 
+updated/added various gui elements for options 
+new option: SDL.ShowFPS 
+new option: SDL.Input..EnableOppositeDirectional - allow/disallow simultaneous right+left/up+down input 
+fixed various build issues 
+fixed segfault occuring during particular sequences in the cheat menu 
+fixed potential segfault with gui 
+fixed segfault issue on debian/ubuntu with proprietary nvidia drivers 
+now compatible with llvm/clang++ 
+added build option to dynamically link lua 
+updated default server configuration file to "fceux-server.conf" (from "fceu-server.conf") 
+updated manpage and documentation 

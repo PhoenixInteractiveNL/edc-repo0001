@@ -1,0 +1,138 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2006-12-19 20:53:21 ....A        42928       278626  zlib\ChangeLog
+2006-12-19 20:53:21 ....A         4133               zlib\Makefile
+2006-12-19 20:53:21 ....A         5696               zlib\README
+2008-02-03 20:28:48 ....A         1879               platform\win32\GenaDrive\app.h
+2007-09-01 12:07:03 ....A          590               platform\common\arm_utils.h
+2008-01-15 18:55:10 ....A          434               Pico\carthw\carthw.h
+2007-08-25 19:06:54 ....A          390               Pico\cd\cd_file.h
+2007-08-25 19:06:54 ....A         2839               Pico\cd\cd_sys.h
+2006-12-19 20:53:21 ....A        30568               zlib\crc32.h
+2007-11-15 23:01:20 ....A         6230               cpu\cz80\cz80.h
+2007-11-15 23:01:20 ....A         3424               cpu\cz80\cz80macro.h
+2006-12-19 20:53:21 ....A        12114               zlib\deflate.h
+2007-11-20 21:38:07 ....A         1685               platform\common\emu.h
+2007-11-11 15:38:27 ....A         3744               cpu\fame\fame.h
+2007-11-10 15:49:07 ....A       572158               cpu\fame\famec_opcodes.h
+2007-09-01 12:07:03 ....A           88               platform\common\fonts.h
+2007-08-25 19:06:54 ....A          780               Pico\cd\gfx_cd.h
+2006-12-19 20:53:21 ....A         9861               zlib\gzio_symb.h
+2006-12-19 20:53:21 ....A          407               zlib\inffast.h
+2006-12-19 20:53:21 ....A         6343               zlib\inffixed.h
+2006-12-19 20:53:21 ....A         5916               zlib\inflate.h
+2006-12-19 20:53:21 ....A         2373               zlib\inftrees.h
+2007-10-06 20:26:40 ....A         2589               Pico\cd\LC89510.h
+2007-12-02 21:12:48 ....A           44               platform\common\lprintf.h
+2007-11-24 15:04:47 ....A         2756               platform\common\menu.h
+2007-12-09 15:17:50 ....A          439               Pico\sound\mix.h
+2007-10-04 22:14:45 ....A          113               platform\common\mp3.h
+2007-02-26 23:46:45 ....A          502               Pico\Patch.h
+2007-08-25 19:06:54 ....A          206               Pico\cd\pcm.h
+2008-02-03 20:29:22 ....A         5244               Pico\Pico.h
+2008-01-27 23:04:29 ....A        17020               Pico\PicoInt.h
+2008-01-29 23:04:26 ....A          392               platform\win32\GenaDrive\port_config.h
+2007-09-01 12:07:03 ....A          147               platform\common\readpng.h
+2006-12-19 20:53:21 ....A          185               Pico\sound\sn76496.h
+2008-01-27 19:34:32 ....A         1391               Pico\carthw\svp\ssp16.h
+2006-12-19 20:53:21 ....A         8444               zlib\trees.h
+2007-03-10 23:50:03 ....A         3621               unzip\unzip.h
+2007-03-10 23:50:03 ....A           74               unzip\unzip_stream.h
+2008-03-05 09:20:51 ....A           27               platform\win32\GenaDrive\version.h
+2007-11-15 23:01:20 ....A         6299               Pico\sound\ym2612.h
+2006-12-19 20:53:21 ....A         9544               zlib\zconf.h
+2006-12-19 20:53:21 ....A        66188               zlib\zlib.h
+2006-12-19 20:53:21 ....A         6859               zlib\zutil.h
+2006-12-19 20:53:21 ....A         4559               zlib\adler32.c
+2007-10-28 20:23:15 ....A         6449               Pico\Area.c
+2007-11-20 21:38:07 ....A         8086               Pico\cd\Area.c
+2007-11-20 21:38:07 ....A         3368               Pico\cd\buffering.c
+2008-01-26 10:02:50 ....A        17353               Pico\Cart.c
+2008-01-27 23:04:29 ....A         8742               Pico\cd\cd_file.c
+2008-01-27 23:04:29 ....A        17388               Pico\cd\cd_sys.c
+2007-04-04 19:35:48 ....A          842               Pico\cd\cell_map.c
+2006-12-19 20:53:21 ....A         2489               zlib\compress.c
+2006-12-19 20:53:21 ....A        13193               zlib\crc32.c
+2008-01-27 23:04:56 ....A        11845               cpu\cz80\cz80.c
+2007-10-26 21:08:13 ....A        16660               cpu\cz80\cz80jmp.c
+2007-10-26 21:08:13 ....A        21118               cpu\cz80\cz80_op.c
+2007-10-26 21:08:13 ....A        10817               cpu\cz80\cz80_opCB.c
+2007-10-26 21:08:13 ....A        13257               cpu\cz80\cz80_opED.c
+2007-10-26 21:08:13 ....A        15279               cpu\cz80\cz80_opXY.c
+2007-10-26 21:08:13 ....A        13722               cpu\cz80\cz80_opXYCB.c
+2007-11-11 15:38:27 ....A         6502               Pico\Debug.c
+2006-12-19 20:53:21 ....A        64163               zlib\deflate.c
+2008-01-27 23:04:29 ....A        41913               Pico\Draw.c
+2007-11-15 23:01:20 ....A        18271               Pico\Draw2.c
+2007-11-24 15:04:47 ....A        20860               platform\common\emu.c
+2006-12-19 20:53:21 ....A        16398               zlib\example.c
+2008-01-27 23:04:56 ....A       202944               cpu\fame\famec.c
+2007-09-01 12:07:03 ....A        16116               platform\common\fonts.c
+2007-12-02 21:12:48 ....A        12431               Pico\cd\gfx_cd.c
+2007-03-10 23:50:03 ....A        31113               zlib\gzio.c
+2006-12-19 20:53:21 ....A        19500               zlib\gzio_symb.c
+2006-12-19 20:53:21 ....A        22164               zlib\infback.c
+2006-12-19 20:53:21 ....A        12568               zlib\inffast.c
+2006-12-19 20:53:21 ....A        48977               zlib\inflate.c
+2006-12-19 20:53:21 ....A        13756               zlib\inftrees.c
+2008-01-27 23:04:29 ....A        16849               Pico\cd\LC89510.c
+2008-01-27 23:04:29 ....A        23404               Pico\Memory.c
+2008-01-27 23:04:29 ....A        53004               Pico\cd\Memory.c
+2008-02-04 21:25:36 ....A         3421               Pico\carthw\svp\Memory.c
+2008-01-26 10:02:50 ....A         6421               Pico\MemoryCmn.c
+2007-10-21 19:41:52 ....A         7692               platform\common\menu.c
+2007-09-01 12:07:03 ....A         1777               Pico\cd\Misc.c
+2007-11-15 23:01:20 ....A        16023               Pico\Misc.c
+2007-11-17 22:13:35 ....A         1195               Pico\sound\mix.c
+2007-10-04 22:14:45 ....A         5936               platform\common\mp3_helix.c
+2007-08-25 19:06:54 ....A         9037               Pico\Patch.c
+2007-11-20 21:38:07 ....A         4218               Pico\cd\pcm.c
+2007-11-15 23:01:20 ....A         6839               Pico\cd\Pico.c
+2008-03-05 11:19:42 ....A        17801               Pico\Pico.c
+2008-01-26 10:02:50 ....A         6276               Pico\PicoFrameHints.c
+2007-10-15 21:50:37 ....A         3485               platform\common\readpng.c
+2007-11-15 23:01:20 ....A         4702               Pico\Sek.c
+2007-12-02 21:12:48 ....A         4201               Pico\cd\Sek.c
+2007-02-04 17:15:31 ....A         9510               Pico\sound\sn76496.c
+2008-01-29 23:04:26 ....A        12769               Pico\sound\sound.c
+2008-03-05 09:22:49 ....A        34004               Pico\carthw\svp\ssp16.c
+2008-02-04 21:25:36 ....A         1794               Pico\carthw\svp\svp.c
+2006-12-19 20:53:21 ....A        44027               zlib\trees.c
+2006-12-19 20:53:21 ....A         2087               zlib\uncompr.c
+2007-03-10 23:50:03 ....A        15762               unzip\unzip.c
+2007-03-10 23:50:03 ....A         4874               unzip\unzip_stream.c
+2006-12-19 20:53:21 ....A         2364               Pico\Utils.c
+2008-01-26 15:49:24 ....A        14733               Pico\VideoPort.c
+2008-01-27 23:04:29 ....A        53259               Pico\sound\ym2612.c
+2006-12-19 20:53:21 ....A         7136               zlib\zutil.c
+2008-02-04 17:56:43 ....A        10531               platform\win32\GenaDrive\Direct.cpp
+2008-02-03 20:28:48 ....A         3684               platform\win32\GenaDrive\DSound.cpp
+2008-02-03 20:28:48 ....A         1710               platform\win32\GenaDrive\Emu.cpp
+2008-02-03 20:28:48 ....A         4283               platform\win32\GenaDrive\Input.cpp
+2008-02-03 20:28:48 ....A         2749               platform\win32\GenaDrive\Loop.cpp
+2008-03-05 11:16:29 ....A         7240               platform\win32\GenaDrive\Main.cpp
+2008-01-29 19:25:35 ....A         2044               platform\win32\GenaDrive\TexScreen.cpp
+2008-01-15 18:55:10 ....A         7685               Pico\carthw\svp\imageformat.txt
+2006-12-19 20:53:21 ....A        17976               _docs\license_gpl.txt
+2006-12-19 20:53:21 ....A         1804               _docs\license_mame.txt
+2006-12-19 20:53:21 ....A         3007               _docs\readme.txt
+2008-03-05 10:01:05 ....A         1501               platform\win32\GenaDrive\readme.txt
+2006-12-19 20:53:21 ....A         4133               zlib\Makefile.in
+2008-02-03 20:28:48 ....A         2190               platform\win32\GenaDrive\Makefile.vc
+2016-10-28 17:27:51 D....            0            0  _docs
+2016-10-28 17:27:50 D....            0            0  zlib
+2016-10-28 17:27:51 D....            0            0  unzip
+2016-10-28 17:27:50 D....            0            0  platform\win32\GenaDrive
+2016-10-28 17:27:50 D....            0            0  platform\win32
+2016-10-28 17:27:51 D....            0            0  platform\common
+2016-10-28 17:27:50 D....            0            0  platform
+2016-10-28 17:27:51 D....            0            0  Pico\sound
+2016-10-28 17:27:51 D....            0            0  Pico\cd
+2016-10-28 17:27:51 D....            0            0  Pico\carthw\svp
+2016-10-28 17:27:51 D....            0            0  Pico\carthw
+2016-10-28 17:27:51 D....            0            0  Pico
+2016-10-28 17:27:51 D....            0            0  cpu\fame
+2016-10-28 17:27:51 D....            0            0  cpu\cz80
+2016-10-28 17:27:51 D....            0            0  cpu
+------------------- ----- ------------ ------------  ------------------------
+2016-10-28 17:27:51            2044644       278626  119 files, 15 folders

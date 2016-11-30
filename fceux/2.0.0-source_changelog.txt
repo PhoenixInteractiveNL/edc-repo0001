@@ -1,0 +1,240 @@
+What's New? 2.0.0
+
+Released August 02, 2008
+
+
+
+
+FCEUX has all the latest tools, enhancements, and features from FCEU 0.28 rerecording and FCEUXDSP 1.07  In addition, it has many new tools, bug fixes, and enhancements not seen in previous branches.
+
+
+
+
+
+
+
+General
+
+
+
+
+-A detailed Help Menu!  No longer are you aimlessly searching the internet for long lost info on FCEU's options!
+
+-Numerous Dialog box reformats.
+
+-FCEU remembers its last screen (x,y) position.
+
+-Increased command line options
+
+-More options under the Directory Override Menu
+
+-A Turbo Toggle option (turbo now can be toggled on rather than having to hold the key down)
+
+-More hotkey assignable options in the Map Hotkeys Menu.
+
+-A lag counter
+
+-Autofire uses the lag counter (so it will skip over lag frames)
+
+
+
+
+
+
+
+Movie support
+
+
+
+
+Overhauls in both the movie and savestate file formats.
+
+
+
+
+.fm2 File format
+
+
+
+
+The .fcm file format has been overhauled into a new .fm2 format.  Changes include:
+
+
+
+
+-Uncompressed and text based format.  Movie editing can be done simply in a text editor.
+
+-Recording from soft reset option removed.
+
+-Recording from start (hard reset) no longer has an empty savestate at the beginning.
+
+-GUID inserted into movies for better savestate/loadstate error handling.
+
+-Rather than an Author field, it has a full metadata menu where an author can put any info needed.
+
+-A tool to convert .fcm files to .fm2 files.
+
+-More specific info on .fm2 files in the .fm2 documentation. 
+
+
+
+
+Savestate/Loadstate
+
+
+
+
+-New savestate file format.  NOTE:  Savestates from previous FCEU versions CAN NOT be used in FCEUX.
+
+-Fully functional error handling (savestates from other movies cannot be loaded).
+
+-Read-only toggling related bugs fixed.
+
+-Savestate filenames include the name of the movie (if a movie was playing when made).  This prevents loading wrong savestates. (This also means that savestate 0 is different when a movie is playing and when it is not).
+
+
+
+
+7z Archive Support
+
+
+
+
+-ROMs in any 7z compatible compressed format can be opened directly.
+
+-If more than one valid ROM exists in an archive file, then a dialog box will open with a list of available ROM choices.
+
+
+
+
+TAS Editor
+
+
+
+
+-A brand new powerful movie making tool that revolutionizes the way TAS movies are made.  See TAS edit.
+
+
+
+
+
+
+
+New Tools
+
+
+
+
+TAS Edit - a revolutionary new way of making TAS movies.
+
+
+
+
+Input Presets - a system for quickly toggling different input configurations.
+
+
+
+
+
+
+
+Tool Upgrades
+
+
+
+
+Numerous enhancements have been made to various Tools/Options.
+
+
+
+
+Memory Watch
+
+
+
+
+-Resource management optimized so that memory watch now uses a minimal amount of CPU
+
+-FCEUX remembers memory watch's last screen position (x,y)
+
+-Tab-able Edit boxes
+
+-Edit boxes now can hold 64 characters
+
+-A Menu bar for all Memory watch functions
+
+-Both "Save as" and "Save" options
+
+-Hotkeys for New, Open, Save, Save As and Close
+
+-A recent files Menu
+
+-A "load on startup" option. If checked, memory watch will open automatically when FCEUX is opened
+
+-A "load last file" option.  If checked, memory watch will load the last file used
+
+
+
+
+Cheat Search
+
+
+
+
+-Now has a minimize button
+
+-Cheat Search Menu from FCEUXDSP (a major overhaul compared to other FCEU branches)
+
+-Possibilities update while playing/frame advancing a game
+
+-Double clicking a value in the possibilities window sends the value directly to Memory Watch
+
+
+
+
+RAM Filter
+
+
+
+
+-Double clicking a value in the possibilities window sends the value directly to Memory Watch
+
+
+
+
+
+
+
+Lua Scripting
+
+
+
+
+-Uses the latest features of Lua Scripting from FCEU 0.28
+
+-Many enhancements and new commands including dialog creation commands!  Now scripts can create their own dialog's and GUI features.
+
+
+
+
+Lua Basic Bot
+
+
+
+
+-Basicbot removed (from the rerecording version of FCE Ultra).  In its place is lua bot.
+
+
+
+
+
+
+
+AVI Recording
+
+
+
+
+-"Movie playback stopped" message recorded in AVI by default
+
+-Turbo Toggle Hotkey.  (Allows turbo to be left on for a faster AVI capture).

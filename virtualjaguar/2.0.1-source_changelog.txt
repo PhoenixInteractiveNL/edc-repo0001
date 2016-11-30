@@ -1,0 +1,9 @@
+Virtual Jaguar v2.0.1 GCC/Qt
+----------------------------
+
+* Fixed NTSC timings; they were hardwired to PAL rates. [Shamus]
+* Fixed possible missing trailing slash on path fields input by user. [Shamus]
+* Fixed exit hotkey to work on Win32. [Shamus]
+* Changed PAL/NTSC switch to only work when virtual machine is powered off.
+  [Shamus]
+* Miscellaneous documentation fixes. [Shamus]

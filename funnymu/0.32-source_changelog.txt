@@ -1,0 +1,2 @@
+0.32   23 Nov 2001. Tidied up some of the ROM loading routines and
+       added license info to this file.

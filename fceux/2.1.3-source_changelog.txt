@@ -1,0 +1,45 @@
+---r1767 - FCEUX 2.1.3 Released---
+---April 7 2010---
+
+07-april-2010 - sgrunt - Lua - gui.text now has out of bounds checking
+07-april-2010 - adelikat - Win32 - Lua console - filename updates when lua scripts are dragged to emulator or recent filenames invoked
+07-april-2010 - adelikat - Lua no longer unpauses the emulator when a script is loaded
+30-march-2010 - ugetab - Win32 - Closing minimized windows no longer moves them the next time they get opened
+28-march-2010 - adelikat - lua - fixed zapper.read() to read movie data if a movie is playing.  Also changed the struct values to x,y,fire.  This breaks lua scripts that used it previous, sorry.  
+04-march-2010 - prockguy - added menu buttons for loading nsf files
+03-march-2010 - adelikat - Win32 - If .fm2 drag & dropped with no ROM load, the open ROM dialog will appear
+03-march-2010 - prockguy - fceux - now prints the name of the mapper on rom load
+03-march-2010 - prockguy - SDL - VS unisystem keys now configable
+03-march-2010 - prcokguy - SDL - changed default hotkeys and keys to match w32
+03-march-2010 - prockguy - SDL - fixed dpad/joyhat support
+01-march-2010 - adelikat - Movie file format header now has a FDS flag
+01-march-2010 - adelikat - win32 - cheats dialog - toggling a cheat in the cheats list now updates the active cheats count
+01-march-2010 - adelikat - win32 - a disable movie messages menu item
+25-feb-2010 - prockguy - unix netplay is now functional; gtk network gui created
+24-feb-2010 - prockguy - GTK - added basic movie controls
+24-feb-2010 - prockguy - GTK - added file filters; added Load FDS function
+24-feb-2010 - prockguy - GTK - added palette config dialog
+23-feb-2010 - prockguy - GTK - added UI elemnts for x/y scale; added lowpass UI option
+23-feb-2010 - prockguy - GTK - added GUI for color/tint/hue
+23-feb-2010 - prockguy - GTK - implemented sound mixer dialog (for square1, 2, triangle, etc)
+22-feb-2010 - prockguy - SDL - ported to SDL 1.3; compatibility maintained with 1.2
+18-feb-2010 - prockguy - GTK - a lot of options added to GTK gui; relatively stable; added GUI for gamepad config and sound config.  
+02-feb-2010 - ugetab - Win32 - Added window positions bounds checks. Accounts for -32000 positions & less out-of-range too
+08-jan-2010 - rheiny - Win32 - Trace Logger - Trace logger now logs the values of the stack pointer register
+31-dec-2009 - prg318 - added gtk gui
+08-dec-2009 - Zeromus - Fix Name Table Viewer - Fix for use with New PPU
+08-dec-2009 - - mart0258 - FDS - show name of missing bios file in error message
+07-dec-2009 - qeed - NewPPU - fixed sprite hit before 255 and for non transparent hits only, thanks to dwedit for providing the fix
+06-dec-2009 - Zeromus - SDL - disallow --inputcfg gamepad0 and gamepad5
+??-???-2009 - CaH4e3 - fixed mappers 82, 25, 21, and 18.  Games such as SD Kiji Blader, Ganbare Goemon Gaiden, and Ganbare Goemon Gaiden 2, Jajamaru Gekimadden are now playable
+17-nov-2009 - adelikat - Win32 - Cheats - Pause while active checkbox installed
+17-nov-2009 - adelikat - Win32 - Fix debug window so it doesn't crash if unminimized with no game loaded.
+13-nov-2009 - mart0258 - Win32 - TASEdit - Added interface functionality (save/load, running TASEdit mid-movie, etc.)
+13-nov-2009 - adelikat - made savestate compression togglable
+13-nov-2009 - adelikat - made savestate backups togglable
+08-nov-2009 - gocha - Win32 - Lua console - added a menu
+08-nov-2009 - gocha - change gui.line, gui.box, joypad.get to function like GENS rerecording
+08-nov-2009 - gocha - New lua functions: gui.parsecolor, joypad.getup, joypad.getdown, emu.emulating.
+08-nov-2009 - CaH4e3 - Fixes for mappers 253 & 226 - fixes games such as Fire Emblem (J) and Fire Emblem Gaiden (J)
+08-nov-2009 - CaH4e3 - Fix crashing on game loading for any battery backed roms with mappers from MapInitTab (fixes Esper Dream 2 - Aratanaru Tatakai (J) 
+04-nov-2009 - adelikat - win32 - debugger - added an auto-load feature

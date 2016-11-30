@@ -1,0 +1,24 @@
+Virtual Jaguar v1.0.5 GCC/SDL
+-----------------------------
+
+* Various fixes to the codebase so that it compiles and works properly on
+  Linux. :-) The makefiles are almost identical now, the only thing that's
+  different between them are the SYSTYPE and EXESUFFIX variables defined at
+  the top. [Shamus]
+* Fixed a pernicious blitter bug that kept Rayman from doing proper collision
+  detection. [Shamus]
+* Added a simple file selector so that typing in long filenames in order to
+  run the emulator is no longer necessary. :-) To use it, instead of
+  supplying a ROM name, simply put in the name of the directory where your
+  ROMs live. [Shamus]
+* Removed all the assembly language code from the DSP, so it should be a
+  little less buggy now. Also, removed some brain-dead timeslice releasing
+  that was causing a bunch of problems with various ROMs. [Shamus]
+* Added sound support! In order to hear any sound, you probably have to
+  start VJ with the -dspon switch. Also, unless you have a very fast computer
+  the sound is going to be choppy. Hopefully future optimizations will cure
+  this. ;-) [Shamus]
+* Added GUI support. You can see the results by hitting the TAB key while the
+  emulator is running. ;-) [Shamus]
+* Lots of cleanups to the source code including the ability to trace who
+  writes what to where. [Shamus]

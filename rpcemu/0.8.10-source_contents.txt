@@ -1,0 +1,153 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2013-03-27 16:55:54 ....A         3707       265534  src\compile
+2013-03-27 16:55:54 ....A       187063               src\configure
+2013-03-27 16:55:54 ....A        17987               src\COPYING
+2013-03-27 16:55:54 ....A        17867               src\depcomp
+2013-03-27 16:55:54 ....A        10080               hostfs\Network\!System\310\Modules\Network\EtherRPCEm,ffa
+2013-03-27 16:55:54 ....A        10080               riscos-progs\EtherRPCEm\!System\310\Modules\Network\EtherRPCEm,ffa
+2013-03-27 16:55:54 ....A          171               hostfs\Network\AutoSense\EtherRPCEm,ffb
+2013-03-27 16:55:54 ....A          171               riscos-progs\EtherRPCEm\!Boot\Resources\Configure\!InetSetup\AutoSense\EtherRPCEm,ffb
+2013-03-27 16:55:54 ....A          916               poduleroms\hostfs,ffa
+2013-03-27 16:55:54 ....A          916               riscos-progs\HostFS\hostfs,ffa
+2013-03-27 16:55:54 ....A          996               poduleroms\hostfsfiler,ffa
+2013-03-27 16:55:54 ....A          996               riscos-progs\HostFS\hostfsfiler,ffa
+2013-03-27 16:55:54 ....A        13620               src\install-sh
+2013-03-27 16:55:54 ....A        18671               riscos-progs\EtherRPCEm\LICENSE
+2013-03-27 16:55:54 ....A          276               riscos-progs\HostFS\Makefile
+2013-03-27 16:55:54 ....A         1060               riscos-progs\EtherRPCEm\Makefile
+2013-03-27 16:55:54 ....A        11135               src\missing
+2013-03-27 16:55:54 ....A         1150               riscos-progs\EtherRPCEm\cmhg\ModHdr
+2013-03-27 16:55:54 ....A          848               riscos-progs\EtherRPCEm\Notes
+2013-03-27 16:55:54 ....A          437               src\README
+2013-03-27 16:55:54 ....A          596               hostfs\Network\ReadMe,fff
+2013-03-27 16:55:54 ....A          596               riscos-progs\EtherRPCEm\ReadMe,fff
+2013-03-27 16:55:54 ....A          748               poduleroms\SyncClock,ffa
+2013-03-27 16:55:54 ....A          748               riscos-progs\SyncClock\SyncClock,ffa
+2013-03-27 16:55:54 ....A         7987               riscos-progs\SyncClock\SyncClockSrc,ffb
+2013-03-27 16:55:54 ....A        43692               src\rpcemu.ico
+2013-03-27 16:55:54 ....A         1673               src\arm.h
+2013-03-27 16:55:54 ....A        27986               src\ArmDynarecOps.h
+2013-03-27 16:55:54 ....A        13858               src\arm_common.h
+2013-03-27 16:55:54 ....A          212               src\cdrom-ioctl.h
+2013-03-27 16:55:54 ....A          109               src\cdrom-iso.h
+2013-03-27 16:55:54 ....A          232               src\cmos.h
+2013-03-27 16:55:54 ....A          471               src\codegen_amd64.h
+2013-03-27 16:55:54 ....A          510               src\codegen_x86.h
+2013-03-27 16:55:54 ....A         5196               src\codegen_x86_common.h
+2013-03-27 16:55:54 ....A          489               src\cp15.h
+2013-03-27 16:55:54 ....A         4256               riscos-progs\EtherRPCEm\DCI.h
+2013-03-27 16:55:54 ....A         3182               riscos-progs\EtherRPCEm\Defines.h
+2013-03-27 16:55:54 ....A         6274               riscos-progs\EtherRPCEm\Equates.h
+2013-03-27 16:55:54 ....A          452               src\fdc.h
+2013-03-27 16:55:54 ....A           58               src\gui.h
+2013-03-27 16:55:54 ....A          896               src\hostfs.h
+2013-03-27 16:55:54 ....A          876               src\ide.h
+2013-03-27 16:55:54 ....A         3266               src\iomd.h
+2013-03-27 16:55:54 ....A          861               src\keyboard.h
+2013-03-27 16:55:54 ....A         6473               riscos-progs\EtherRPCEm\mbuf_c.h
+2013-03-27 16:55:54 ....A         1912               src\mem.h
+2013-03-27 16:55:54 ....A         1021               riscos-progs\EtherRPCEm\Module.h
+2013-03-27 16:55:54 ....A         1593               src\network.h
+2013-03-27 16:55:54 ....A          159               src\podulerom.h
+2013-03-27 16:55:54 ....A          725               src\podules-win.h
+2013-03-27 16:55:54 ....A         1706               src\podules.h
+2013-03-27 16:55:54 ....A         1496               src\resources.h
+2013-03-27 16:55:54 ....A           82               src\romload.h
+2013-03-27 16:55:54 ....A         6007               src\rpcemu.h
+2013-03-27 16:55:54 ....A          454               src\sound.h
+2013-03-27 16:55:54 ....A         2955               riscos-progs\EtherRPCEm\Structs.h
+2013-03-27 16:55:54 ....A          194               src\superio.h
+2013-03-27 16:55:54 ....A         1574               src\tap.h
+2013-03-27 16:55:54 ....A          603               src\vidc20.h
+2013-03-27 16:55:54 ....A        78588               src\arm.c
+2013-03-27 16:55:54 ....A        34539               src\ArmDynarec.c
+2013-03-27 16:55:54 ....A         4248               src\arm_common.c
+2013-03-27 16:55:54 ....A         8884               src\cdrom-ioctl.c
+2013-03-27 16:55:54 ....A         3244               src\cdrom-iso.c
+2013-03-27 16:55:54 ....A         3054               src\cdrom-linuxioctl.c
+2013-03-27 16:55:54 ....A        15983               src\cmos.c
+2013-03-27 16:55:54 ....A        38019               src\codegen_amd64.c
+2013-03-27 16:55:54 ....A          160               src\codegen_null.c
+2013-03-27 16:55:54 ....A       112183               src\codegen_x86.c
+2013-03-27 16:55:54 ....A        19593               src\cp15.c
+2013-03-27 16:55:54 ....A        24300               src\fdc.c
+2013-03-27 16:55:54 ....A        23080               src\fpa.c
+2013-03-27 16:55:54 ....A        22234               src\gui.c
+2013-03-27 16:55:54 ....A        54237               src\hostfs.c
+2013-03-27 16:55:54 ....A         1803               src\icside.c
+2013-03-27 16:55:54 ....A        37385               src\ide.c
+2013-03-27 16:55:54 ....A        29629               src\iomd.c
+2013-03-27 16:55:54 ....A        27878               src\keyboard.c
+2013-03-27 16:55:54 ....A        21241               src\mem.c
+2013-03-27 16:55:54 ....A        22739               riscos-progs\EtherRPCEm\Module.c
+2013-03-27 16:55:54 ....A        13395               src\network-linux.c
+2013-03-27 16:55:54 ....A         7991               src\network-win.c
+2013-03-27 16:55:54 ....A         3430               src\network.c
+2013-03-27 16:55:54 ....A         4960               src\podulerom.c
+2013-03-27 16:55:54 ....A         3038               src\podules-win.c
+2013-03-27 16:55:54 ....A         9358               src\podules.c
+2013-03-27 16:55:54 ....A         5165               src\romload.c
+2013-03-27 16:55:54 ....A         6199               src\rpc-linux.c
+2013-03-27 16:55:54 ....A         1024               src\rpc-machdep.c
+2013-03-27 16:55:54 ....A         6024               src\rpc-macosx.c
+2013-03-27 16:55:54 ....A        40385               src\rpc-win.c
+2013-03-27 16:55:54 ....A        14663               src\rpcemu.c
+2013-03-27 16:55:54 ....A         5919               src\sound.c
+2013-03-27 16:55:54 ....A         7004               src\superio.c
+2013-03-27 16:55:54 ....A        23142               src\tap-win32.c
+2013-03-27 16:55:54 ....A        66802               src\vidc20.c
+2013-03-27 16:55:54 ....A         3481               src\acorn.rc
+2013-03-27 16:55:54 ....A          596               src\rpcemu.manifest
+2013-03-27 16:55:54 ....A         2419               riscos-progs\HostFS\arm_binutils.txt
+2013-03-27 16:55:54 ....A         4957               src\dynarec.txt
+2013-03-27 16:55:54 ....A         2260               src\poduleapi.txt
+2013-03-27 16:55:54 ....A         9507               readme.txt
+2013-03-27 16:55:54 ....A          406               roms\roms.txt
+2013-03-27 16:55:54 ....A        19879               src\COPYING.rtf
+2013-03-27 16:55:54 ....A         2553               src\configure.ac
+2013-03-27 16:55:54 ....A         1389               src\Makefile.am
+2013-03-27 16:55:54 ....A          227               rpc.cfg
+2013-03-27 16:55:54 ....A        44593               src\config.guess
+2013-03-27 16:55:54 ....A         2068               src\config.h.in
+2013-03-27 16:55:54 ....A        81740               src\Makefile.in
+2013-03-27 16:55:54 ....A        44587               src\aclocal.m4
+2013-03-27 16:55:54 ....A         2264               src\config.h.mingw
+2013-03-27 16:55:54 ....A         1572               src\Makefile.mingw
+2013-03-27 16:55:54 ....A          256               cmos.ram
+2013-03-27 16:55:54 ....A         8465               riscos-progs\HostFS\hostfs.s
+2013-03-27 16:55:54 ....A         9213               riscos-progs\HostFS\hostfsfiler.s
+2013-03-27 16:55:54 ....A         2871               riscos-progs\EtherRPCEm\intveneer.s
+2013-03-27 16:55:54 ....A        32724               src\config.sub
+2013-03-27 16:55:54 ....A         8297               src\RPCEmu.wxs
+2013-03-27 16:55:54 ....A        13017               src\rpcemu.xpm
+2013-03-27 16:55:54 ....A            0            0  src\AUTHORS
+2013-03-27 16:55:54 ....A            0            0  src\ChangeLog
+2013-03-27 16:55:54 ....A            0            0  src\INSTALL
+2013-03-27 16:55:54 ....A            0            0  src\NEWS
+2016-10-22 16:42:10 D....            0            0  src
+2016-10-22 16:42:09 D....            0            0  roms
+2016-10-22 16:42:10 D....            0            0  riscos-progs\SyncClock
+2016-10-22 16:42:10 D....            0            0  riscos-progs\HostFS
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\cmhg
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!System\310\Modules\Network
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!System\310\Modules
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!System\310
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!System
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!Boot\Resources\Configure\!InetSetup\AutoSense
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!Boot\Resources\Configure\!InetSetup
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!Boot\Resources\Configure
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!Boot\Resources
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm\!Boot
+2016-10-22 16:42:10 D....            0            0  riscos-progs\EtherRPCEm
+2016-10-22 16:42:10 D....            0            0  riscos-progs
+2016-10-22 16:42:10 D....            0            0  poduleroms
+2016-10-22 16:42:09 D....            0            0  hostfs\Network\AutoSense
+2016-10-22 16:42:09 D....            0            0  hostfs\Network\!System\310\Modules\Network
+2016-10-22 16:42:09 D....            0            0  hostfs\Network\!System\310\Modules
+2016-10-22 16:42:09 D....            0            0  hostfs\Network\!System\310
+2016-10-22 16:42:09 D....            0            0  hostfs\Network\!System
+2016-10-22 16:42:09 D....            0            0  hostfs\Network
+2016-10-22 16:42:09 D....            0            0  hostfs
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 16:42:10            1551186       265534  125 files, 24 folders
