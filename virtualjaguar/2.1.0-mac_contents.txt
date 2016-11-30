@@ -1,0 +1,28 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2013-07-04 02:41:11 ....A        35147      7063793  docs\GPLv3
+2013-07-04 02:41:11 ....A         1108               docs\INSTALL
+2013-07-02 05:17:59 ....A            9               virtualjaguar.app\Contents\PkgInfo
+2013-07-04 02:41:11 ....A         5954               docs\README
+2013-07-04 02:41:11 ....A         4129               docs\TODO
+2013-07-02 05:19:21 ....A     18785052               virtualjaguar.app\Contents\MacOS\virtualjaguar
+2013-07-04 02:41:11 ....A        12080               docs\WHATSNEW
+2013-07-04 02:41:11 ....A       898812               software\Downfall.zip
+2013-07-04 02:41:11 ....A           83               eeproms\placeholder-can-safely-delete-this.txt
+2013-07-02 05:17:59 ....A       246182               virtualjaguar.app\Contents\Resources\._vj-icon.icns
+2013-07-02 05:17:59 ....A       245790               virtualjaguar.app\Contents\Resources\vj-icon.icns
+2013-07-02 05:21:05 ....A         1451               virtualjaguar.app\Contents\Resources\qt_menu.nib\classes.nib
+2013-07-02 05:21:05 ....A          472               virtualjaguar.app\Contents\Resources\qt_menu.nib\info.nib
+2013-07-02 05:21:05 ....A         5560               virtualjaguar.app\Contents\Resources\qt_menu.nib\keyedobjects.nib
+2013-07-02 05:17:59 ....A          680               virtualjaguar.app\Contents\Info.plist
+2013-07-02 05:17:59 ....A            0            0  virtualjaguar.app\Contents\Resources\empty.lproj
+2016-10-21 13:13:06 D....            0            0  virtualjaguar.app\Contents\Resources\qt_menu.nib
+2016-10-21 13:13:06 D....            0            0  virtualjaguar.app\Contents\Resources
+2016-10-21 13:13:06 D....            0            0  virtualjaguar.app\Contents\MacOS
+2016-10-21 13:13:06 D....            0            0  virtualjaguar.app\Contents
+2016-10-21 13:13:06 D....            0            0  virtualjaguar.app
+2016-10-21 13:13:06 D....            0            0  software
+2016-10-21 13:13:06 D....            0            0  eeproms
+2016-10-21 13:13:06 D....            0            0  docs
+------------------- ----- ------------ ------------  ------------------------
+2016-10-21 13:13:06           20242509      7063793  16 files, 8 folders

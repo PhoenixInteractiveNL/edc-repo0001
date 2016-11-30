@@ -1,0 +1,21 @@
+Whats New ?
+-----------
+
+* Made some changes to the config options. Hopefully this fixes a problem
+  some people were having where Windows would fail to size the window
+  correctly, although I cannot reproduce this problem.
+
+* Moved SMS controls into main controls window, matching the other builds.
+
+* Fixed a couple of problems relating to SMS controls.
+
+* Fixed preferred country detection order - at some point a couple of them
+  got switched somehow.
+
+* Various SMS fixes.
+
+* A few minor 32X bugfixes and tweaks.
+
+Other builds to follow soon.
+
+Snake.

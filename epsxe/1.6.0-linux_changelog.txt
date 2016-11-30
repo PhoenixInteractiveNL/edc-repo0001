@@ -1,0 +1,53 @@
+ePSXe v1.6.0, released on 05.08.2003
+
+- Fixed some cdrom emulation regressions, and more accurate cdrom emulation.
+  Gran Turismo 2, Dance Dance Revolution series, Gear Fighter Deboh, 
+  Hokuto no Ken, Gundam Battle Assault 2.
+
+- Changes to cdrom emulation what does that modchips games works. 
+  It includes Legend of Dragon US, Winning Eleven 2002, Um Jammer Lammy,
+  Omega Boost JAP, Wild Arms 2nd Ignition JAP, Saga Frontier 2 JAP,
+  Chocobo Racing JAP and possibly others.
+
+- Added support for autopause when playing CDDA sound. It should fix the
+  problems with music in games like Tomb Raider I.
+
+- Added support for report mode when playing CDDA sound. It fixes 
+  tekken 1 music and Lemmings 3D. (if you have problems with this change
+  it can be disabled with the commandline -disablereportmode).
+
+- Fixed some problems reading subchannel. (Harvest Moon)
+
+- Minnor changes to change disc function. (Arc the lad 3)
+
+- Now the memcards are autosaved on the fly. It should solve the
+  problem of lost your memcards if the emulator crashes on gameplay.
+  (Remember that it is a good idea, to backup your memcards sometimes)
+
+- Added gun emulation using a mouse. (Time Crisis 1, 2)
+
+- Now the mouse emulacion can be selected in the second gameport, anyway
+  only 1 mouse is supported yet, so if you do enable it, it will be
+  disabled in the first pad.
+
+- It is possible now select analog, digital and disabled mode in every gamepad. 
+  (Thanks to everybody who helped testing it :)
+
+- Included multitap support. In this version only 1 multitap is 
+  supported. If you select multitap, it will support 4 gamepads, what
+  will be connected to the first gameport of the psx. Multitap only
+  must be enabled in games what supports it, in the rest of the games
+  will not work the gamepads if multitap is enabled.
+
+- The keys F5 and F6 have in the new version a different function. F6 is
+  used for select a pad, and F5 will toggles digital/analog mode in the 
+  pad selected. (you need upgrade your gpu plugins to 1.73 or superior)
+
+- The dos window what shows the info messages, can be enabled/disabled from GUI.
+
+- Included support for CDI isos. (Discjuggler format)
+
+- Fixes to the CD-Rom decoder and the core, which made some more games
+  playable like, for example, Spyro 2 PAL, Spyro 3 PAL, Front Mission 3,
+  Batman Gothan City Racer, Duke Nukem: Land of babes, Ridge Racer JAP,
+  Nekketsu Oyako, Bust a Grove 2 JAP ...

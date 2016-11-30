@@ -1,0 +1,14 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2016-06-23 16:07:32 ....A      3719248      1077955  ePSXe205.app\Contents\MacOS\epsxe
+2016-06-23 15:56:12 ....A        64111               ePSXe205.app\Contents\Resources\ePSXe_en.txt
+2016-06-23 15:56:56 ....A        10699               ePSXe205.app\Contents\Resources\epsxe_mac_en.txt
+2016-06-23 15:56:12 ....A        73231               ePSXe205.app\Contents\Resources\ePSXe_sp.txt
+2016-05-09 12:36:34 ....A       272197               ePSXe205.app\Contents\Resources\epsxe.icns
+2016-06-23 15:55:52 ....A         2408               ePSXe205.app\Contents\Info.plist
+2016-10-22 18:46:21 D....            0            0  ePSXe205.app\Contents\Resources
+2016-10-22 18:46:21 D....            0            0  ePSXe205.app\Contents\MacOS
+2016-10-22 18:46:21 D....            0            0  ePSXe205.app\Contents
+2016-10-22 18:46:20 D....            0            0  ePSXe205.app
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 18:46:21            4141894      1077955  6 files, 4 folders

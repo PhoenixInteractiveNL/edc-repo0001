@@ -1,0 +1,27 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2011-10-17 10:21:14 ....A        35147      2173956  virtualjaguar-2.0.1-mac\docs\GPLv3
+2011-10-17 10:22:16 ....A         1108               virtualjaguar-2.0.1-mac\docs\INSTALL
+2011-10-19 14:13:38 ....A            9               virtualjaguar-2.0.1-mac\virtualjaguar.app\Contents\PkgInfo
+2011-10-17 10:22:16 ....A         6186               virtualjaguar-2.0.1-mac\docs\README
+2011-10-17 10:21:14 ....A         3511               virtualjaguar-2.0.1-mac\docs\TODO
+2011-10-19 14:14:34 ....A      2928996               virtualjaguar-2.0.1-mac\virtualjaguar.app\Contents\MacOS\virtualjaguar
+2011-10-17 10:56:38 ....A        10816               virtualjaguar-2.0.1-mac\docs\WHATSNEW
+2011-10-17 10:21:14 ....A       898812               virtualjaguar-2.0.1-mac\software\Downfall.zip
+2011-10-17 10:21:14 ....A           83               virtualjaguar-2.0.1-mac\eeproms\placeholder-can-safely-delete-this.txt
+2011-10-19 14:14:42 ....A         6148               virtualjaguar-2.0.1-mac\.DS_Store
+2011-10-19 14:14:42 ....A           82               __MACOSX\virtualjaguar-2.0.1-mac\._.DS_Store
+2011-10-19 14:13:38 ....A          610               virtualjaguar-2.0.1-mac\virtualjaguar.app\Contents\Info.plist
+2011-10-19 14:13:38 ....A            0            0  virtualjaguar-2.0.1-mac\virtualjaguar.app\Contents\Resources\empty.lproj
+2016-10-21 13:08:40 D....            0            0  __MACOSX\virtualjaguar-2.0.1-mac
+2016-10-21 13:08:40 D....            0            0  __MACOSX
+2016-10-21 13:08:40 D....            0            0  virtualjaguar-2.0.1-mac\virtualjaguar.app\Contents\Resources
+2016-10-21 13:08:40 D....            0            0  virtualjaguar-2.0.1-mac\virtualjaguar.app\Contents\MacOS
+2016-10-21 13:08:40 D....            0            0  virtualjaguar-2.0.1-mac\virtualjaguar.app\Contents
+2016-10-21 13:08:40 D....            0            0  virtualjaguar-2.0.1-mac\virtualjaguar.app
+2016-10-21 13:08:40 D....            0            0  virtualjaguar-2.0.1-mac\software
+2016-10-21 13:08:40 D....            0            0  virtualjaguar-2.0.1-mac\eeproms
+2016-10-21 13:08:40 D....            0            0  virtualjaguar-2.0.1-mac\docs
+2016-10-21 13:08:40 D....            0            0  virtualjaguar-2.0.1-mac
+------------------- ----- ------------ ------------  ------------------------
+2016-10-21 13:08:40            3891508      2173956  13 files, 10 folders

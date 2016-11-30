@@ -1,0 +1,235 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2012-12-26 12:23:06 ....A        23108      1257797  BizHawk.app\Contents\MacOS\BizHawk
+2012-12-26 12:26:28 ....A       210703               BizHawk.app\Contents\MonoBundle\gamedb\NesCarts.7z
+2012-12-26 12:26:28 ....A          548               BizHawk.app\Contents\MonoBundle\MakeRelease.bat
+2012-12-26 12:26:28 ....A          103               BizHawk.app\Contents\MonoBundle\gamedb\update_gamedb.bat
+2012-12-26 12:26:28 ....A         2504               BizHawk.app\Contents\MonoBundle\Firmware\BIOS_Info.txt
+2012-12-26 12:26:28 ....A        10067               BizHawk.app\Contents\MonoBundle\gamedb\gamedb.txt
+2012-12-26 12:26:28 ....A       258987               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_a2600.txt
+2012-12-26 12:26:28 ....A        29150               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_coleco.txt
+2012-12-26 12:26:28 ....A       124485               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_gb.txt
+2012-12-26 12:26:28 ....A       118762               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_gbc.txt
+2012-12-26 12:26:28 ....A         9392               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_pce_cd.txt
+2012-12-26 12:26:28 ....A       109336               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_pce_hucards.txt
+2012-12-26 12:26:28 ....A        95154               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_sega_8bit.txt
+2012-12-26 12:26:28 ....A       418411               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_sega_md.txt
+2012-12-26 12:26:28 ....A       290685               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_snes.txt
+2012-12-26 12:26:28 ....A         8726               BizHawk.app\Contents\MonoBundle\gamedb\gamedb_vs.txt
+2012-12-26 12:26:26 ....A        34954               BizHawk.app\Contents\MonoBundle\config.ini
+2012-12-26 12:26:26 ....A       485364               BizHawk.app\Contents\MonoBundle\BizHawk.Emulation.dll.mdb
+2012-12-26 12:26:26 ....A       319985               BizHawk.app\Contents\MonoBundle\BizHawk.MultiClient.exe.mdb
+2012-12-26 12:26:26 ....A        66518               BizHawk.app\Contents\MonoBundle\BizHawk.Util.dll.mdb
+2012-12-26 12:26:26 ....A         7281               BizHawk.app\Contents\MonoBundle\DiscoHawk.exe.mdb
+2012-12-26 12:26:28 ....A       100302               BizHawk.app\Contents\MonoBundle\Movies\Sonic Triple Trouble.bkm
+2012-12-26 12:26:28 ....A          919               BizHawk.app\Contents\MonoBundle\OpenTK.dll.config
+2012-12-26 12:26:28 ....A       205510               BizHawk.app\Contents\MonoBundle\gamedb\EMU7800.csv
+2012-12-26 12:26:26 ....A        15364               BizHawk.app\Contents\MonoBundle\.DS_Store
+2012-12-26 12:26:28 ....A         6148               BizHawk.app\Contents\MonoBundle\NES\.DS_Store
+2012-12-26 12:26:26 ....A           82               __MACOSX\BizHawk.app\Contents\MonoBundle\._.DS_Store
+2012-12-26 12:26:28 ....A           82               __MACOSX\BizHawk.app\Contents\MonoBundle\NES\._.DS_Store
+2012-12-26 12:23:06 ....A       205073               BizHawk.app\Contents\MonoBundle\BizHawk.icns
+2012-12-26 12:26:28 ....A       205073               BizHawk.app\Contents\Resources\BizHawk.icns
+2012-12-26 12:26:28 ....A         2578               BizHawk.app\Contents\MonoBundle\Lua\ButtonCount.lua
+2012-12-26 12:26:28 ....A         5059               BizHawk.app\Contents\MonoBundle\Lua\Genesis\Castlevania Bloodlines.lua
+2012-12-26 12:26:28 ....A         2606               BizHawk.app\Contents\MonoBundle\Lua\NES\Castlevania.lua
+2012-12-26 12:26:28 ....A         8366               BizHawk.app\Contents\MonoBundle\Lua\PCE\Castlevania_Rondo_of_Blood.lua
+2012-12-26 12:26:28 ....A         2965               BizHawk.app\Contents\MonoBundle\Lua\SNES\Congo's Caper.lua
+2012-12-26 12:26:28 ....A         3669               BizHawk.app\Contents\MonoBundle\Lua\SNES\Contra 3.lua
+2012-12-26 12:26:28 ....A         2403               BizHawk.app\Contents\MonoBundle\Lua\SNES\Donkey Kong Country 3.lua
+2012-12-26 12:26:28 ....A         4759               BizHawk.app\Contents\MonoBundle\Lua\NES\Holy Diver.lua
+2012-12-26 12:26:28 ....A         3152               BizHawk.app\Contents\MonoBundle\Lua\Genesis\Legend of Toki.lua
+2012-12-26 12:26:28 ....A         3272               BizHawk.app\Contents\MonoBundle\Lua\NES\Megaman 4.lua
+2012-12-26 12:26:28 ....A         4008               BizHawk.app\Contents\MonoBundle\Lua\SNES\Megaman X.lua
+2012-12-26 12:26:28 ....A         3000               BizHawk.app\Contents\MonoBundle\Lua\SNES\Megaman X2.lua
+2012-12-26 12:26:28 ....A         3138               BizHawk.app\Contents\MonoBundle\Lua\SNES\Megaman X3.lua
+2012-12-26 12:26:28 ....A         2915               BizHawk.app\Contents\MonoBundle\Lua\NES\NinjaGaiden_Hitbox.lua
+2012-12-26 12:26:28 ....A         2273               BizHawk.app\Contents\MonoBundle\Lua\NES\PunchOutStats.lua
+2012-12-26 12:26:28 ....A         7643               BizHawk.app\Contents\MonoBundle\Lua\NES\RBIBaseball.lua
+2012-12-26 12:26:28 ....A         4396               BizHawk.app\Contents\MonoBundle\Lua\SNES\Rockman & Forte.lua
+2012-12-26 12:26:28 ....A         4889               BizHawk.app\Contents\MonoBundle\Lua\NES\Simons Quest.lua
+2012-12-26 12:26:28 ....A         6322               BizHawk.app\Contents\MonoBundle\Lua\NES\SMB2U.lua
+2012-12-26 12:26:28 ....A         1087               BizHawk.app\Contents\MonoBundle\Lua\NES\Snake Rattle N' Roll.lua
+2012-12-26 12:26:28 ....A         3480               BizHawk.app\Contents\MonoBundle\Lua\NES\Super C.lua
+2012-12-26 12:26:28 ....A         5411               BizHawk.app\Contents\MonoBundle\Lua\SNES\Super Castlevania 4.lua
+2012-12-26 12:26:28 ....A         5520               BizHawk.app\Contents\MonoBundle\Lua\SNES\Super Ghouls N Ghost.lua
+2012-12-26 12:26:28 ....A         5782               BizHawk.app\Contents\MonoBundle\Lua\SNES\Super Mario World.lua
+2012-12-26 12:26:28 ....A         2456               BizHawk.app\Contents\MonoBundle\Lua\SNES\Super Metroid.lua
+2012-12-26 12:23:06 ....A         3548               BizHawk.app\Contents\Resources\MainMenu.nib
+2012-12-26 12:26:28 ....A          245               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\ALLEY WAY.pal
+2012-12-26 12:26:28 ....A          192               BizHawk.app\Contents\MonoBundle\NES\Palettes\ASQ_realityA.pal
+2012-12-26 12:26:28 ....A          192               BizHawk.app\Contents\MonoBundle\NES\Palettes\ASQ_realityB.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\ASTEROIDS&MISCMD.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\BA.TOSHINDEN.pal
+2012-12-26 12:26:28 ....A          254               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\BALLOON KID.pal
+2012-12-26 12:26:28 ....A          260               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\BASEBALL.pal
+2012-12-26 12:26:28 ....A          263               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\BGB (lcd green).pal
+2012-12-26 12:26:28 ....A          192               BizHawk.app\Contents\MonoBundle\NES\Palettes\BMF_final2.pal
+2012-12-26 12:26:28 ....A          192               BizHawk.app\Contents\MonoBundle\NES\Palettes\BMF_final3.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\BOY AND BLOB GB1.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\BOY AND BLOB GB2.pal
+2012-12-26 12:26:28 ....A          263               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\bsnes v087.pal
+2012-12-26 12:26:28 ....A          245               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\BT2RAGNAROKWORLD.pal
+2012-12-26 12:26:28 ....A          263               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\default.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DEFENDER&JOUST.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DMG FOOTBALL.pal
+2012-12-26 12:26:28 ....A          252               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DONKEY KONG.pal
+2012-12-26 12:26:28 ....A          258               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DONKEYKONGLAND 2.pal
+2012-12-26 12:26:28 ....A          258               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DONKEYKONGLAND 3.pal
+2012-12-26 12:26:28 ....A          258               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DONKEYKONGLAND.pal
+2012-12-26 12:26:28 ....A          260               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DONKEYKONGLAND95.pal
+2012-12-26 12:26:28 ....A          241               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DR.MARIO.pal
+2012-12-26 12:26:28 ....A          241               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\DYNABLASTER.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\F1RACE.pal
+2012-12-26 12:26:28 ....A          192               BizHawk.app\Contents\MonoBundle\NES\Palettes\FCEU-13-default_nitsuja.pal
+2012-12-26 12:26:28 ....A          192               BizHawk.app\Contents\MonoBundle\NES\Palettes\FCEU-15-nitsuja_new.pal
+2012-12-26 12:26:28 ....A          192               BizHawk.app\Contents\MonoBundle\NES\Palettes\FCEUX.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\G&W GALLERY.pal
+2012-12-26 12:26:28 ....A          245               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GALAGA&GALAXIAN.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\Game and Watch 2.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GAME&WATCH.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GAMEBOY GALLERY.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GAMEBOY GALLERY2.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Blue.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Brown.pal
+2012-12-26 12:26:28 ....A          250               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Dark Blue.pal
+2012-12-26 12:26:28 ....A          257               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Dark Brown.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Dark Green.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Grayscale.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Green.pal
+2012-12-26 12:26:28 ....A          245               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Inverted.pal
+2012-12-26 12:26:28 ....A          254               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Orange.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Pastel Mix.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Red.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBC - Yellow.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GBWARS.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\GOLF.pal
+2012-12-26 12:26:28 ....A          249               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\HOSHINOKA-BI.pal
+2012-12-26 12:26:28 ....A          245               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\JAMES  BOND  007.pal
+2012-12-26 12:26:28 ....A          249               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KAERUNOTAMENI.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KEN GRIFFEY JR.pal
+2012-12-26 12:26:28 ....A          250               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KID ICARUS.pal
+2012-12-26 12:26:28 ....A          250               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KILLERINSTINCT95.pal
+2012-12-26 12:26:28 ....A          241               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KINGOFTHEZOO.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KIRAKIRA KIDS.pal
+2012-12-26 12:26:28 ....A          249               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KIRBY BLOCKBALL.pal
+2012-12-26 12:26:28 ....A          249               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KIRBY DREAM LAND.pal
+2012-12-26 12:26:28 ....A          249               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KIRBY'S PINBALL.pal
+2012-12-26 12:26:28 ....A          249               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\KIRBY2.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\LOLO2.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MAGNETIC SOCCER.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MANSELL.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MARIO & YOSHI.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MARIO'S PICROSS.pal
+2012-12-26 12:26:28 ....A          252               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MARIOLAND2.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MEGA MAN 2.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MEGAMAN.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MEGAMAN3.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\METROID2.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MILLI&CENTI&PEDE.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MOGURANYA.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\MYSTIC QUEST.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\NETTOU KOF 95.pal
+2012-12-26 12:26:28 ....A          241               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\NEW CHESSMASTER.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\OTHELLO.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\PAC-IN-TIME.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\PICROSS 2.pal
+2012-12-26 12:26:28 ....A          255               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\PINOCCHIO.pal
+2012-12-26 12:26:28 ....A          262               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\POKEBOM.pal
+2012-12-26 12:26:28 ....A          241               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\POKEMON BLUE.pal
+2012-12-26 12:26:28 ....A          245               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\POKEMON GREEN.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\POKEMON RED.pal
+2012-12-26 12:26:28 ....A          254               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\POKEMON YELLOW.pal
+2012-12-26 12:26:28 ....A          255               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\QIX.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\RADARMISSION.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\ROCKMAN WORLD.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\ROCKMAN WORLD2.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\ROCKMANWORLD3.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\SEIKEN DENSETSU.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\SOCCER.pal
+2012-12-26 12:26:28 ....A          245               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\SOLARSTRIKER.pal
+2012-12-26 12:26:28 ....A          245               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\SPACE INVADERS.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\STAR STACKER.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\STAR WARS-NOA.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\STAR WARS.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\STREET FIGHTER 2.pal
+2012-12-26 12:26:28 ....A          252               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\SUPER MARIOLAND.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\SUPER RC PRO-AM.pal
+2012-12-26 12:26:28 ....A          260               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\SUPERDONKEYKONG.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\SUPERMARIOLAND3.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TENNIS.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TETRIS ATTACK.pal
+2012-12-26 12:26:28 ....A          254               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TETRIS BLAST.pal
+2012-12-26 12:26:28 ....A          255               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TETRIS FLASH.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TETRIS PLUS.pal
+2012-12-26 12:26:28 ....A          254               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TETRIS.pal
+2012-12-26 12:26:28 ....A          255               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TETRIS2.pal
+2012-12-26 12:26:28 ....A          241               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\THE CHESSMASTER.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TOPRANKINGTENNIS.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TOPRANKTENNIS.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TOY STORY.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\TRIP WORLD.pal
+2012-12-26 12:26:28 ....A          243               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\VEGAS STAKES.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\WARIO BLAST.pal
+2012-12-26 12:26:28 ....A          246               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\WARIOLAND2.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\WAVERACE.pal
+2012-12-26 12:26:28 ....A          248               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\WORLD CUP.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\X.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\YAKUMAN.pal
+2012-12-26 12:26:28 ....A          255               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\YOSHI'S COOKIE.pal
+2012-12-26 12:26:28 ....A          255               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\YOSSY NO COOKIE.pal
+2012-12-26 12:26:28 ....A          253               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\YOSSY NO PANEPON.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\YOSSY NO TAMAGO.pal
+2012-12-26 12:26:28 ....A          247               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\ZELDA.pal
+2012-12-26 12:26:28 ....A          251               BizHawk.app\Contents\MonoBundle\Gameboy\Palettes\ZELDA2.pal
+2012-12-26 12:26:26 ....A         1740               BizHawk.app\Contents\Info.plist
+2012-12-26 12:26:26 ....A        11776      4743008  BizHawk.app\Contents\MonoBundle\BizHawk.exe
+2012-12-26 12:26:26 ....A      3339264               BizHawk.app\Contents\MonoBundle\BizHawk.MultiClient.exe
+2012-12-26 12:26:26 ....A       214016               BizHawk.app\Contents\MonoBundle\DiscoHawk.exe
+2012-12-26 12:26:28 ....A       252416               BizHawk.app\Contents\MonoBundle\gamedb\wget.exe
+2012-12-26 12:26:26 ....A      1548288               BizHawk.app\Contents\MonoBundle\BizHawk.Emulation.dll
+2012-12-26 12:26:26 ....A       181760               BizHawk.app\Contents\MonoBundle\BizHawk.Util.dll
+2012-12-26 12:26:28 ....A        25935               BizHawk.app\Contents\MonoBundle\dll\blip_buf.dll
+2012-12-26 12:26:28 ....A       138240               BizHawk.app\Contents\MonoBundle\dll\EMU7800.dll
+2012-12-26 12:26:28 ....A       138240               BizHawk.app\Contents\MonoBundle\EMU7800.dll
+2012-12-26 12:26:28 ....A       200704               BizHawk.app\Contents\MonoBundle\ICSharpCode.SharpZipLib.dll
+2012-12-26 12:26:28 ....A       143360               BizHawk.app\Contents\MonoBundle\dll\libmeteor.dll
+2012-12-26 12:26:28 ....A       315392               BizHawk.app\Contents\MonoBundle\lua51.dll
+2012-12-26 12:23:06 ....A      5002240               BizHawk.app\Contents\MonoBundle\MonoMac.dll
+2012-12-26 12:26:28 ....A        24576               BizHawk.app\Contents\MonoBundle\dll\MOS6502XNative.dll
+2012-12-26 12:26:28 ....A        68096               BizHawk.app\Contents\MonoBundle\Newtonsoft.Json.dll
+2012-12-26 12:26:28 ....A      3841536               BizHawk.app\Contents\MonoBundle\OpenTK.dll
+2012-12-26 12:26:28 ....A        14848               BizHawk.app\Contents\MonoBundle\OpenTK.GLControl.dll
+2012-12-26 12:26:28 ....A       439296               BizHawk.app\Contents\MonoBundle\SharpCompress.dll
+2012-12-26 12:26:28 ....A      3312128               BizHawk.app\Contents\MonoBundle\SlimDX.dll
+2012-12-26 12:26:28 ....A            0            0  BizHawk.app\Contents\MonoBundle\gamedb\gamedb_neshomebrew.txt
+2016-11-23 20:06:32 D....            0            0  __MACOSX\BizHawk.app\Contents\MonoBundle\NES
+2016-11-23 20:06:32 D....            0            0  __MACOSX\BizHawk.app\Contents\MonoBundle
+2016-11-23 20:06:31 D....            0            0  __MACOSX\BizHawk.app\Contents
+2016-11-23 20:06:31 D....            0            0  __MACOSX\BizHawk.app
+2016-11-23 20:06:31 D....            0            0  __MACOSX
+2016-11-23 20:06:33 D....            0            0  BizHawk.app\Contents\Resources
+2016-11-23 20:06:33 D....            0            0  BizHawk.app\Contents\MonoBundle\SMS\State
+2016-11-23 20:06:33 D....            0            0  BizHawk.app\Contents\MonoBundle\SMS
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\NES\State
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\NES\Palettes
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\NES
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Movies
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Lua\SNES
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Lua\PCE
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Lua\NES
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Lua\Genesis
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Lua
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Genesis\State
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Genesis
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\gamedb
+2016-11-23 20:06:32 D....            0            0  BizHawk.app\Contents\MonoBundle\Gameboy\Palettes
+2016-11-23 20:06:31 D....            0            0  BizHawk.app\Contents\MonoBundle\Gameboy
+2016-11-23 20:06:31 D....            0            0  BizHawk.app\Contents\MonoBundle\Firmware
+2016-11-23 20:06:31 D....            0            0  BizHawk.app\Contents\MonoBundle\dll
+2016-11-23 20:06:33 D....            0            0  BizHawk.app\Contents\MonoBundle
+2016-11-23 20:06:31 D....            0            0  BizHawk.app\Contents\MacOS
+2016-11-23 20:06:33 D....            0            0  BizHawk.app\Contents
+2016-11-23 20:06:31 D....            0            0  BizHawk.app
+------------------- ----- ------------ ------------  ------------------------
+2016-11-23 20:06:33           22712325      6000805  203 files, 28 folders

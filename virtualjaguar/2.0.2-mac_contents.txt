@@ -1,0 +1,27 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2012-01-05 15:34:26 ....A        35147      2258752  virtualjaguar\docs\GPLv3
+2012-01-05 15:34:26 ....A         1108               virtualjaguar\docs\INSTALL
+2012-01-14 22:36:04 ....A            9               virtualjaguar\virtualjaguar.app\Contents\PkgInfo
+2012-01-05 15:34:26 ....A         5950               virtualjaguar\docs\README
+2012-01-05 15:34:26 ....A         3743               virtualjaguar\docs\TODO
+2012-01-14 22:37:00 ....A      3556760               virtualjaguar\virtualjaguar.app\Contents\MacOS\virtualjaguar
+2012-01-05 15:34:26 ....A        11282               virtualjaguar\docs\WHATSNEW
+2012-01-05 15:32:24 ....A       898812               virtualjaguar\software\Downfall.zip
+2012-01-05 15:32:24 ....A           83               virtualjaguar\eeproms\placeholder-can-safely-delete-this.txt
+2012-01-14 22:37:08 ....A         6148               virtualjaguar\.DS_Store
+2012-01-14 22:37:08 ....A           82               __MACOSX\virtualjaguar\._.DS_Store
+2012-01-14 22:36:04 ....A          610               virtualjaguar\virtualjaguar.app\Contents\Info.plist
+2012-01-14 22:36:04 ....A            0            0  virtualjaguar\virtualjaguar.app\Contents\Resources\empty.lproj
+2016-10-21 13:11:11 D....            0            0  __MACOSX\virtualjaguar
+2016-10-21 13:11:11 D....            0            0  __MACOSX
+2016-10-21 13:11:11 D....            0            0  virtualjaguar\virtualjaguar.app\Contents\Resources
+2016-10-21 13:11:11 D....            0            0  virtualjaguar\virtualjaguar.app\Contents\MacOS
+2016-10-21 13:11:11 D....            0            0  virtualjaguar\virtualjaguar.app\Contents
+2016-10-21 13:11:11 D....            0            0  virtualjaguar\virtualjaguar.app
+2016-10-21 13:11:11 D....            0            0  virtualjaguar\software
+2016-10-21 13:11:11 D....            0            0  virtualjaguar\eeproms
+2016-10-21 13:11:11 D....            0            0  virtualjaguar\docs
+2016-10-21 13:11:11 D....            0            0  virtualjaguar
+------------------- ----- ------------ ------------  ------------------------
+2016-10-21 13:11:11            4519734      2258752  13 files, 10 folders

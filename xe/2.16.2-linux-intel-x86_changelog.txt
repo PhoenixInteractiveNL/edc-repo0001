@@ -1,0 +1,11 @@
+# [Xe] Interface key mapping change.
+# [Xe] Added option “Auto Fill”.
+# [Xe] Added option “Horizontal Overscan”.
+# [Xe] Added aspect “Zoom”.
+# [Xe] Fixed CDDA Sub Q reading (ISRC/MCN).
+# [Xe/Linux] Fixed ALSA startup flags.
+# [PC Engine CD-ROM2] Fixed CD bugs introduced by the new execution core.
+# [Mega CD] Fixed CD bugs introduced by the new execution core.
+# [Neo Geo] Changed horizontal resolution to 288.
+# [Marty] Fixed mouse reset state.
+# [Neo Geo Pocket] Fixed TLCS-900H cpu on big endian machines.

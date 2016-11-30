@@ -1,0 +1,18 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2009-10-09 01:09:36 ....A       866709       946677  Kega Fusion.app\Contents\MacOS\Kega Fusion
+2009-10-08 03:05:48 ....A            8               Kega Fusion.app\Contents\PkgInfo
+2009-10-07 06:08:02 ....A        40424               History.txt
+2009-09-27 01:41:08 ....A        28031               Readme.txt
+2009-10-08 03:05:48 ....A       103561               Kega Fusion.app\Contents\Resources\Kega Fusion.icns
+2009-10-08 03:05:48 ....A          775               Kega Fusion.app\Contents\Info.plist
+2009-10-08 03:05:48 ....A           92               Kega Fusion.app\Contents\Resources\English.lproj\InfoPlist.strings
+2009-10-08 03:05:48 ....A        10668               Kega Fusion.app\Contents\Resources\English.lproj\main.nib\objects.xib
+2016-10-23 07:17:38 D....            0            0  Kega Fusion.app\Contents\Resources\English.lproj\main.nib
+2016-10-23 07:17:38 D....            0            0  Kega Fusion.app\Contents\Resources\English.lproj
+2016-10-23 07:17:38 D....            0            0  Kega Fusion.app\Contents\Resources
+2016-10-23 07:17:38 D....            0            0  Kega Fusion.app\Contents\MacOS
+2016-10-23 07:17:38 D....            0            0  Kega Fusion.app\Contents
+2016-10-23 07:17:38 D....            0            0  Kega Fusion.app
+------------------- ----- ------------ ------------  ------------------------
+2016-10-23 07:17:38            1050268       946677  8 files, 6 folders
