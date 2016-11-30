@@ -1,0 +1,33 @@
+*************************************
+v0.960 - Released May 16 2011
+*************************************
+
+[SG1000/SC3000] Added SG1000 and SC3000 emulation.
+[SMS VDP] Added TMS9918 gfx mode 1. Fixes Super Boy 2
+[SMS VDP] Changed TMS9918 palette to be a bit more accurate
+[SMS VDP] Fixed how the graphics modes were selected
+[SMS VDP] Fixed issue with vcounts in non 192 line modes (fixes GG Turrican)
+[SMS VDP] Fixed no vscroll in last 8 column bug (fixes Fray Shugyou)
+[SMS VDP] Fixed small bug that wouldn't reset CRAM to 0 in all cases
+
+[GAME GEAR] Fixed a few issues with gear-to-gear cable link emulation. All games should work now
+[GAME GEAR] Implemented SMS Mode for the few titles which use it on Game Gear. With an emulated LCD scale effect similar to real system
+[GAME GEAR] Moved cartridge system over to SMS one, fixes a few games
+[GAME GEAR] Fixed an issue in the mapper dealing with SRAM over 16KB and less than 32KB. (Fixes Shining Force 2 and Moldorian)
+[Z80] Improved handling of NMI
+
+[CORE] Added SK-1100 keyboard emulation
+[CORE] Implemented 16bit memory map system that can be used by any core. Has some tight low level code for speed. Makes Z80 about ~5% faster
+[CORE] Many bug fixes to small emulation related things
+
+[GUI] Removed default RetroCopy 3D game boxes and replaced it with garage door type animation
+[GUI] Completely new configuration area, graphical based with right click menus.
+[GUI] Can now see visually and configure input for games before you run them
+[GUI] Added ability for cartridge/card scans to be used in the interface for all systems
+[GUI] Fixed a few issues with stretched blits
+[GUI] Fixed small mouse scroll issue with scrollbars
+[GUI] Added bg click functionality to scrollbars
+[GUI] Added better image scaling, box sampling, bilinear and bicubic used when appropriate
+[GUI] Now remove textures when windows are hidden, not just deleted, to save VRAM
+[GUI] Fixed issue with non client area mouseenter/mouseleave
+[GUI] Changed mouse behaviour when in Windowed mode. Can now leave the window during when no game is played

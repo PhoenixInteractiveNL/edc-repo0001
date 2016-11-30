@@ -1,0 +1,8 @@
+What's New in this version?
+---------------------------
+
+A few basic improvements for the File Browser utility.
+
+Changes:
+Fixed file extraction – File extraction from the file browser was not functioning because of a missing DLL from the released 1.3.2.2 files.
+File browser tweaks – Users can now cancel copy operations, and basic progress indicators have been added.

@@ -1,0 +1,23 @@
+*************************************
+v0.850 - Released September 15 2010
+*************************************
+[GENESIS] Improved speed by 10-15%
+[GENESIS] Fixed bug in SRAM handling that would sometimes cause a crash [Micky/Sasha]
+[GENESIS] Fixed bug with IO reads that caused a few games to not register joypad reads [Micky/Sasha]
+[GENESIS] Implemented /TIME mapper support (Beyond Oasis)
+[GENESIS] Fixed issue with sprite limitation only allowing 79 sprites instead of 80. Fixes Risky Woods [Sasha/Neville]
+[VIDEO] Updated libavformat/libavcodec
+[3D] Fixed a few issues in the "old television" 3D model
+[3D] Fixed a bug with OpenGL states in model class
+[3D] Corrected issue with specular lighting
+[3D] Fixed bug in shader that made "High" quality the same as "Ultra"
+[3D] Rewrote part of the lighting shader to work better with NVIDIA hardware
+
+[SOUND] Fixed issue with timing delays on lower resource systems. Solves sound buffering issues
+
+[CORE] Implemented multi system support for the online game retrieval system now that arcade and gamegear are online
+[CORE] Fixed linking issue with font engine and SDL
+
+[DB] Updates to GameGear, SMS and Arcade databases
+[DB] Added more descriptions for games instead of relying upon ROM description [Tommy]
+
