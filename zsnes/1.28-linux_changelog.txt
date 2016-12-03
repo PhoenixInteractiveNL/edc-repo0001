@@ -1,0 +1,57 @@
+v1.28, Win v0.99
+      - Added option to allow multiple instances of ZSNES (off by default)
+        [pagefault]
+      - Fixed Lufia 2 sprite disappearing bug [zsKnight]
+      - Fixed quick menu crash problem when the entries other than the
+        first one is selected when the load menu is opened [zsKnight]
+      - Modified SPC700<->65816 timing again to get Hook working [zsKnight]
+      - Added more keyboard shortcuts to GUI [pagefault]
+      - Fixed vram read to get Smash Tennis working again [zsKnight]
+      - Hopefully fixed lockup when exiting Windows port [pagefault]
+      - Added a spc700 timing hack for Super Final Match Tennis until I
+        re-write the timing engine later (but not anytime soon though)
+        [zsKnight]
+      - Kinda got Rendering Ranger 2 to go further, but this game seems to
+        use some picky timing, so this will have to wait until I re-write
+        timing in the future. [zsKnight]
+      - Removed large sound buffer option since it wasn't really useful
+        [pagefault]
+      - Fixed 16bit access to address $001FFF (or equivalent).  Fixes Super
+        Tetris 2+Bombliss. [zsKnight]
+      - Implemented 128KB sram support.  Dezaemon runs now (but it
+        suffers graphics glitches at the moment) [zsKnight]
+      - Fixed Wordtris (reading from 002100) [zsKnight]
+      - Fixed reset function in William's Arcade Classics [zsKnight]
+      - Tuff-E-Nuff works now (another timing hack *sigh* )
+      - Added exclusive DirectSound mode option [pagefault]
+      - Fixed corrupt graphics in Rock'n Roll racing (reading from invalid
+        memory) [zsKnight]
+      - Added alternate timer for people having problems with zsnes running
+        too fast [bootgod,pagefault,zsKnight]
+      - Fixed corrupt graphics in Captain America (also reading from invalid
+        memory) [zsKnight]
+      - Implemented latest save state selection in Windows port [pagefault]
+      - Added v-sync to Windows port (enable in options to use it, should
+        fix most graphical tearing issues) [pagefault]
+      - Fixed mid-screen OAM updating.  Uniracers works in 2 player mode.
+        [zsKnight]
+      - Combined the new header detection method with the old one, producing a
+        much better method [zsKnight]
+      - Added SA-1 read/write to BWRAM bitmap mode in the lower banks
+        [zsKnight]
+      - Fixed "freeze data" text [hpsolo]
+      - Fixed SA-1 write to BWRAM bitmap mode.  It seems like this was the
+        main cause of the level-up screen not working in Mario RPG. [zsKnight]
+      - Fixed cpu usage when ZSNES is in the background doing nothing
+        [pagefault]
+      - Re-wrote character conversion 1 for 2bpp, implemented cc1 for 4bpp
+        [zsKnight]
+      - Fixed vertical high resolution mode for tile priority 1 [zsKnight]
+      - Fixed Terranigma overworld glitch in the new graphics engine 16bit
+        engine [zsKnight]
+      - Enabled RTC in Windows port [pagefault]
+      - Moved the Transparent Message option from the Options to the GUI
+        Optns section. [pagefault]
+      - Added Trainered rom support [zsKnight]
+      - Fixed BG4 graphics in certain games (fixes Digital Devil Story)
+        [zsKnight]

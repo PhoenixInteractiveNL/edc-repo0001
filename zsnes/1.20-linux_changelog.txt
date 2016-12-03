@@ -1,0 +1,62 @@
+
+v1.20b, Win v0.88
+      - Final Fantasy Mystic Quest works again.
+      - Fixed Empire Strikes Back crashing bug in the millenium falcon
+        sequence (hopefully this will fix some other games too)
+      - Removed all self-modifying code in ZSNES.  This will make ZSNES crash
+        a lot less on certain systems, especially during mode 7 sequences.
+        Thanks Ivar!
+      - Implemented S-RTC chip, using the system clock as the actual
+        time (The game will make you set the time though, but it will just
+        be replaced with the system time in-game).  Thanks to John Weidman and
+        Dark Force for the info on this chip!
+      - Fixed crashing bug in certain mosaic scenes (eg. FF3 Phantom Forest)
+        in the new graphics engine
+      - Fixed a nasty crashing/corruption bug in the new graphics engine
+        (both 8bit and 16bit)
+      - SPC7110 emulation!  This is based on the information reverse
+        engineered by the hard working folks at dejap translations,
+        Dark Force and John Weidman.
+      - Altered HiROM/LoROM detection a bit - Fievel goes West works now
+      - Open source preparations [teuf]
+      - In-game clock working for the windows port.  [kode54]
+      - Fixed a memory leak problem in the new graphics engine [TRAC]
+      - Added Cubic Spline Interpolation [Anti Resonance]
+      - Fixed a assign/compare size bug in the new graphics engine [TRAC]
+      - Fixed b flag setting in BRK instruction in 6502 emulation mode
+        [zsKnight]
+      - Added SPC7110 logger file output to help in the filesize clipping of
+        the SPC7110 data files [zsKnight]
+      - Fixed a memory leak bug, fixing that nasty Win2K crash bug
+        [Matthew Kendora]
+      - Fixed key combination release [Maxim]
+      - Fixed source code warnings/added necessary includes [Maxim]
+      - Added high priority mode for Windows 2000 users and slower
+        computers (works on Windows 9x as well) [pagefault]
+      - Added large sound buffer option for people having DirectSound
+        problems. [pagefault]
+      - Fixed problem with ZSNESW and Opera causing a BSOD. [pagefault]
+      - Fixed up error reporting for people experiencing problems. [pagefault]
+      - Improved performance on 3dfx cards by compiling with DirectX 8
+        SDK. [pagefault]
+      - Fixed a sound problem with people with messed up config files.
+        [pagefault]
+      - Fixed FF3 flashing line problem [zsKnight]
+      - Fixed mysterious sprite disappearing bug in the new graphics engine
+        [zsKnight]
+      - Reduced noise in ToP opening theme.  It works fine in the DOS port,
+        but the windows port still seems to produce some static, probably
+        because of the way how sound is updated in that port. [zsKnight]
+      - Updated Super 2xSaI and Super Eagle code (should be much faster
+        now on MMX processors) [Kreed, added by pagefault]
+      - Added gzip support [teuf]
+      - Added support for ViBRA16 cards [Peter Santing]
+      - No longer requires zlib.dll file, now statically linked. ZSNESw won't
+        crash anymore if you try to load a .zip file without that dll file.
+        [pagefault]
+      - Now compiled using an optimising compiler [pagefault]
+      - Almost a fully re-written DSP-1 emulation engine!
+        [zsKnight, theoddone33, pagefault, teuf].  Also thanks to CrASH_Man
+        for the 3x3 inverse matrix formula.
+      - Fixed memory leak problem in the windows port during exit [pagefault]
+      - And more ...

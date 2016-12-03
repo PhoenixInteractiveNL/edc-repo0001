@@ -1,0 +1,199 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2002-06-24 06:34:32 ....A          375       532986  linux\AUTHORS
+2002-06-24 06:34:44 ....A        78448               src\configure
+2002-06-24 06:34:32 ....A         5598               src\install-sh
+2002-06-24 06:34:34 ....A         3260               src\win\zsnes.ico
+2002-06-24 06:34:34 ....A        50944               src\video\2xsaimmx.inc
+2002-06-24 06:34:34 ....A        34635               src\video\2xsaiw.inc
+2002-06-24 06:34:32 ....A        27878               src\cpu\65816d.inc
+2002-06-24 06:34:32 ....A        27922               src\cpu\65816db.inc
+2002-06-24 06:34:32 ....A        28394               src\cpu\65816dc.inc
+2002-06-24 06:34:32 ....A        13559               src\cpu\address.inc
+2002-06-24 06:34:32 ....A        13579               src\cpu\address2.inc
+2002-06-24 06:34:32 ....A         7584               src\cpu\addrni.inc
+2002-06-24 06:34:34 ....A       117541               src\video\copyvid.inc
+2002-06-24 06:34:32 ....A        32905               src\cpu\e65816.inc
+2002-06-24 06:34:32 ....A        32744               src\cpu\e65816b.inc
+2002-06-24 06:34:32 ....A        32744               src\cpu\e65816c.inc
+2002-06-24 06:34:33 ....A       274357               src\cpu\fir_tables.inc
+2002-06-24 06:34:33 ....A        26832               src\gui\guicheat.inc
+2002-06-24 06:34:33 ....A         3943               src\gui\guicombo.inc
+2002-06-24 06:34:33 ....A        56797               src\gui\guikeys.inc
+2002-06-24 06:34:33 ....A        30262               src\gui\guiload.inc
+2002-06-24 06:34:33 ....A        10900               src\gui\guimisc.inc
+2002-06-24 06:34:33 ....A        73650               src\gui\guimouse.inc
+2002-06-24 06:34:33 ....A        35466               src\gui\guinetpl.inc
+2002-06-24 06:34:33 ....A        13248               src\gui\guitools.inc
+2002-06-24 06:34:33 ....A       168446               src\gui\guiwindp.inc
+2002-06-24 06:34:34 ....A         7114               src\video\mode7cal.inc
+2002-06-24 06:34:33 ....A        36592               src\cpu\regs.inc
+2002-06-24 06:34:33 ....A        36193               src\cpu\regsw.inc
+2002-06-24 06:34:33 ....A        26710               src\cpu\s65816d.inc
+2002-06-24 06:34:33 ....A        13951               src\cpu\saddress.inc
+2002-06-24 06:34:33 ....A         7763               src\cpu\saddrni.inc
+2002-06-24 06:34:33 ....A        35050               src\cpu\se65816.inc
+2002-06-24 06:34:33 ....A         1907               src\cpu\spcaddr.inc
+2002-06-24 06:34:33 ....A         3040               src\cpu\spcdef.inc
+2002-06-24 06:34:33 ....A         3886               src\dos\vga.inc
+2002-06-24 06:34:32 ....A          919               src\fixsin.h
+2002-06-24 06:34:32 ....A         2622               src\gblhdr.h
+2002-06-24 06:34:33 ....A          940               src\linux\gl_draw.h
+2002-06-24 06:34:34 ....A         1213               src\win\resource.h
+2002-06-24 06:34:33 ....A          940               src\linux\sw_draw.h
+2002-06-24 06:34:34 ....A         9907               src\zip\unzip.h
+2002-06-24 06:34:34 ....A          494               src\zip\zpng.h
+2002-06-24 06:34:32 ....A        38160               src\chips\dsp1emu.c
+2002-06-24 06:34:32 ....A        31482               src\fixsin.c
+2002-06-24 06:34:33 ....A        12440               src\linux\gl_draw.c
+2002-06-24 06:34:33 ....A         9481               src\linux\protect.c
+2002-06-24 06:34:33 ....A        22875               src\linux\sdllink.c
+2002-06-24 06:34:32 ....A         3175               src\smoke.c
+2002-06-24 06:34:33 ....A         4543               src\linux\sw_draw.c
+2002-06-24 06:34:34 ....A        34605               src\zip\unzip.c
+2002-06-24 06:34:32 ....A         7617               src\water.c
+2002-06-24 06:34:33 ....A         6692               src\dos\zfile.c
+2002-06-24 06:34:33 ....A        10777               src\linux\zfilew.c
+2002-06-24 06:34:34 ....A         7425               src\win\zfilew.c
+2002-06-24 06:34:33 ....A         1858               src\linux\zipxw.c
+2002-06-24 06:34:34 ....A         1668               src\win\zipxw.c
+2002-06-24 06:34:33 ....A         8229               src\dos\zloader.c
+2002-06-24 06:34:33 ....A         6845               src\linux\zloaderw.c
+2002-06-24 06:34:34 ....A        16581               src\win\zloaderw.c
+2002-06-24 06:34:34 ....A         5286               src\zip\zpng.c
+2002-06-24 06:34:34 ....A        33078               src\win\ztcp.c
+2002-06-24 06:34:34 ....A        34235               src\linux\ztcp.c
+2002-06-24 06:34:34 ....A         6525               src\zip\zzip.c
+2002-06-24 06:34:34 ....A        71976               src\win\winlink.cpp
+2002-06-24 06:34:34 ....A           60               src\win\zsnes.rc
+2002-06-24 06:34:34 ....A        50509               src\video\2xsaiw.asm
+2002-06-24 06:34:32 ....A         7582               src\cpu\addrni.asm
+2002-06-24 06:34:32 ....A        39645               src\cfgload.asm
+2002-06-24 06:34:33 ....A        28064               src\linux\copyvwin.asm
+2002-06-24 06:34:34 ....A        27857               src\win\copyvwin.asm
+2002-06-24 06:34:33 ....A        85130               src\dos\debug.asm
+2002-06-24 06:34:32 ....A        27075               src\cpu\dma.asm
+2002-06-24 06:34:33 ....A        40493               src\dos\dosintrf.asm
+2002-06-24 06:34:32 ....A       105208               src\cpu\dsp.asm
+2002-06-24 06:34:32 ....A        19639               src\chips\dsp1proc.asm
+2002-06-24 06:34:32 ....A       173716               src\cpu\dspproc.asm
+2002-06-24 06:34:32 ....A         6637               src\endmem.asm
+2002-06-24 06:34:32 ....A        93141               src\cpu\execute.asm
+2002-06-24 06:34:32 ....A        72816               src\chips\fxemu2.asm
+2002-06-24 06:34:32 ....A        14298               src\chips\fxemu2b.asm
+2002-06-24 06:34:32 ....A        70431               src\chips\fxemu2c.asm
+2002-06-24 06:34:32 ....A       130064               src\chips\fxtable.asm
+2002-06-24 06:34:33 ....A         2426               src\dos\gppro.asm
+2002-06-24 06:34:33 ....A       124551               src\gui\gui.asm
+2002-06-24 06:34:32 ....A       134863               src\init.asm
+2002-06-24 06:34:33 ....A        12783               src\dos\initvid.asm
+2002-06-24 06:34:33 ....A        10083               src\cpu\irq.asm
+2002-06-24 06:34:33 ....A        37997               src\dos\joy.asm
+2002-06-24 06:34:34 ....A        21894               src\video\m716text.asm
+2002-06-24 06:34:34 ....A        61856               src\video\makev16b.asm
+2002-06-24 06:34:34 ....A       104555               src\video\makev16t.asm
+2002-06-24 06:34:34 ....A        86044               src\video\makevid.asm
+2002-06-24 06:34:33 ....A        97414               src\cpu\memory.asm
+2002-06-24 06:34:33 ....A        32339               src\gui\menu.asm
+2002-06-24 06:34:34 ....A        22021               src\video\mode7.asm
+2002-06-24 06:34:34 ....A        14930               src\video\mode716.asm
+2002-06-24 06:34:34 ....A         5260               src\video\mode716b.asm
+2002-06-24 06:34:34 ....A         5993               src\video\mode716d.asm
+2002-06-24 06:34:34 ....A        28505               src\video\mode716e.asm
+2002-06-24 06:34:34 ....A         8884               src\video\mode716t.asm
+2002-06-24 06:34:34 ....A        29035               src\video\mode7ext.asm
+2002-06-24 06:34:33 ....A         7159               src\dos\modemrtn.asm
+2002-06-24 06:34:34 ....A        29385               src\video\mv16tms.asm
+2002-06-24 06:34:34 ....A        56175               src\video\newg162.asm
+2002-06-24 06:34:34 ....A        47394               src\video\newgfx.asm
+2002-06-24 06:34:34 ....A        75310               src\video\newgfx16.asm
+2002-06-24 06:34:34 ....A        17828               src\video\newgfx2.asm
+2002-06-24 06:34:34 ....A        72879               src\video\procvid.asm
+2002-06-24 06:34:32 ....A         7480               src\chips\sa1proc.asm
+2002-06-24 06:34:32 ....A        54366               src\chips\sa1regs.asm
+2002-06-24 06:34:33 ....A        38299               src\linux\sdlintrf.asm
+2002-06-24 06:34:32 ....A        13678               src\chips\sfxproc.asm
+2002-06-24 06:34:33 ....A        62096               src\cpu\spc700.asm
+2002-06-24 06:34:33 ....A        23812               src\cpu\stable.asm
+2002-06-24 06:34:33 ....A         3558               src\dos\sw.asm
+2002-06-24 06:34:33 ....A         9938               src\dos\sw32.asm
+2002-06-24 06:34:34 ....A         2938               src\video\sw_draw.asm
+2002-06-24 06:34:33 ....A        37452               src\cpu\table.asm
+2002-06-24 06:34:33 ....A        22153               src\cpu\tableb.asm
+2002-06-24 06:34:33 ....A        22153               src\cpu\tablec.asm
+2002-06-24 06:34:32 ....A        37740               src\ui.asm
+2002-06-24 06:34:32 ....A        74034               src\vcache.asm
+2002-06-24 06:34:33 ....A        13657               src\dos\vesa12.asm
+2002-06-24 06:34:33 ....A        20711               src\dos\vesa2.asm
+2002-06-24 06:34:34 ....A        44841               src\win\winintrf.asm
+2002-06-24 06:34:33 ....A         4670               src\dos\zsipx.asm
+2002-06-24 06:34:32 ....A        58516               cvs2cl.pl
+2002-06-24 06:34:32 ....A          178               src\autogen.sh
+2002-06-24 06:34:32 ....A          126               authors.txt
+2002-06-24 06:34:32 ....A        24439               dos\guinotes.txt
+2002-06-24 06:34:34 ....A        23644               win\guinotes.txt
+2002-06-24 06:34:32 ....A         5522               install.txt
+2002-06-24 06:34:32 ....A        18011               license.txt
+2002-06-24 06:34:32 ....A         4012               opengl.txt
+2002-06-24 06:34:32 ....A          343               readme.txt
+2002-06-24 06:34:32 ....A        26507               dos\readme.txt
+2002-06-24 06:34:34 ....A        19598               win\readme.txt
+2002-06-24 06:34:32 ....A         6072               srcinfo.txt
+2002-06-24 06:34:32 ....A         1589               support.txt
+2002-06-24 06:34:32 ....A         1826               todo.txt
+2002-06-24 06:34:32 ....A        40173               whatsnew.txt
+2002-06-24 06:34:32 ....A        21884               dos\zsnesfaq.txt
+2002-06-24 06:34:34 ....A        14060               win\zsnesfaq.txt
+2002-06-24 06:34:34 ....A         7049               src\obj\dosbuff.o
+2002-06-24 06:34:34 ....A         8302               src\obj\ipx.o
+2002-06-24 06:34:34 ....A         1443               src\obj\zipx.o
+2002-06-24 06:34:33 ....A         5977               src\linux\zsnes.1
+2002-06-24 06:34:32 ....A          306               linux\README.CVS
+2002-06-24 06:34:32 ....A           99               src\.cvsignore
+2002-06-24 06:34:32 ....A         7731               src\makefile.dos
+2002-06-24 06:34:32 ....A        27344               src\config.guess
+2002-06-24 06:34:32 ....A          174               src\config.h.in
+2002-06-24 06:34:32 ....A         4966               src\configure.in
+2002-06-24 06:34:32 ....A         7675               src\Makefile.in
+2002-06-24 06:34:32 ....A          523               linux\README.LINUX
+2002-06-24 06:34:43 ....A         6709               src\aclocal.m4
+2002-06-24 06:34:32 ....A        16419               src\chips\fxemu2.mac
+2002-06-24 06:34:32 ....A         2078               src\chips\fxemu2b.mac
+2002-06-24 06:34:32 ....A        11325               src\chips\fxemu2c.mac
+2002-06-24 06:34:32 ....A         2796               src\macros.mac
+2002-06-24 06:34:34 ....A        32301               src\video\mode7.mac
+2002-06-24 06:34:34 ....A        39646               src\video\mode716.mac
+2002-06-24 06:34:34 ....A        16854               src\video\newg162.mac
+2002-06-24 06:34:34 ....A        22038               src\video\newg16wn.mac
+2002-06-24 06:34:34 ....A        65232               src\video\newgfx.mac
+2002-06-24 06:34:34 ....A        76754               src\video\newgfx16.mac
+2002-06-24 06:34:34 ....A        17690               src\video\newgfx2.mac
+2002-06-24 06:34:34 ....A        65775               src\video\newgfxb.mac
+2002-06-24 06:34:34 ....A        20433               src\video\newgfxwn.mac
+2002-06-24 06:34:33 ....A         2122               src\cpu\regs.mac
+2002-06-24 06:34:33 ....A         1319               src\cpu\regsw.mac
+2002-06-24 06:34:34 ....A        32420               src\video\vidmacrb.mac
+2002-06-24 06:34:34 ....A        32936               src\video\vidmacro.mac
+2002-06-24 06:34:32 ....A        19849               src\config.sub
+2002-06-24 06:34:32 ....A         8937               src\makefile.win
+2002-06-24 06:34:32 ....A         1201               src\link.win32
+2002-06-24 06:34:32 ....A            0            0  news.txt
+2002-06-24 06:34:44 ....A            0            0  src\config.cache
+2002-06-24 06:34:32 ....A            0            0  thanks.txt
+2016-10-21 14:12:58 D....            0            0  win
+2016-10-21 14:12:58 D....            0            0  src\zip
+2016-10-21 14:12:58 D....            0            0  src\win\vsync
+2016-10-21 14:12:58 D....            0            0  src\win
+2016-10-21 14:12:58 D....            0            0  src\video
+2016-10-21 14:12:57 D....            0            0  src\obj
+2016-10-21 14:12:57 D....            0            0  src\linux
+2016-10-21 14:12:57 D....            0            0  src\gui
+2016-10-21 14:12:57 D....            0            0  src\dos
+2016-10-21 14:12:57 D....            0            0  src\cpu
+2016-10-21 14:12:57 D....            0            0  src\chips
+2016-10-21 14:12:58 D....            0            0  src
+2016-10-21 14:12:56 D....            0            0  Macros
+2016-10-21 14:12:57 D....            0            0  linux
+2016-10-21 14:12:56 D....            0            0  dos
+------------------- ----- ------------ ------------  ------------------------
+2016-10-21 14:12:58            5233232       532986  180 files, 15 folders

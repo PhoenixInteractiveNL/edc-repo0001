@@ -1,0 +1,25 @@
+............................................................
+v1.42 - January 19, 2005
+............................................................
+
+All Ports:
+----------
+  - Corrected output of BRR decode for invalid range values (>12). [TRAC]
+  - Fixed sustain level 4 (5/8). [TRAC]
+  - More window boxes now have borders. [ipher]
+  - Close zip files properly when IPS is not found in zip (fixes crashing with
+    certain zlibs). [Nach]
+  - Cleaned up some code. [Nach, ipher, grinvader]
+  - Ported chip detection to C, improved BS detection. [Nach]
+  - Ported rewind to C (thanks Nach, TRAC). [grinvader]
+  - New reminder text. [grinvader, AspiringSquire]
+  - Rollback of "Improved accuracy of base rates used for ADSR, GAIN, noise,
+    and echo emulation". [ipher]
+
+DOS Port:
+----------
+  - Fixed label for Fullscreen/Widescreen options. [ipher]
+
+SDL Port:
+----------
+  - DESTDIR support. [theoddone33]

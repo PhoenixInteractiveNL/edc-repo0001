@@ -1,0 +1,68 @@
+............................................................
+v1.41 - January 18, 2005
+............................................................
+
+All Ports:
+----------
+  - Improved accuracy of base rates used for ADSR, GAIN, noise, and echo
+    emulation. [TRAC]
+  - Fixed GUI escape stack corruption if .srm file could not be written to.
+    [Nach]
+  - Stereo settings now obey config file. [Nach]
+  - Fixed framerate loading from config file. [ipher]
+  - ZSNES no longer hacks itself in order to access variables; this eliminates
+    a few issues we had. [Nach]
+  - Source code cleanup. [Nach, ipher]
+  - Makefile overhaul; ZSNES can now be cross compiled. [Nach, ipher, malcster,
+    SamB]
+  - Fixed some invalid memory reads. [Nach]
+  - Ported config file creation/loading to C. [MKendora, Nach]
+  - Percent of execution now takes h-blank values into consideration.
+    [pagefault]
+  - Fixed Winter Gold FX crash. [Nach]
+  - Filtered GUI is now enabled by default. [Nach]
+  - Save location can now be edited in the GUI. [Nach]
+  - Added option to enable/disable auto IPS patching. [Nach, ipher]
+  - Saving last ROM info to rominfo.txt can now be turned off. [ipher, Nach]
+  - Organized options menu, and split off save related options into its own
+    menu. [ipher]
+  - Moved Super System DIP switches to the chip configuration menu. [ipher]
+  - More boxes have borders now! [ipher]
+  - New one-time user reminder text. [grinvader]
+  - Updated about box. [Nach, ipher]
+  - Overhauled toaster support. [Nach]
+
+DOS Port:
+----------
+  - Fixed a number of keyboard shortcuts in the GUI. [ipher]
+
+Win Port:
+----------
+  - Get_Date() now returns the proper value (it always returned the proper value
+    in DOS). [Nach]
+  - Correct timing when compiled with MinGW (Special thanks to Jonas Quinn for
+    all his help in getting ZSNESw compiled with MinGW and working). [Nach]
+  - More informative error messages when some DirectX component fails to load.
+    [Nach]
+  - Return 0 instead of random value on exit (keeps certain frontends happy).
+    [Nach]
+  - Fixed keyboard shortcut for "Trap Mouse Cursor". [ipher]
+  - Changed text in netplay window to be more clear about TCP/UDP. [pagefault]
+  - Updated ZSNESw compilation instructions in install.txt. [Nach]
+
+SDL Port:
+----------
+  - Get_Date() now returns the proper value (it always returned the proper value
+    in DOS). [Nach]
+  - Fixed a memory leak. [Nach]
+  - Fixed buffer underflow in sound code when rate was changed several times.
+    [Nach]
+  - Save files can now be correctly saved in locations other than ~/.zsnes.
+    [Nach]
+  - Updated video selection menu. (Thanks, Aerdan!) [ipher, Nach]
+  - 256x224 R Full for is now actually 256x224, not 320x240. (Thanks, Pieter
+    Hulshoff!) [ipher]
+  - 640x480 ODS Win is now actually 640x480, not 512x448. [ipher]
+  - Added 1280x1024. [ipher]
+  - Changed text in netplay window to be more clear about TCP/UDP. [pagefault]
+  - Homepage button to open browser now appears in about box. [Nach]

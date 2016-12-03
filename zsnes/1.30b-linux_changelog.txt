@@ -1,0 +1,21 @@
+v1.30b
+       All ports
+       ---------
+       - Support for Star Ocean S-DD1 decompressed pack is now
+         enabled. [zsKnight]
+       - Fixed bug in H-DMA code, fixes Hook and Bugs Bunny and maybe others
+         (Thanks to Gary of Snes9X for help on this) [_Demo_]
+       - Updated documentation [Matt Kendora]
+       - Fixed new gfx mode checkbox in options menu [pagefault]
+
+       Win v1.02
+       ---------
+       - Added 800x600 DR FULL mode (scroll down to the bottom of the mode
+         list to see it)
+       - Fixed timing problem in games when 58 seconds was 1 minute in
+         ZSNES [kode54, pagefault]
+       - Fixed voices in ToP opening and Star Ocean [pagefault]
+       - Fixed another DirectInput slowdown [pagefault]
+       - Fixed joystick 5, it should be working now [pagefault]
+       - Optimised code some more, giving 3-5 FPS boost on most
+         systems [pagefault]

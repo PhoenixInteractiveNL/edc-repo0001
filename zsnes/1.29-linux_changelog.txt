@@ -1,0 +1,18 @@
+v1.29, Win v1.00
+      - Implemented triple buffering in full screen mode (Huge thanks to
+        whatabubba for his help on this and cleaning up the code)
+        [whatabubba, pagefault]
+      - Fixed top 8 lines being invisible of FFMQ [zsKnight]
+      - Optimised DirectDraw code some more giving a 10-15% speed increase
+        [pagefault]
+      - Fixed black screen when switching windows [pagefault]
+      - Improved loading and shutdown time [pagefault]
+      - Rock 'N Roll Racing is working again [zsKnight]
+      - Fixed Lennus 2's sprites [zsKnight]
+      - Almost figured out Wizardry 4's rom format.  It seems like this game
+        was incorrectly dumped so everything in it is out of order. [zsKnight]
+      - Final Fight 2 is working again [zsKnight]
+      - Vsync option now works in triple buffering mode [pagefault]
+      - Now shows minimize window animation when minimizing [pagefault]
+      - Fixed mouse pointer under full screen mode [kode54]
+      - New ZSNES icon in Windows port (Thanks for all your entries) [enigMa]
