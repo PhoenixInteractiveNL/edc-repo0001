@@ -1,0 +1,91 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2016-01-31 09:08:28 ....A           59        12670  Brightness\gpuCore.ini
+2016-01-31 09:08:28 ....A           59               shaders\Brightness\gpuCore.ini
+2016-02-01 11:40:06 ....A           65               CRT-Lottes\gpuCore.ini
+2016-02-01 11:40:06 ....A           65               shaders\CRT-Lottes\gpuCore.ini
+2016-02-01 16:23:42 ....A           75               shaders\super-eagle\gpuCore.ini
+2016-02-01 16:23:42 ....A           75               super-eagle\gpuCore.ini
+2016-02-01 17:17:34 ....A           70               CRT-Hyllian-3D\gpuCore.ini
+2016-02-01 17:17:34 ....A           70               shaders\CRT-Hyllian-3D\gpuCore.ini
+2016-02-01 17:21:14 ....A           83               5xBR-v3.7c\gpuCore.ini
+2016-02-01 17:21:14 ....A           83               shaders\5xBR-v3.7c\gpuCore.ini
+2016-02-05 06:31:46 ....A           73               shaders\xBR-LV2-3D\gpuCore.ini
+2016-02-05 06:31:46 ....A           73               xBR-LV2-3D\gpuCore.ini
+2016-02-05 06:32:00 ....A           74               CRT-Hyllian\gpuCore.ini
+2016-02-05 06:32:00 ....A           74               shaders\CRT-Hyllian\gpuCore.ini
+2016-02-01 16:55:06 ....A          275               Grayscale\gpuCore.slf
+2016-02-01 16:55:06 ....A          275               shaders\Grayscale\gpuCore.slf
+2016-02-01 17:31:24 ....A        21305               5xBR-v3.7c\gpuCore.slf
+2016-02-01 17:31:24 ....A        21305               shaders\5xBR-v3.7c\gpuCore.slf
+2016-02-05 06:33:14 ....A         3251               Brightness\gpuCore.slf
+2016-02-05 06:33:14 ....A         3251               shaders\Brightness\gpuCore.slf
+2016-02-05 06:33:24 ....A         6021               CRT-Hyllian\gpuCore.slf
+2016-02-05 06:33:24 ....A         6021               shaders\CRT-Hyllian\gpuCore.slf
+2016-02-08 08:05:36 ....A         2431               AA_Shader_v2.0_w_Natural_Vision\gpuCore.slf
+2016-02-08 08:05:36 ....A         2431               shaders\AA_Shader_v2.0_w_Natural_Vision\gpuCore.slf
+2016-02-08 08:05:42 ....A         5516               AA_Shader_v2.0_w_Natural_Vision_Brightness\gpuCore.slf
+2016-02-08 08:05:42 ....A         5516               shaders\AA_Shader_v2.0_w_Natural_Vision_Brightness\gpuCore.slf
+2016-02-08 08:06:14 ....A         1214               Cartoon_shader_II\gpuCore.slf
+2016-02-08 08:06:14 ....A         1214               shaders\Cartoon_shader_II\gpuCore.slf
+2016-02-08 08:07:28 ....A        10739               CRT-Hyllian-3D\gpuCore.slf
+2016-02-08 08:07:28 ....A        10739               shaders\CRT-Hyllian-3D\gpuCore.slf
+2016-02-08 08:09:04 ....A         4400               CRT-Lottes\gpuCore.slf
+2016-02-08 08:09:04 ....A         4400               shaders\CRT-Lottes\gpuCore.slf
+2016-02-08 08:09:42 ....A         2837               FXAA_natural_vision\gpuCore.slf
+2016-02-08 08:09:42 ....A         2837               shaders\FXAA_natural_vision\gpuCore.slf
+2016-02-08 08:10:22 ....A         9708               shaders\xBR-LV2-3D\gpuCore.slf
+2016-02-08 08:10:22 ....A         9708               xBR-LV2-3D\gpuCore.slf
+2016-02-08 08:10:42 ....A         3977               shaders\super-eagle\gpuCore.slf
+2016-02-16 16:38:16 ....A         3983               super-eagle\gpuCore.slf
+2016-01-27 14:18:18 ....A          162               Grayscale\gpuCore.slv
+2016-01-27 14:18:18 ....A          162               shaders\Grayscale\gpuCore.slv
+2016-01-28 08:56:14 ....A          790               AA_Shader_v2.0_w_Natural_Vision\gpuCore.slv
+2016-01-28 08:56:14 ....A          790               shaders\AA_Shader_v2.0_w_Natural_Vision\gpuCore.slv
+2016-01-28 12:04:58 ....A          162               Brightness\gpuCore.slv
+2016-01-28 12:04:58 ....A          162               shaders\Brightness\gpuCore.slv
+2016-01-28 12:09:34 ....A          790               AA_Shader_v2.0_w_Natural_Vision_Brightness\gpuCore.slv
+2016-01-28 12:09:34 ....A          790               shaders\AA_Shader_v2.0_w_Natural_Vision_Brightness\gpuCore.slv
+2016-01-30 17:55:12 ....A          166               FXAA_natural_vision\gpuCore.slv
+2016-01-30 17:55:12 ....A          166               shaders\FXAA_natural_vision\gpuCore.slv
+2016-02-01 08:18:32 ....A          162               CRT-Lottes\gpuCore.slv
+2016-02-01 08:18:32 ....A          162               shaders\CRT-Lottes\gpuCore.slv
+2016-02-01 14:56:30 ....A          162               5xBR-v3.7c\gpuCore.slv
+2016-02-01 14:56:30 ....A          162               shaders\5xBR-v3.7c\gpuCore.slv
+2016-02-01 15:49:14 ....A         1214               shaders\super-eagle\gpuCore.slv
+2016-02-04 22:53:22 ....A          994               shaders\xBR-LV2-3D\gpuCore.slv
+2016-02-04 22:53:22 ....A          994               xBR-LV2-3D\gpuCore.slv
+2016-02-05 06:33:38 ....A          216               CRT-Hyllian\gpuCore.slv
+2016-02-05 06:33:38 ....A          216               shaders\CRT-Hyllian\gpuCore.slv
+2016-02-08 08:06:46 ....A          738               Cartoon_shader_II\gpuCore.slv
+2016-02-08 08:06:46 ....A          738               shaders\Cartoon_shader_II\gpuCore.slv
+2016-02-08 08:07:16 ....A          216               CRT-Hyllian-3D\gpuCore.slv
+2016-02-08 08:07:16 ....A          216               shaders\CRT-Hyllian-3D\gpuCore.slv
+2016-02-16 16:17:30 ....A         1283               super-eagle\gpuCore.slv
+2016-10-22 18:44:29 D....            0            0  xBR-LV2-3D
+2016-10-22 18:44:29 D....            0            0  super-eagle
+2016-10-22 18:44:29 D....            0            0  shaders\xBR-LV2-3D
+2016-10-22 18:44:29 D....            0            0  shaders\super-eagle
+2016-10-22 18:44:29 D....            0            0  shaders\Grayscale
+2016-10-22 18:44:29 D....            0            0  shaders\FXAA_natural_vision
+2016-10-22 18:44:29 D....            0            0  shaders\CRT-Lottes
+2016-10-22 18:44:29 D....            0            0  shaders\CRT-Hyllian-3D
+2016-10-22 18:44:29 D....            0            0  shaders\CRT-Hyllian
+2016-10-22 18:44:29 D....            0            0  shaders\Cartoon_shader_II
+2016-10-22 18:44:29 D....            0            0  shaders\Brightness
+2016-10-22 18:44:29 D....            0            0  shaders\AA_Shader_v2.0_w_Natural_Vision_Brightness
+2016-10-22 18:44:29 D....            0            0  shaders\AA_Shader_v2.0_w_Natural_Vision
+2016-10-22 18:44:29 D....            0            0  shaders\5xBR-v3.7c
+2016-10-22 18:44:29 D....            0            0  shaders
+2016-10-22 18:44:29 D....            0            0  Grayscale
+2016-10-22 18:44:29 D....            0            0  FXAA_natural_vision
+2016-10-22 18:44:29 D....            0            0  CRT-Lottes
+2016-10-22 18:44:29 D....            0            0  CRT-Hyllian-3D
+2016-10-22 18:44:29 D....            0            0  CRT-Hyllian
+2016-10-22 18:44:29 D....            0            0  Cartoon_shader_II
+2016-10-22 18:44:29 D....            0            0  Brightness
+2016-10-22 18:44:29 D....            0            0  AA_Shader_v2.0_w_Natural_Vision_Brightness
+2016-10-22 18:44:29 D....            0            0  AA_Shader_v2.0_w_Natural_Vision
+2016-10-22 18:44:29 D....            0            0  5xBR-v3.7c
+------------------- ----- ------------ ------------  ------------------------
+2016-10-22 18:44:29             155965        12670  62 files, 25 folders
