@@ -1,1 +1,3 @@
-UNKNOWN
+Version 2.71 [April 16, 2016]:
+[bugs fixed]
+Added workaround for crash on XP systems without SP3 or KB921337 hotfix installed.UNKNOWN

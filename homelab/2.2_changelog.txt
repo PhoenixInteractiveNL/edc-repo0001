@@ -1,5 +1,0 @@
-v2.2
------
-
-- Win 98 compatibility
-- Bug fixes

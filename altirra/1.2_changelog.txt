@@ -1,1 +1,40 @@
-UNKNOWN
+Version 1.2 [July 5, 2009]:
+[features added]
+Debugger: Added memory pane.
+Debugger: Shift+F11 is now a shortcut for Step Out.
+Debugger: History window now supports the mouse wheel.
+GTIA: Added artifacting support.
+UI: Cursor auto-hides when over display pane.
+UI: Added window pane layout saving.
+UI: Basic support for an Atari ST mouse in port 2.
+UI: Added more keyboard mappings.
+Simulator: Added initial save state support.
+Simulator: Added option to pause when not the active application.
+CPU: Initial 65C02 and 65C816 support.
+[bugs fixed]
+Simulator: Fixed RUNAD handling in executable loader.
+Simulator: Fixed incorrect TRIG3 cartridge sense on launch.
+UI: Tweaked aspect ratio constants.
+UI: Fixed some bugs with pane undocking.
+ANTIC: Added missing address wrapping (fixes hang loading Bounty Bob).
+ANTIC: Fixed VSCROL timing to acccommodate more mode line extension tricks.
+ANTIC: Fixed low bits in NMIST register.
+POKEY: Tweaked hi-pass to sound better.
+POKEY: Implemented fast pot scan mode.
+POKEY: Two-tone serial mode now affects timer 1/2 sound output.
+Debugger: Breakpoints can now be seen on the active line.
+Debugger: Fixed early stop when trying to Step Out across a PLA or PLP instruction.
+Debugger: CPU status traces on single-step use the instruction PC rather than the raw PC.
+HLE: Fixed black status pane in Pole Position due to incorrect attract mode handling.
+HLE: Fixed startup path problems that prevented SpartaDOS X from starting.
+HLE: Screen handler now adjusts user memory limit.
+HLE: Fixed length return value bug in CIO put characters command.
+HLE: Control codes now work with S:.
+Disk: Fixed CIO return codes for H: handler.
+Cartridge: Cart bank is now reset on cold reset.
+Cartridge: Fixed banking and recognition problems with MaxFlash 1M cartridge format.
+CPU: Added option to halt on BRK instructions.
+GTIA: Fixed nasty bug where P/M collisions got messed up whenever the simulator dropped a frame.
+GTIA: Fixed behavior of sprites when repositioned during active region.
+GTIA: Implemented text blink and vertical reflect bits.
+GTIA: Fixed low bit in PAL register in NTSC mode.
